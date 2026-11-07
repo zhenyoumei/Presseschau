@@ -84,7 +84,7 @@ top          = "https://newsfeed.zeit.de/index"
 politik      = "https://newsfeed.zeit.de/politik/deutschland/index"
 ausland      = "https://newsfeed.zeit.de/politik/ausland/index"
 wirtschaft   = "https://newsfeed.zeit.de/wirtschaft/index"
-kultur       = "https://newsfeed.zeit.de/kultur/index | https://newsfeed.zeit.de/kultur/literatur/index | https://newsfeed.zeit.de/kultur/film/index"
+kultur       = "https://newsfeed.zeit.de/kultur/index | https://newsfeed.zeit.de/entdecken/index | https://newsfeed.zeit.de/zeit-magazin/index"
 wissen       = ["https://newsfeed.zeit.de/wissen/index | https://newsfeed.zeit.de/wissen/umwelt/index | https://newsfeed.zeit.de/gesundheit/index", "https://newsfeed.zeit.de/arbeit/index | https://newsfeed.zeit.de/campus/index"]
 gesellschaft = "https://newsfeed.zeit.de/gesellschaft/index"
 

@@ -45,6 +45,7 @@ zh = "社會"
 # ------------------------------------------------------------
 # 報紙。feeds 裡的 top = 今日頭條；其餘鍵名對應上面的主題 id。
 # 一個主題可以放多個網址：["網址1", "網址2"]
+# 備用網址用 | 隔開："網址A | 網址B"（A 失效時自動改用 B）
 
 [[papers]]
 id = "faz"
@@ -83,8 +84,8 @@ top          = "https://newsfeed.zeit.de/index"
 politik      = "https://newsfeed.zeit.de/politik/deutschland/index"
 ausland      = "https://newsfeed.zeit.de/politik/ausland/index"
 wirtschaft   = "https://newsfeed.zeit.de/wirtschaft/index"
-kultur       = "https://newsfeed.zeit.de/kultur/index"
-wissen       = "https://newsfeed.zeit.de/wissen/index"
+kultur       = "https://newsfeed.zeit.de/kultur/index | https://newsfeed.zeit.de/kultur/literatur/index | https://newsfeed.zeit.de/kultur/film/index"
+wissen       = ["https://newsfeed.zeit.de/wissen/index | https://newsfeed.zeit.de/wissen/umwelt/index | https://newsfeed.zeit.de/gesundheit/index", "https://newsfeed.zeit.de/arbeit/index | https://newsfeed.zeit.de/campus/index"]
 gesellschaft = "https://newsfeed.zeit.de/gesellschaft/index"
 
 [[papers]]
@@ -107,7 +108,7 @@ name = "FOCUS"
 full = "FOCUS online"
 color = "#c06f00"
 [papers.feeds]
-top          = "https://rss.focus.de/fol/XML/rss_folnews.xml"
+top          = "https://rss.focus.de/ | https://rss.focus.de/fol/ | https://rss.focus.de/fol/XML/rss_folnews.xml"
 politik      = "https://rss.focus.de/politik/"
 wirtschaft   = "https://rss.focus.de/finanzen/"
 kultur       = "https://rss.focus.de/kultur/"

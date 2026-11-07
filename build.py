@@ -26,6 +26,7 @@ import tomllib
 import urllib.request
 from collections import Counter, defaultdict
 from pathlib import Path
+import urllib.parse
 from urllib.parse import urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
 
@@ -105,8 +106,13 @@ def collect(cfg: dict, now_utc: dt.datetime):
         for topic, urls in paper["feeds"].items():
             urls = [urls] if isinstance(urls, str) else urls
             limit = s.get("top_items_per_paper", 5) if topic == "top" else s.get("items_per_feed", 6)
-            for url in urls:
-                parsed, err = FETCH(url)
+            for entry in urls:
+                # 「網址A | 網址B」＝備用網址：第一個成功的就用它
+                parsed, err, url = None, None, entry
+                for url in [u.strip() for u in entry.split("|") if u.strip()]:
+                    parsed, err = FETCH(url)
+                    if parsed is not None:
+                        break
                 if parsed is None:
                     status.append(dict(paper=paper["id"], topic=topic, url=url, ok=False, info=err))
                     print(f"  ✗ {paper['name']:8} {topic:12} {err}", file=sys.stderr)
@@ -252,31 +258,48 @@ def find_clusters(items: list[dict], max_size: int = 6, max_clusters: int = 8):
 # ============================================================
 # 3. Übersetzung (Google Translate über deep-translator, kostenlos)
 # ============================================================
-def translate_all(texts: list[str], target: str) -> dict[str, str]:
-    try:
-        from deep_translator import GoogleTranslator
-    except ImportError:
-        print("  deep-translator nicht installiert – ohne Übersetzung", file=sys.stderr)
-        return {}
+TR_ERRORS: list[str] = []   # 翻譯失敗的原因，會寫進網頁頁尾與 data/*.json
+
+
+def _backend_gtx(target: str):
+    """Google Translate 的公開端點（不需金鑰）。"""
+    base = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl={target}&dt=t&q="
+
+    def f(text: str) -> str:
+        req = urllib.request.Request(base + urllib.parse.quote(text), headers={"User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            js = json.loads(r.read().decode("utf-8"))
+        return "".join(seg[0] for seg in (js[0] or []) if seg and seg[0])
+    return f
+
+
+def _backend_deep(target: str):
+    from deep_translator import GoogleTranslator
     tr = GoogleTranslator(source="de", target=target)
+    return lambda text: tr.translate(text) or ""
+
+
+def _translate_with(fn, name: str, texts: list[str], chunk_chars: int = 1500) -> dict[str, str]:
     out: dict[str, str] = {}
     fails = 0
 
     def one(t: str) -> str:
         nonlocal fails
-        if fails >= 4:
+        if fails >= 3:
             return ""
         try:
-            r = tr.translate(t) or ""
+            r = (fn(t) or "").strip()
             fails = 0
-            return r.strip()
+            return r
         except Exception as e:  # noqa: BLE001
             fails += 1
-            print(f"  Übersetzung fehlgeschlagen: {type(e).__name__}", file=sys.stderr)
+            msg = f"{name}: {type(e).__name__}: {str(e)[:200]}"
+            TR_ERRORS.append(msg)
+            print("  Übersetzung fehlgeschlagen –", msg, file=sys.stderr)
             return ""
 
     def flush(chunk: list[str]):
-        if not chunk or fails >= 4:
+        if not chunk or fails >= 3:
             return
         res = one("\n".join(chunk))
         lines = [l.strip() for l in res.split("\n")] if res else []
@@ -285,18 +308,34 @@ def translate_all(texts: list[str], target: str) -> dict[str, str]:
             return
         for t in chunk:  # 行數對不上時逐則翻
             out[t] = one(t)
-            time.sleep(0.3)
+            time.sleep(0.2)
 
     chunk, size = [], 0
     for t in dict.fromkeys(t for t in texts if t):
-        if size + len(t) + 1 > 3500:
+        if chunk and size + len(t) + 1 > chunk_chars:
             flush(chunk)
             chunk, size = [], 0
-            time.sleep(0.6)
+            time.sleep(0.4)
         chunk.append(t)
         size += len(t) + 1
     flush(chunk)
     return out
+
+
+def translate_all(texts: list[str], target: str) -> dict[str, str]:
+    """先用 Google 公開端點；不行再試 deep-translator。"""
+    for name, make in (("gtx", _backend_gtx), ("deep-translator", _backend_deep)):
+        try:
+            fn = make(target)
+        except Exception as e:  # noqa: BLE001
+            TR_ERRORS.append(f"{name}: {type(e).__name__}: {e}")
+            continue
+        out = _translate_with(fn, name, texts)
+        n = len({t for t in texts if t}) or 1
+        if sum(1 for v in out.values() if v) >= 0.5 * n:
+            print(f"  übersetzt mit {name}", file=sys.stderr)
+            return out
+    return {}
 
 
 TRANSLATE = translate_all  # 測試時可替換
@@ -394,7 +433,12 @@ def render_page(cfg, top, sections, clusters, status, now: dt.datetime, root: st
         rows.append(f'<tr><th>{esc(p["name"])}</th><td>{" ".join(cells)}</td></tr>')
     bad = sum(1 for s in status if not s["ok"])
     status_summary = f"來源狀態 Quellenstatus：{len(status) - bad}/{len(status)} 正常" + (f"，{bad} 個無法讀取" if bad else "")
-    tr_note = "中文為機器翻譯（Google Translate），僅供參考。" if translated else "本次未產生中文翻譯。"
+    if translated:
+        tr_note = "中文為機器翻譯（Google Translate），僅供參考。"
+    elif TR_ERRORS:
+        tr_note = f"本次未產生中文翻譯（{esc(TR_ERRORS[-1][:160])}）。"
+    else:
+        tr_note = "本次未產生中文翻譯。"
 
     return PAGE.format(
         de_date=esc(de_date), zh_date=esc(zh_date), gen=now.strftime("%H:%M"),
@@ -601,7 +645,8 @@ def main(argv=None):
         render_page(cfg, top, sections, clusters, status, now, "../", translated), "utf-8")
     write_archive_index(docs)
     (docs / "data" / f"{day}.json").write_text(json.dumps(
-        dict(generated=now.isoformat(), items=shown, status=status), ensure_ascii=False, indent=1), "utf-8")
+        dict(generated=now.isoformat(), translated=translated, translation_errors=TR_ERRORS[:20],
+             items=shown, status=status), ensure_ascii=False, indent=1), "utf-8")
 
     bad = sum(1 for s in status if not s["ok"])
     print(f"Fertig: {len(shown)} Artikel, {len(clusters)} gemeinsame Themen, "

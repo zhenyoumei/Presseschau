@@ -1,0 +1,115 @@
+# Presseschau · 設定檔
+# ------------------------------------------------------------
+# 想加報紙、換 RSS、調整每類則數，都只要改這個檔案。
+# 某個網址失效時，網頁最下方的「來源狀態」會顯示 ✗，換成新網址即可。
+
+[settings]
+top_items_per_paper = 5      # 「今日頭條」每家報紙幾則
+items_per_feed      = 6      # 各主題每個 RSS 取幾則
+max_age_hours       = 30     # 只收最近幾小時內的新聞
+summary_chars       = 280    # 德文導言最多幾個字元
+translate           = true   # 是否機器翻譯成中文
+target_language     = "zh-TW"  # 繁體中文
+
+# 主題（順序 = 網頁上的順序）
+[[topics]]
+id = "politik"
+de = "Politik Deutschland"
+zh = "德國政治"
+
+[[topics]]
+id = "ausland"
+de = "Ausland"
+zh = "國際"
+
+[[topics]]
+id = "wirtschaft"
+de = "Wirtschaft"
+zh = "經濟"
+
+[[topics]]
+id = "kultur"
+de = "Kultur & Feuilleton"
+zh = "文化・藝文"
+
+[[topics]]
+id = "wissen"
+de = "Wissen & Bildung"
+zh = "科學・教育"
+
+[[topics]]
+id = "gesellschaft"
+de = "Gesellschaft & Panorama"
+zh = "社會"
+
+# ------------------------------------------------------------
+# 報紙。feeds 裡的 top = 今日頭條；其餘鍵名對應上面的主題 id。
+# 一個主題可以放多個網址：["網址1", "網址2"]
+
+[[papers]]
+id = "faz"
+name = "FAZ"
+full = "Frankfurter Allgemeine Zeitung"
+color = "#33598f"
+[papers.feeds]
+top          = "https://www.faz.net/rss/aktuell/"
+politik      = "https://www.faz.net/rss/aktuell/politik/inland/"
+ausland      = "https://www.faz.net/rss/aktuell/politik/ausland/"
+wirtschaft   = "https://www.faz.net/rss/aktuell/wirtschaft/"
+kultur       = "https://www.faz.net/rss/aktuell/feuilleton/"
+wissen       = "https://www.faz.net/rss/aktuell/wissen/"
+gesellschaft = "https://www.faz.net/rss/aktuell/gesellschaft/"
+
+[[papers]]
+id = "sz"
+name = "SZ"
+full = "Süddeutsche Zeitung"
+color = "#2c7a57"
+[papers.feeds]
+top          = "https://rss.sueddeutsche.de/rss/Topthemen"
+politik      = "https://rss.sueddeutsche.de/rss/Politik"
+wirtschaft   = "https://rss.sueddeutsche.de/rss/Wirtschaft"
+kultur       = "https://rss.sueddeutsche.de/rss/Kultur"
+wissen       = ["https://rss.sueddeutsche.de/rss/Wissen", "https://rss.sueddeutsche.de/rss/Bildung"]
+gesellschaft = "https://rss.sueddeutsche.de/rss/Panorama"
+
+[[papers]]
+id = "zeit"
+name = "ZEIT"
+full = "DIE ZEIT / ZEIT ONLINE"
+color = "#6a4c9c"
+[papers.feeds]
+top          = "https://newsfeed.zeit.de/index"
+politik      = "https://newsfeed.zeit.de/politik/deutschland/index"
+ausland      = "https://newsfeed.zeit.de/politik/ausland/index"
+wirtschaft   = "https://newsfeed.zeit.de/wirtschaft/index"
+kultur       = "https://newsfeed.zeit.de/kultur/index"
+wissen       = "https://newsfeed.zeit.de/wissen/index"
+gesellschaft = "https://newsfeed.zeit.de/gesellschaft/index"
+
+[[papers]]
+id = "spiegel"
+name = "SPIEGEL"
+full = "DER SPIEGEL"
+color = "#b8432f"
+[papers.feeds]
+top          = "https://www.spiegel.de/schlagzeilen/tops/index.rss"
+politik      = "https://www.spiegel.de/politik/deutschland/index.rss"
+ausland      = "https://www.spiegel.de/ausland/index.rss"
+wirtschaft   = "https://www.spiegel.de/wirtschaft/index.rss"
+kultur       = "https://www.spiegel.de/kultur/index.rss"
+wissen       = "https://www.spiegel.de/wissenschaft/index.rss"
+gesellschaft = "https://www.spiegel.de/panorama/index.rss"
+
+[[papers]]
+id = "focus"
+name = "FOCUS"
+full = "FOCUS online"
+color = "#c06f00"
+[papers.feeds]
+top          = "https://rss.focus.de/fol/XML/rss_folnews.xml"
+politik      = "https://rss.focus.de/politik/"
+wirtschaft   = "https://rss.focus.de/finanzen/"
+kultur       = "https://rss.focus.de/kultur/"
+wissen       = "https://rss.focus.de/wissen/"
+gesellschaft = "https://rss.focus.de/panorama/"

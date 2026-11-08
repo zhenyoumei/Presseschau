@@ -1,0 +1,1669 @@
+{
+ "generated": "2026-11-08T09:29:46.529836+08:00",
+ "translated": false,
+ "translation_errors": [
+  "gtx: HTTPError: HTTP Error 429: Too Many Requests",
+  "gtx: HTTPError: HTTP Error 429: Too Many Requests",
+  "gtx: HTTPError: HTTP Error 429: Too Many Requests",
+  "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try",
+  "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try",
+  "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try"
+ ],
+ "items": [
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Energieversorgung: Deutschlands riskante Erdgas-Wette",
+   "link": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-und-die-leeren-gasspeicher-deutschlands-riskante-wette-201646419.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-und-die-leeren-gasspeicher-deutschlands-riskante-wette-201646419.html",
+   "summary": "Wirtschaftsministerin Katherina Reiche hat sich lange nicht um die leeren Gasspeicher gekümmert. Den Fehler macht die deutsche Regierung nicht zum ersten Mal.",
+   "time": "2026-11-07T20:59:23+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Land der Revolten: Eine Tradition des Aufruhrs",
+   "link": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frankreichs-tradition-des-aufruhrs-warum-der-staat-instabil-bleibt-accg-201655651.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/frankreichs-tradition-des-aufruhrs-warum-der-staat-instabil-bleibt-accg-201655651.html",
+   "summary": "Frankreichs ausgeprägte, teils gewaltsame Protestkultur ist berüchtigt. Das Land wurde lange durch wichtige Stabilisatoren zusammengehalten – nicht zuletzt durch den teuren Wohlfahrtsstaat. Doch der steht unter Druck.",
+   "time": "2026-11-07T16:42:22+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Jean-Luc Mélenchon: Heilsbringer und Mittel zum Zweck",
+   "link": "https://www.faz.net/aktuell/politik/ausland/warum-viele-junge-franzosen-jean-luc-melenchon-unterstuetzen-201648200.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/warum-viele-junge-franzosen-jean-luc-melenchon-unterstuetzen-201648200.html",
+   "summary": "Radikale Linke in Frankreich: Warum viele junge Franzosen Jean-Luc Mélenchon unterstützen",
+   "time": "2026-11-07T17:53:10+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Regionale Unterschiede: Frankreich jenseits der Metropolen",
+   "link": "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/frankreichs-fokus-auf-paris-wird-der-laendliche-raum-dabei-vergessen-accg-201642725.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/arm-und-reich/frankreichs-fokus-auf-paris-wird-der-laendliche-raum-dabei-vergessen-accg-201642725.html",
+   "summary": "Der Unmut in Frankreich beschränkt sich nicht auf die Städte. Während Paris Zentrum von Wirtschaft, Politik und Gesellschaft ist, ringen ländliche Regionen mit Abwanderung und dünner Daseinsvorsorge.",
+   "time": "2026-11-07T16:43:03+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Attentat in Polen: Nach Schüssen in Krakau: Drei weitere Leichen im Haus von mutmaßlichem Schützen gefunden",
+   "link": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/attentat-in-krakau-drei-weitere-leichen-im-haus-von-mutmasslichem-schuetzen-entdeckt-accg-201661603.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/attentat-in-krakau-drei-weitere-leichen-im-haus-von-mutmasslichem-schuetzen-entdeckt-accg-201661603.html",
+   "summary": "In polnischen Stadt Krakau werden sechs Menschen durch Schüsse getötet. Mehrere Verletzte befinden sich in Lebensgefahr. Ministerpräsident Donald Tusk spricht von „Terrorismus“.",
+   "time": "2026-11-08T00:40:36+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Jensen Huang: Nvidia-Chef soll Beziehung mit chinesischer Spionin gehabt haben",
+   "link": "https://www.sueddeutsche.de/wirtschaft/jensen-huang-nvidia-affaere-china-spionin-li.3576581",
+   "key": "https://www.sueddeutsche.de/wirtschaft/jensen-huang-nvidia-affaere-china-spionin-li.3576581",
+   "summary": "Peking soll eine Agentin auf Nvidia-Chef Jensen Huang angesetzt haben, berichten Medien. Das wäre auch deshalb brisant, weil Nvidia im KI-Wettrennen zwischen den USA und China zwischen den Fronten steht.",
+   "time": "2026-11-07T22:15:39+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Hertha BSC in der 2. Bundesliga: Sie singen weiter das Hundert-Punkte-Lied",
+   "link": "https://www.sueddeutsche.de/sport/2-liga-hertha-wolfsburg-olympiastadion-reese-li.3576816",
+   "key": "https://www.sueddeutsche.de/sport/2-liga-hertha-wolfsburg-olympiastadion-reese-li.3576816",
+   "summary": "Hertha BSC gewinnt gegen den VfL Wolfsburg das Zweitliga-Topspiel vor mehr als 70 000 Zuschauern im Olympiastadion. Fabian Reese spielt bei seiner Rückkehr in die Hauptstadt eine entscheidende Nebenrolle.",
+   "time": "2026-11-07T21:51:25+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Newsblog zu Nahost: Eisenkot in Israel mit Regierungsbildung beauftragt",
+   "link": "https://www.sueddeutsche.de/politik/liveblog-nahost-israel-eisenkot-regierungsbildung-li.3571386",
+   "key": "https://www.sueddeutsche.de/politik/liveblog-nahost-israel-eisenkot-regierungsbildung-li.3571386",
+   "summary": "Präsident Herzog hat am Abend eine entsprechende Entscheidung getroffen. Bei Konsultationen der Parteidelegationen mit Herzog hatte Eisenkot 67 Empfehlungen für das Amt des Ministerpräsidenten, Amtsinhaber Netanjahu nur 46.",
+   "time": "2026-11-07T20:18:32+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "FC Bayern gewinnt 2:1 in Mainz: Ein Sieg im Angstauswärtsspiel und die nächste Neuer-Verletzung",
+   "link": "https://www.sueddeutsche.de/sport/bayern-mainz-bundesliga-neuer-verletzung-li.3576329",
+   "key": "https://www.sueddeutsche.de/sport/bayern-mainz-bundesliga-neuer-verletzung-li.3576329",
+   "summary": "Die Münchner gewinnen weitgehend souverän 2:1 beim 1. FSV Mainz 05, aber die Personalnot setzt sich fort - genauso wie Harry Kanes erstaunliche Torlosigkeit seit dem Sieg beim Ballon d'Or.",
+   "time": "2026-11-07T17:00:33+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Bundesliga: Lauter Nationalspieler treffen, aber Füllkrug ausnahmsweise nicht",
+   "link": "https://www.sueddeutsche.de/sport/bundesliga-spieltag-ergebnisse-bayern-dortmund-li.3576376",
+   "key": "https://www.sueddeutsche.de/sport/bundesliga-spieltag-ergebnisse-bayern-dortmund-li.3576376",
+   "summary": "Werder verliert ein ausgeglichenes Abendspiel mit 0:1 in Stuttgart, der BVB schlägt Elversberg nach einem Nmecha-Doppelpack: Das Wichtigste zum Spieltag.",
+   "time": "2026-11-07T16:53:10+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Midterms: Trump fordert Justizministerium zu Ermittlungen gegen Demokraten auf",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/donald-trump-justizministerium-demokraten-ermittlungen",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/donald-trump-justizministerium-demokraten-ermittlungen",
+   "summary": "Nach der Wahlniederlage seiner Partei fordert Donald Trump erneut Untersuchungen gegen die Demokraten. Diese wollen den US-Präsidenten im Kongress stärker kontrollieren.",
+   "time": "2026-11-08T00:50:01+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "US-Präsident: Trump schürt Zweifel an Kongresswahl und droht Demokraten",
+   "link": "https://www.zeit.de/news/2026-11/08/trump-schuert-zweifel-an-kongresswahl-und-droht-demokraten",
+   "key": "https://www.zeit.de/news/2026-11/08/trump-schuert-zweifel-an-kongresswahl-und-droht-demokraten",
+   "summary": "",
+   "time": "2026-11-08T00:43:37+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Krieg im Jemen: Huthi-Miliz meldet mehr als 30 Tote bei Angriff auf Dorf im Jemen",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/jemen-huthi-saudi-arabien-luftangriff-raketen",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/jemen-huthi-saudi-arabien-luftangriff-raketen",
+   "summary": "Bei einem Luftangriff nahe der jemenitischen Hauptstadt Sanaa sollen zahlreiche Menschen getötet worden sein. Die Huthi-Miliz macht Saudi-Arabien verantwortlich.",
+   "time": "2026-11-07T23:46:02+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Nach der DFB-Nominierung: Frage nach Nationalteam: Füllkrug bricht ZDF-Interview ab",
+   "link": "https://www.zeit.de/news/2026-11/08/frage-nach-nationalteam-fuellkrug-bricht-zdf-interview-ab",
+   "key": "https://www.zeit.de/news/2026-11/08/frage-nach-nationalteam-fuellkrug-bricht-zdf-interview-ab",
+   "summary": "",
+   "time": "2026-11-07T23:34:56+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Ausstellungen: Im «Lüpi-Land»: Lüpertz zeigt «Rheingold»-Kunst in München",
+   "link": "https://www.zeit.de/news/2026-11/08/im-luepi-land-luepertz-zeigt-rheingold-kunst-in-muenchen",
+   "key": "https://www.zeit.de/news/2026-11/08/im-luepi-land-luepertz-zeigt-rheingold-kunst-in-muenchen",
+   "summary": "",
+   "time": "2026-11-07T23:15:05+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Krakau: Drei weitere Leichen bei Todesschütze zu Hause gefunden",
+   "link": "https://www.spiegel.de/ausland/krakau-drei-weitere-leichen-bei-todesschuetze-zu-hause-gefunden-a-34ab0630-bb52-4f80-967f-800cd473d6f1#ref=rss",
+   "key": "https://www.spiegel.de/ausland/krakau-drei-weitere-leichen-bei-todesschuetze-zu-hause-gefunden-a-34ab0630-bb52-4f80-967f-800cd473d6f1",
+   "summary": "Der Schütze von Krakau hat womöglich noch mehr Menschen auf dem Gewissen. Laut Premier Tusk hat eine Drohne bei dem Mann zu Hause weitere Leichen entdeckt.",
+   "time": "2026-11-07T21:15:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Israel: Netanyahu-Rivale Gadi Eisenkot mit Regierungsbildung beauftragt",
+   "link": "https://www.spiegel.de/ausland/israel-netanjahu-rivale-gadi-einsenkot-mit-regierungsbildung-beauftragt-a-309f7855-3a51-4503-a6e8-2ead13f9dfe8#ref=rss",
+   "key": "https://www.spiegel.de/ausland/israel-netanjahu-rivale-gadi-einsenkot-mit-regierungsbildung-beauftragt-a-309f7855-3a51-4503-a6e8-2ead13f9dfe8",
+   "summary": "Der israelische Präsident Isaac Herzog will Oppositionsführer Gadi Eisenkot den Auftrag erteilen, eine neue Regierung zu formen. Störfeuer kommt vom bisherigen Premier Benjamin Netanyahu.",
+   "time": "2026-11-07T20:04:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Donald Trump weist Justizministerium an, unliebsame Demokraten zu untersuchen",
+   "link": "https://www.spiegel.de/ausland/donald-trump-weist-justizministerium-an-unliebsame-demokraten-zu-untersuchen-a-c5f98176-36ff-41ad-88a9-511276a4b746#ref=rss",
+   "key": "https://www.spiegel.de/ausland/donald-trump-weist-justizministerium-an-unliebsame-demokraten-zu-untersuchen-a-c5f98176-36ff-41ad-88a9-511276a4b746",
+   "summary": "Nach dem Wahlsieg bei den Midterms wollen demokratische Abgeordnete den US-Präsidenten stärker kontrollieren. Der hält das für »kriminell« – und droht.",
+   "time": "2026-11-07T21:41:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Online-Betrug: Jeder Neunte betroffen – ein Fall zeigt die neue Dimension",
+   "link": "https://www.spiegel.de/wirtschaft/service/online-betrug-jeder-neunte-betroffen-ein-fall-zeigt-die-neue-dimension-a-43ec84c1-0400-4864-9027-4d18cfb7f594#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/service/online-betrug-jeder-neunte-betroffen-ein-fall-zeigt-die-neue-dimension-a-43ec84c1-0400-4864-9027-4d18cfb7f594",
+   "summary": "Sie ist ein vorsichtiger Mensch, eigentlich. Doch dann poppt eine Werbung auf ihrer Facebook-Seite auf. Geschichte eines Internetbetrugs, der jedem hätte passieren können.",
+   "time": "2026-11-07T19:43:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Seenotrettung: Das ist meine Nachbarin Wibke. Warum verlässt sie ihre Wohlstandsbubble, um Menschen im Mittelmeer zu retten?",
+   "link": "https://www.spiegel.de/panorama/seenotrettung-das-ist-meine-nachbarin-wibke-warum-verlaesst-sie-ihre-wohlstandsbubble-um-menschen-im-mittelmeer-zu-retten-a-3e472337-d152-496a-8672-0a5fb4122196#ref=rss",
+   "key": "https://www.spiegel.de/panorama/seenotrettung-das-ist-meine-nachbarin-wibke-warum-verlaesst-sie-ihre-wohlstandsbubble-um-menschen-im-mittelmeer-zu-retten-a-3e472337-d152-496a-8672-0a5fb4122196",
+   "summary": "Wibke ist Hebamme und weiß, wie gut sie es hat. Mit unserer Autorin hat sie auf einem Seenotrettungsschiff angeheuert. Dann kommt der erste Funkspruch.",
+   "time": "2026-11-07T17:38:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Trump schürt Zweifel an Kongresswahl und droht Demokraten",
+   "link": "https://www.focus.de/politik/ausland/trump-schuert-zweifel-an-kongresswahl-und-droht-demokraten_1c4b6347-f287-4ef2-9a59-655c6fbef91f.html",
+   "key": "https://www.focus.de/politik/ausland/trump-schuert-zweifel-an-kongresswahl-und-droht-demokraten_1c4b6347-f287-4ef2-9a59-655c6fbef91f.html",
+   "summary": "Nach der krachenden Niederlage seiner Republikaner bei den Wahlen zeigte sich Donald Trump zunächst einsichtig. Doch jetzt teilt der Präsident wieder aus.",
+   "time": "2026-11-08T00:52:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Radfahrer bei Zusammenstoß mit Auto schwer verletzt",
+   "link": "https://www.focus.de/panorama/welt/radfahrer-bei-zusammenstoss-mit-auto-schwer-verletzt_88fbbbd4-bd96-4e52-8e11-079af05e16ab.html",
+   "key": "https://www.focus.de/panorama/welt/radfahrer-bei-zusammenstoss-mit-auto-schwer-verletzt_88fbbbd4-bd96-4e52-8e11-079af05e16ab.html",
+   "summary": "Ein Überholvorgang endet mit schweren Verletzungen: In Röbel fuhr ein Radfahrer nach ersten Erkenntnissen auf die Gegenfahrbahn. Die Kriminalpolizei ermittelt zu den Umständen.",
+   "time": "2026-11-07T23:14:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Kampfsport-Unternehmer als Sprecher im Weißen Haus?",
+   "link": "https://www.focus.de/politik/ausland/kampfsport-unternehmer-als-sprecher-im-weissen-haus_89906db5-28a6-4979-83fe-1951922028a2.html",
+   "key": "https://www.focus.de/politik/ausland/kampfsport-unternehmer-als-sprecher-im-weissen-haus_89906db5-28a6-4979-83fe-1951922028a2.html",
+   "summary": "Der Sprecherposten im Weißen Haus ist seit Wochen unbesetzt. Nach der Schlappe bei der Parlamentswahl prescht Präsident Donald Trump mit einem ungewöhnlichen Kandidaten vor. Meint er es ernst?",
+   "time": "2026-11-07T23:14:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Norris rast bei Chaos-Qualifying in Brasilien zur Pole, Hülkenberg startet von Platz 4",
+   "link": "https://www.focus.de/sport/formel1/norris-rast-bei-chaos-qualifying-in-brasilien-zur-pole-huelkenberg-startet-von-platz-4_cb9496af-728b-4df9-8e65-c3244f99b236.html",
+   "key": "https://www.focus.de/sport/formel1/norris-rast-bei-chaos-qualifying-in-brasilien-zur-pole-huelkenberg-startet-von-platz-4_cb9496af-728b-4df9-8e65-c3244f99b236.html",
+   "summary": "Mehr als 80 Minuten geht in Interlagos gar nichts. Als Regenmeister erweist sich am Ende der Vorjahreschampion Lando Norris.",
+   "time": "2026-11-07T21:47:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Hertha BSC schlägt dezimierte Wölfe und festigt Tabellenführung",
+   "link": "https://www.focus.de/sport/fussball/hertha-bsc-vfl-wolfsburg-im-liveticker-topspiel-in-2-liga_8922d8a8-6f3d-400d-8026-6eb540c10aab.html",
+   "key": "https://www.focus.de/sport/fussball/hertha-bsc-vfl-wolfsburg-im-liveticker-topspiel-in-2-liga_8922d8a8-6f3d-400d-8026-6eb540c10aab.html",
+   "summary": "Tabellenführer Hertha BSC hat bei der brisanten Rückkehr von Ex-Kapitän Fabian Reese nach Berlin seine Vormachtstellung in der 2. Fußball-Bundesliga untermauert.",
+   "time": "2026-11-07T21:32:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Polen: Mehrere Tote nach Schüssen in Krakau - drei Leichen im Haus des Attentäters gefunden",
+   "link": "https://www.sueddeutsche.de/politik/krakau-tote-verletzte-schuesse-li.3576450",
+   "key": "https://www.sueddeutsche.de/politik/krakau-tote-verletzte-schuesse-li.3576450",
+   "summary": "Dem polnischen Innenminister zufolge soll der Täter von rechtsextremistischen Ideologien fasziniert gewesen sein. Zu den Verletzten gehört auch eine Person aus Deutschland.",
+   "time": "2026-11-08T00:01:59+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Iran-Krieg im Live-Ticker: Iran feuert auf US-Flieger, Militär greift Insel Qeschm an",
+   "link": "https://www.focus.de/politik/ausland/iran-krieg-im-live-ticker-alle-news-zum-krieg-in-nahost_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
+   "key": "https://www.focus.de/politik/ausland/iran-krieg-im-live-ticker-alle-news-zum-krieg-in-nahost_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
+   "summary": "Das US-Militär gibt an, im Golf von Oman auf ein Handelsschiff geschossen zu haben, nachdem dieses versucht hatte, die Seeblockade gegen den Iran zu durchbrechen. Alle Entwicklungen im Iran-Konflikt im Newsticker.",
+   "time": "2026-11-07T21:27:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Israels Präsident beauftragt Eisenkot mit Regierungsbildung",
+   "link": "https://www.focus.de/politik/ausland/israels-praesident-beauftragt-eisenkot-mit-regierungsbildung_76c4f66e-806d-4db3-b0e6-15c82016414c.html",
+   "key": "https://www.focus.de/politik/ausland/israels-praesident-beauftragt-eisenkot-mit-regierungsbildung_76c4f66e-806d-4db3-b0e6-15c82016414c.html",
+   "summary": "Der israelische Präsident Izchak Herzog beauftragt den Oppositionspolitiker Gadi Eisenkot mit der Regierungsbildung.",
+   "time": "2026-11-07T20:08:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Gegen hohe Lebenshaltungskosten: Erneute Proteste in Frankreich",
+   "link": "https://www.sueddeutsche.de/politik/frankreich-proteste-paris-ausschreitungen-li.3576725",
+   "key": "https://www.sueddeutsche.de/politik/frankreich-proteste-paris-ausschreitungen-li.3576725",
+   "summary": "Zwar gehen weniger Menschen an als am vergangenen Samstag auf die Straße, doch in mehreren Städten kommt es wieder zu Ausschreitungen. Am Dienstag sollen weitere Proteste stattfinden",
+   "time": "2026-11-07T19:32:24+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "„Genozid“: Grünen-Promi Roth schwurbelt über jüdische Kreise",
+   "link": "https://www.focus.de/politik/deutschland/genozid-gruenen-promi-roth-schwurbelt-ueber-juedische-kreise_c23ebd56-26d2-48b3-bf88-57b4d78f1719.html",
+   "key": "https://www.focus.de/politik/deutschland/genozid-gruenen-promi-roth-schwurbelt-ueber-juedische-kreise_c23ebd56-26d2-48b3-bf88-57b4d78f1719.html",
+   "summary": "Die Grünenpolitikerin Claudia Roth bekennt sich in einem Podcast zur Genozid-These gegen Israel. Dass sie das nicht früher gesagt habe, schiebt sie auf „unfassbaren Druck“ des Zentralrats der Juden und „von unglaublich vielen Kreisen.“",
+   "time": "2026-11-07T19:26:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Merz und die CDU: Noch folgen sie dem Kanzler",
+   "link": "https://www.faz.net/aktuell/politik/inland/wie-lange-steht-die-cdu-noch-hinter-friedrich-merz-201652460.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/wie-lange-steht-die-cdu-noch-hinter-friedrich-merz-201652460.html",
+   "summary": "Friedrich Merz weiß, dass er Fehler gemacht hat. Noch kündigt ihm seine Partei die Gefolgschaft nicht auf. Aber wie lange noch?",
+   "time": "2026-11-07T19:03:45+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Wahlniederlage bei den Midterms: Vance stößt Donald Trump nicht unter den Bus",
+   "link": "https://www.focus.de/politik/ausland/wahlniederlage-bei-den-midterms-vance-stoesst-donald-trump-nicht-unter-den-bus_6b491fab-15ad-4e7f-bf7d-f19a1442be43.html",
+   "key": "https://www.focus.de/politik/ausland/wahlniederlage-bei-den-midterms-vance-stoesst-donald-trump-nicht-unter-den-bus_6b491fab-15ad-4e7f-bf7d-f19a1442be43.html",
+   "summary": "Ein Tweet des Vizepräsidenten wird als Kampfansage an Donald Trump interpretiert. JD Vance und der US-Präsident liegen nach der Wahlniederlage beim Thema Irankrieg etwas auseinander. Ein Zerwürfnis ist das aber noch nicht.",
+   "time": "2026-11-07T18:46:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Deutschland Liveblog: BSW-Spitze kritisiert Nominierung von Constantin Schreiber durch Landesverband",
+   "link": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-bsw-spitze-kritisiert-nominierung-von-constantin-schreiber-durch-landesverband-faz-110093143.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-bsw-spitze-kritisiert-nominierung-von-constantin-schreiber-durch-landesverband-faz-110093143.html",
+   "summary": "Sächsischer Fraktionschef nominierte ehemaligen Tagesschau-Sprecher für Bundesversammlung +++ Klingbeil zu SPD-Vorsitz: „Ich klebe auch nicht am Stuhl“ +++ alle Entwicklungen im Liveblog",
+   "time": "2026-11-07T18:35:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Wehrpflichtdebatte: Söder fordert Rückkehr zur Wehrpflicht",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/wehrpflicht-markus-soeder-csu-bundeswehr-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/wehrpflicht-markus-soeder-csu-bundeswehr-gxe",
+   "summary": "CSU-Chef Markus Söder hat sich für eine »echte Wehrpflicht« ausgesprochen. Damit widerspricht er Verteidigungsminister Boris Pistorius, der weiter auf Freiwillige setzt.",
+   "time": "2026-11-07T17:02:27+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Frankfurt am Main: Tausende Menschen demonstrieren für einen freien Iran",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/iran-reza-pahlavi-freiheitspreis-naumann-stiftung",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/iran-reza-pahlavi-freiheitspreis-naumann-stiftung",
+   "summary": "Bei einer Demonstration in Frankfurt wurde der Sohn des Schahs gefeiert. Reza Pahlavi nahm zuvor einen Freiheitspreis stellvertretend für das iranische Volk entgegen.",
+   "time": "2026-11-07T15:48:07+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "SPD-Vorsitz: Lars Klingbeil lässt erneute Kandidatur für SPD-Spitze offen",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/spd-vorsitz-lars-klingbeil-baerbel-bas-hubertus-heil-manuela-schwesig-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/spd-vorsitz-lars-klingbeil-baerbel-bas-hubertus-heil-manuela-schwesig-gxe",
+   "summary": "Zur Frage, ob er SPD-Vorsitzender bleiben will, hält sich Lars Klingbeil bedeckt. Ihm gehe es um die beste Aufstellung der Partei. Er klebe aber nicht an seinem Stuhl.",
+   "time": "2026-11-07T15:15:38+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Krieg in der Ukraine: Selenskij: Es darf kein zweites Jalta geben",
+   "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-klitschko-li.3571967",
+   "key": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-selenskij-klitschko-li.3571967",
+   "summary": "Der ukrainische Präsident ist besorgt, dass Russland, China und die USA eine Friedensregelung auf Kosten Europas und der Ukraine absprechen wollen - und erinnert an den Februar 1945.",
+   "time": "2026-11-07T14:39:39+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Trauerfeier: Freie Wähler gedenken des verstorbenen Parteivorsitzenden Aiwanger",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/hubert-aiwanger-trauerfeier-freie-waehler-hans-martin-groetsch-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/hubert-aiwanger-trauerfeier-freie-waehler-hans-martin-groetsch-gxe",
+   "summary": "In München haben die Freien Wähler ihres plötzlich verstorbenen Vorsitzenden gedacht. Die Parteifreunde kündigten an, weiterhin Politik im Sinne Aiwangers zu machen.",
+   "time": "2026-11-07T14:38:30+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Bundespräsidentin: Wurde auch Zeit",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidentin-ilse-aigner-cdu-csu-kandidatur",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidentin-ilse-aigner-cdu-csu-kandidatur",
+   "summary": "Ilse Aigner wird wahrscheinlich die erste Bundespräsidentin. Das hat weniger mit ihr zu tun als mit zwei Männeregos. Trotzdem sollte man es feiern.",
+   "time": "2026-11-07T14:20:21+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Newsblog zur Bundespolitik: Pistorius zuversichtlich, dass es keine Wehrpflicht braucht",
+   "link": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-pistorius-wehrpflicht-li.3568524",
+   "key": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-pistorius-wehrpflicht-li.3568524",
+   "summary": "Der Verteidigungsminister lobt die Fortschritte beim Personalaufbau der Bundeswehr und setzt weiter auf Freiwillige. Die Bemühungen, Frauen zum Dienst zu bewegen, will er verstärken.",
+   "time": "2026-11-07T13:41:07+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Personalfrage: Grüne kritisieren Merz für Handhabung der Bundespräsidentenfrage",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidentenamt-friedrich-merz-cdu-omid-nouripour-britta-hasselmann-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidentenamt-friedrich-merz-cdu-omid-nouripour-britta-hasselmann-gxe",
+   "summary": "Friedrich Merz äußert sich nicht dazu, ob Ilse Aigner die Unionskandidatin für das Bundespräsidentinnenamt wird. Das finden Grünenpolitiker »unprofessionell«.",
+   "time": "2026-11-07T12:44:23+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Berlin: Linken-Chefin Kerstin Wolter hofft auf Einlenken von Vanessa Emde",
+   "link": "https://www.spiegel.de/politik/deutschland/berlin-linken-chefin-kerstin-wolter-hofft-auf-einlenken-von-vanessa-emde-a-335b4b83-c079-4c10-949d-9abc24777440#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/berlin-linken-chefin-kerstin-wolter-hofft-auf-einlenken-von-vanessa-emde-a-335b4b83-c079-4c10-949d-9abc24777440",
+   "summary": "Die Berliner Linkenchefin Kerstin Wolter verteidigt die Aufforderung an die umstrittene Abgeordnete Vanessa Emde zum Mandatsverzicht. Ihr Verhalten beim Landesparteitag habe »das Fass zum Überlaufen gebracht«.",
+   "time": "2026-11-07T12:31:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Claudia Roth: Jüdische Studierende verlangen Entschuldigung",
+   "link": "https://www.spiegel.de/politik/deutschland/claudia-roth-juedische-studierende-verlangen-entschuldigung-a-290e9345-501b-459f-9e5e-f4294698ad5f#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/claudia-roth-juedische-studierende-verlangen-entschuldigung-a-290e9345-501b-459f-9e5e-f4294698ad5f",
+   "summary": "Die frühere Kulturstaatsministerin Claudia Roth revidiert Aussagen zu Israel – und äußert sich zu Deutschlands historischer Schuld. Jüdinnen und Juden zeigen sich entsetzt, die Grünenpolitikerin spricht von Unterstellungen.",
+   "time": "2026-11-07T12:07:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Neuseeland: Enges Rennen bei Parlamentswahl – Kleinpartei als Königsmacherin?",
+   "link": "https://www.sueddeutsche.de/politik/parlamentswahl-neuseeland-opportunity-party-qiulae-wong-regierungsbildung-li.3575931",
+   "key": "https://www.sueddeutsche.de/politik/parlamentswahl-neuseeland-opportunity-party-qiulae-wong-regierungsbildung-li.3575931",
+   "summary": "Nach Auszählung von 90 Prozent der Stimmen liegen die beiden großen Parteien fast gleichauf. Nun könnte die aufstrebende Opportunity Party eine entscheidende Rolle bei der Regierungsbildung spielen.",
+   "time": "2026-11-07T11:46:41+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Bundespräsidenten-Nachfolge: Omid Nouripour kritisiert Verhalten von Friedrich Merz",
+   "link": "https://www.spiegel.de/politik/deutschland/bundespraesidenten-nachfolge-omid-nouripour-kritisiert-verhalten-von-friedrich-merz-a-17a92a69-2408-4233-a873-8c443abf5d39#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/bundespraesidenten-nachfolge-omid-nouripour-kritisiert-verhalten-von-friedrich-merz-a-17a92a69-2408-4233-a873-8c443abf5d39",
+   "summary": "Ilse Aigner stößt als mögliche Bundespräsidentin auf breiten Zuspruch – doch der Kanzler schweigt. Merz sei ein »wichtiges Personalverfahren entglitten«, heißt es von Grünenpolitiker Nouripour. Kritik kommt auch aus der CDU.",
+   "time": "2026-11-07T10:44:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "AfD-Verbot: Stefanie Hubig will E-Mails bei Prüfung für Antrag nutzen",
+   "link": "https://www.spiegel.de/politik/deutschland/afd-verbot-stefanie-hubig-will-e-mails-bei-pruefung-fuer-antrag-nutzen-a-e340c29d-e222-4ee6-8299-320a906dc468#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/afd-verbot-stefanie-hubig-will-e-mails-bei-pruefung-fuer-antrag-nutzen-a-e340c29d-e222-4ee6-8299-320a906dc468",
+   "summary": "Hunderttausende E-Mails und Dokumente aus der AfD kursieren im Netz. Liefert das Leak die entscheidenden Belege für ein Verbot der rechtsextremen Partei? Justizministerin Hubig will die Voraussetzungen nun abklären.",
+   "time": "2026-11-07T10:35:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Neue Befugnisse: BND soll heimlich Wohnungen in Deutschland betreten dürfen",
+   "link": "https://www.faz.net/aktuell/politik/inland/bnd-soll-heimlich-wohnung-in-deutschland-betreten-duerfen-accg-201661109.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/bnd-soll-heimlich-wohnung-in-deutschland-betreten-duerfen-accg-201661109.html",
+   "summary": "Die Regierung will den Geheimdiensten neue Befugnisse zugestehen. Einem Medienbericht zufolge soll der Bundesnachrichtendienst auch im Inland tätig werden dürfen.",
+   "time": "2026-11-07T09:52:26+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Wahlprüfung: Bitte gründlich und schnell",
+   "link": "https://www.faz.net/aktuell/politik/inland/wahlpruefung-bitte-gruendlich-und-schnell-201658895.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/wahlpruefung-bitte-gruendlich-und-schnell-201658895.html",
+   "summary": "Die Überprüfung des Ergebnisses der Bundestagswahl dauert zu lange. Doch Abhilfe ist schwierig, solange die Verfassung nicht geändert wird.",
+   "time": "2026-11-07T09:22:11+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Generalinspekteur: Er steht vor großen Aufgaben",
+   "link": "https://www.faz.net/aktuell/politik/inland/christian-freuding-wird-neuer-generalinspekteur-der-bundeswehr-accg-201659077.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/christian-freuding-wird-neuer-generalinspekteur-der-bundeswehr-accg-201659077.html",
+   "summary": "Christian Freuding wird neuer Generalinspekteur der Bundeswehr. Er muss den Ausbau der Truppe schnell, effektiv und möglichst ohne Verschwendung vorantreiben.",
+   "time": "2026-11-07T09:06:54+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Steinmeier-Nachfolge: Aigner nervt nicht",
+   "link": "https://www.faz.net/aktuell/politik/inland/ilse-aigner-die-csu-bekommt-doch-noch-ihre-praesidentin-accg-201659503.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/ilse-aigner-die-csu-bekommt-doch-noch-ihre-praesidentin-accg-201659503.html",
+   "summary": "Ilse Aigner hat nie nach dem Amt des Bundespräsidenten gegiert. Vielleicht wird sie es gerade deshalb bekommen.",
+   "time": "2026-11-07T08:02:56+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Boris Palmer wird zur Last für Cem Özdemir - Belästigungsvorwürfe gegen Tübingen-OB",
+   "link": "https://www.spiegel.de/politik/deutschland/boris-palmer-wird-zur-last-fuer-cem-oezdemir-belaestigungsvorwuerfe-gegen-tuebingen-ob-a-c637193a-2303-4d18-951c-5bf785b2c6d2#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/boris-palmer-wird-zur-last-fuer-cem-oezdemir-belaestigungsvorwuerfe-gegen-tuebingen-ob-a-c637193a-2303-4d18-951c-5bf785b2c6d2",
+   "summary": "Die Empörung in Tübingen und darüber hinaus ist groß: Oberbürgermeister Boris Palmer steht wegen Vorwürfen unter Druck, er habe eine Frau sexuell belästigt. Das hat auch Folgen für den grünen Ministerpräsidenten.",
+   "time": "2026-11-07T07:34:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Bundeswehr: Personalbedarf kann laut Boris Pistorius voraussichtlich auch ohne Wehrpflicht gedeckt werden",
+   "link": "https://www.spiegel.de/politik/deutschland/bundeswehr-personalbedarf-kann-laut-boris-pistorius-voraussichtlich-auch-ohne-wehrpflicht-gedeckt-werden-a-34b7a192-f4f4-4446-b403-dd06d7d30212#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/bundeswehr-personalbedarf-kann-laut-boris-pistorius-voraussichtlich-auch-ohne-wehrpflicht-gedeckt-werden-a-34b7a192-f4f4-4446-b403-dd06d7d30212",
+   "summary": "Mit rund 190.000 Soldaten und Soldatinnen hat die Bundeswehr Verteidigungsminister Pistorius zufolge den höchsten Personalstand seit 13 Jahren. Sollte sich der Kurs fortsetzen, müsse es keine Debatte über eine Wehrpflicht geben.",
+   "time": "2026-11-07T07:05:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Liveblog Nahost: Laut Iran brennen zwei Öltanker in der Straße von Hormus",
+   "link": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-laut-iran-brennen-zwei-oeltanker-in-der-strasse-von-hormus-faz-200583539.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-laut-iran-brennen-zwei-oeltanker-in-der-strasse-von-hormus-faz-200583539.html",
+   "summary": "Teheran: Schiffe sind auf Minen aufgelaufen +++ Pistorius drängt auf Entscheidung über Einsatz in Straße von Hormus +++ USA bieten Millionen Dollar für Informationen über Irans Atomprogramm +++ alle Entwicklungen im Liveblog",
+   "time": "2026-11-08T00:35:20+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Italien: Außenminister Antonio Tajani prangert Hacker-Angriffe an",
+   "link": "https://www.spiegel.de/ausland/italien-aussenminister-antonio-tajani-prangert-hacker-angriffe-an-a-cb655674-9ea2-4f6f-abf3-9d8fd660cd71#ref=rss",
+   "key": "https://www.spiegel.de/ausland/italien-aussenminister-antonio-tajani-prangert-hacker-angriffe-an-a-cb655674-9ea2-4f6f-abf3-9d8fd660cd71",
+   "summary": "Im Darknet sind offenbar sensible persönliche Daten des italienischen Außenministers Antonio Tajanis und seiner Familie zu finden. Dahinter soll eine prorussische Hackergruppe stecken.",
+   "time": "2026-11-07T23:57:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Nach Schüssen in Polen: Donald Tusk bezeichnet Angriff in Kraków als Terrorismus",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/waffenlieferungen-israel-deutschland-friedrich-merz",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/waffenlieferungen-israel-deutschland-friedrich-merz",
+   "summary": "Der polnische Ministerpräsident hat den Schusswaffenangriff in Kraków als Terrorakt bewertet. Bei europäischen Politikern sorgt die Tat mit mehreren Toten für Entsetzen.",
+   "time": "2026-11-07T22:39:56+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "US-Präsident bietet UFC-Chef Dana White Job an – der lehnt offenbar ab",
+   "link": "https://www.spiegel.de/ausland/trump-bietet-ufc-chef-dana-white-job-als-pressesprecher-an-a-3fcc68a9-735c-4f0e-ace7-82130710182a#ref=rss",
+   "key": "https://www.spiegel.de/ausland/trump-bietet-ufc-chef-dana-white-job-als-pressesprecher-an-a-3fcc68a9-735c-4f0e-ace7-82130710182a",
+   "summary": "Der bekennende Käfigkampf-Fan Donald Trump wollte Sportveranstalter Dana White zu seinem Pressesprecher machen: »Bitte nimm den Job an.« Doch einem Medienbericht zufolge fängt sich der US-Präsident eine Absage ein.",
+   "time": "2026-11-07T22:02:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Regierungsbildung in Israel: Israels Präsident will Eisenkot mit Regierungsbildung beauftragen",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/regierungsbildung-israel-gadi-eisenkot-izchak-herzog-benjamin-netanjahu",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/regierungsbildung-israel-gadi-eisenkot-izchak-herzog-benjamin-netanjahu",
+   "summary": "Der Oppositionspolitiker Gadi Eisenkot soll eine Regierung in Israel bilden. Bei Demonstrationen wurde eine Koalition unter Einschluss der arabischen Parteien gefordert.",
+   "time": "2026-11-07T21:05:05+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Krakau: Augenzeugen berichten vom Angriff mit Toten und Verletzten",
+   "link": "https://www.spiegel.de/ausland/krakau-augenzeugen-berichten-vom-angriff-mit-toten-und-verletzten-a-defd7859-86b2-4932-8e8d-4a75ad5cbda5#ref=rss",
+   "key": "https://www.spiegel.de/ausland/krakau-augenzeugen-berichten-vom-angriff-mit-toten-und-verletzten-a-defd7859-86b2-4932-8e8d-4a75ad5cbda5",
+   "summary": "Mitten in Krakau hat ein mutmaßlich rechtsextremer Angreifer aus seinem Auto auf Menschen geschossen und mehrere getötet. Augenzeugen berichten, wie der Täter vorgegangen ist.",
+   "time": "2026-11-07T20:49:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Nach der Israel-Wahl: Gadi Eisenkot wird mit Regierungsbildung beauftragt",
+   "link": "https://www.faz.net/aktuell/politik/ausland/israel-staatspraesident-herzog-beauftragt-gadi-eisenkot-mit-regierungsbildung-201662006.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/israel-staatspraesident-herzog-beauftragt-gadi-eisenkot-mit-regierungsbildung-201662006.html",
+   "summary": "Israels Präsident Herzog beauftragt Gadi Eisenkot offiziell mit der Regierungsbildung. Bei der Parlamentswahl hatten weder dessen Oppositionsbündnis noch das Lager des bisherigen Ministerpräsidenten Netanjahu eine Mehrheit errungen.",
+   "time": "2026-11-07T20:28:45+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "La France insoumise: Mélenchon will Frankreich aus der Nato führen",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/frankreich-melenchon-la-france-insoumise",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/frankreich-melenchon-la-france-insoumise",
+   "summary": "Jean-Luc Mélenchon hat sein Programm als Kandidat für die Präsidentschaftswahl vorgestellt. Der Linke fordert den Nato-Austritt und eine andere Wirtschaftspolitik.",
+   "time": "2026-11-07T20:05:26+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Antonio Tajani: Italiens Außenminister prangert Hacker-Angriffe gegen sich an",
+   "link": "https://www.faz.net/aktuell/politik/ausland/antonio-tajani-aussenminister-von-italien-ist-opfer-von-hacker-angriffen-201661958.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/antonio-tajani-aussenminister-von-italien-ist-opfer-von-hacker-angriffen-201661958.html",
+   "summary": "Persönliche Daten von Italiens Außenminister Tajani und seiner Familie sind im Darknet gelandet. Auch Deutsche und Österreicher sollen ins Visier der mutmaßlich prorussischen Hacker geraten seien.",
+   "time": "2026-11-07T19:38:53+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Koalitionsbildung in Israel: Sie lassen sich nicht mehr ignorieren",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/koalitionsbildung-israel-vereinte-liste-benjamin-netanjahu-gadi-eisenkot",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/koalitionsbildung-israel-vereinte-liste-benjamin-netanjahu-gadi-eisenkot",
+   "summary": "In Israel hat die arabische Vereinte Liste ein historisches Wahlergebnis erzielt. Aber reicht die neue Macht, um eine erneute Amtszeit von Netanjahu zu verhindern?",
+   "time": "2026-11-07T16:09:35+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Keine klare Mehrheit: Knappes Rennen bei Wahl in Neuseeland",
+   "link": "https://www.faz.net/aktuell/politik/ausland/knappes-rennen-bei-wahl-in-neuseeland-accg-201661051.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/knappes-rennen-bei-wahl-in-neuseeland-accg-201661051.html",
+   "summary": "Bei der Parlamentswahl liegen die beiden großen Parteien fast gleichauf. Es stehen schwierige Koalitionsverhandlungen bevor.",
+   "time": "2026-11-07T09:19:22+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Leo in Montevideo: Der Papst preist Uruguays Demokratie",
+   "link": "https://www.faz.net/aktuell/politik/ausland/leo-lobt-uruguays-demokratie-und-beklagt-saekularisierung-accg-201660997.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/leo-lobt-uruguays-demokratie-und-beklagt-saekularisierung-accg-201660997.html",
+   "summary": "In Montevideo zeigt sich der Papst kurz nach seiner Krebs-Operation voller Energie. Er beklagt aber die Folgen der Säkularisierung.",
+   "time": "2026-11-07T08:38:10+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Zoll stoppt Autofahrer mit 30.560 Euro – Geldbündel steckten in Jacken- und Hosentaschen",
+   "link": "https://www.focus.de/finanzen/zoll-stoppt-autofahrer-mit-30-560-euro-geldbuendel-steckten-in-jacken-und-hosentaschen_bfe63252-5eb4-499e-8337-2d4e42d25d81.html",
+   "key": "https://www.focus.de/finanzen/zoll-stoppt-autofahrer-mit-30-560-euro-geldbuendel-steckten-in-jacken-und-hosentaschen_bfe63252-5eb4-499e-8337-2d4e42d25d81.html",
+   "summary": "Der Aachener Zoll entdeckte bei einer Fahrzeugkontrolle auf der A46 30.560 Euro Bargeld. Der Fahrer konnte die Herkunft des Geldes nicht erklären.",
+   "time": "2026-11-07T19:57:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Weltbeste Klinik aus Thüringen kämpft gegen Sparpolitik und Gesundheitsreform",
+   "link": "https://www.focus.de/finanzen/weltbeste-klinik-aus-thueringen-kaempft-gegen-sparpolitik-und-gesundheitsreform_b4294b59-8199-4426-83fb-ba520a0bf37d.html",
+   "key": "https://www.focus.de/finanzen/weltbeste-klinik-aus-thueringen-kaempft-gegen-sparpolitik-und-gesundheitsreform_b4294b59-8199-4426-83fb-ba520a0bf37d.html",
+   "summary": "Die Waldkliniken Eisenberg gewinnen einen internationalen Klinikpreis. Doch Gesundheitsreform und Bürokratie bringen das erfolgreiche Krankenhaus unter Druck.",
+   "time": "2026-11-07T19:25:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Sandra (43) verliert durch Krypto-Betrug 30.000 Euro",
+   "link": "https://www.focus.de/finanzen/sandra-43-verliert-durch-krypto-betrug-30-000-euro_0e6dfc3a-91d4-4870-89f4-b00053f27a8a.html",
+   "key": "https://www.focus.de/finanzen/sandra-43-verliert-durch-krypto-betrug-30-000-euro_0e6dfc3a-91d4-4870-89f4-b00053f27a8a.html",
+   "summary": "Nach einem Betrug mit einer gefälschten Internetseite haben Sandra Elfers und ihr Ehemann 30.000 Euro in Kryptowährung verloren. Das Geld wollten sie nach eigenen Angaben in ein Haus investieren.",
+   "time": "2026-11-07T18:58:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Baby, Trennung, Geldsorgen: Diese Ansprüche sollten Mütter kennen",
+   "link": "https://www.focus.de/finanzen/baby-trennung-geldsorgen-diese-ansprueche-sollten-muetter-kennen_e9b7bd39-29ee-4d6f-a400-3663599492ff.html",
+   "key": "https://www.focus.de/finanzen/baby-trennung-geldsorgen-diese-ansprueche-sollten-muetter-kennen_e9b7bd39-29ee-4d6f-a400-3663599492ff.html",
+   "summary": "Die Scheidung kostet insbesondere mit Baby Geld. Bei der Diskussion um Elterngeld, wird die Rolle der Frau oft vergessen.",
+   "time": "2026-11-07T18:02:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Mit 10 Steuertipps holen sich Arbeitnehmer, Rentner, Anleger und Immobilienbesitzer hunderte Euro vom Finanzamt",
+   "link": "https://www.focus.de/finanzen/steuern/mit-10-steuertipps-holen-sich-arbeitnehmer-rentner-anleger-und-immobilienbesitzer-hunderte-euro-vom-finanzamt_d61f0ef4-b1a8-4004-ae59-b5c67a2aee0c.html",
+   "key": "https://www.focus.de/finanzen/steuern/mit-10-steuertipps-holen-sich-arbeitnehmer-rentner-anleger-und-immobilienbesitzer-hunderte-euro-vom-finanzamt_d61f0ef4-b1a8-4004-ae59-b5c67a2aee0c.html",
+   "summary": "Wer die letzten Wochen des Jahres 2026 klug nutzt, kann sich jetzt noch eine höhere Steuerrückzahlung sichern. Zehn Tipps für alle, die Steuern zahlen - nicht nur für Arbeitnehmer.",
+   "time": "2026-11-07T17:28:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Vermögenssteuer sollte Kalifornien 100 Milliarden US-Dollar einbringen - doch stattdessen nehmen die Milliardäre Reißaus",
+   "link": "https://www.focus.de/finanzen/vermoegenssteuer-sollte-kalifornien-100-milliarden-us-dollar-einbringen-doch-stattdessen-nehmen-die-milliardaere-reissaus_d8fceaef-b269-45c0-bd5a-49663931069e.html",
+   "key": "https://www.focus.de/finanzen/vermoegenssteuer-sollte-kalifornien-100-milliarden-us-dollar-einbringen-doch-stattdessen-nehmen-die-milliardaere-reissaus_d8fceaef-b269-45c0-bd5a-49663931069e.html",
+   "summary": "Bernie Sanders unterstützte eine Vermögensteuer von 100 Milliarden Dollar. Doch Milliardäre verlassen Kalifornien – dem Staat drohen Milliardenverluste.",
+   "time": "2026-11-07T17:22:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Grand Theft Auto: Das Spiel, das alle verrückt macht",
+   "link": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/gta-vi-warum-das-neue-rockstar-spiel-die-ganze-welt-verrueckt-macht-accg-201643054.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/gta-vi-warum-das-neue-rockstar-spiel-die-ganze-welt-verrueckt-macht-accg-201643054.html",
+   "summary": "Die halbe Welt fiebert dem neuen Videospiel GTA VI entgegen. Das Unternehmen dahinter macht damit Milliarden. Was ist das Erfolgsgeheimnis?",
+   "time": "2026-11-07T16:33:51+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Broadway: Warum der Broadway in seiner größten Krise steckt",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/broadway-new-york-city-theater-produktionskosten",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/broadway-new-york-city-theater-produktionskosten",
+   "summary": "Die Musicals garantieren New York Milliardeneinnahmen. Doch jetzt werden im berühmtesten Theaterviertel der Welt gar erfolgreiche Shows nach nur vier Monaten eingestellt.",
+   "time": "2026-11-07T16:26:22+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Verkauf an Electra: Mercedes zieht beim Traum vom eigenen Ladenetz den Stecker",
+   "link": "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-verkauft-ladeparks-in-europa-an-electra-accg-201658444.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/unternehmen/mercedes-verkauft-ladeparks-in-europa-an-electra-accg-201658444.html",
+   "summary": "Der Stuttgarter Autohersteller wollte nicht warten, bis andere ein globales Schnellladenetz bauen, und errichtete es selbst. Jetzt gibt Mercedes das Projekt weitgehend wieder auf.",
+   "time": "2026-11-07T16:25:34+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Parfümblüten aus Grasse: Der Duft, aus dem die Träume sind",
+   "link": "https://www.faz.net/aktuell/wirtschaft/unternehmen/parfuemherstellung-in-grasse-wie-dior-das-erbe-rettet-accg-201655022.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/unternehmen/parfuemherstellung-in-grasse-wie-dior-das-erbe-rettet-accg-201655022.html",
+   "summary": "Das Ende der natürlichen Parfümherstellung schien im Hochlohnland Frankreich besiegelt. Heute gibt es im Umland von Grasse wieder Zuversicht.",
+   "time": "2026-11-07T15:53:17+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Nvidia: Jen-Hsun Huang soll Affäre mit chinesischer Agentin gehabt haben",
+   "link": "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jen-hsun-huang-soll-affaere-mit-chinesischer-agentin-gehabt-haben-a-8b6c5163-b475-4478-a335-3aeaeccdca48#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/unternehmen/nvidia-jen-hsun-huang-soll-affaere-mit-chinesischer-agentin-gehabt-haben-a-8b6c5163-b475-4478-a335-3aeaeccdca48",
+   "summary": "Ist der US-Chiphersteller Nvidia auf höchster Ebene ausspioniert worden? Einem Medienbericht zufolge soll die chinesische Regierung Firmenchef Huang eine Falle gestellt haben – womöglich erfolgreich.",
+   "time": "2026-11-07T15:02:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Automatenläden: Sieht so die Zukunft der Innenstädte aus?",
+   "link": "https://www.zeit.de/2026/48/automatenlaeden-innenstaedte-leerstand-ladenschlussgesetz",
+   "key": "https://www.zeit.de/2026/48/automatenlaeden-innenstaedte-leerstand-ladenschlussgesetz",
+   "summary": "Fußgängerzonen voller Leerstand. Doch plötzlich sind da diese Läden mit Snackautomaten. Sind sie Bereicherung oder Problem? Darüber gibt es Streit bis vor Gericht.",
+   "time": "2026-11-07T13:09:07+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Starökonomin Mariana Mazzucato: »Die Techbranche ist nichts anderes als die Mafia«",
+   "link": "https://www.spiegel.de/wirtschaft/staroekonomin-mariana-mazzucato-die-techbranche-ist-nichts-anderes-als-die-mafia-a-385ed8b4-1e39-48d4-adc1-bd129b76f28e#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/staroekonomin-mariana-mazzucato-die-techbranche-ist-nichts-anderes-als-die-mafia-a-385ed8b4-1e39-48d4-adc1-bd129b76f28e",
+   "summary": "Die Ökonomin Mariana Mazzucato fordert einen neuen Kapitalismus. Er soll weniger den privaten Gewinn und stärker das Gemeinwohl in den Mittelpunkt stellen, etwa bezahlbares Wohnen. Kann so radikalen Parteien der Boden entzogen werden?",
+   "time": "2026-11-07T11:44:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Donald Trump und die Wirtschaft: Wo die Demokraten seinen Kurs korrigieren könnten",
+   "link": "https://www.spiegel.de/wirtschaft/donald-trump-und-die-wirtschaft-wo-die-demokraten-seinen-kurs-korrigieren-koennten-a-ad25686b-5dca-498e-9239-e1e7a131cf4a#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/donald-trump-und-die-wirtschaft-wo-die-demokraten-seinen-kurs-korrigieren-koennten-a-ad25686b-5dca-498e-9239-e1e7a131cf4a",
+   "summary": "Amerikas Wähler haben mit der erratischen Politik ihres Präsidenten abgerechnet. Die Demokraten werden nun an entscheidender Stelle mitreden. Wo es tatsächlich einen Kurswechsel geben könnte – der Überblick.",
+   "time": "2026-11-07T09:19:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Büroleerstand: Wenn der Konferenzraum plötzlich ein Bad braucht",
+   "link": "https://www.zeit.de/wirtschaft/2026-10/bueroleerstand-bueros-wohnungen-umbau-frankfurt",
+   "key": "https://www.zeit.de/wirtschaft/2026-10/bueroleerstand-bueros-wohnungen-umbau-frankfurt",
+   "summary": "Wohnungen fehlen, aber Büros stehen leer. Ließen die sich nicht einfach umbauen? Zwei Beispiele aus Frankfurt am Main zeigen, was möglich ist. Und was es am Ende kostet.",
+   "time": "2026-11-07T08:04:51+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Oatly: Hat Oatly seine Seele verkauft?",
+   "link": "https://www.zeit.de/2026/48/oatly-hafermilch-milchindustrie-klima-kommunikation",
+   "key": "https://www.zeit.de/2026/48/oatly-hafermilch-milchindustrie-klima-kommunikation",
+   "summary": "Der Hafermilchhersteller spricht lieber über Wellness und Geschmack als über Klimaschutz. Der jungen Kundschaft müsse man das nicht mehr erklären, behaupten die Chefs.",
+   "time": "2026-11-07T04:51:44+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Teslas Cybertruck: Tesla plant Ende der Produktion des Cybertrucks",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/tesla-cybertruck-produktion-ende-texas",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/tesla-cybertruck-produktion-ende-texas",
+   "summary": "Elon Musk kündigt an, die Produktion seines Elektro-Pickups Cybertruck auslaufen zu lassen. Experten zufolge verkaufte Tesla deutlich weniger Fahrzeuge als geplant.",
+   "time": "2026-11-06T19:33:15+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Baby von „Harry Potter“-Star Bonnie Wright muss mit fünf Wochen sechsmal ins Krankenhaus",
+   "link": "https://www.focus.de/kultur/stars/baby-von-harry-potter-star-bonnie-wright-muss-mit-fuenf-wochen-sechsmal-ins-krankenhaus_a0be17d3-a100-4a45-b2ef-f995de854e51.html",
+   "key": "https://www.focus.de/kultur/stars/baby-von-harry-potter-star-bonnie-wright-muss-mit-fuenf-wochen-sechsmal-ins-krankenhaus_a0be17d3-a100-4a45-b2ef-f995de854e51.html",
+   "summary": "Schwierige erste Wochen für Bonnie Wright: Der „Harry Potter“-Star berichtet, dass ihr fünf Wochen alter Sohn Aster bereits sechsmal im Krankenhaus behandelt werden musste.",
+   "time": "2026-11-07T19:52:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "»Minotaurus« von Andrej Swagjintsew: Bilder aus den Tiefen der russischen Seele",
+   "link": "https://www.spiegel.de/kultur/kino/minotaurus-von-andrej-swagjintsew-bilder-aus-den-tiefen-der-russischen-seele-a-3e967759-cbd1-4a0b-bf94-9913ba7d2282#ref=rss",
+   "key": "https://www.spiegel.de/kultur/kino/minotaurus-von-andrej-swagjintsew-bilder-aus-den-tiefen-der-russischen-seele-a-3e967759-cbd1-4a0b-bf94-9913ba7d2282",
+   "summary": "Andrej Swagjintsew ist Russlands größter Regisseur, doch in seiner Heimat wird er als »ausländischer Agent« diskreditiert. Sein neuer Film »Minotaurus« zeigt ein unmenschliches Land.",
+   "time": "2026-11-07T19:48:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "title": "Poesiealbum: Von diesem Unsinn wurden Generationen von Mädchen geprägt",
+   "link": "https://www.zeit.de/2026/48/poesiealbum-maedchen-erziehung-sprueche",
+   "key": "https://www.zeit.de/2026/48/poesiealbum-maedchen-erziehung-sprueche",
+   "summary": "»Ich bin klein, mein Herz ist rein«: In ihre Poesiealben sollten Kinder jahrzehntelang bestimmte Sprüche schreiben. Unsere Autorin hat nachgelesen – und sich gegruselt",
+   "time": "2026-11-07T19:21:08+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Leo Neugebauer erlebt Horror-Date: „Ich war in Panik“",
+   "link": "https://www.focus.de/kultur/stars/leo-neugebauer-erlebt-horror-date-ich-war-in-panik_d7dc7c31-2e75-4634-8d83-8fae82354482.html",
+   "key": "https://www.focus.de/kultur/stars/leo-neugebauer-erlebt-horror-date-ich-war-in-panik_d7dc7c31-2e75-4634-8d83-8fae82354482.html",
+   "summary": "Ein romantisches Date nimmt für Leo Neugebauer eine unerwartete Wendung. Als die Frau ihm plötzlich ein pikantes Geständnis macht, will der Zehnkampf-Star nur noch weg.",
+   "time": "2026-11-07T19:20:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Ringelnatz als Maler: Diese Naivität war wohlkalkuliert",
+   "link": "https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/ausstellung/joachim-ringelnatz-als-maler-ausstellung-im-barlach-haus-hamburg-201621325.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/ausstellung/joachim-ringelnatz-als-maler-ausstellung-im-barlach-haus-hamburg-201621325.html",
+   "summary": "Wie ein deutscher Henri Rousseau: Der Dichter Joachim Ringelnatz malte nur scheinbar unbedarfte Bilder, wie das Hamburger Barlach-Haus zeigt.",
+   "time": "2026-11-07T18:07:02+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Reinhold Messner übers Älterwerden: „Allein wäre ich heute völlig verloren“",
+   "link": "https://www.focus.de/kultur/stars/reinhold-messner-uebers-aelterwerden-allein-waere-ich-heute-voellig-verloren_78d1bda3-8e86-4509-9021-d7480d857826.html",
+   "key": "https://www.focus.de/kultur/stars/reinhold-messner-uebers-aelterwerden-allein-waere-ich-heute-voellig-verloren_78d1bda3-8e86-4509-9021-d7480d857826.html",
+   "summary": "Reinhold Messner und seine Frau Diane waren am Freitagabend (6. November) zu Gast bei „3nach9“. In der Talk-Show findet die Bergsteiger-Legende ernste Worte.",
+   "time": "2026-11-07T17:43:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Abschied bei RTL: Urgestein Igor Dolgatschew verlässt nach 19 Jahren „Alles was zählt“",
+   "link": "https://www.focus.de/kultur/kino-tv/abschied-bei-rtl-urgestein-igor-dolgatschew-verlaesst-nach-19-jahren-alles-was-zaehlt_a837f36a-3bdf-4680-b3f3-a81f7d960c9a.html",
+   "key": "https://www.focus.de/kultur/kino-tv/abschied-bei-rtl-urgestein-igor-dolgatschew-verlaesst-nach-19-jahren-alles-was-zaehlt_a837f36a-3bdf-4680-b3f3-a81f7d960c9a.html",
+   "summary": "Für die Fans von „Alles was zählt“ ist es eine traurige Nachricht. Nach knapp zwei Jahrzehnten verabschiedet sich ein echtes Urgestein aus der beliebten RTL-Daily. Igor Dolgatschew wird künftig nicht mehr als Deniz Öztürk zu sehen sein.",
+   "time": "2026-11-07T17:42:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Katja Burkards Kinder sind nach ihrer Verlobung „stinksauer“",
+   "link": "https://www.focus.de/kultur/stars/katja-burkards-kinder-sind-nach-ihrer-verlobung-stinksauer_87306ad0-be32-42ac-afd3-19e24401bc2f.html",
+   "key": "https://www.focus.de/kultur/stars/katja-burkards-kinder-sind-nach-ihrer-verlobung-stinksauer_87306ad0-be32-42ac-afd3-19e24401bc2f.html",
+   "summary": "Katja Burkard und Hans Mahr haben letztes Jahr Hochzeit gefeiert. Die gemeinsamen Töchter waren vor dem Heiratsantrag nicht eingeweiht und reagierten verärgert, verrät die Moderatorin nun.",
+   "time": "2026-11-07T17:41:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Sie ist 33 Jahre jünger: René „Redo“ Dost bestätigt neue Beziehung",
+   "link": "https://www.focus.de/kultur/stars/sie-ist-33-jahre-juenger-rene-redo-dost-bestaetigt-neue-beziehung_956cf455-a495-4703-9f93-9983d390e95e.html",
+   "key": "https://www.focus.de/kultur/stars/sie-ist-33-jahre-juenger-rene-redo-dost-bestaetigt-neue-beziehung_956cf455-a495-4703-9f93-9983d390e95e.html",
+   "summary": "Liebesüberraschung bei René „Redo“ Dost. Der ehemalige „Promi Big Brother“-Kandidat schwebt wieder auf Wolke sieben. Nach drei Jahren als Single hat der 58-Jährige eine neue Frau an seiner Seite.",
+   "time": "2026-11-07T17:40:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Japans Künstlerinnen: Kusama und die anderen",
+   "link": "https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/ausstellung/japanische-kuenstlerinnen-grosse-uebersichtsschau-im-mudam-luxemburg-201341025.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/kunst-und-architektur/ausstellung/japanische-kuenstlerinnen-grosse-uebersichtsschau-im-mudam-luxemburg-201341025.html",
+   "summary": "Aufbruchslust nach Hiroshima: Eine Ausstellung in Luxemburg zeigt japanische Künstlerinnen in einer ersten großen Übersichtsschau in Europa.",
+   "time": "2026-11-07T15:44:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Alice Oswalds „Rhapsody“: Zu den ältesten Dichtern zählen die Heuschrecken",
+   "link": "https://www.faz.net/aktuell/feuilleton/buecher/literatur/alice-oswalds-rhapsody-liebeserklaerung-an-die-poesie-accg-201213041.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/buecher/literatur/alice-oswalds-rhapsody-liebeserklaerung-an-die-poesie-accg-201213041.html",
+   "summary": "Auf Homers Spuren: Die englische Dichterin Alice Oswald schreibt mit „Rhapsody“ ein einzigartiges poetisches Manifest.",
+   "time": "2026-11-07T15:34:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Frankfurter Anthologie: Uwe Kolbe: „Rilke und Gott“",
+   "link": "https://www.faz.net/aktuell/feuilleton/buecher/frankfurter-anthologie/ein-gedicht-von-uwe-kolbe-in-der-frankfurter-anthologie-201605923.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/buecher/frankfurter-anthologie/ein-gedicht-von-uwe-kolbe-in-der-frankfurter-anthologie-201605923.html",
+   "summary": "Von Rilke hätte er das nicht gedacht: Dieses Gedicht handelt von der Treue und der Zuneigung, die ein Dichter einem anderen entgegenbringt. Aber dann passiert etwas Unerwartetes. Und plötzlich ist alles anders.",
+   "time": "2026-11-07T15:30:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Gorki Theater in Berlin: Rausgerissene rote Teppiche und Rauchschwaden",
+   "link": "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/theater/neue-intendanz-am-gorki-theater-bilanz-der-ersten-monate-accg-201635690.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/theater/neue-intendanz-am-gorki-theater-bilanz-der-ersten-monate-accg-201635690.html",
+   "summary": "Der neuen Intendantin des Maxim Gorki Theaters eilt der Ruf voraus, sich mehr für Performancekunst als für Theater zu interessieren. Stimmt das? Und ist das, was Çağla Ilk zeigt, zugänglich oder elitär?",
+   "time": "2026-11-07T15:00:34+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Merkel und Biermann: Mit Schnauzbart, Kraft und Pathos",
+   "link": "https://www.faz.net/aktuell/feuilleton/debatten/gibt-es-ein-menschenrecht-auf-feigheit-begegnung-zwischen-angela-merkel-und-wolf-biermann-in-berlin-accg-201661306.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/debatten/gibt-es-ein-menschenrecht-auf-feigheit-begegnung-zwischen-angela-merkel-und-wolf-biermann-in-berlin-accg-201661306.html",
+   "summary": "Gibt es ein Menschenrecht auf Feigheit? In Berlin begegnen sich Wolf Biermann und Angela Merkel auf der Bühne eines Festivals. Sie begeistern ihr Publikum mit Anekdoten aus einer geteilten Vergangenheit.",
+   "time": "2026-11-07T14:27:35+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Wassily Kandinsky und Paul Klee sind weltberühmt - aber was war mit den »Blauen Reiterinnen«?",
+   "link": "https://www.spiegel.de/kultur/wassily-kandinsky-und-paul-klee-sind-weltberuehmt-aber-was-war-mit-den-blauen-reiterinnen-a-3bb19f74-fa85-4de7-a3fd-feed1090f76e#ref=rss",
+   "key": "https://www.spiegel.de/kultur/wassily-kandinsky-und-paul-klee-sind-weltberuehmt-aber-was-war-mit-den-blauen-reiterinnen-a-3bb19f74-fa85-4de7-a3fd-feed1090f76e",
+   "summary": "Lange standen die Meisterinnen der Künstlergruppe »Der Blaue Reiter« im Schatten ihrer männlichen Kollegen. Eine sensationelle Ausstellung setzt die Frauen der Avantgarde nun gebührend ins Rampenlicht.",
+   "time": "2026-11-07T13:23:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Sebastián Lelio ist tot: Chilenischer Starregisseur mit 52 Jahren gestorben",
+   "link": "https://www.spiegel.de/kultur/sebastian-lelio-ist-tot-chilenischer-starregisseur-mit-52-jahren-gestorben-a-29d9ba8e-e688-4569-8603-e20353ea51f8#ref=rss",
+   "key": "https://www.spiegel.de/kultur/sebastian-lelio-ist-tot-chilenischer-starregisseur-mit-52-jahren-gestorben-a-29d9ba8e-e688-4569-8603-e20353ea51f8",
+   "summary": "Mit dem Film »Eine fantastische Frau« gewann er einen Oscar. Berlin war zeitweise seine Wahlheimat. Dort hatte er auch ein Restaurant. Nun ist Sebastián Lelio tot.",
+   "time": "2026-11-07T04:43:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "47 Millionen Jahre altes Eulenfossil enthüllt Wandel zum Nachtjäger",
+   "link": "https://www.focus.de/wissen/47-millionen-jahre-altes-eulenfossil-enthuellt-wandel-zum-nachtjaeger_cc6f316a-6e39-4ec2-a9aa-0c8a8ee38b87.html",
+   "key": "https://www.focus.de/wissen/47-millionen-jahre-altes-eulenfossil-enthuellt-wandel-zum-nachtjaeger_cc6f316a-6e39-4ec2-a9aa-0c8a8ee38b87.html",
+   "summary": "In einer Fossilfundstätte im südhessischen Messel wurde eine fast perfekt erhaltene Eule ausgegraben. Sie liefert Hinweise darauf, wann Eulen nachtaktiv wurden.",
+   "time": "2026-11-07T16:30:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "title": "Schwarzmilzferner: Forscher beerdigen letzten Gletscher in den Allgäuer Alpen",
+   "link": "https://www.spiegel.de/wissenschaft/schwarzmilzferner-forscher-beerdigen-letzten-gletscher-in-den-allgaeuer-alpen-a-9ac75bb8-9b4a-40c9-a785-fc2c54185215#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/schwarzmilzferner-forscher-beerdigen-letzten-gletscher-in-den-allgaeuer-alpen-a-9ac75bb8-9b4a-40c9-a785-fc2c54185215",
+   "summary": "In den Allgäuer Alpen gibt es keinen Gletscher mehr. Experten haben dem Schwarzmilzferner den Status entzogen, nachdem er im Sommer viel Eismasse verloren hatte. Welche Gletscher verschwinden als nächste?",
+   "time": "2026-11-07T13:37:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "title": "Eskalierende Temperaturen: Globaler „Hitzesturm“ im neunten Monat",
+   "link": "https://www.faz.net/aktuell/wissen/erde-klima/globaler-hitzesturm-raimundo-ist-im-neunten-monat-accg-201661049.html",
+   "key": "https://www.faz.net/aktuell/wissen/erde-klima/globaler-hitzesturm-raimundo-ist-im-neunten-monat-accg-201661049.html",
+   "summary": "Hitzewelle war gestern. Mittlerweile suchen Fachleute nach neuen Begriffen für das, was mit „Raimundo“ im Februar dieses Jahres begann. Offensichtlich haben selbst Klimamodelle die möglichen Eskalationen unterschätzt.",
+   "time": "2026-11-07T13:29:41+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Regensburg: Breuer, Herrmann und Ex-Nato-General Naumann warnen vor Putin und Russland – Deutschland muss sich auf Krieg vorbereiten",
+   "link": "https://www.focus.de/wissen/regensburg-breuer-herrmann-und-ex-nato-general-naumann-warnen-vor-putin-und-russland-deutschland-muss-sich-auf-krieg-vorbereiten_340483ec-5871-48c7-b537-a1a05c320dea.html",
+   "key": "https://www.focus.de/wissen/regensburg-breuer-herrmann-und-ex-nato-general-naumann-warnen-vor-putin-und-russland-deutschland-muss-sich-auf-krieg-vorbereiten_340483ec-5871-48c7-b537-a1a05c320dea.html",
+   "summary": "Breuer, Herrmann und Ex-NATO-General Naumann warnen in Regensburg vor Russland. Warum Deutschland seine Verteidigung dringend stärken muss.",
+   "time": "2026-11-07T11:40:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "2800 Jahre altes Grab liefert frühesten Cannabis-Nachweis – wohl zur Beruhigung von Menschenopfern",
+   "link": "https://www.focus.de/wissen/mensch/2800-jahre-altes-grab-liefert-fruehesten-cannabis-nachweis-vermutlich-zur-beruhigung-von-menschenopfern_edf291cf-2cb6-4ede-935f-be5d63a2e44b.html",
+   "key": "https://www.focus.de/wissen/mensch/2800-jahre-altes-grab-liefert-fruehesten-cannabis-nachweis-vermutlich-zur-beruhigung-von-menschenopfern_edf291cf-2cb6-4ede-935f-be5d63a2e44b.html",
+   "summary": "In Südsibirien haben Forscher Cannabis-Samen und Spuren des Wirkstoffs in menschlichem Haar entdeckt. Diese Funde liefern Hinweise auf berauschenden Konsum vor 2800 Jahren.",
+   "time": "2026-11-07T11:37:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Nasa wendet sich an Unternehmen, um das Hubble-Teleskop vor dem Absturz auf die Erde zu retten",
+   "link": "https://www.focus.de/wissen/weltraum/nasa-wendet-sich-an-unternehmen-um-das-hubble-teleskop-vor-dem-absturz-auf-die-erde-zu-bewahren_e146cf69-3000-419d-a017-7d3454378df5.html",
+   "key": "https://www.focus.de/wissen/weltraum/nasa-wendet-sich-an-unternehmen-um-das-hubble-teleskop-vor-dem-absturz-auf-die-erde-zu-bewahren_e146cf69-3000-419d-a017-7d3454378df5.html",
+   "summary": "Nachdem das Swift-Observatorium verloren gegangen ist, richtet die Nasa ihren Blick auf das Weltraumteleskop Hubble. Die US-Raumfahrtbehörde prüft derzeit Möglichkeiten, um dessen Einsatzzeit im Orbit zu verlängern.",
+   "time": "2026-11-07T11:24:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "400 Jahre altes Rätsel gelöst: CT-Scans enthüllen vierstelligen Code eines berühmten Buchstaben-Schlosses",
+   "link": "https://www.focus.de/wissen/400-jahre-altes-raetsel-geloest-ct-scans-entschluesseln-vierstelligen-code-eines-beruehmten-buchstaben-schlosses_cd89b3d4-6e82-4521-9b4f-92639501eae3.html",
+   "key": "https://www.focus.de/wissen/400-jahre-altes-raetsel-geloest-ct-scans-entschluesseln-vierstelligen-code-eines-beruehmten-buchstaben-schlosses_cd89b3d4-6e82-4521-9b4f-92639501eae3.html",
+   "summary": "Mehr als 400 Jahre lang lag ein verschlossenes Buchstaben-Schloss auf dem Meeresgrund. Nun haben Forscher mithilfe moderner CT-Technik sein Geheimnis gelüftet.",
+   "time": "2026-11-07T11:12:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Rückkehr nach 500 Jahren: Biber sollen das Ökosystem am berühmten Loch Ness retten",
+   "link": "https://www.focus.de/wissen/rueckkehr-nach-500-jahren-biber-sollen-das-oekosystem-des-beruehmten-loch-ness-retten_d361427a-a453-4cab-adc5-b86f7b8a0231.html",
+   "key": "https://www.focus.de/wissen/rueckkehr-nach-500-jahren-biber-sollen-das-oekosystem-des-beruehmten-loch-ness-retten_d361427a-a453-4cab-adc5-b86f7b8a0231.html",
+   "summary": "Nach rund 500 Jahren kehren die Biber in die Region um Loch Ness zurück. Bis zu 15 Biberfamilien sollen das Ökosystem stärken und für die Entstehung neuer Feuchtgebiete sorgen.",
+   "time": "2026-11-07T11:08:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "title": "Eskalierende Epidemie: „Ebola ist kein medizinisches Problem. Es ist ein politisches Problem.“",
+   "link": "https://www.faz.net/aktuell/wissen/medizin-ernaehrung/ebola-wie-der-entdecker-des-virus-die-lage-im-kongo-einschaetzt-accg-201647418.html",
+   "key": "https://www.faz.net/aktuell/wissen/medizin-ernaehrung/ebola-wie-der-entdecker-des-virus-die-lage-im-kongo-einschaetzt-accg-201647418.html",
+   "summary": "Peter Piot hat das Ebola-Virus vor 50 Jahren mit seinem Kollegen Jean-Jacques Muyembe-Tamfum entdeckt. Was hält er von dem Ausbruch, der in Kongo gerade zu eskalieren scheint?",
+   "time": "2026-11-07T07:13:54+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "title": "Schlaf-Forschung: Warum Aufstehen ohne Wecker oft leichter fällt",
+   "link": "https://www.spiegel.de/wissenschaft/mensch/warum-faellt-das-aufstehen-ohne-wecker-leichter-a-7c0c0a44-9074-4913-b7d0-3180f28b7ff4#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/mensch/warum-faellt-das-aufstehen-ohne-wecker-leichter-a-7c0c0a44-9074-4913-b7d0-3180f28b7ff4",
+   "summary": "Wenn die Tage kürzer werden, haben viele Menschen noch mehr Probleme mit dem Aufstehen als sonst schon. Eine Schlafforscherin erklärt, warum der Wecker oft so nervt – und wie Sie das eigentliche Problem angehen können.",
+   "time": "2026-11-07T06:23:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Opfer von Missbrauch durch Priester: »Ist Leo jetzt unser Verbündeter?«",
+   "link": "https://www.zeit.de/2026/48/opfer-missbrauch-priester-katholische-kirche-papst-leo-reise",
+   "key": "https://www.zeit.de/2026/48/opfer-missbrauch-priester-katholische-kirche-papst-leo-reise",
+   "summary": "Diese Menschen erlebten sexuelle Gewalt durch Priester – oder kämpfen gegen Missbrauch. Eine Betroffener erklärt, warum das Thema bei der Reise des Papstes wichtig wird.",
+   "time": "2026-11-06T19:43:23+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Englische Wörter: Schon ein bisschen awkward: Wörter ohne Übersetzung",
+   "link": "https://www.zeit.de/gesellschaft/2026-11/englische-woerte-uebersetzung-deutsch-englisch-podcast",
+   "key": "https://www.zeit.de/gesellschaft/2026-11/englische-woerte-uebersetzung-deutsch-englisch-podcast",
+   "summary": "Ob dodgy oder self-conscious – bei manchen englischen Vokabeln fehlt einfach die deutsche Entsprechung. Das Spotlight-Team erzählt, welche Worte es besonders vermisst.",
+   "time": "2026-11-07T23:10:06+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Polen: Was wir über die Schüsse in Kraków wissen",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/schuesse-krakau-polen-tote-verletzte",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/schuesse-krakau-polen-tote-verletzte",
+   "summary": "In der Innenstadt von Kraków hat ein Mann sechs Menschen erschossen, unter den Verletzten ist auch eine Person aus Deutschland. Was wir bisher wissen und was nicht.",
+   "time": "2026-11-07T22:20:58+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Polen: Sechs Tote und mehrere Verletzte nach Schüssen in Kraków",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/fuenf-tote-und-mehrere-verletzte-nach-schuessen-in-krakau",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/fuenf-tote-und-mehrere-verletzte-nach-schuessen-in-krakau",
+   "summary": "Ein Mann hat in Kraków sechs Menschen erschossen. Die Polizei schoss ihn an und nahm ihn fest. Laut Regierung war er von »rechtsextremen Ideologien fasziniert«.",
+   "time": "2026-11-07T21:23:01+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Tote und Verletzte nach Schießerei auf Marktplatz in Krakau",
+   "link": "https://www.focus.de/panorama/welt/tote-und-verletzte-nach-schiesserei-auf-marktplatz-in-krakau_08ca62fe-39eb-43ae-a937-1ae92c4146d3.html",
+   "key": "https://www.focus.de/panorama/welt/tote-und-verletzte-nach-schiesserei-auf-marktplatz-in-krakau_08ca62fe-39eb-43ae-a937-1ae92c4146d3.html",
+   "summary": "Im Zentrum der polnischen Stadt Krakau (Krakow) sind Schüsse aus einem Auto abgegeben worden. Die Zahl der Todesopfer stieg am Nachmittag auf sechs. Am späten Abend wurden drei weitere Leichen im Wohnhaus des Täters gefunden.",
+   "time": "2026-11-07T21:18:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Weil Frösche nachts laut quaken, landet Streit zwischen zwei Nachbarn vor Gericht",
+   "link": "https://www.focus.de/panorama/welt/weil-froesche-nachts-laut-quaken-landet-streit-zwischen-zwei-nachbarn-vor-gericht_631f8f4e-fbeb-4653-81ca-3cc6f7428ac6.html",
+   "key": "https://www.focus.de/panorama/welt/weil-froesche-nachts-laut-quaken-landet-streit-zwischen-zwei-nachbarn-vor-gericht_631f8f4e-fbeb-4653-81ca-3cc6f7428ac6.html",
+   "summary": "Quakende Frösche störten jahrelang den Schlaf eines Nachbarn. Der Fall aus Österreich landete vor Gericht. Nun hat der Oberste Gerichtshof entschieden.",
+   "time": "2026-11-07T20:00:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Gewaltschutz von Frauen: Was ist ein Frauenleben in Deutschland wert?",
+   "link": "https://www.zeit.de/feuilleton/2026-10/gewaltschutz-politik-frauen-gewalt",
+   "key": "https://www.zeit.de/feuilleton/2026-10/gewaltschutz-politik-frauen-gewalt",
+   "summary": "Gewalt gegen Frauen wurde peinlich lange ignoriert. Nun legt Justizministerin Hubig einen starken Gesetzentwurf vor – und den sollten auch andere Politiker ernst nehmen.",
+   "time": "2026-11-07T19:46:30+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "„Ich bin gekommen, um meinen Kumpel zu unterstützen“: Pokémon-Fans campen für seltene Jubiläumsbox vor Einkaufszentrum",
+   "link": "https://www.focus.de/panorama/welt/ich-bin-gekommen-um-meinen-kumpel-zu-unterstuetzen-pokemon-fans-campen-fuer-seltene-jubilaeumsbox-vor-einkaufszentrum_10ee9d26-aae2-40fa-bbd5-bedfcd741fb8.html",
+   "key": "https://www.focus.de/panorama/welt/ich-bin-gekommen-um-meinen-kumpel-zu-unterstuetzen-pokemon-fans-campen-fuer-seltene-jubilaeumsbox-vor-einkaufszentrum_10ee9d26-aae2-40fa-bbd5-bedfcd741fb8.html",
+   "summary": "Dutzende Sammler verharren bei Eiskälte vor einer Fnac-Filiale. Mit einer eigenen Liste wollen die Fans sicherstellen, dass niemand bei der begehrten Sonderedition schummelt.",
+   "time": "2026-11-07T19:00:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "3000 Vogelspinnen: Schmuggelversuch nach Deutschland",
+   "link": "https://www.focus.de/panorama/welt/3000-vogelspinnen-schmuggelversuch-nach-deutschland_429a008b-b373-4c30-877d-99c145b89682.html",
+   "key": "https://www.focus.de/panorama/welt/3000-vogelspinnen-schmuggelversuch-nach-deutschland_429a008b-b373-4c30-877d-99c145b89682.html",
+   "summary": "Am Flughafen von Lima in Peru haben die Behörden mehr als 3000 Vogelspinnen beschlagnahmt. Zwei Deutsche und ein Pole hatten versucht, die Tiere nach Deutschland zu schmuggeln.",
+   "time": "2026-11-07T18:59:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Keira Knightley hasst Sprachnachrichten: »Jemand monologisiert auf dich ein«",
+   "link": "https://www.spiegel.de/panorama/leute/keira-knightley-hasst-sprachnachrichten-jemand-monologisiert-auf-dich-ein-a-904231c6-cfb1-4563-9bb5-826011d33fef#ref=rss",
+   "key": "https://www.spiegel.de/panorama/leute/keira-knightley-hasst-sprachnachrichten-jemand-monologisiert-auf-dich-ein-a-904231c6-cfb1-4563-9bb5-826011d33fef",
+   "summary": "»Jemand monologisiert auf dich ein«: In einem Gespräch mit Schauspielkollege Ben Whishaw offenbart Keira Knightley, wie sehr sie Sprachnachrichten verabscheut – und was sie tun würde, wenn sie von ihm eine bekäme.",
+   "time": "2026-11-07T18:23:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Norwegen: Mann dringt in Wohnung von Marius Borg Høiby ein",
+   "link": "https://www.faz.net/aktuell/gesellschaft/menschen/norwegen-mann-dringt-in-wohnung-von-marius-borg-hoiby-ein-201661840.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/menschen/norwegen-mann-dringt-in-wohnung-von-marius-borg-hoiby-ein-201661840.html",
+   "summary": "Wegen häuslicher Gewalt und Vergewaltigungen wurde der Sohn der norwegischen Königin zu vier Jahren Haft verurteilt. Nun wird Marius Borg Høiby selbst zum Opfer eines mutmaßlichen Angriffs – in seiner eigenen Wohnung.",
+   "time": "2026-11-07T18:05:27+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Russell Brand: Schauspieler soll mindestens zehn weitere Frauen angegriffen haben",
+   "link": "https://www.spiegel.de/panorama/justiz/russell-brand-schauspieler-soll-mindestens-zehn-weitere-frauen-angegriffen-haben-a-ac8fd471-9d0c-4fbd-91e2-75c0e1cdb06a#ref=rss",
+   "key": "https://www.spiegel.de/panorama/justiz/russell-brand-schauspieler-soll-mindestens-zehn-weitere-frauen-angegriffen-haben-a-ac8fd471-9d0c-4fbd-91e2-75c0e1cdb06a",
+   "summary": "Gerade ist der britische Schauspieler Russell Brand wegen Vergewaltigung schuldig gesprochen worden, da werden neue Vorwürfe laut: Laut Polizei könnten sich weitere betroffene Frauen melden.",
+   "time": "2026-11-07T18:01:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Anna (10) sammelt Geld und rettet Kalb Linora vor dem Schlachter",
+   "link": "https://www.focus.de/panorama/anna-10-sammelt-geld-und-rettet-kalb-linora-vor-dem-schlachter_404f4434-ecc9-46f8-9822-2a9affdf53e2.html",
+   "key": "https://www.focus.de/panorama/anna-10-sammelt-geld-und-rettet-kalb-linora-vor-dem-schlachter_404f4434-ecc9-46f8-9822-2a9affdf53e2.html",
+   "summary": "Das acht Monate alte Kalb sollte eigentlich bis Dezember 2026 geschlachtet werden. Doch für die zehnjährige Anna kam das nicht in Frage.",
+   "time": "2026-11-07T18:00:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Hamburg Hauptbahnhof: Bundespolizei im Einsatz an kriminalitätsbelastetem Ort - SPIEGEL TV",
+   "link": "https://www.spiegel.de/panorama/justiz/hamburg-hauptbahnhof-bundespolizei-im-einsatz-an-kriminalitaetsbelastetem-ort-spiegel-tv-a-70d908f5-b967-445e-a358-e2fb82e79e15#ref=rss",
+   "key": "https://www.spiegel.de/panorama/justiz/hamburg-hauptbahnhof-bundespolizei-im-einsatz-an-kriminalitaetsbelastetem-ort-spiegel-tv-a-70d908f5-b967-445e-a358-e2fb82e79e15",
+   "summary": "Am Hamburger Hauptbahnhof hat die Bundespolizei mehr zu tun als anderswo. Im Behördendeutsch gilt das Areal als »kriminalitätsbelasteter Ort«. Was heißt das für Reisende, die auf Diebe und Gewalttäter treffen?",
+   "time": "2026-11-07T17:37:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "13 Jahre altes Mädchen: Polizei in Berlin sucht weiter nach vermisster Schülerin",
+   "link": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/berlin-polizei-sucht-weiter-nach-vermisster-schuelerin-accg-201661416.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/berlin-polizei-sucht-weiter-nach-vermisster-schuelerin-accg-201661416.html",
+   "summary": "Seit Dienstagmorgen wird eine 13 Jahre alte Schülerin aus Berlin-Marzahn vermisst. Sie wollte zur Schule, kam dort aber nicht an. Die Polizei ermittelt inzwischen wegen des Verdachts eines Kapitalverbrechens.",
+   "time": "2026-11-07T17:06:48+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Berlin-Marzahn: Polizei sucht vermisste 13-Jährige, sieht Anhaltspunkte für Verbrechen",
+   "link": "https://www.spiegel.de/panorama/justiz/berlin-marzahn-polizei-sucht-vermisste-13-jaehrige-sieht-anhaltspunkte-fuer-verbrechen-a-272024b7-ec2e-4830-b7f3-4553b6a1d347#ref=rss",
+   "key": "https://www.spiegel.de/panorama/justiz/berlin-marzahn-polizei-sucht-vermisste-13-jaehrige-sieht-anhaltspunkte-fuer-verbrechen-a-272024b7-ec2e-4830-b7f3-4553b6a1d347",
+   "summary": "In Berlin wird seit Tagen eine 13-jährige Schülerin vermisst. Zahlreiche Polizisten suchen nach dem Mädchen, teils mit Hubschraubern und Spürhunden.",
+   "time": "2026-11-07T16:49:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "USA: Festnahme am Weißen Haus – Verdächtiger hörte Stimmen, die ihn aufforderten, Donald Trump zu töten",
+   "link": "https://www.spiegel.de/panorama/justiz/usa-festnahme-am-weissen-haus-verdaechtiger-hoerte-stimmen-die-ihn-aufforderten-donald-trump-zu-toeten-a-459dc802-69c7-4f1d-9675-cc26c7d10ff1#ref=rss",
+   "key": "https://www.spiegel.de/panorama/justiz/usa-festnahme-am-weissen-haus-verdaechtiger-hoerte-stimmen-die-ihn-aufforderten-donald-trump-zu-toeten-a-459dc802-69c7-4f1d-9675-cc26c7d10ff1",
+   "summary": "Sicherheitskräfte haben in der Nähe des Weißen Hauses einen Mann festgenommen, der es auf Donald Trump abgesehen haben soll: Der Verdächtige hörte Stimmen, die ihn aufforderten, den US-Präsidenten zu töten, hieß es.",
+   "time": "2026-11-07T15:52:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Vergewaltigungsvorwürfe: Misstrauensvotum macht Druck auf Leitung der US-Eliteuni Cornell",
+   "link": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/cornell-universitaet-misstrauensvotum-erhoeht-druck-auf-leitung-accg-201661519.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/cornell-universitaet-misstrauensvotum-erhoeht-druck-auf-leitung-accg-201661519.html",
+   "summary": "Eine Studentin der US-Elite-Universität Cornell soll 2024 von mehreren Männern vergewaltigt worden sein. Der Fakultätssenat kritisiert den Umgang der Leitung mit dem Fall – und ein Votum erhöht den Druck.",
+   "time": "2026-11-07T14:59:10+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "US-Demokrat: Iowas neuer Gouverneur Rob Sand stand früher für Prada auf dem Laufsteg",
+   "link": "https://www.faz.net/aktuell/gesellschaft/menschen/iowa-gouverneur-rob-sand-war-frueher-model-fuer-prada-accg-201661193.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/menschen/iowa-gouverneur-rob-sand-war-frueher-model-fuer-prada-accg-201661193.html",
+   "summary": "Rob Sand, designierter Gouverneur von Iowa, trug im Wahlkampf schlichte Outfits. Früher schlüpfte er in teure Mäntel – und präsentierte sie bei Modeschauen.",
+   "time": "2026-11-07T12:21:47+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Krawalle in Frankfurt: „Kriminalität hat keine Herkunft“",
+   "link": "https://www.faz.net/aktuell/gesellschaft/menschen/zeugen-der-halloween-krawalle-in-frankfurt-jugendliche-berichten-von-der-eskalation-accg-201654411.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/menschen/zeugen-der-halloween-krawalle-in-frankfurt-jugendliche-berichten-von-der-eskalation-accg-201654411.html",
+   "summary": "Nach den Halloween-Plünderungen wird darüber debattiert, wer deutsch ist und wer nicht. Hier berichten Jugendliche aus Zuwandererfamilien, wie es ihnen damit geht. Zwei von ihnen waren Zeugen der Krawalle.",
+   "time": "2026-11-07T11:40:54+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Anklage: Vater von Herzogin Meghan in den USA festgenommen",
+   "link": "https://www.sueddeutsche.de/panorama/thomas-markle-vater-herzogin-meghan-festnahme-kinderpornografie-usa-england-li.3575628",
+   "key": "https://www.sueddeutsche.de/panorama/thomas-markle-vater-herzogin-meghan-festnahme-kinderpornografie-usa-england-li.3575628",
+   "summary": "Thomas Markle wurde wegen des mutmaßlichen Besitzes kinderpornografischen Materials angeklagt. Der 82-Jährige bestreitet die Vorwürfe.",
+   "time": "2026-11-06T23:27:58+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  }
+ ],
+ "status": [
+  {
+   "paper": "faz",
+   "topic": "top",
+   "url": "https://www.faz.net/rss/aktuell/",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "url": "https://www.faz.net/rss/aktuell/politik/inland/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "url": "https://www.faz.net/rss/aktuell/politik/ausland/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "url": "https://www.faz.net/rss/aktuell/wirtschaft/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "url": "https://www.faz.net/rss/aktuell/feuilleton/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "url": "https://www.faz.net/rss/aktuell/wissen/",
+   "ok": true,
+   "info": "2 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "url": "https://www.faz.net/rss/aktuell/gesellschaft/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "url": "https://rss.sueddeutsche.de/rss/Topthemen",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "url": "https://rss.sueddeutsche.de/rss/Politik",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "url": "https://rss.sueddeutsche.de/rss/Wirtschaft",
+   "ok": true,
+   "info": "1 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "url": "https://rss.sueddeutsche.de/rss/Kultur",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "url": "https://rss.sueddeutsche.de/rss/Wissen",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "url": "https://rss.sueddeutsche.de/rss/Bildung",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "url": "https://rss.sueddeutsche.de/rss/Panorama",
+   "ok": true,
+   "info": "1 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "url": "https://newsfeed.zeit.de/index",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "url": "https://newsfeed.zeit.de/politik/deutschland/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "url": "https://newsfeed.zeit.de/politik/ausland/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "url": "https://newsfeed.zeit.de/wirtschaft/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "url": "https://newsfeed.zeit.de/entdecken/index",
+   "ok": true,
+   "info": "4 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "url": "https://newsfeed.zeit.de/gesundheit/index",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "url": "https://newsfeed.zeit.de/arbeit/index",
+   "ok": true,
+   "info": "1 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "url": "https://newsfeed.zeit.de/gesellschaft/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "url": "https://www.spiegel.de/schlagzeilen/tops/index.rss",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "url": "https://www.spiegel.de/politik/deutschland/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "url": "https://www.spiegel.de/ausland/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "url": "https://www.spiegel.de/wirtschaft/index.rss",
+   "ok": true,
+   "info": "4 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "url": "https://www.spiegel.de/kultur/index.rss",
+   "ok": true,
+   "info": "3 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "url": "https://www.spiegel.de/wissenschaft/index.rss",
+   "ok": true,
+   "info": "2 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "url": "https://www.spiegel.de/panorama/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "url": "https://rss.focus.de/",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "url": "https://rss.focus.de/politik/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "url": "https://rss.focus.de/finanzen/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "url": "https://rss.focus.de/kultur/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "url": "https://rss.focus.de/wissen/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "url": "https://rss.focus.de/panorama/",
+   "ok": true,
+   "info": "6 Artikel"
+  }
+ ]
+}

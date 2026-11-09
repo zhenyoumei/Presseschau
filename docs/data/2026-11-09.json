@@ -1,0 +1,1783 @@
+{
+ "generated": "2026-11-09T09:45:44.750751+08:00",
+ "translated": true,
+ "translation_errors": [],
+ "items": [
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Nordkorea: Die kriminelle Cybermacht",
+   "link": "https://www.faz.net/aktuell/politik/ausland/die-kriminelle-cybermacht-201654269.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/die-kriminelle-cybermacht-201654269.html",
+   "summary": "Deutschland und die EU müssen sich stärker an der Kooperation der USA mit Japan und Südkorea beteiligen. Und sie sollten in eigene Abwehr und Blockchain-Analyse investieren.",
+   "time": "2026-11-08T20:13:58+00:00",
+   "title_zh": "北韓：犯罪網絡力量",
+   "summary_zh": "德國和歐盟必須更多地參與美國與日本和韓國的合作。他們應該投資自己的防禦和區塊鏈分析。"
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Deutschland Liveblog: Friedrich Merz schlägt Ilse Aigner als Bundespräsidentin vor",
+   "link": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-friedrich-merz-schlaegt-ilse-aigner-als-bundespraesidentin-vor-faz-110093143.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-friedrich-merz-schlaegt-ilse-aigner-als-bundespraesidentin-vor-faz-110093143.html",
+   "summary": "Aigner soll am Montag für Steinmeier-Nachfolge vorschlagen werden +++ Emde weigert sich, auf ihr Mandat zu verzichten +++ BSW-Spitze kritisiert Nominierung von Constantin Schreiber durch Landesverband +++ alle Entwicklungen im Liveblog",
+   "time": "2026-11-08T19:38:01+00:00",
+   "title_zh": "德國直播部落格：弗里德里希·梅爾茨提名伊爾莎·艾格納擔任聯邦總統",
+   "summary_zh": "艾格納將於週一被提名為施泰因邁爾的繼任者 +++ Emde 拒絕放棄她的授權 +++ BSW 領導層批評地區協會提名康斯坦丁·施賴伯 +++ 實時博客中的所有進展"
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Staatsoberhaupt: Das Warten und die Würde des Amtes",
+   "link": "https://www.faz.net/aktuell/politik/inland/ilse-aigner-wird-bundespraesidentin-merz-langer-weg-zur-entscheidung-201658143.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/ilse-aigner-wird-bundespraesidentin-merz-langer-weg-zur-entscheidung-201658143.html",
+   "summary": "Nun hat Friedrich Merz dem engsten Führungszirkel seiner Partei gesagt, dass Ilse Aigner Bundespräsidentin werden soll. Warum hat das so lange gedauert?",
+   "time": "2026-11-08T19:29:59+00:00",
+   "title_zh": "國家元首：辦公室的等待與尊嚴",
+   "summary_zh": "現在，弗里德里希·梅爾茨（Friedrich Merz）告訴黨內最核心的領導層，伊爾莎·艾格納（Ilse Aigner）應該成為聯邦總統。為什麼花了這麼長時間？"
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Abgeordnete Emde: Die Linkspartei kommt um eine eigene Entscheidung nicht herum",
+   "link": "https://www.faz.net/aktuell/politik/inland/vanessa-emde-und-die-zerreissprobe-fuer-die-berliner-linkspartei-201662974.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/vanessa-emde-und-die-zerreissprobe-fuer-die-berliner-linkspartei-201662974.html",
+   "summary": "Die Abgeordnete Emde will ihr Mandat nicht niederlegen. Die Linkspartei muss sich daher entscheiden: Will sie in Berlin regieren oder nicht?",
+   "time": "2026-11-08T19:45:12+00:00",
+   "title_zh": "MP Emde：左翼黨無法避免做出自己的決定",
+   "summary_zh": "埃姆德議員不想辭去她的職務。因此，左翼黨必須做出決定：是否願意在柏林執政？"
+  },
+  {
+   "paper": "faz",
+   "topic": "top",
+   "title": "Welche Branchen wachsen: Aufschwung – echt jetzt?",
+   "link": "https://www.faz.net/aktuell/wirtschaft/unternehmen/deutscher-wirtschaftsaufschwung-wo-er-ankommt-und-wo-nicht-201626495.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/unternehmen/deutscher-wirtschaftsaufschwung-wo-er-ankommt-und-wo-nicht-201626495.html",
+   "summary": "Die deutsche Wirtschaft wächst endlich wieder. Aber ist der Aufschwung auch breit und nachhaltig? Ein Blick auf die wichtigsten Branchen zeigt, wo neue Aufträge ankommen und wo der Druck noch hoch ist.",
+   "time": "2026-11-08T19:44:37+00:00",
+   "title_zh": "哪些產業正在成長：正在上升——真的是現在嗎？",
+   "summary_zh": "德國經濟終於再次成長。但經濟復甦是否廣泛且可持續？看看最重要的行業，你會發現哪裡有新訂單到達，哪裡壓力仍然很大。"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Steinmeier-Nachfolge: Merz schlägt Aigner als Bundespräsidentin vor",
+   "link": "https://www.sueddeutsche.de/politik/bundespraesidentin-ilse-aigner-friedrich-merz-cdu-csu-praesidium-li.3576988",
+   "key": "https://www.sueddeutsche.de/politik/bundespraesidentin-ilse-aigner-friedrich-merz-cdu-csu-praesidium-li.3576988",
+   "summary": "Bei einem Abendessen mit dem CDU-Präsidium empfiehlt der Kanzler die bayerische Landtagspräsidentin. An diesem Montag soll es bereits einen gemeinsamen Auftritt der beiden geben.",
+   "time": "2026-11-08T19:21:11+00:00",
+   "title_zh": "施泰因邁爾繼任者：默茲提名艾格納為聯邦總統",
+   "summary_zh": "在與基民盟執行委員會舉行的晚宴上，總理推薦了巴伐利亞州議會主席。兩人定於本週一一起演出。"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Newsblog zu Nahost: Eisenkot: Israel „an extrem gefährlichem Punkt“",
+   "link": "https://www.sueddeutsche.de/politik/liveblog-nahost-israel-eisenkot-regierungsbildung-notstand-li.3571386",
+   "key": "https://www.sueddeutsche.de/politik/liveblog-nahost-israel-eisenkot-regierungsbildung-notstand-li.3571386",
+   "summary": "Israel befinde sich im Notstand, sagt Eisenkot – und verspricht eine neue Führung, die das Land aus einer tiefen Krise herausführen solle. Zuvor hatte Präsident Herzog ihn mit der Bildung einer neuen Regierung beauftragt.",
+   "time": "2026-11-08T17:55:39+00:00",
+   "title_zh": "中東新聞部落格：艾森科特：以色列“處於極度危險的時刻”",
+   "summary_zh": "艾森科特表示，以色列正處於緊急狀態，並承諾新的領導層將帶領該國走出深度危機。赫爾佐格總統先前曾委託他組成新政府。"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "USA: Kampfsport-Chef als White-House-Sprecher? Trump trifft Dana White",
+   "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-trump-white-house-sprecher-dana-white-li.3573278",
+   "key": "https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-trump-white-house-sprecher-dana-white-li.3573278",
+   "summary": "Trumps Angebot, den Kampfsport-Unternehmer White zum neuen Pressesprecher zu machen, sorgt für Rätselraten. Am Montag treffen sich die beiden in Washington. Die US-Regierung gibt im Streit mit Kalifornien auf.",
+   "time": "2026-11-08T16:40:00+00:00",
+   "title_zh": "美國：武術界老大當白宮發言人？川普會見達納懷特",
+   "summary_zh": "川普邀請武術企業家懷特擔任新任新聞秘書的提議引起了很多猜測。兩人將於週一在華盛頓會面。美國政府在與加州的爭端中放棄了。"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Newsblog zur Bundespolitik: Palästinensische Fahne vor Reichstag gehisst – Klöckner fordert mehr Schutz",
+   "link": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-bundestag-fahne-palaestina-li.3568524",
+   "key": "https://www.sueddeutsche.de/politik/bundesregierung-deutschland-newsblog-bundestag-fahne-palaestina-li.3568524",
+   "summary": "Ein 22-Jähriger tauscht die deutsche Flagge gegen eine palästinensische Fahne aus. Bundestagspräsidentin Klöckner fordert als Reaktion mehr Schutz für den Bundestag. Aus dem Sondervermögen wurde bislang kaum Geld für Schulen und Kitas abgerufen.",
+   "time": "2026-11-08T16:04:00+00:00",
+   "title_zh": "關於聯邦政治的新聞部落格：德國國會大廈前懸掛巴勒斯坦國旗－克洛克納呼籲提供更多保護",
+   "summary_zh": "一名 22 歲的年輕人將德國國旗換成了巴勒斯坦國旗。作為回應，聯邦議院議長克羅克納呼籲為聯邦議院提供更多保護。到目前為止，幾乎沒有從學校和托兒所專款中提取任何資金。"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Marbacher Schillerrede 2026: Sind nur die Gedanken frei oder der ganze Mensch?",
+   "link": "https://www.sueddeutsche.de/kultur/helga-schubert-schillerrede-marbach-friedrich-schiller-friedliche-revolution-klassik-li.3574980",
+   "key": "https://www.sueddeutsche.de/kultur/helga-schubert-schillerrede-marbach-friedrich-schiller-friedliche-revolution-klassik-li.3574980",
+   "summary": "Die Sätze von deutschen Klassikern wie Friedrich Schiller dienen heute dem Merchandising von Museumsshops und die KI trainiert damit ihre Agenten. Was wäre, wenn man ihn noch einmal wirklich liest? Eine Ermutigung.",
+   "time": "2026-11-08T15:01:15+00:00",
+   "title_zh": "馬爾巴赫席勒演講 2026：只有思想是自由的，還是整個人是自由的？",
+   "summary_zh": "弗里德里希·席勒等德國經典著作中的句子現在被用於博物館商店的商品推銷，人工智慧用它們來訓練其代理人。如果你真的再讀一次怎麼辦？一種鼓勵。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Raumfahrt: Nasa sucht neue Astronauten und Astronautinnen",
+   "link": "https://www.zeit.de/news/2026-11/09/nasa-sucht-neue-astronauten-und-astronautinnen",
+   "key": "https://www.zeit.de/news/2026-11/09/nasa-sucht-neue-astronauten-und-astronautinnen",
+   "summary": "",
+   "time": "2026-11-09T01:13:51+00:00",
+   "title_zh": "太空旅行：美國太空總署正在尋找新的太空人",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Gewaltverbrechen: Spurensuche in Brandenburg: Vermisste Schülerin tot gefunden",
+   "link": "https://www.zeit.de/news/2026-11/09/spurensuche-in-brandenburg-vermisste-schuelerin-tot-gefunden",
+   "key": "https://www.zeit.de/news/2026-11/09/spurensuche-in-brandenburg-vermisste-schuelerin-tot-gefunden",
+   "summary": "",
+   "time": "2026-11-09T00:32:44+00:00",
+   "title_zh": "暴力犯罪：勃蘭登堡尋找線索：失蹤學生被發現死亡",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Papst in Südamerika: Papst ruft vor Milei zu mehr sozialer Verantwortung auf",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/papst-leo-xiv-argentinien-besuch-buenos-aires-armut-katholische-kirche",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/papst-leo-xiv-argentinien-besuch-buenos-aires-armut-katholische-kirche",
+   "summary": "Papst Leo hat im Beisein von Argentiniens ultraliberalem Präsidenten Javier Milei über Rücksicht auf Schwache gesprochen. Wirtschaft müsse den Menschen dienen, sagte er.",
+   "time": "2026-11-09T00:26:22+00:00",
+   "title_zh": "教宗訪問南美洲：教宗呼籲米萊承擔更多社會責任",
+   "summary_zh": "教宗良在阿根廷極端自由主義總統哈維爾·米萊面前談到了對弱者的關心。他說，企業必須為人民服務。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "37 Jahre Mauerfall: SED-Opferbeauftragte fordert leichteren Zugang zu Stasiunterlagen",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/evelyn-zupke-sed-opferbeauftragte-stasi-unterlagen-ddr",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/evelyn-zupke-sed-opferbeauftragte-stasi-unterlagen-ddr",
+   "summary": "Zum 37. Jahrestag des Mauerfalls würdigt Evelyn Zupke den Härtefallfonds des Bundes. Die Stasiakten seien ein Schlüssel, um politisches Unrecht nachzuweisen.",
+   "time": "2026-11-09T00:24:17+00:00",
+   "title_zh": "柏林圍牆倒塌 37 週年：SED 受害者代表呼籲更方便地取得史塔西文件",
+   "summary_zh": "在柏林圍牆倒塌 37 週年之際，伊芙琳祖普克 (Evelyn Zupke) 向聯邦困難基金致敬。史塔西檔案是證明政治不公義的關鍵。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "«Koalition der Willigen»: Was es mit dem Manöver der Ukraine-Koalition auf sich hat",
+   "link": "https://www.zeit.de/news/2026-11/09/was-es-mit-dem-manoever-der-ukraine-koalition-auf-sich-hat",
+   "key": "https://www.zeit.de/news/2026-11/09/was-es-mit-dem-manoever-der-ukraine-koalition-auf-sich-hat",
+   "summary": "",
+   "time": "2026-11-09T00:11:57+00:00",
+   "title_zh": "「自願聯盟」：烏克蘭聯盟的策略是什麼",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Nvidia-Chef Jensen Huang entschuldigt sich für Affäre mit mutmaßlicher Spionin",
+   "link": "https://www.spiegel.de/ausland/nvidia-chef-jensen-huang-entschuldigt-sich-fuer-affaere-mit-mutmasslicher-spionin-a-66db6061-9340-44ba-9c9d-75726df75e3b#ref=rss",
+   "key": "https://www.spiegel.de/ausland/nvidia-chef-jensen-huang-entschuldigt-sich-fuer-affaere-mit-mutmasslicher-spionin-a-66db6061-9340-44ba-9c9d-75726df75e3b",
+   "summary": "»Ich war meiner Frau untreu«: Nvidia-Chef Huang hat einen Seitensprung zugegeben, der Konzern leitet eine Untersuchung ein. Seine Geliebte arbeitete offenbar für Chinas Geheimdienst. US-Außenminister Rubio soll vor ihr gewarnt haben.",
+   "time": "2026-11-08T20:50:00+00:00",
+   "title_zh": "英偉達老闆黃仁勳為與涉嫌間諜的戀情道歉",
+   "summary_zh": "「我對妻子不忠誠」：英偉達老闆黃承認外遇，公司正在展開調查他的情人顯然為中國特工部門工作。據稱美國國務卿盧比歐已對此發出警告。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Ilse Aigner: Im CDU-Präsidium dürfte Friedrich Merz ihre Nominierung als Bundespräsidentin verkünden",
+   "link": "https://www.spiegel.de/politik/deutschland/ilse-aigner-im-cdu-praesidium-duerfte-kanzler-friedrich-merz-ihre-nominierung-als-bundespraesidentin-verkuenden-a-16d83dfb-440a-4514-a5d5-c14d660df44d#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/ilse-aigner-im-cdu-praesidium-duerfte-kanzler-friedrich-merz-ihre-nominierung-als-bundespraesidentin-verkuenden-a-16d83dfb-440a-4514-a5d5-c14d660df44d",
+   "summary": "Ilse Aigner soll Bundespräsidentin werden, die Nominierung trifft in der CDU auf viel Zuspruch. Doch das Verfahren irritiert manchen. Nun werden Details bekannt, inklusive Wanderungen und gemeinsamen Freunden mit dem Kanzler.",
+   "time": "2026-11-08T18:21:00+00:00",
+   "title_zh": "伊爾莎·艾格納（Ilse Aigner）：弗里德里希·梅爾茨（Friedrich Merz）可能會在基民盟主席團中宣布提名她為聯邦總統",
+   "summary_zh": "伊爾莎·艾格納 (Ilse Aigner) 即將成為聯邦總統，這一提名在基民盟 (CDU) 中受到好評。但這個過程激怒了一些人。現在細節逐漸為人所知，包括徒步旅行以及與財政大臣的共同朋友。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Niedersachsen: Ministerin entsetzt über »Gewaltfantasien« von CDU-Chef Sebastian Lechner",
+   "link": "https://www.spiegel.de/politik/deutschland/niedersachsen-ministerin-entsetzt-ueber-gewaltfantasien-von-cdu-chef-sebastian-lechner-a-daf3441b-4def-4edf-97e6-1fa235ebaad0#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/niedersachsen-ministerin-entsetzt-ueber-gewaltfantasien-von-cdu-chef-sebastian-lechner-a-daf3441b-4def-4edf-97e6-1fa235ebaad0",
+   "summary": "Der niedersächsische CDU-Chef Lechner hat in einer Rede mehr Härte gegen kriminelle Clans gefordert – und martialische Worte gewählt. Ministerin Hamburg von den Grünen sieht darin eine verbale Entgleisung.",
+   "time": "2026-11-08T22:03:00+00:00",
+   "title_zh": "下薩克森州：部長對基民盟領導人塞巴斯蒂安·萊赫納的「暴力幻想」感到震驚。",
+   "summary_zh": "下薩克森基民盟領導人萊希納在演講中呼籲對犯罪集團採取更強硬的態度，並選擇了軍事措辭。綠黨漢堡部長認為這是口頭出軌。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Brandenburg/Berlin: Leiche der vermissten Lisa gefunden – Verdächtiger festgenommen",
+   "link": "https://www.spiegel.de/panorama/justiz/brandenburg-berlin-leiche-der-vermissten-lisa-gefunden-verdaechtiger-festgenommen-a-53fa9df4-9f57-4574-a824-eb48e6099e79#ref=rss",
+   "key": "https://www.spiegel.de/panorama/justiz/brandenburg-berlin-leiche-der-vermissten-lisa-gefunden-verdaechtiger-festgenommen-a-53fa9df4-9f57-4574-a824-eb48e6099e79",
+   "summary": "Seit Tagen wurde in Berlin eine Schülerin vermisst. Nun ist in Brandenburg eine Leiche gefunden worden. Die Polizei hat einen schwer verletzten Verdächtigen festgenommen.",
+   "time": "2026-11-08T17:04:00+00:00",
+   "title_zh": "勃蘭登堡/柏林：失蹤麗莎的屍體被發現－嫌疑犯被逮捕",
+   "summary_zh": "一名學生在柏林失蹤多日。現在在勃蘭登堡發現了一具屍體。警方逮捕了一名重傷嫌疑犯。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Krakau: Polizisten stellen Attentäter und werden als Helden gefeiert",
+   "link": "https://www.spiegel.de/ausland/krakau-polizisten-stellen-attentaeter-und-werden-als-helden-gefeiert-a-29b793cf-5296-4c5d-8d05-7253e6f63652#ref=rss",
+   "key": "https://www.spiegel.de/ausland/krakau-polizisten-stellen-attentaeter-und-werden-als-helden-gefeiert-a-29b793cf-5296-4c5d-8d05-7253e6f63652",
+   "summary": "Mit Pistolen gegen eine halbautomatische Langwaffe: Zwei Polizeibeamte haben den Attentäter von Krakau gestellt. Bei dem Einsatz wurden beide schwer verletzt. Nun sind sie offenbar aus dem künstlichen Koma erwacht.",
+   "time": "2026-11-08T16:45:00+00:00",
+   "title_zh": "克拉科夫：警察抓獲刺客並被譽為英雄",
+   "summary_zh": "用手槍對著半自動長槍：兩名警察抓住了克拉科夫炸彈客。兩人在手術過程中均受重傷。現在他們顯然已經從人工昏迷中醒來了。"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Neue Gasheizung: Die Kosten kennt nicht einmal der Staat",
+   "link": "https://www.focus.de/finanzen/neue-gasheizung-die-kosten-kennt-nicht-einmal-der-staat_c8552445-1be4-4e57-a149-0dc0ec6e4377.html",
+   "key": "https://www.focus.de/finanzen/neue-gasheizung-die-kosten-kennt-nicht-einmal-der-staat_c8552445-1be4-4e57-a149-0dc0ec6e4377.html",
+   "summary": "Wer jetzt eine neue Gas- oder Ölheizung einbauen lässt, unterschreibt einen Vertrag mit einer unbekannten Zahl. Ziemlich dämlich würde ich sagen.",
+   "time": "2026-11-08T22:34:00+00:00",
+   "title_zh": "新燃气供暖：连国家都不知道成本",
+   "summary_zh": "任何安裝了新的燃氣或燃油加熱系統的人現在都會簽署一份號碼未知的合約。我會說非常愚蠢。"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "In Schottland erweckt eine riesige Fabrik ausrangierte Computer zum Leben",
+   "link": "https://www.focus.de/earth/circular/in-schottland-erweckt-eine-riesige-fabrik-ausrangierte-computer-zum-leben_dd27c6e6-f1e2-4034-bf4e-c4a08f15e7ca.html",
+   "key": "https://www.focus.de/earth/circular/in-schottland-erweckt-eine-riesige-fabrik-ausrangierte-computer-zum-leben_dd27c6e6-f1e2-4034-bf4e-c4a08f15e7ca.html",
+   "summary": "Der KI-Boom treibt den Bedarf an neuer IT-Hardware in die Höhe. Doch müssen Unternehmen wirklich ständig neue Server kaufen? Im schottischen Erskine bereitet der Konzern HPE ausrangierte Geräte für ein zweites Leben auf.",
+   "time": "2026-11-08T22:33:00+00:00",
+   "title_zh": "在蘇格蘭，一家大型工廠正在使廢棄的電腦起死回生",
+   "summary_zh": "人工智慧的繁榮正在推動對新 IT 硬體的需求。但公司真的需要不斷購買新伺服器嗎？在蘇格蘭厄斯金，HPE 集團回收廢棄設備，使其獲得第二次生命。"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Methan-Lecks: Warum Nichtstun Europa Milliarden kostet",
+   "link": "https://www.focus.de/earth/klimapolitik/methan-lecks-warum-nichtstun-europa-milliarden-kostet_933aebd5-b97c-4074-8ede-028c030cdc21.html",
+   "key": "https://www.focus.de/earth/klimapolitik/methan-lecks-warum-nichtstun-europa-milliarden-kostet_933aebd5-b97c-4074-8ede-028c030cdc21.html",
+   "summary": "Die EU will Methanemissionen reduzieren. Doch ausgerechnet in Zeiten hoher Energiepreise sollen wichtige Vorgaben verschoben und abgeschwächt werden – angeblich, um Verbraucher und Unternehmen zu entlasten.",
+   "time": "2026-11-08T22:33:00+00:00",
+   "title_zh": "甲烷外洩：為何無所作為卻讓歐洲損失數十億美元",
+   "summary_zh": "歐盟希望減少甲烷排放。但在能源價格高漲的時期，重要的要求將被推遲和削弱——據稱是為了減輕消費者和公司的負擔。"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Über 2600 Euro im Monat: Pietro Lombardi überrascht mit Rentenerwartung",
+   "link": "https://www.focus.de/kultur/stars/ueber-2600-euro-im-monat-pietro-lombardi-ueberrascht-mit-rentenerwartung_62283e3d-4099-4b71-ad3f-e815898e30a4.html",
+   "key": "https://www.focus.de/kultur/stars/ueber-2600-euro-im-monat-pietro-lombardi-ueberrascht-mit-rentenerwartung_62283e3d-4099-4b71-ad3f-e815898e30a4.html",
+   "summary": "Sänger Pietro Lombardi rechnet im Alter mit überraschend hohen Bezügen aus der Rentenkasse. Das hat der „Deutschland sucht den Superstar“-Gewinner im Podcast mit Oliver Pocher verraten.",
+   "time": "2026-11-08T22:33:00+00:00",
+   "title_zh": "每月超過 2,600 歐元：Pietro Lombardi 的退休金預期令人驚訝",
+   "summary_zh": "歌手 Pietro Lombardi 預計老年退休金福利高得驚人。這位“德國超級明星”獲勝者在奧利弗·波徹的播客中透露了這一點。"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Motiv, Hergang, Identität: Die offenen Fragen im Fall Lisa",
+   "link": "https://www.focus.de/panorama/welt/motiv-hergang-identitaet-die-offenen-fragen-im-fall-lisa_ce701a70-8743-4bdf-a234-0c197f6b5834.html",
+   "key": "https://www.focus.de/panorama/welt/motiv-hergang-identitaet-die-offenen-fragen-im-fall-lisa_ce701a70-8743-4bdf-a234-0c197f6b5834.html",
+   "summary": "Lisa T. wollte am Dienstagmorgen zur Schule fahren, kam dort aber nie an. Jetzt wurde ihre Leiche gefunden. Es gibt einen Verdächtigen, doch einige Fragen sind noch offen.",
+   "time": "2026-11-08T22:32:00+00:00",
+   "title_zh": "動機、事件過程、身分：麗莎案中的懸而未決的問題",
+   "summary_zh": "麗莎T. 週二早上想去學校，但沒能去。現在她的屍體已經被發現。有嫌疑人，但有些問題仍未解答。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Bundeshaushalt: Thorsten Frei lehnt Einführung der geplanten Plastiksteuer ab",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/plastiksteuer-cdu-spd-thorsten-frei-matthias-miersch-streit",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/plastiksteuer-cdu-spd-thorsten-frei-matthias-miersch-streit",
+   "summary": "CDU-Politiker Frei erteilt der Plastiksteuer eine Absage, Matthias Miersch von der SPD verweist auf Gespräche. Im Haushalt könnte ohne die Steuer ein Loch entstehen.",
+   "time": "2026-11-08T23:13:53+00:00",
+   "title_zh": "聯邦預算：托爾斯滕·弗雷拒絕引入計劃中的塑膠稅",
+   "summary_zh": "基民盟政治家弗雷拒絕徵收塑膠稅，社會民主黨的馬蒂亞斯·米爾施則提到了討論。如果沒有稅收，預算可能會出現漏洞。"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Der unglaubliche Fall des Nvidia-Chefs und der China-Spionin",
+   "link": "https://www.focus.de/politik/ausland/der-unglaubliche-fall-des-nvidia-chefs-und-der-china-spionin_9c963c57-07c0-4280-9fab-62a772ec7c1f.html",
+   "key": "https://www.focus.de/politik/ausland/der-unglaubliche-fall-des-nvidia-chefs-und-der-china-spionin_9c963c57-07c0-4280-9fab-62a772ec7c1f.html",
+   "summary": "Nvidia-Chef Jensen Huang soll eine Affäre mit einer Frau gehabt haben, die in Verbindung zum chinesischen Geheimdienst stehen soll. Huang ist ein enger Verbündeter Trumps. In der Regierung ist der Fall schon länger bekannt.",
+   "time": "2026-11-08T22:31:00+00:00",
+   "title_zh": "英偉達老闆與中國間諜的匪夷所思的案件",
+   "summary_zh": "據說英偉達老闆黃仁勳與一名據稱與中國情報部門有聯繫的女性有染。黃是川普的親密盟友。政府很早就知道此案。"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Fraktionschefs fordern von Merz Stromsteuersenkung für alle",
+   "link": "https://www.focus.de/politik/fraktionschefs-fordern-von-merz-stromsteuersenkung-fuer-alle_8d4bb834-4f97-43e0-891e-9ee2d7934b27.html",
+   "key": "https://www.focus.de/politik/fraktionschefs-fordern-von-merz-stromsteuersenkung-fuer-alle_8d4bb834-4f97-43e0-891e-9ee2d7934b27.html",
+   "summary": "Nach einem Treffen mit dem Bundeskanzler fordern die Unions-Fraktionsvorsitzenden der Länder deutliche Entlastungen. Die Stromsteuer und Sozialsysteme stehen dabei besonders im Fokus.",
+   "time": "2026-11-08T21:25:00+00:00",
+   "title_zh": "議會團體領導人要求梅爾茨削減所有人的電費",
+   "summary_zh": "在與聯邦總理會面後，各州聯邦議會小組領袖呼籲大幅救濟。電力稅和社會制度是特別關注的焦點。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Ilse Aigner: Merz will Aigner als Bundespräsidentin vorschlagen",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/ilse-aigner-bundespraesidentin-kandidatin-friedrich-merz-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/ilse-aigner-bundespraesidentin-kandidatin-friedrich-merz-gxe",
+   "summary": "Jetzt ist es offiziell: Bundeskanzler Friedrich Merz will Ilse Aigner für das Amt der Bundespräsidentin nominieren. Sie soll die erste Frau an der Staatsspitze werden.",
+   "time": "2026-11-08T19:50:50+00:00",
+   "title_zh": "伊爾莎·艾格納：梅爾茨希望提名艾格納為聯邦總統",
+   "summary_zh": "現在官方消息是：德國總理弗里德里希·梅爾茨 (Friedrich Merz) 希望提名伊爾莎·艾格納 (Ilse Aigner) 擔任聯邦總統。她將成為第一位領導該州的女性。"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Iran-Krieg im Live-Ticker: Iran feuert auf US-Flieger, Militär greift Insel Qeschm an",
+   "link": "https://www.focus.de/politik/ausland/iran-krieg-im-live-ticker-alle-news-zum-krieg-in-nahost_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
+   "key": "https://www.focus.de/politik/ausland/iran-krieg-im-live-ticker-alle-news-zum-krieg-in-nahost_79d47c75-b933-47fd-a0d2-4e7da6cb334b.html",
+   "summary": "Nach der krachenden Niederlage für Trumps Republikaner bei den US-Midterms hat Irans Außenminister ein zweitägiges Ultimatum gestellt. Alle Entwicklungen im Iran-Konflikt im Newsticker.",
+   "time": "2026-11-08T19:32:00+00:00",
+   "title_zh": "伊朗戰爭即時報導：伊朗向美國飛機開火，軍事襲擊格甚姆島",
+   "summary_zh": "在川普領導的共和黨在美國中期選舉中慘敗後，伊朗外交部長發出了為期兩天的最後通牒。伊朗衝突的所有進展都在新聞中。"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Merz will Ilse Aigner als Bundespräsidentin vorschlagen",
+   "link": "https://www.focus.de/politik/deutschland/merz-will-ilse-aigner-als-bundespraesidentin-vorschlagen_428a02a1-a4bc-41be-a731-95db7ad1985e.html",
+   "key": "https://www.focus.de/politik/deutschland/merz-will-ilse-aigner-als-bundespraesidentin-vorschlagen_428a02a1-a4bc-41be-a731-95db7ad1985e.html",
+   "summary": "Bundeskanzler und CDU-Chef Friedrich Merz hat offiziell angekündigt, den Spitzengremien der Partei am Montag die bayerische Landtagspräsidentin Ilse Aigner (CSU) als Kandidatin für die Bundespräsidentenwahl am 30. Januar vorzuschlagen.",
+   "time": "2026-11-08T19:27:00+00:00",
+   "title_zh": "梅爾茨希望提名伊爾莎·艾格納為聯邦總統",
+   "summary_zh": "總理兼基民盟領導人弗里德里希·梅爾茨正式宣布，他將於週一向黨的最高委員會提名巴伐利亞州議會議長伊爾莎·艾格納（基社盟）作為候選人，參加 1 月 30 日的聯邦總統選舉。"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Huthi greifen Wolkenkratzer im Zentrum von Riad an",
+   "link": "https://www.focus.de/politik/ausland/huthi-greifen-wolkenkratzer-im-zentrum-von-riad-an_279a0ca0-0322-4cca-ad26-fafda22750b3.html",
+   "key": "https://www.focus.de/politik/ausland/huthi-greifen-wolkenkratzer-im-zentrum-von-riad-an_279a0ca0-0322-4cca-ad26-fafda22750b3.html",
+   "summary": "Die vom Iran unterstützte Huthi-Miliz hat im Zentrum der saudischen Hauptstadt Riad einen bekannten Wolkenkratzer angegriffen.",
+   "time": "2026-11-08T17:42:00+00:00",
+   "title_zh": "胡塞武裝襲擊利雅德市中心的摩天大樓",
+   "summary_zh": "伊朗支持的胡塞民兵襲擊了沙烏地阿拉伯首都利雅德市中心的一座著名摩天大樓。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Bundespräsidenten-Nachfolge: Wie der Kanzler versuchte, wieder Herr des Verfahrens zu werden",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidenten-nachfolge-kandidatin-ilse-aigner-friedrich-merz",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidenten-nachfolge-kandidatin-ilse-aigner-friedrich-merz",
+   "summary": "Ilse Aigner soll Bundespräsidentin werden, darüber besteht jetzt Einigkeit. Wenn Merz nun auch »Aigner« sagt – ist das ein Zeichen von Stärke oder von Schwäche?",
+   "time": "2026-11-08T17:00:18+00:00",
+   "title_zh": "聯邦總統繼任：總理如何試圖重新控制整個過程",
+   "summary_zh": "現在一致同意伊爾莎·艾格納 (Ilse Aigner) 擔任聯邦總統。當梅爾茨現在說「艾格納」時——這是強勢還是弱勢的標誌？"
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "SZ am Abend: Nachrichten vom 18. November 2026",
+   "link": "https://www.sueddeutsche.de/politik/news-israel-eisenkot-netanjahu-krajau-anschlag-tote-fc-bayern-neuer-verletzung-li.3577185",
+   "key": "https://www.sueddeutsche.de/politik/news-israel-eisenkot-netanjahu-krajau-anschlag-tote-fc-bayern-neuer-verletzung-li.3577185",
+   "summary": "Was heute wichtig war.",
+   "time": "2026-11-08T16:36:00+00:00",
+   "title_zh": "深圳晚报：2026年11月18日新闻",
+   "summary_zh": "今天重要的是什麼。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Hape Kerkeling oder Ilse Aigner? Komiker dankt seinen Anhängern",
+   "link": "https://www.spiegel.de/politik/deutschland/hape-kerkeling-oder-ilse-aigner-komiker-dankt-seinen-anhaengern-a-8a04e4d3-5307-4431-91b6-ad8c1ebb6e9e#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/hape-kerkeling-oder-ilse-aigner-komiker-dankt-seinen-anhaengern-a-8a04e4d3-5307-4431-91b6-ad8c1ebb6e9e",
+   "summary": "Etwa 170.000 Menschen wollten Hape Kerkeling als überparteilichen Kandidaten für die Bundespräsidentenwahl. Nun kommt es wohl anders. Der Entertainer wendet sich via Instagram an seine Anhänger.",
+   "time": "2026-11-08T16:19:00+00:00",
+   "title_zh": "Hape Kerkeling 还是 Ilse Aigner？喜剧演员感谢他的追随者",
+   "summary_zh": "大約 17 萬人希望 Hape Kerkeling 作為聯邦總統選舉的無黨派候選人。现在情况可能会有所不同。這位藝人透過 Instagram 向他的粉絲發表講話。"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Union und SPD streiten über Senkung der Grundsicherung: Regelsätze 5 bis 7 Euro zu hoch",
+   "link": "https://www.focus.de/politik/deutschland/union-und-spd-streiten-ueber-senkung-der-grundsicherung-regelsaetze-5-bis-7-euro-zu-hoch_37f991cf-e968-498d-ba5f-485c9f3fb2d7.html",
+   "key": "https://www.focus.de/politik/deutschland/union-und-spd-streiten-ueber-senkung-der-grundsicherung-regelsaetze-5-bis-7-euro-zu-hoch_37f991cf-e968-498d-ba5f-485c9f3fb2d7.html",
+   "summary": "Im Zuge der Haushaltsverhandlungen streiten Union und SPD in der Bundesregierung über eine Senkung der Grundsicherung ab dem nächsten Jahr.",
+   "time": "2026-11-08T16:16:00+00:00",
+   "title_zh": "歐盟與社民黨就降低基本保障爭論不休：5至7歐元的標準費率太高",
+   "summary_zh": "在預算談判期間，聯邦政府中的工會和社民黨正在爭論從明年開始減少基本安全的問題。"
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Bundespräsident: Ein neuer Amtssitz mit Tücken",
+   "link": "https://www.sueddeutsche.de/politik/bundespraesidentin-ilse-aigner-amtssitz-schloss-bellevue-sanierung-li.3575289",
+   "key": "https://www.sueddeutsche.de/politik/bundespraesidentin-ilse-aigner-amtssitz-schloss-bellevue-sanierung-li.3575289",
+   "summary": "Aufzug-Engpässe und nebenan die Feuerwehr – da Schloss Bellevue jahrelang renoviert wird, muss eine neue Bundespräsidentin in ein Provisorium einziehen.",
+   "time": "2026-11-08T15:48:49+00:00",
+   "title_zh": "联邦总统：新官邸有陷阱",
+   "summary_zh": "電梯瓶頸和隔壁的消防部門 - 由於貝爾維尤宮已經翻修多年，新任聯邦總統不得不搬進臨時住所。"
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "EKD-Synode: Darf die Kirche AfD-Mitgliedern kündigen?",
+   "link": "https://www.faz.net/aktuell/politik/inland/ekd-synode-darf-die-evangelische-kirche-afd-mitgliedern-kuendigen-accg-201662570.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/ekd-synode-darf-die-evangelische-kirche-afd-mitgliedern-kuendigen-accg-201662570.html",
+   "summary": "Die evangelische Kirche grenzt sich auch weiter klar von der AfD ab. Sie ringt aber um die Frage, was genau das heißt.",
+   "time": "2026-11-08T15:06:41+00:00",
+   "title_zh": "EKD 大会：教会可以解雇 AfD 成员吗？",
+   "summary_zh": "新教教会继续将自己与德国选择党明确区分开来。但她对这到底意味着什么感到困惑。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Vanessa Emde: Weigerung zum Mandatsverzicht zeigt Hilflosigkeit der Linken-Spitze",
+   "link": "https://www.spiegel.de/politik/deutschland/vanessa-emde-weigerung-zum-mandatsverzicht-zeigt-hilflosigkeit-der-linken-spitze-a-a35933e8-48d4-4166-9227-d7c4d85b9f29#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/vanessa-emde-weigerung-zum-mandatsverzicht-zeigt-hilflosigkeit-der-linken-spitze-a-a35933e8-48d4-4166-9227-d7c4d85b9f29",
+   "summary": "Die Linkenspitze um Elif Eralp wollte die umstrittene Abgeordnete Vanessa Emde zum Mandatsverzicht drängen. Deren Weigerung legt die Hilflosigkeit der Führung offen: Sie kann radikalste Kräfte in der Partei nicht bändigen.",
+   "time": "2026-11-08T14:50:00+00:00",
+   "title_zh": "凡妮莎·艾姆德：拒絕放棄授權表明左派的無助",
+   "summary_zh": "埃利夫·埃拉普周圍的左翼領導層希望向備受爭議的議員凡妮莎·埃姆德施壓，迫使其放棄她的任期。他們的拒絕揭示了領導層的無助：它無法馴服黨內最激進的力量。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Markus Wolf: Russland ehrt Ex-DDR-Spionagechef mit Gedenktafel in Moskau",
+   "link": "https://www.spiegel.de/politik/deutschland/markus-wolf-russland-ehrt-ex-ddr-spionagechef-mit-gedenktafel-in-moskau-a-5ae37e2b-1af3-427e-9e3f-d9a73dcfa84f#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/markus-wolf-russland-ehrt-ex-ddr-spionagechef-mit-gedenktafel-in-moskau-a-5ae37e2b-1af3-427e-9e3f-d9a73dcfa84f",
+   "summary": "In der Bundesrepublik war DDR-Spitzenfunktionär Markus Wolf lange nur der »Mann ohne Gesicht«, bis er 1979 enttarnt wurde. Vor 20 Jahren ist er gestorben – in Russland erinnert man sich gern an ihn.",
+   "time": "2026-11-08T14:27:00+00:00",
+   "title_zh": "馬庫斯沃爾夫：俄羅斯在莫斯科為前東德間諜頭子頒發紀念牌",
+   "summary_zh": "在德意志聯邦共和國，東德高級官員馬庫斯·沃爾夫（Markus Wolf）長期以來一直是“無臉之人”，直到 1979 年才被揭露。他已于 20 年前去世，俄罗斯人民对他怀念不已。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "FDP: Wolfgang Kubicki hält Comeback der FDP bei Landtagswahlen für möglich",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/wolfgang-kubicki-fdp-landtagswahlen-2026-fuenfprozenthuerde-parteitag-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/wolfgang-kubicki-fdp-landtagswahlen-2026-fuenfprozenthuerde-parteitag-gxe",
+   "summary": "Nach dem Scheitern an der Fünf-Prozent-Hürde bei fünf Landtagswahlen spricht der FDP-Parteichef von einer besseren Zukunft. »Das Land braucht Freie Demokraten«, sagt er.",
+   "time": "2026-11-08T13:33:28+00:00",
+   "title_zh": "自民黨：沃夫岡·庫比基相信自民黨有可能在州選舉中捲土重來",
+   "summary_zh": "在五次州選舉中未能達到 5% 的門檻後，自民黨領導人談到了更美好的未來。 「這個國家需要自由的民主人士，」他說。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Kandidatur für das Bundespräsidentenamt: Ilse Aigner äußert sich indirekt zu Nominierung als Bundespräsidentin",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidentin-kandidatur-ilse-aigner-csu-friedrich-merz-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/bundespraesidentin-kandidatur-ilse-aigner-csu-friedrich-merz-gxe",
+   "summary": "In Zukunft sei »viel zu tun«, schreibt Aigner in einem zweideutigen Instagram-Post. Es wird erwartet, dass Merz sie am Abend offiziell als Bundespräsidentin vorschlägt.",
+   "time": "2026-11-08T13:11:42+00:00",
+   "title_zh": "聯邦總統職位候選人：伊爾莎·艾格納間接評論聯邦總統提名",
+   "summary_zh": "“未来还有很多事情要做，”艾格纳在 Instagram 上发了一条模棱两可的帖子，写道。預計默茨將在晚上正式提名她為聯邦總統。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Ilse Aigner äußert sich bei Instagram: »Doch auch in Zukunft gibt es viel zu tun«",
+   "link": "https://www.spiegel.de/politik/deutschland/ilse-aigner-aeussert-sich-bei-instagram-doch-auch-in-zukunft-gibt-es-viel-zu-tun-a-76fa397a-573e-46a5-ad0b-01a40017a783#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/ilse-aigner-aeussert-sich-bei-instagram-doch-auch-in-zukunft-gibt-es-viel-zu-tun-a-76fa397a-573e-46a5-ad0b-01a40017a783",
+   "summary": "Ilse Aigner gilt als wahrscheinliche Kandidatin der Union für das Bundespräsidentenamt. Bei Instagram zieht sie nun Bilanz als Bayerns Landtagspräsidentin – sind darin Andeutungen versteckt?",
+   "time": "2026-11-08T11:48:00+00:00",
+   "title_zh": "Ilse Aigner 在 Instagram 上評論：“但未來仍有很多事情要做”",
+   "summary_zh": "伊爾莎·艾格納被認為是聯邦總統職位的聯邦可能候選人。她现在在 Instagram 上盘点巴伐利亚州议会主席的职位——这里面是否隐藏着什么暗示？"
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Sachsen-Anhalt: Siegmund korrigiert Kurs vor Ministerpräsidentenwahl",
+   "link": "https://www.faz.net/aktuell/politik/inland/sachsen-anhalt-ulrich-siegmund-schliesst-mehrere-wahlgaenge-nicht-mehr-aus-accg-201662518.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/sachsen-anhalt-ulrich-siegmund-schliesst-mehrere-wahlgaenge-nicht-mehr-aus-accg-201662518.html",
+   "summary": "Ulrich Siegmund schließt mehrere Wahlgänge nun doch nicht mehr aus. Auch die CDU gibt sich pragmatisch und will ihren Umgang mit der AfD „von Fall zu Fall“ entscheiden.",
+   "time": "2026-11-08T11:36:17+00:00",
+   "title_zh": "薩克森-安哈特：齊格蒙德在總理選舉前糾正路線",
+   "summary_zh": "乌尔里希·西格蒙德不再排除多次投票的可能性。基民盟也很务实，希望“根据具体情况”决定如何应对德国选择党。"
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "title": "Aufarbeitung: Der NSU-Terror darf nicht verschwiegen werden",
+   "link": "https://www.faz.net/aktuell/politik/inland/nsu-warum-chemnitz-und-zwickau-die-aufarbeitung-wagen-201655458.html",
+   "key": "https://www.faz.net/aktuell/politik/inland/nsu-warum-chemnitz-und-zwickau-die-aufarbeitung-wagen-201655458.html",
+   "summary": "NSU: Warum Chemnitz und Zwickau jetzt endlich die Aufarbeitung des Terrors wagen",
+   "time": "2026-11-08T09:22:13+00:00",
+   "title_zh": "處理：NSU 恐怖事件不能保密",
+   "summary_zh": "NSU：为什么开姆尼茨和茨维考现在终于敢于与恐怖妥协"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Donald Trump: UFC-Chef Dana White als Pressesprecher? »War alles nur Spaß«",
+   "link": "https://www.spiegel.de/ausland/donald-trump-ufc-chef-dana-white-als-pressesprecher-war-alles-nur-spass-a-cd80c40a-389c-4843-9e29-32d7df86fc41#ref=rss",
+   "key": "https://www.spiegel.de/ausland/donald-trump-ufc-chef-dana-white-als-pressesprecher-war-alles-nur-spass-a-cd80c40a-389c-4843-9e29-32d7df86fc41",
+   "summary": "Auf Truth Social hat Donald Trump den Boss der Kampfsportorganisation UFC gebeten, sein Sprecher zu werden. Nach viel Aufregung – und Spott – erklärt der US-Präsident nun: Das war alles gar nicht ernst gemeint.",
+   "time": "2026-11-09T00:06:00+00:00",
+   "title_zh": "唐納德·特朗普：UFC 老闆達納·懷特擔任新聞發言人？ “這一切都很有趣”",
+   "summary_zh": "在《Truth Social》節目中，唐納德·川普邀請武術組織 UFC 的老闆成為他的發言人。经过一番兴奋和嘲笑之后，美国总统现在解释道：这些都不是认真的。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Donald Trump: Trump räumt mögliche Fehler bei Abschiebepolitik ein",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/donald-trump-abschiebepolitik-usa-stephen-miller-jd-vance",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/donald-trump-abschiebepolitik-usa-stephen-miller-jd-vance",
+   "summary": "Die Abschiebepolitik der USA könnte »zu hart« gewesen sein, sagt Donald Trump in einem Fernsehinterview. Ob er sie ändern will, lässt der US-Präsident offen.",
+   "time": "2026-11-08T23:07:57+00:00",
+   "title_zh": "唐納德·川普：川普承認驅逐政策可能存在錯誤",
+   "summary_zh": "唐纳德·特朗普在电视采访中表示，美国的驱逐政策可能“过于严厉”。美国总统对于是否要改变它持开放态度。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Proteste in Amsterdam: Zehntausende bei Protesten in Amsterdam gegen Israels Gazapolitik",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/proteste-amsterdam-israel-gazastreifen-niederlande",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/proteste-amsterdam-israel-gazastreifen-niederlande",
+   "summary": "In Amsterdam haben Zehntausende gegen Israels Vorgehen im Gazastreifen protestiert. Sie forderten von den Niederlanden mehr Druck auf die israelische Regierung.",
+   "time": "2026-11-08T21:05:18+00:00",
+   "title_zh": "阿姆斯特丹的抗議活動：阿姆斯特丹有數萬人抗議以色列的加薩政策",
+   "summary_zh": "在阿姆斯特丹，数万人抗议以色列在加沙地带的行动。他們呼籲荷蘭向以色列政府施加更大壓力。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Kommunalwahlen in Südafrika: ANC erleidet bei Kommunalwahlen in Südafrika historische Niederlage",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/kommunalwahlen-suedafrika-anc-niederlage-koalitionen-nelson-mandela-gxe",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/kommunalwahlen-suedafrika-anc-niederlage-koalitionen-nelson-mandela-gxe",
+   "summary": "Weniger als ein Drittel der Wähler hat der Partei von Nelson Mandela bei den Kommunalwahlen noch ihre Stimme gegeben. Erwartet werden nun schwierige Koalitionsgespräche.",
+   "time": "2026-11-08T20:01:19+00:00",
+   "title_zh": "南非地方選舉：非國大在南非地方選舉中遭遇歷史性失敗",
+   "summary_zh": "在地方選舉中，不到三分之一的選民投票支持納爾遜·曼德拉的政黨。現在預計聯盟談判將會很艱難。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Gazastreifen: Zelte versinken im Wasser – Vertriebene ohne Schutz",
+   "link": "https://www.spiegel.de/ausland/gazastreifen-zelte-versinken-im-wasser-vertriebene-ohne-schutz-a-ba82bba1-4889-4798-b986-f87037618676#ref=rss",
+   "key": "https://www.spiegel.de/ausland/gazastreifen-zelte-versinken-im-wasser-vertriebene-ohne-schutz-a-ba82bba1-4889-4798-b986-f87037618676",
+   "summary": "Winterstürme bringen erneut schwere Regenfälle in den Gazastreifen. Zehntausende Zelte werden überflutet und sind unbewohnbar. Die humanitäre Lage der rund zwei Millionen Palästinenser verschärft sich zusehends.",
+   "time": "2026-11-08T18:52:00+00:00",
+   "title_zh": "加薩走廊：帳篷陷入水中－流離失所者缺乏保護",
+   "summary_zh": "冬季風暴再次為加薩走廊帶來暴雨。數以萬計的帳篷被洪水淹沒，無法居住。约200万巴勒斯坦人的人道主义状况明显恶化。"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Chinas Gegensätze: Hinter der Megafabrik steckt das wahre Leben",
+   "link": "https://www.faz.net/aktuell/politik/ausland/xiaomi-fabrik-und-tageloehner-in-china-pekings-verschiedene-welten-201654597.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/xiaomi-fabrik-und-tageloehner-in-china-pekings-verschiedene-welten-201654597.html",
+   "summary": "Im Süden von Peking trifft man auf die Hightechindustrie, dahinter auf die harte Realität bröckelnder Bauprojekte – dazwischen stehen Tagelöhner wie Zhou, die kaum etwas verdienen.",
+   "time": "2026-11-08T17:34:39+00:00",
+   "title_zh": "中國的對比：巨型工廠背後的現實生活",
+   "summary_zh": "在北京南部，你可以看到高科技產業，背後是建築項目搖搖欲墜的嚴酷現實——中間是像週這樣幾乎一文不名的臨時工。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Polen, Ostrowiec Świętokrzyski: Anwohner berichten über den Todesschützen von Krakau",
+   "link": "https://www.spiegel.de/ausland/polen-ostrowiec-swietokrzyski-anwohner-berichten-ueber-den-todesschuetzen-von-krakau-a-ccb2bd06-6ffa-463b-a972-99a9bb64861e#ref=rss",
+   "key": "https://www.spiegel.de/ausland/polen-ostrowiec-swietokrzyski-anwohner-berichten-ueber-den-todesschuetzen-von-krakau-a-ccb2bd06-6ffa-463b-a972-99a9bb64861e",
+   "summary": "Wie haben die Menschen in seinem Heimatort den Todesschützen von Krakau erlebt? Und wie reagieren sie nun auf die Tat? SPIEGEL-Reporterin Patricia Friedek war in Ostrowiec Świętokrzyski unterwegs.",
+   "time": "2026-11-08T17:31:00+00:00",
+   "title_zh": "波蘭，奧斯特羅維茨·斯維托克日斯基：當地居民報告克拉科夫槍擊案",
+   "summary_zh": "家鄉人對克拉科夫槍擊案有何感受？他們對犯罪有何反應？ 《明鏡》記者帕特里夏‧弗里德克 (Patricia Friedek) 在奧斯特羅維茨聖十字區 (Ostrowiec Świętokrzyski)。"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Hilferuf aus El Hierro: Mehr als 8000 Migranten landen auf den Kanaren",
+   "link": "https://www.faz.net/aktuell/politik/ausland/mehr-als-8000-migranten-kanareninsel-el-hierro-ruft-notstand-aus-201662623.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/mehr-als-8000-migranten-kanareninsel-el-hierro-ruft-notstand-aus-201662623.html",
+   "summary": "Die Kanareninsel El Hierro hat den Notstand ausgerufen. Allein am Freitag landeten tausend Migranten.",
+   "time": "2026-11-08T17:13:36+00:00",
+   "title_zh": "耶羅島呼救：8,000多名移民登陸加那利群島",
+   "summary_zh": "加那利群島耶羅島已宣布進入緊急狀態。光是週五就有一千名移民登陸。"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Israel: Netanjahu testet seine Optionen, um doch noch an der Macht zu bleiben",
+   "link": "https://www.faz.net/aktuell/politik/ausland/benjamin-netanjahu-wie-er-trotz-wahlniederlage-an-der-macht-bleiben-koennte-201663288.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/benjamin-netanjahu-wie-er-trotz-wahlniederlage-an-der-macht-bleiben-koennte-201663288.html",
+   "summary": "Oppositionsführer Eisenkot soll nun eine Regierung bilden. Das heißt noch nicht, dass der bisherige Ministerpräsident Netanjahu aus dem Rennen wäre.",
+   "time": "2026-11-08T17:08:45+00:00",
+   "title_zh": "以色列：內塔尼亞胡正在測試他繼續掌權的選擇",
+   "summary_zh": "反對黨領袖艾森科特目前預計將組成政府。這並不意味著現任總理內塔尼亞胡退出競選。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Regierungsbildung in Israel: Gadi Eisenkot ruft zur Bildung einer Notstandsregierung auf",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/regierungsbildung-israel-gadi-eisenkot-isaac-herzog-gxe",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/regierungsbildung-israel-gadi-eisenkot-isaac-herzog-gxe",
+   "summary": "In Israel ist Oppositionsführer Eisenkot offiziell beauftragt worden, eine Regierung zu bilden. Er versprach »kreative Schritte«, um das Land aus der Krise zu führen.",
+   "time": "2026-11-08T17:03:07+00:00",
+   "title_zh": "以色列組成政府：加迪·艾森科特呼籲組成緊急政府",
+   "summary_zh": "在以色列，反對黨領袖艾森科特已被正式委託組成政府。他承諾採取「創造性步驟」帶領國家走出危機。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Vetorecht von Donald Trump: Der Präsident? Eigentlich überflüssig",
+   "link": "https://www.zeit.de/feuilleton/2026-11/vetorecht-donald-trump-usa-midterms-demokraten",
+   "key": "https://www.zeit.de/feuilleton/2026-11/vetorecht-donald-trump-usa-midterms-demokraten",
+   "summary": "Nach den verlorenen Midterms kündigt Donald Trump an, regen Gebrauch vom Vetorecht eines US-Präsidenten machen zu wollen. Überraschung: Er hat da etwas missverstanden.",
+   "time": "2026-11-08T16:02:08+00:00",
+   "title_zh": "唐納德·川普的否決權：總統？其實是多餘的",
+   "summary_zh": "中期選舉失敗後，唐納德·川普宣布將充分利用美國總統的否決權。驚訝：他誤解了一些事情。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Schüsse in Kraków: »Es ist überhaupt keine Polizei da«",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/schuesse-krakow-polen-polizei-tote-verletzte",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/schuesse-krakow-polen-polizei-tote-verletzte",
+   "summary": "Nach den Schüssen in Kraków wirft die konservative Opposition der Regierung von Donald Tusk vor, die Stadt nicht richtig geschützt zu haben.",
+   "time": "2026-11-08T15:54:54+00:00",
+   "title_zh": "克拉科夫槍擊事件：“那裡根本沒有警察”",
+   "summary_zh": "克拉科夫槍擊事件發生後，保守派反對派指責唐納德·圖斯克政府未能妥善保護這座城市。"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Anschlag in Krakau: Ein Land ist tief getroffen",
+   "link": "https://www.faz.net/aktuell/politik/ausland/anschlag-in-krakau-erschuettert-polen-und-offenbart-tiefe-spaltung-201663093.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/anschlag-in-krakau-erschuettert-polen-und-offenbart-tiefe-spaltung-201663093.html",
+   "summary": "Polen sah sich bisher als eines der sichersten Länder Europas an. Die Reaktionen auf den Anschlag zeigen aber, wie polarisiert seine Gesellschaft ist.",
+   "time": "2026-11-08T15:47:39+00:00",
+   "title_zh": "克拉科夫襲擊：一個國家深受影響",
+   "summary_zh": "迄今為止，波蘭一直將自己視為歐洲最安全的國家之一。但對襲擊事件的反應顯示他所在的社會是多麼兩極化。"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "title": "Liveblog Nahost: Israels Präsident beauftragt Eisenkot mit Regierungsbildung",
+   "link": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-herzog-beauftragt-eisenkot-mit-regierungsbildung-faz-200583539.html",
+   "key": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-herzog-beauftragt-eisenkot-mit-regierungsbildung-faz-200583539.html",
+   "summary": "Netanjahus Gegner soll Regierung in Israel bilden +++ 70.000 Zelte im Gazastreifen laut Autonomiebehörde überschwemmt +++ US-Angriff im Golf von Oman +++ alle Entwicklungen im Liveblog",
+   "time": "2026-11-08T15:21:41+00:00",
+   "title_zh": "中東直播部落格：以色列總統指示艾森科特組成政府",
+   "summary_zh": "內塔尼亞胡的對手應該在以色列組建政府 +++ 根據自治當局的說法，加沙地帶的 70,000 個帳篷被淹沒 +++ 美國對阿曼灣的襲擊 +++ 實時博客中的所有進展"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Israel: Gadi Eisenkot erhält Auftrag zur Regierungsbildung – eine fast unlösbare Aufgabe",
+   "link": "https://www.spiegel.de/ausland/israel-gadi-eisenkot-erhaelt-auftrag-zur-regierungsbildung-eine-fast-unloesbare-aufgabe-a-690ef9df-db7a-46cf-9f31-b149c6523e4a#ref=rss",
+   "key": "https://www.spiegel.de/ausland/israel-gadi-eisenkot-erhaelt-auftrag-zur-regierungsbildung-eine-fast-unloesbare-aufgabe-a-690ef9df-db7a-46cf-9f31-b149c6523e4a",
+   "summary": "Der Netanyahu-Rivale Eisenkot erhält den Auftrag, eine neue Regierung in Israel zu bilden. Die Aufgabe ist fast unlösbar. Drei Optionen gibt es.",
+   "time": "2026-11-08T15:02:00+00:00",
+   "title_zh": "以色列：加迪·艾森科特接到組成政府的命令——這幾乎是不可能的任務",
+   "summary_zh": "內塔尼亞胡的競爭對手艾森科特被賦予組成以色列新政府的任務。這項任務幾乎是無法完成的。有三個選項。"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "Nach Affäre: Nvidia prüft Berichte zu ausländischer Spionage gegen Chef",
+   "link": "https://www.sueddeutsche.de/wirtschaft/nvidia-affaere-spionage-huang-li.3577230",
+   "key": "https://www.sueddeutsche.de/wirtschaft/nvidia-affaere-spionage-huang-li.3577230",
+   "summary": "Nvidia-Chef Jensen Huang räumt in einer Mail eine Affäre mit einer Frau ein. Nach Vermutung von US-Sicherheitskreisen könnte die Frau vom chinesischen Geheimdienst angeworben worden sein.",
+   "time": "2026-11-08T21:14:52+00:00",
+   "title_zh": "事件發生後：英偉達正在審查針對其老闆的外國間諜活動的報告",
+   "summary_zh": "英偉達老闆黃仁勳在一封電子郵件中承認與一名女性有染。據美國安全界稱，這名女子可能是被中國情報部門招募的。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Nvidia: Nvidia prüft Berichte zu ausländischer Spionage gegen Jensen Huang",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/nvidia-jensen-huang-spionage-verwaltungsrat-ermittlungen",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/nvidia-jensen-huang-spionage-verwaltungsrat-ermittlungen",
+   "summary": "Der Chef von Nvidia, Jensen Huang, hat eine Affäre eingeräumt. Sein Unternehmen prüft nun, ob die involvierte Frau vom chinesischen Geheimdienst angeworben wurde.",
+   "time": "2026-11-08T21:14:37+00:00",
+   "title_zh": "英偉達：英偉達正在調查針對黃仁勳的外國間諜活動的報道",
+   "summary_zh": "英偉達老闆黃仁勳承認了婚外情。他的公司目前正在調查涉事女子是否是中國特工部門招募的。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Jensen Huang: Nvidia prüft Berichte zu ausländischer Spionage gegen Konzernchef",
+   "link": "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-prueft-berichte-zu-auslaendischer-spionage-gegen-jensen-huang-201664216.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/unternehmen/nvidia-prueft-berichte-zu-auslaendischer-spionage-gegen-jensen-huang-201664216.html",
+   "summary": "Jensen Huang hat gegenüber seiner Belegschaft eine außereheliche Beziehung eingestanden. Laut Berichten vermuten US-Behörden, dass die Frau vom chinesischen Geheimdienst angeworben wurde.",
+   "time": "2026-11-08T21:12:38+00:00",
+   "title_zh": "黃仁勳：英偉達正在調查針對執行長的外國間諜活動的報道",
+   "summary_zh": "黃仁勳向員工承認自己有婚外情。據報道，美國當局懷疑該女子是被中國情報機構招募的。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "„Wusste gar nicht, dass es diese Möglichkeit gibt“: Josefine (23) wählt gefährdeten Beruf",
+   "link": "https://www.focus.de/finanzen/karriere/wusste-gar-nicht-dass-es-diese-moeglichkeit-gibt-josefine-23-waehlt-gefaehrdeten-beruf_13b3aa55-4b8d-4ced-8806-10d221c77a60.html",
+   "key": "https://www.focus.de/finanzen/karriere/wusste-gar-nicht-dass-es-diese-moeglichkeit-gibt-josefine-23-waehlt-gefaehrdeten-beruf_13b3aa55-4b8d-4ced-8806-10d221c77a60.html",
+   "summary": "Ein traditionelles Handwerk droht in Norwegen auszusterben. Doch eine 23-Jährige hat darin ihre berufliche Leidenschaft gefunden.",
+   "time": "2026-11-08T19:00:00+00:00",
+   "title_zh": "「我甚至不知道這個選擇的存在」：Josefine（23 歲）選擇了一個有風險的職業",
+   "summary_zh": "挪威的傳統工藝正面臨消亡的危險。但一位 23 歲的女孩卻發現了自己的職業熱情。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Autofahrer mit 30.560 Euro im Gepäck vom Zoll gestoppt",
+   "link": "https://www.focus.de/finanzen/autofahrer-mit-30-560-euro-im-gepaeck-vom-zoll-gestoppt_bfe63252-5eb4-499e-8337-2d4e42d25d81.html",
+   "key": "https://www.focus.de/finanzen/autofahrer-mit-30-560-euro-im-gepaeck-vom-zoll-gestoppt_bfe63252-5eb4-499e-8337-2d4e42d25d81.html",
+   "summary": "Der Aachener Zoll entdeckte bei einer Fahrzeugkontrolle auf der A46 30.560 Euro Bargeld. Der Fahrer konnte die Herkunft des Geldes nicht erklären.",
+   "time": "2026-11-08T18:57:00+00:00",
+   "title_zh": "司機行李中攜帶30,560歐元被海關攔截",
+   "summary_zh": "亞琛海關在對 A46 車輛進行檢查時發現了 30,560 歐元現金。司機無法解釋這筆錢的來源。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Paulo (53) arbeitet seit seinem 15. Lebensjahr: Er möchte nach 40 Beitragsjahren in den Ruhestand gehen",
+   "link": "https://www.focus.de/finanzen/karriere/paulo-53-arbeitet-seit-seinem-15-lebensjahr-er-moechte-nach-40-beitragsjahren-in-den-ruhestand-gehen_6822ede1-cfe4-49a8-831c-45c9e062d717.html",
+   "key": "https://www.focus.de/finanzen/karriere/paulo-53-arbeitet-seit-seinem-15-lebensjahr-er-moechte-nach-40-beitragsjahren-in-den-ruhestand-gehen_6822ede1-cfe4-49a8-831c-45c9e062d717.html",
+   "summary": "Paulo begann mit 15 in Luxemburg zu arbeiten und möchte nach 40 Beitragsjahren mit 55 Jahren in Rente gehen. Um dieses Ziel zu erreichen, hat er eine Petition gestartet.",
+   "time": "2026-11-08T18:50:00+00:00",
+   "title_zh": "保羅（53 歲）從 15 歲開始工作：貢獻 40 年後他想退休",
+   "summary_zh": "Paulo 15 歲開始在盧森堡工作，在工作 40 年後希望在 55 歲退休。為了實現這一目標，他發起了請願活動。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Mann findet in Schublade der Großmutter Staatsanleihen aus 1948: 14.700 Lire könnten bis zu 100.000 Euro wert sein",
+   "link": "https://www.focus.de/finanzen/mann-findet-in-schublade-der-grossmutter-staatsanleihen-aus-1948-14-700-lire-koennten-bis-zu-100-000-euro-wert-sein_bf9129d1-902f-42ea-844c-a6ff6b43a9c0.html",
+   "key": "https://www.focus.de/finanzen/mann-findet-in-schublade-der-grossmutter-staatsanleihen-aus-1948-14-700-lire-koennten-bis-zu-100-000-euro-wert-sein_bf9129d1-902f-42ea-844c-a6ff6b43a9c0.html",
+   "summary": "Ein Italiener entdeckt alte Staatsanleihen seiner Großmutter von 1948 – aus 14.700 Lire könnten heute fast 100.000 Euro geworden sein. Ob der Staat zahlt, ist jedoch fraglich.",
+   "time": "2026-11-08T18:49:00+00:00",
+   "title_zh": "男子在祖母抽屜裡發現 1948 年政府公債：14,700 里拉可能價值 10 萬歐元",
+   "summary_zh": "一名義大利人發現了他祖母 1948 年的舊政府債券 - 14,700 里拉今天可能相當於 100,000 歐元。不過，國家是否會支付費用值得懷疑。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "10 Stunden, 131 Euro im Monat: Henrik (79) war lokaler „Sheriff“ auf kleiner Insel – Nachfolge gesucht",
+   "link": "https://www.focus.de/finanzen/10-stunden-131-euro-im-monat-henrik-79-war-lokaler-sheriff-auf-kleiner-insel-nachfolge-gesucht_8bfb41f9-f527-4219-a2e5-c82b7f49e647.html",
+   "key": "https://www.focus.de/finanzen/10-stunden-131-euro-im-monat-henrik-79-war-lokaler-sheriff-auf-kleiner-insel-nachfolge-gesucht_8bfb41f9-f527-4219-a2e5-c82b7f49e647.html",
+   "summary": "Auf der dänischen Insel Orø wird ein neuer Gemeindevollzieger gesucht. Die ungewöhnliche Ehrenamt-Stelle soll nach 44 Jahren neu besetzt werden.",
+   "time": "2026-11-08T18:16:00+00:00",
+   "title_zh": "10 小時，每月 131 歐元：Henrik（79 歲）是一座小島上的當地「警長」——他正在尋找繼任者",
+   "summary_zh": "丹麥奧勒島正在尋找新的市政執行官。這個不同尋常的志工職位將在 44 年後填補。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Lohnrunden: Tarifstreit der Metaller geht in kritische Phase",
+   "link": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ig-metall-vorentscheidung-im-tarifstreit-faellt-in-duesseldorf-201663094.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/ig-metall-vorentscheidung-im-tarifstreit-faellt-in-duesseldorf-201663094.html",
+   "summary": "Die IG Metall hat das Lohnangebot der Arbeitgeber empört zurückgewiesen. Dennoch brachte sie kurz darauf eigene Lösungsvorschläge ein. Am Montag fällt in Düsseldorf wohl eine Vorentscheidung.",
+   "time": "2026-11-08T16:35:38+00:00",
+   "title_zh": "薪資回合：金屬工人集體談判糾紛正進入關鍵階段",
+   "summary_zh": "IG Metall 憤怒地拒絕了雇主的工資提議。然而，不久之後她就提出了自己的解決方案建議。初步決定可能將於週一在杜塞爾多夫做出。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Sozialpartner-Plan: Wie weiter mit der „Rente ab 63“?",
+   "link": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rentenreform-ig-bce-signalisiert-kompromissbereitschaft-bei-rente-ab-63-accg-201662599.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/rentenreform-ig-bce-signalisiert-kompromissbereitschaft-bei-rente-ab-63-accg-201662599.html",
+   "summary": "Die Gewerkschaft IG BCE lehnt die Beschränkung der abschlagsfreien Frührente nicht mehr kategorisch ab. Und sie schlägt gemeinsam mit den Arbeitgebern eine neuartige Härtefallregelung vor.",
+   "time": "2026-11-08T16:27:25+00:00",
+   "title_zh": "社會夥伴計畫：「63歲起退休金」接下來會怎樣？",
+   "summary_zh": "IG BCE工會不再斷然拒絕不扣除提早退休的限制。她與雇主一起提出了一種新型的困難監管。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "gegen dunkelflauten: Reiche bessert bei Gaskraftwerken nach",
+   "link": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-verschaerft-kriterien-fuer-gaskraftwerk-ausschreibung-accg-201663255.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/katherina-reiche-verschaerft-kriterien-fuer-gaskraftwerk-ausschreibung-accg-201663255.html",
+   "summary": "Nach Kritik an der ersten Ausschreibungsrunde, in der auch Kohlestandorte zum Zuge kommen, sollen jetzt echte „Neuinvestitionen“ im Vordergrund stehen. Die Zeit drängt, ab Dienstag trudeln die Gebote ein.",
+   "time": "2026-11-08T15:10:16+00:00",
+   "title_zh": "對抗黑暗低迷：Reiche 改良燃氣發電廠",
+   "summary_zh": "在對第一輪招標（其中也包括煤炭基地）提出批評之後，現在的重點應該放在真正的「新投資」上。時間至關重要，投標將於週二開始到達。"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "Cartoon: Meissners Strategen",
+   "link": "https://www.sueddeutsche.de/wirtschaft/cartoon-meissners-strategen-li.3577102",
+   "key": "https://www.sueddeutsche.de/wirtschaft/cartoon-meissners-strategen-li.3577102",
+   "summary": "Meissners Strategen",
+   "time": "2026-11-08T14:55:33+00:00",
+   "title_zh": "卡通：邁斯納的戰略家",
+   "summary_zh": "邁斯納的戰略家"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "SZ Wirtschaftsgipfel: Mehr Innovation wagen",
+   "link": "https://www.sueddeutsche.de/wirtschaft/sz-wirtschaftsgipfel-berlin-adlon-gasometer-li.3570432",
+   "key": "https://www.sueddeutsche.de/wirtschaft/sz-wirtschaftsgipfel-berlin-adlon-gasometer-li.3570432",
+   "summary": "Stahl, Glas, Beton: Im Jubiläumsjahr zieht der Kongress der „Süddeutschen Zeitung“ vom Hotel Adlon in eine neue Location. Dort wird sich manches verändern – auch die Zahl der Teilnehmer.",
+   "time": "2026-11-08T14:54:37+00:00",
+   "title_zh": "深圳經濟高峰會：敢於創新",
+   "summary_zh": "鋼鐵、玻璃、混凝土：在其周年紀念之際，“南德意志報”大會將從阿德隆酒店搬到新地點。那裡很多事情都會改變——包括參與者的數量。"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "Standort Deutschland: Wann wird’s mal wieder richtig Aufschwung?",
+   "link": "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/reformen-merz-wachstum-e153238/",
+   "key": "https://www.sueddeutsche.de/projekte/artikel/wirtschaft/reformen-merz-wachstum-e153238",
+   "summary": "Es ist wohl falsch zu sagen, die schwarz-rote Koalition hat gar nichts erreicht. Aber die große Sozialstaatsreform stockt, und den Beweis, dass er Wirtschaft wirklich kann, hat Kanzler Merz nach Ansicht von Ökonomen bisher nicht erbracht.",
+   "time": "2026-11-08T14:53:00+00:00",
+   "title_zh": "地點德國：什麼時候才會再次出現真正的上漲？",
+   "summary_zh": "說黑紅聯盟沒有任何成果可能是錯的。但主要的福利國家改革正在陷入停滯，據經濟學家稱，默茨總理尚未提供任何證據證明他確實可以做生意。"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "Otto Group: „Ich sehe mich nicht als Managerin. Ich bin immer noch Petra“",
+   "link": "https://www.sueddeutsche.de/wirtschaft/otto-versand-online-chefin-interview-li.3563214",
+   "key": "https://www.sueddeutsche.de/wirtschaft/otto-versand-online-chefin-interview-li.3563214",
+   "summary": "Stillstand ist gefährlich für ein Unternehmen, das weiß Petra Scharner-Wolff. Die Chefin der Otto Group polarisiert gerne, will eine „Performance-Kultur“ – und schafft es trotzdem, weitgehend leise durch turbulente Zeiten zu führen.",
+   "time": "2026-11-08T14:50:50+00:00",
+   "title_zh": "奧托集團：“我不認為自己是經理。我仍然是佩特拉”",
+   "summary_zh": "佩特拉·沙納-沃爾夫 (Petra Scharner-Wolff) 知道，停滯不前對公司來說是危險的。奧托集團的掌門人喜歡兩極分化，想要一種「績效文化」——並且仍然設法在動蕩的時期基本上安靜地領導。"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "SZ Wirtschaftsgipfel: Doch, eines kann Deutschland von Donald Trump lernen",
+   "link": "https://www.sueddeutsche.de/wirtschaft/donald-trump-deutschland-innovation-kuenstliche-intelligenz-bundesregierung-kommentar-li.3565083",
+   "key": "https://www.sueddeutsche.de/wirtschaft/donald-trump-deutschland-innovation-kuenstliche-intelligenz-bundesregierung-kommentar-li.3565083",
+   "summary": "Die chaotische Wirtschaftspolitik des amerikanischen Präsidenten endet in katastrophalen Zwischenwahlen. Zu Recht. Dabei sollte nicht untergehen: Eine Sache macht er besser als die Europäer.",
+   "time": "2026-11-08T14:49:57+00:00",
+   "title_zh": "深圳經濟高峰會：是的，德國可以向唐納德·川普學習一件事",
+   "summary_zh": "美國總統混亂的經濟政策最終導致了災難性的中期選舉。確實如此。不容忽視的是：他有一點比歐洲人做得更好。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "title": "Frankreich Speerspitze: Finanzkonzerne treiben die Nachhaltigkeit voran",
+   "link": "https://www.faz.net/aktuell/wirtschaft/frankreich-bei-nachhaltigkeit-vorn-warum-esg-ratings-ueberraschen-accg-201654225.html",
+   "key": "https://www.faz.net/aktuell/wirtschaft/frankreich-bei-nachhaltigkeit-vorn-warum-esg-ratings-ueberraschen-accg-201654225.html",
+   "summary": "Frankreichs große Konzerne schlagen sich gut in den Themen Soziales, Klima- und Naturschutz. Das hat nicht nur mit der Atomkraft zu tun, die im Land dominiert.",
+   "time": "2026-11-08T13:59:31+00:00",
+   "title_zh": "法國帶頭：金融集團正在推動永續發展",
+   "summary_zh": "法國的大企業在社會議題、氣候保護和自然保護方面表現良好。這不僅與主導該國的核電有關。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Argentinien: Javier Milei will Patagonien zum KI-Hotspot machen",
+   "link": "https://www.spiegel.de/wirtschaft/unternehmen/argentinien-javier-milei-will-patagonien-zum-ki-hotspot-machen-a-c9f433be-f67d-43da-aed7-cf7bb5587d6b#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/unternehmen/argentinien-javier-milei-will-patagonien-zum-ki-hotspot-machen-a-c9f433be-f67d-43da-aed7-cf7bb5587d6b",
+   "summary": "Wenig Regulierung, niedrigere Steuern – und die unberührte Weite Patagoniens. Der argentinische Präsident Milei buhlt um den Bau von KI-Rechenzentren in der Steppe. Doch auch in Argentinien keimt Skepsis.",
+   "time": "2026-11-08T09:59:00+00:00",
+   "title_zh": "阿根廷：哈維爾·米雷 (Javier Milei) 希望讓巴塔哥尼亞 (Patagonia) 成為人工智慧熱點",
+   "summary_zh": "監管很少、稅收較低——還有巴塔哥尼亞未受破壞的廣大土地。阿根廷總統米雷正在競相在草原興建人工智慧資料中心。但阿根廷國內的懷疑情緒也在增長。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Olivenbauern in Süditalien: Klein, familiär, zu teuer",
+   "link": "https://www.zeit.de/2026/48/olivenbauern-italien-olivenoel-preise-protest-import",
+   "key": "https://www.zeit.de/2026/48/olivenbauern-italien-olivenoel-preise-protest-import",
+   "summary": "In Süditalien gehen Bauern auf die Straße, weil die Preise für Olivenöl sinken. Schuld sind Importe aus dem Ausland. Doch das ist nicht die ganze Wahrheit.",
+   "time": "2026-11-08T06:24:34+00:00",
+   "title_zh": "義大利南部的橄欖農：規模小、熟悉、價格太貴",
+   "summary_zh": "在義大利南部，由於橄欖油價格下跌，農民走上街頭。從國外進口是罪魁禍首。但這並不是全部事實。"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Jacques-Louis David: So funktioniert Bildpolitik",
+   "link": "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/wie-jacques-louis-david-als-maler-die-franzoesische-revolution-praegte-accg-200978412.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/wie-jacques-louis-david-als-maler-die-franzoesische-revolution-praegte-accg-200978412.html",
+   "summary": "Er war der Maler der Französischen Revolution: Clemens Klünemann zeigt, wie die Werke Jacques-Louis Davids Ideologien visualisieren – ohne sich in eindeutigen Botschaften zu erschöpfen.",
+   "time": "2026-11-08T20:38:47+00:00",
+   "title_zh": "雅克路易大衛：這就是形象政治的運作方式",
+   "summary_zh": "他是法國大革命的畫家：克萊門斯·克魯內曼（Clemens Klünemann）展示了雅克·路易·大衛（Jacques-Louis David）的作品如何形象化意識形態——而沒有用清晰的信息來表達自己。"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "„Sturm der Liebe“-Star Dieter Bach über seine Kinderlosigkeit: „Nie weit oben auf meiner Bucket List“",
+   "link": "https://www.focus.de/kultur/stars/sturm-der-liebe-star-dieter-bach-ueber-seine-kinderlosigkeit-nie-weit-oben-auf-meiner-bucket-list_9364fc37-5b55-47c2-9c41-c9cfbf8b1fdd.html",
+   "key": "https://www.focus.de/kultur/stars/sturm-der-liebe-star-dieter-bach-ueber-seine-kinderlosigkeit-nie-weit-oben-auf-meiner-bucket-list_9364fc37-5b55-47c2-9c41-c9cfbf8b1fdd.html",
+   "summary": "In „Sturm der Liebe“ ist Dieter Bach mehrfacher Vater. Privat hat der Schauspieler keine Kinder. In einem Interview verrät er nun, warum sich sein früherer Wunsch nach einer großen Familie nie erfüllt hat.",
+   "time": "2026-11-08T20:11:00+00:00",
+   "title_zh": "《愛情風暴》主演迪特爾巴赫談無子嗣：“從來都不是我的願望清單上的前列”",
+   "summary_zh": "在《愛情風暴》中，迪特·巴赫多次成為父親。在他的私生活中，演員沒有孩子。在一次採訪中，他現在透露了為什麼他早先想要一個大家庭的願望從未實現。"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "„Das sind wahre Helden“ – Familienschicksal rührt Ralf Dümmel",
+   "link": "https://www.focus.de/kultur/kino-tv/das-sind-wahre-helden-familienschicksal-ruehrt-ralf-duemmel_e2885458-a081-4172-85ff-9ffbcd39be34.html",
+   "key": "https://www.focus.de/kultur/kino-tv/das-sind-wahre-helden-familienschicksal-ruehrt-ralf-duemmel_e2885458-a081-4172-85ff-9ffbcd39be34.html",
+   "summary": "Eigentlich sollte es in Ralf Dümmels neuem SAT.1-Format um die titelgebende „Millionenidee“ gehen. Dass am Ende Tränen, Schicksale und große Gefühle die Auftaktfolge prägten, lag an den bewegenden Geschichte der Teilnehmenden.",
+   "time": "2026-11-08T19:28:00+00:00",
+   "title_zh": "「他們是真正的英雄」——拉爾夫·杜梅爾被家庭命運所感動",
+   "summary_zh": "Ralf Dümmel 的新 SAT.1 格式實際上應該是關於名義上的「百萬美元創意」。淚水、命運和偉大的感情最終塑造了開場，這要歸功於參與者的感人故事。"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Nele Pollatschek: Lizenz zum Vergessen",
+   "link": "https://www.faz.net/aktuell/feuilleton/buecher/literatur/nele-pollatscheks-gluecksratgeber-lizenz-zum-vergessen-201642640.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/buecher/literatur/nele-pollatscheks-gluecksratgeber-lizenz-zum-vergessen-201642640.html",
+   "summary": "Nele Pollatschek hat einen Glücksratgeber geschrieben, der sich selbst infrage stellt und trotzdem funktioniert. Das liegt nicht zuletzt an ihrem beglückenden Stil.",
+   "time": "2026-11-08T19:19:56+00:00",
+   "title_zh": "Nele Polatschek：遺忘的許可",
+   "summary_zh": "內勒·波拉切克（Nele Pollat​​schek）寫了一本幸福指南，它質疑自己，但仍然有效。這尤其是由於她令人振奮的風格。"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "„Muss zwischenmenschlich passen“: Anne Wünsche will Erotikfilme drehen – und sucht Mann",
+   "link": "https://www.focus.de/kultur/stars/muss-zwischenmenschlich-passen-anne-wuensche-will-erotikfilme-drehen-und-sucht-mann_eb1e5d39-774c-41d4-8daf-bdd34ee2a833.html",
+   "key": "https://www.focus.de/kultur/stars/muss-zwischenmenschlich-passen-anne-wuensche-will-erotikfilme-drehen-und-sucht-mann_eb1e5d39-774c-41d4-8daf-bdd34ee2a833.html",
+   "summary": "Lange war das ein absolutes No-Go für Anne Wünsche (35): Gemeinsam mit einem Mann vor der Kamera erotisches Material zu produzieren, lehnte sie strikt ab – bis jetzt.",
+   "time": "2026-11-08T19:10:00+00:00",
+   "title_zh": "「人與人之間必須非常契合」：安妮溫施想要拍色情電影 - 並且正在尋找一個男人",
+   "summary_zh": "很長一段時間以來，這對 Anne Wunsch（35 歲）來說是絕對不允許的：她嚴格拒絕在鏡頭前與男人一起製作色情內容 - 直到現在。"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Das ZDF bringt „Zone of Interest“ mit Sandra Hüller erstmals ins Free-TV",
+   "link": "https://www.focus.de/kultur/kino-tv/das-zdf-bringt-zone-of-interest-mit-sandra-hueller-erstmals-ins-free-tv_e3ffc6b7-6189-4d43-b671-afd1f33fd58c.html",
+   "key": "https://www.focus.de/kultur/kino-tv/das-zdf-bringt-zone-of-interest-mit-sandra-hueller-erstmals-ins-free-tv_e3ffc6b7-6189-4d43-b671-afd1f33fd58c.html",
+   "summary": "Wie lässt sich vom Holocaust erzählen, ohne den Horror im Vernichtungslager zu zeigen? Das oscarprämierte Drama „The Zone of Interest“ mit Sandra Hüller wählt dafür einen ganz eigenen Weg. Am 9. November ist der Film erstmals im Free-TV zu sehen.",
+   "time": "2026-11-08T18:50:00+00:00",
+   "title_zh": "德國電視第二台 (ZDF) 首次將 Sandra Hülser 主演的《興趣地帶》帶入免費電視節目",
+   "summary_zh": "我們如何在講述大屠殺的故事的同時不展現滅絕營的恐怖呢？桑德拉·赫爾瑟 (Sandra Hülser) 主演的奧斯卡獲獎影片《興趣地帶》選擇了自己的道路。這部電影將於 11 月 9 日首次在免費電視上播出。"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "„Im selben Hotel übernachtet“: Regina Halmich wird erneut von Stalker verfolgt",
+   "link": "https://www.focus.de/kultur/stars/im-selben-hotel-uebernachtet-regina-halmich-wird-erneut-von-stalker-verfolgt_cd791a93-5616-4c6f-919f-3d87c03f9421.html",
+   "key": "https://www.focus.de/kultur/stars/im-selben-hotel-uebernachtet-regina-halmich-wird-erneut-von-stalker-verfolgt_cd791a93-5616-4c6f-919f-3d87c03f9421.html",
+   "summary": "Die ehemalige Box-Weltmeisterin Regina Halmich berichtet über einen neuen Stalking-Fall in ihrem Leben. Die Sportlerin wird von dem Unbekannten sogar bis ins Ausland verfolgt.",
+   "time": "2026-11-08T18:48:00+00:00",
+   "title_zh": "《在同一家酒店過夜》：雷吉娜·哈爾米奇再次被跟踪者跟踪",
+   "summary_zh": "前拳擊世界冠軍雷吉娜·哈爾米奇報導了她生活中的新跟踪案件。這位運動員甚至在國外還被不明身份的男子跟蹤。"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Frankfurter Anthologie: Uwe Kolbe: „Rilke und Gott“",
+   "link": "https://www.faz.net/aktuell/feuilleton/buecher/frankfurter-anthologie/ein-gedicht-von-uwe-kolbe-in-der-frankfurter-anthologie-201605923.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/buecher/frankfurter-anthologie/ein-gedicht-von-uwe-kolbe-in-der-frankfurter-anthologie-201605923.html",
+   "summary": "Von Rilke hätte er das nicht gedacht: Dieses Gedicht handelt von der Treue und der Zuneigung, die ein Dichter einem anderen entgegenbringt. Aber dann passiert etwas Unerwartetes. Und plötzlich ist alles anders.",
+   "time": "2026-11-08T17:54:19+00:00",
+   "title_zh": "法蘭克福選集：烏威·科爾貝：《裡爾克與上帝》",
+   "summary_zh": "他不會對裡爾克有這樣的想法：這首詩講述了一位詩人對另一位詩人所表現出的忠誠和感情。但隨後發生了意想不到的事。突然一切都不同了。"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Der „Tatort“ aus Zürich: Beinhart wie ’n Rocker",
+   "link": "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/tatort-aus-zuerich-handelt-von-mord-in-der-rocker-szene-201657886.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/tatort-aus-zuerich-handelt-von-mord-in-der-rocker-szene-201657886.html",
+   "summary": "Der „Tatort“ aus Zürich dreht sich um einen Mordfall in der kriminellen Rocker-Szene, in den auch ein Mann mit Down-Syndrom verwickelt scheint. Den Kommissarinnen Grandjean und Ott bleibt hier die Rolle der Soziusse.",
+   "time": "2026-11-08T16:22:00+00:00",
+   "title_zh": "蘇黎世的「犯罪現場」：像搖滾歌手一樣艱難",
+   "summary_zh": "蘇黎世的「犯罪現場」圍繞著犯罪搖滾現場的謀殺案展開，其中一名患有唐氏症的男子似乎也參與其中。委員 Grandjean 和 Ott 則扮演後座乘客的角色。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Sylvie Meis über »Friesenjunkies«: »Dass es eine heftige Rolle ist, wusste ich«",
+   "link": "https://www.spiegel.de/kultur/sylvie-meis-ueber-friesenjunkies-dass-es-eine-heftige-rolle-ist-wusste-ich-a-958e48fe-91bd-4e3b-9196-178555e6dbf1#ref=rss",
+   "key": "https://www.spiegel.de/kultur/sylvie-meis-ueber-friesenjunkies-dass-es-eine-heftige-rolle-ist-wusste-ich-a-958e48fe-91bd-4e3b-9196-178555e6dbf1",
+   "summary": "In der ARD-Serie »Friesenjunkies« gibt Sylvie Meis ihr Hauptrollendebüt. Nun erzählt die bekannte Moderatorin, warum eine Masturbationsszene sie Überwindung kostete – und trotzdem »spannend« war.",
+   "time": "2026-11-08T16:03:00+00:00",
+   "title_zh": "西爾維·梅斯談《Friesenjunkies》：“我知道這是一個艱難的角色”",
+   "summary_zh": "西爾維·梅斯 (Sylvie Meis) 在 ARD 系列“Friesenjunkies”中首次擔任主角。現在，這位著名主持人解釋了為什麼自慰場景對她來說費了很大的力氣，但仍然「令人興奮」。"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Deep Purple sagt konzerte ab: „Ich war da, um Wunden zu heilen – aber es gab gar keine Wunden“",
+   "link": "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/konzert/deep-purple-vor-dem-ende-accg-201662737.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/musik-und-buehne/konzert/deep-purple-vor-dem-ende-accg-201662737.html",
+   "summary": "Wir kamen im selben Jahr zur Welt, seither sind Deep Purple Bestandteil meines Lebens. Bis vor Kurzem trat die Band praktisch jeden Tag irgendwo auf. Nun hat sie Konzerte abgesagt. Doch damit kommen sie bei mir nicht durch.",
+   "time": "2026-11-08T15:13:14+00:00",
+   "title_zh": "深紫取消演唱會：“我去那裡是為了治癒傷口——但根本沒有傷口”",
+   "summary_zh": "我們同年出生，從那時起深紫色就成了我生命的一部分。直到最近，樂團幾乎每天都在某個地方演出。現在她取消了音樂會。但他們無法為我逃脫懲罰。"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "title": "Berliner Philharmoniker: Machtkampf auf offener Bühne",
+   "link": "https://www.sueddeutsche.de/kultur/ivan-fischer-konzerte-absagen-mahler-orchester-li.3576950",
+   "key": "https://www.sueddeutsche.de/kultur/ivan-fischer-konzerte-absagen-mahler-orchester-li.3576950",
+   "summary": "Die Berliner Philharmoniker sagen zwei Konzerte ab, weil sie die vom Gastdirigenten Iván Fischer gewünschte Sitzordnung nicht akzeptieren. Dürfen die das so einfach?",
+   "time": "2026-11-08T14:59:31+00:00",
+   "title_zh": "柏林愛樂樂團：公開舞台上的權力鬥爭",
+   "summary_zh": "柏林愛樂樂團取消兩場音樂會，因為他們不接受客座指揮伊凡費雪要求的座位安排。他們能那麼容易做到嗎？"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "»Tatort« heute aus Zürich: »Frei wie ein Adler« im Schnellcheck",
+   "link": "https://www.spiegel.de/kultur/tv/tatort-heute-aus-zuerich-frei-wie-ein-adler-im-schnellcheck-a-31176589-2de3-41ca-8e2d-445fa60719b4#ref=rss",
+   "key": "https://www.spiegel.de/kultur/tv/tatort-heute-aus-zuerich-frei-wie-ein-adler-im-schnellcheck-a-31176589-2de3-41ca-8e2d-445fa60719b4",
+   "summary": "Born to be weich: In dieser Zürcher Rocker-Soap geht ein Biker mit einem Jungen aus einer Downsyndrom-WG auf Verbrecherjagd. Ein »Tatort« wie ein Zuckerschock.",
+   "time": "2026-11-08T14:51:00+00:00",
+   "title_zh": "今天來自蘇黎世的“Tatort”：快速檢查“像鷹一樣自由”",
+   "summary_zh": "生而溫柔：在這部蘇黎世搖滾肥皂劇中，一名騎自行車的人與一名來自唐氏綜合症合租公寓的男孩一起追捕罪犯。像糖休克一樣的「犯罪現場」。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "title": "Skihalle in Österreich: Dann lieber gleich eine Skihalle!",
+   "link": "https://www.zeit.de/2026/48/skihalle-oesterreich-debatte-klimakrise",
+   "key": "https://www.zeit.de/2026/48/skihalle-oesterreich-debatte-klimakrise",
+   "summary": "Weiße Bänder und Schneekanonen sind in Österreich inzwischen normal. Was spricht da noch gegen überdachtes Skifahren?",
+   "time": "2026-11-08T14:46:50+00:00",
+   "title_zh": "奧地利的滑雪館：那還不如去滑雪館！",
+   "summary_zh": "白絲帶和雪砲現在在奧地利很常見。還有什麼反對有頂棚的滑雪？"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "title": "Künstliche Intelligenz: Sorgen wegen KI? Da hilft nur eins",
+   "link": "https://www.sueddeutsche.de/kultur/ki-risiken-wirtschaftswachstum-rechenzentren-blase-digitale-souveraenitaet-li.3575337",
+   "key": "https://www.sueddeutsche.de/kultur/ki-risiken-wirtschaftswachstum-rechenzentren-blase-digitale-souveraenitaet-li.3575337",
+   "summary": "Als das Internet aufkam, waren hierzulande viele skeptisch, deshalb sind wir heute von Leuten wie Mark Zuckerberg abhängig. Bei der KI müssen wir aus den Fehlern von damals lernen.",
+   "time": "2026-11-08T14:11:22+00:00",
+   "title_zh": "人工智慧：擔心人工智慧嗎？只有一件事有幫助",
+   "summary_zh": "當網路出現時，這個國家的許多人都持懷疑態度，這就是為什麼我們現在依賴馬克·祖克柏這樣的人。當談到人工智慧時，我們必須從當時所犯的錯誤中學習。"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "title": "Modernes Leben: Der Feind in meinem Kühlschrank",
+   "link": "https://www.sueddeutsche.de/kultur/modernes-leben-der-feind-in-meinem-kuehlschrank-li.3575323",
+   "key": "https://www.sueddeutsche.de/kultur/modernes-leben-der-feind-in-meinem-kuehlschrank-li.3575323",
+   "summary": "Kühltheken: manipuliert. Marshmallows: gefährlich. Flugpläne: obsolet. Unis: gehackt. Methoden und Motive der Angreifer sind unklar. Aber es eint sie ihr Ziel: Angst im Alltag.",
+   "time": "2026-11-08T14:10:18+00:00",
+   "title_zh": "現代生活：冰箱裡的敵人",
+   "summary_zh": "冷藏櫃：被操縱。棉花糖：危險。航班時刻表：已過時。大學：被駭客入侵。攻擊者的方法和動機尚不清楚。但他們因共同的目標而團結在一起：日常生活中的恐懼。"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "title": "KI und Überwachung: Die Sehnsucht nach der Unsichtbarkeit",
+   "link": "https://www.sueddeutsche.de/projekte/artikel/kultur/anti-surveillance-art-simon-weckert-ki-shirt-mode-berlin-e314610/",
+   "key": "https://www.sueddeutsche.de/projekte/artikel/kultur/anti-surveillance-art-simon-weckert-ki-shirt-mode-berlin-e314610",
+   "summary": "Kann man der Überwachung durch KI-Systeme noch entgehen? Der Künstler Simon Weckert hat ein Tarn-Shirt entwickelt und verspricht: Ja.",
+   "time": "2026-11-08T14:10:00+00:00",
+   "title_zh": "人工智慧與監控：對隱形的渴望",
+   "summary_zh": "是否還有可能避免人工智慧系統的監視？藝術家西蒙·韋克特 (Simon Weckert) 開發了一款迷彩襯衫，並承諾：是的。"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "title": "Theater: Liebe ist schöner als der Krieg",
+   "link": "https://www.sueddeutsche.de/kultur/schauspielhaus-hamburg-weil-der-frieden-zucker-ist-georges-perec-anita-vulesica-li.3576945",
+   "key": "https://www.sueddeutsche.de/kultur/schauspielhaus-hamburg-weil-der-frieden-zucker-ist-georges-perec-anita-vulesica-li.3576945",
+   "summary": "Anita Vulesica hat ein herrlich verschrobenes Manifest des Pazifismus von Georges Perec ausgegraben – und in Hamburg auf die Bühne gebracht: „Weil der Frieden Zucker ist!“",
+   "time": "2026-11-08T14:09:57+00:00",
+   "title_zh": "劇場：愛情比戰爭更美麗",
+   "summary_zh": "安妮塔·烏萊西卡 (Anita Vulesica) 挖掘出了喬治·佩雷克 (Georges Perec) 的一份極其古怪的和平主義宣言，並將其搬上漢堡的舞台：“因為和平就是糖！”"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Willie Nelson: Country-Ikone findet, er habe lange Zeit »alles falsch gemacht«",
+   "link": "https://www.spiegel.de/kultur/willie-nelson-country-ikone-findet-er-habe-lange-zeit-alles-falsch-gemacht-a-9206faeb-cb0f-4b4f-9845-fa031503f1d2#ref=rss",
+   "key": "https://www.spiegel.de/kultur/willie-nelson-country-ikone-findet-er-habe-lange-zeit-alles-falsch-gemacht-a-9206faeb-cb0f-4b4f-9845-fa031503f1d2",
+   "summary": "Neben der Musik ist Country-Urgestein Willie Nelson vor allem für den Konsum von Cannabis bekannt. Mit 93 Jahren legt er nun Memoiren vor – und verrät seine Idee eines glücklichen Lebens.",
+   "time": "2026-11-08T13:38:00+00:00",
+   "title_zh": "威利·尼爾森：鄉村偶像認為他很長一段時間“做錯了一切”",
+   "summary_zh": "除了音樂之外，鄉村老將威利·尼爾森也因吸食大麻而聞名。 93歲的他現在正在出版他的回憶錄，並揭示了他對幸福生活的看法。"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "title": "Genozidvorwurf: Ist Völkermord wirklich das schwerste aller Verbrechen?",
+   "link": "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/gerd-hankel-ist-voelkermord-wirklich-das-schwerste-verbrechen-accg-201268832.html",
+   "key": "https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/gerd-hankel-ist-voelkermord-wirklich-das-schwerste-verbrechen-accg-201268832.html",
+   "summary": "Begeht Israel in Gaza einen Völkermord? Und was unterscheidet Völkermord von Kriegsverbrechen? Der Jurist Gerd Hankel erkennt einen fundamentalen Konstruktionsfehler in der Genozidkonvention.",
+   "time": "2026-11-08T13:27:43+00:00",
+   "title_zh": "種族滅絕指控：種族滅絕真的是所有罪行中最嚴重的嗎？",
+   "summary_zh": "以色列是否在加薩實施種族滅絕？種族滅絕與戰爭罪有什麼不同？律師格爾德漢克爾（Gerd Hankel）承認《種族滅絕公約》存在根本性的設計缺陷。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "title": "Kleingärtnerverein in Sachsen-Anhalt: Unter Gartenfreunden",
+   "link": "https://www.zeit.de/2026/48/mark-helms-magdeburg-kleingartenverein-sachsen-anhalt",
+   "key": "https://www.zeit.de/2026/48/mark-helms-magdeburg-kleingartenverein-sachsen-anhalt",
+   "summary": "Mark Helms wollte einen Magdeburger Kleingärtnerverein modernisieren. Aber dann: Angriffe, Eklats, Hinterhalte. Auch weil manche fanden, er nehme zu viele Ausländer auf",
+   "time": "2026-11-08T11:29:42+00:00",
+   "title_zh": "薩克森-安哈特州的分配園丁協會：在園藝朋友中",
+   "summary_zh": "馬克‧赫爾姆斯 (Mark Helms) 希望對馬格德堡分配園藝協會進行現代化改造。但隨後：攻擊、醜聞、伏擊。也因為有些人認為他接納了太多外國人"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Cartoons der Woche: Bleibt noch eine Lösung",
+   "link": "https://www.spiegel.de/kultur/literatur/cartoons-der-woche-bleibt-noch-eine-loesung-a-22666c81-1158-40f2-b7de-c3cf9b04aa80#ref=rss",
+   "key": "https://www.spiegel.de/kultur/literatur/cartoons-der-woche-bleibt-noch-eine-loesung-a-22666c81-1158-40f2-b7de-c3cf9b04aa80",
+   "summary": "Die SPD streitet über ihre Richtung, Trump wird zur »lame duck« und Deutschland verpasst beim Thema künstliche Intelligenz den Anschluss. Hier finden Sie gesammelt die Cartoons der Woche.",
+   "time": "2026-11-08T11:27:00+00:00",
+   "title_zh": "本週動畫片：仍然存在一個解決方案",
+   "summary_zh": "社民党正在争论自己的方向，特朗普正在成为“跛脚鸭”，而德国在人工智能方面正错失良机。在這裡您可以找到本週的漫畫收藏。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "James Bond: Robert Pattinson soll an 007-Probeaufnahmen teilgenommen haben",
+   "link": "https://www.spiegel.de/kultur/kino/james-bond-robert-pattinson-soll-an-007-probeaufnahmen-teilgenommen-haben-a-ac41668f-c58e-4c3e-9636-9e5adab0bd25#ref=rss",
+   "key": "https://www.spiegel.de/kultur/kino/james-bond-robert-pattinson-soll-an-007-probeaufnahmen-teilgenommen-haben-a-ac41668f-c58e-4c3e-9636-9e5adab0bd25",
+   "summary": "Seit Jahren wird darüber spekuliert, wer die Nachfolge von Daniel Craig als 007 übernehmen könnte. Jetzt gibt es offenbar einen weiteren Kandidaten.",
+   "time": "2026-11-08T11:15:00+00:00",
+   "title_zh": "詹姆斯龐德：據說羅伯派汀森參加了 007 的測試錄音",
+   "summary_zh": "多年來，人們一直在猜測誰可以接替丹尼爾克雷格飾演 007。現在顯然有另一個候選人了。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Daniel Kehlmann in New York: Der Schriftsteller als Repräsentant",
+   "link": "https://www.spiegel.de/kultur/daniel-kehlmann-in-new-york-der-schriftsteller-als-repraesentant-a-c5d53cf8-fbb7-404e-8060-2700e787acf6#ref=rss",
+   "key": "https://www.spiegel.de/kultur/daniel-kehlmann-in-new-york-der-schriftsteller-als-repraesentant-a-c5d53cf8-fbb7-404e-8060-2700e787acf6",
+   "summary": "Er ist der einzige Deutsche, der in der Literaten-Weltliga ganz oben mitspielt. Warum er jetzt über Verbrechen im Kongo schreibt – und was Jonathan Franzen ihm geraten hat.",
+   "time": "2026-11-08T10:14:00+00:00",
+   "title_zh": "丹尼爾凱爾曼在紐約：以作家為代表",
+   "summary_zh": "他是唯一位居世界文學聯盟榜首的德國人。為什麼他現在要寫關於剛果的犯罪行為以及喬納森·弗蘭岑（Jonathan Franzen）對他的建議。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "title": "Evolution der Haustierhaltung: »Die Jungaffen versuchten, auf Schweinen zu reiten«",
+   "link": "https://www.spiegel.de/wissenschaft/evolution-der-haustierhaltung-die-jungaffen-versuchten-auf-schweinen-zu-reiten-a-3d4d56d6-b93e-427c-ba6a-07f8890af918#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/evolution-der-haustierhaltung-die-jungaffen-versuchten-auf-schweinen-zu-reiten-a-3d4d56d6-b93e-427c-ba6a-07f8890af918",
+   "summary": "Nicht nur Menschen schaffen sich Hunde und Katzen an. Der Anthropologe Cyril Grüter berichtet, dass auch andere Primaten Beziehungen eingehen, die an Haustierhaltung erinnern. Warum tun sie das?",
+   "time": "2026-11-08T16:06:00+00:00",
+   "title_zh": "飼養寵物的演變：“小猴子嘗試騎豬”",
+   "summary_zh": "不只是人們養狗和貓。人類學家西里爾·格魯特（Cyril Grüter）報告說，其他靈長類動物也形成了讓人想起養寵物的關係。他們為什麼要這樣做？"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "title": "Podcast: „Auf den Punkt“: El Niño: Ein Blick in die Zukunft des Klimawandels",
+   "link": "https://www.sueddeutsche.de/wissen/podcast-nachrichten-auf-den-punkt-el-nino-cop31-klimawandel-klimakrise-li.3576917",
+   "key": "https://www.sueddeutsche.de/wissen/podcast-nachrichten-auf-den-punkt-el-nino-cop31-klimawandel-klimakrise-li.3576917",
+   "summary": "Wenn es der COP31 nicht gelingt, den Klimawandel einzudämmen, dann liefert uns das Wetterphänomen bald einen Vorgeschmack darauf, was demnächst auf uns zukommt.",
+   "time": "2026-11-08T15:26:24+00:00",
+   "title_zh": "播客：「開門見山」：厄爾尼諾現象：氣候變遷的未來展望",
+   "summary_zh": "如果COP31未能遏制气候变化，那么天气现象很快就会让我们预尝即将发生的事情。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Strahlentherapie: »Viele können heute geheilt werden«",
+   "link": "https://www.zeit.de/2026/48/strahlentherapie-krebs-aengste-bestrahlung-nebenwirkungen",
+   "key": "https://www.zeit.de/2026/48/strahlentherapie-krebs-aengste-bestrahlung-nebenwirkungen",
+   "summary": "Für Krebspatienten ist es oft ein Schock, wenn sie sich einer Strahlentherapie unterziehen sollen. Doch Ängste sind mittlerweile meistens unbegründet, sagt Daniel Zips.",
+   "time": "2026-11-08T13:43:28+00:00",
+   "title_zh": "放射治療：“今天許多人都可以治癒”",
+   "summary_zh": "癌症患者接受放射治療通常會感到震驚。但丹尼爾齊普斯表示，現在的擔憂大多是沒有根據的。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Herlinde Koelbl: »Mit der Diagnose verliert man seine Unschuld«",
+   "link": "https://www.zeit.de/2026/48/herlinde-koelbl-fotografie-krebs-strahlentherapie",
+   "key": "https://www.zeit.de/2026/48/herlinde-koelbl-fotografie-krebs-strahlentherapie",
+   "summary": "Herlinde Koelbl hatte Brustkrebs und wurde bestrahlt. Ihr neues Fotoprojekt widmet sie der Strahlentherapie und porträtiert Patienten während der Behandlung.",
+   "time": "2026-11-08T13:43:04+00:00",
+   "title_zh": "Herlinde Koelbl：“有了診斷，你就失去了純真”",
+   "summary_zh": "Herlinde Koelbl 患有乳癌並接受過輻射。她的新攝影計畫致力於放射治療，並描繪治療期間的患者。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "title": "Münster und Barron: Ein hypothetisches Exerzitium falscher Balance",
+   "link": "https://www.faz.net/aktuell/wissen/forschung-politik/bischof-barron-verspottet-die-diskussionswuensche-deutscher-theologen-accg-201644594.html",
+   "key": "https://www.faz.net/aktuell/wissen/forschung-politik/bischof-barron-verspottet-die-diskussionswuensche-deutscher-theologen-accg-201644594.html",
+   "summary": "Soll die in Münster bei der Verleihung des Josef-Pieper-Preises an Bischof Robert Barron versäumte Diskussion nachgeholt werden? Der Preisträger selbst hat nur Spott für diesen Vorschlag übrig.",
+   "time": "2026-11-08T12:20:31+00:00",
+   "title_zh": "明斯特與巴倫：虛假平衡的假設練習",
+   "summary_zh": "當約瑟夫·皮珀獎授予羅伯特·巴倫主教時，明斯特錯過的討論是否應該彌補？獲勝者本人只是對這個建議嗤之以鼻。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Kündigung nach Kirchenaustritt: »Ich bin kein anderer Mensch, nur weil ich aus der Kirche austrete«",
+   "link": "https://www.zeit.de/arbeit/2026-11/kuendigung-kirchenaustritt-judith-bleser-arbeitsrecht",
+   "key": "https://www.zeit.de/arbeit/2026-11/kuendigung-kirchenaustritt-judith-bleser-arbeitsrecht",
+   "summary": "Judith Bleser verließ die Kirche – und wurde von der Caritas entlassen. Jetzt hat sie vor Gericht einen Sieg errungen, der auch für andere Folgen haben könnte.",
+   "time": "2026-11-08T10:00:57+00:00",
+   "title_zh": "離開教會後的終止：“我並沒有因為離開教會而成為一個不同的人”",
+   "summary_zh": "朱迪絲·布萊瑟離開了教堂，並被明愛解僱。現在她在法庭上贏得了一場勝利，這可能會對其他人產生影響。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "title": "Weltklimakonferenz in der Türkei: Petrostaaten gegen Elektrostaaten – wer setzt sich durch?",
+   "link": "https://www.spiegel.de/wissenschaft/weltklimakonferenz-in-der-tuerkei-petrostaaten-gegen-elektrostaaten-wer-setzt-sich-durch-a-51fd474f-d58a-429e-a10f-f8762786029d#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/weltklimakonferenz-in-der-tuerkei-petrostaaten-gegen-elektrostaaten-wer-setzt-sich-durch-a-51fd474f-d58a-429e-a10f-f8762786029d",
+   "summary": "Wegen der Energiekrise drängen viele Staaten auf den Ausstieg aus Öl und Gas. Doch der Gastgeber der Weltklimakonferenz hat einen anderen Plan.",
+   "time": "2026-11-08T08:00:00+00:00",
+   "title_zh": "土耳其世界氣候會議：石油國家與電力國家－誰會獲勝？",
+   "summary_zh": "由於能源危機，許多國家正在推動逐步淘汰石油和天然氣。但世界氣候大會的東道主卻有不同的計畫。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "title": "Ebola: Impfstoffsuche unter erschwerten Bedingungen",
+   "link": "https://www.faz.net/aktuell/wissen/medizin-ernaehrung/ebola-im-kongo-impfung-mit-einem-anderen-vakzin-als-letzte-hoffnung-accg-201647946.html",
+   "key": "https://www.faz.net/aktuell/wissen/medizin-ernaehrung/ebola-im-kongo-impfung-mit-einem-anderen-vakzin-als-letzte-hoffnung-accg-201647946.html",
+   "summary": "In Kongo sind die ersten Menschen gegen Ebola geimpft worden. Mit einem Impfstoff, der nicht zum Virus passt. Dennoch ruht Hoffnung auf dem Vakzin.",
+   "time": "2026-11-08T07:58:17+00:00",
+   "title_zh": "伊波拉：在困難條件下尋找疫苗",
+   "summary_zh": "剛果第一批人接種了伊波拉疫苗。使用與病毒不符的疫苗。儘管如此，疫苗還是有希望的。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Regensburg: Breuer, Herrmann und Ex-Nato-General Naumann warnen vor Putin und Russland – Deutschland muss sich auf Krieg vorbereiten",
+   "link": "https://www.focus.de/wissen/regensburg-breuer-herrmann-und-ex-nato-general-naumann-warnen-vor-putin-und-russland-deutschland-muss-sich-auf-krieg-vorbereiten_340483ec-5871-48c7-b537-a1a05c320dea.html",
+   "key": "https://www.focus.de/wissen/regensburg-breuer-herrmann-und-ex-nato-general-naumann-warnen-vor-putin-und-russland-deutschland-muss-sich-auf-krieg-vorbereiten_340483ec-5871-48c7-b537-a1a05c320dea.html",
+   "summary": "Breuer, Herrmann und Ex-NATO-General Naumann warnen in Regensburg vor Russland. Warum Deutschland seine Verteidigung dringend stärken muss.",
+   "time": "2026-11-08T07:42:00+00:00",
+   "title_zh": "雷根斯堡：布洛爾、赫爾曼和前北約將軍諾曼對普丁和俄羅斯發出警告——德國必須為戰爭做好準備",
+   "summary_zh": "布洛伊爾、赫爾曼和前北約將軍瑙曼在雷根斯堡對俄羅斯發出警告。為什麼德國迫切需要加強國防。"
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "title": "Auflösung des Herbsträtsels: Um die Ecke gedacht",
+   "link": "https://www.faz.net/aktuell/wissen/netzraetsel/herbstraetsel-2026-hier-sind-die-loesungen-accg-201636321.html",
+   "key": "https://www.faz.net/aktuell/wissen/netzraetsel/herbstraetsel-2026-hier-sind-die-loesungen-accg-201636321.html",
+   "summary": "In unserem großen Rätsel mussten Sie zuletzt kreativ werden: Konventionelle Antworten führten nicht zum richtigen Lösungswort.",
+   "time": "2026-11-08T07:00:00+00:00",
+   "title_zh": "秋季難題的解決方案：跳脫框架思考",
+   "summary_zh": "在我們的大難題中，你必須發揮創意：傳統的答案並不能帶來正確的解決方案。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Reitervolk konsumierte schon vor 2800 Jahren Cannabis",
+   "link": "https://www.focus.de/wissen/reitervolk-konsumierte-schon-vor-2800-jahren-cannabis_db932586-3102-4635-8422-96d5f920d13f.html",
+   "key": "https://www.focus.de/wissen/reitervolk-konsumierte-schon-vor-2800-jahren-cannabis_db932586-3102-4635-8422-96d5f920d13f.html",
+   "summary": "Cannabis zählt zu den ältesten von Menschen genutzten psychoaktiven Pflanzen. Einer neuen Analyse zufolge wurde Cannabis bereits vor rund 2.800 Jahren konsumiert.",
+   "time": "2026-11-08T06:59:00+00:00",
+   "title_zh": "2800 年前，馬術人士就已經開始吸食大麻",
+   "summary_zh": "大麻是人類使用的最古老的精神活性植物之一。根據一項新的分析，大約 2800 年前人們就開始消費大麻。"
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Belgier entdeckt ein 66 Millionen Jahre altes Fossil – neue Tierart identifiziert",
+   "link": "https://www.focus.de/wissen/belgier-entdeckt-ein-66-millionen-jahre-altes-fossil-neue-tierart-identifiziert_293b687b-ef0b-484f-ae43-fcc0fcfe844c.html",
+   "key": "https://www.focus.de/wissen/belgier-entdeckt-ein-66-millionen-jahre-altes-fossil-neue-tierart-identifiziert_293b687b-ef0b-484f-ae43-fcc0fcfe844c.html",
+   "summary": "Ein belgischer Fossiliensammler entdeckt ein winziges Krebstier: Eine echte Rarität, wie sich später herausstellt. Das 66 Millionen Jahre alte Fossil gehört zu einer kaum erforschten Tiergruppe.",
+   "time": "2026-11-08T06:01:00+00:00",
+   "title_zh": "比利時發現了一塊 6,600 萬年前的化石——確定了新的動物物種",
+   "summary_zh": "一位比利時化石收藏家發現了一種微小的甲殼類動物：後來證明，這是一種真正的稀有動物。這塊擁有 6,600 萬年歷史的化石屬於很少被研究的動物群。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Grundschullehrerin: »Ich finde es falsch, dass Lehrkräfte verbeamtet werden«",
+   "link": "https://www.zeit.de/arbeit/2026-11/grundschullehrerin-verbeamtung-privilegien-gehalt-kontoauszug",
+   "key": "https://www.zeit.de/arbeit/2026-11/grundschullehrerin-verbeamtung-privilegien-gehalt-kontoauszug",
+   "summary": "Pia, 34, ist Lehrerin und hat sich aus Überzeugung gegen die Privilegien einer Verbeamtung entschieden. Finanziell kommt sie auch so gut zurecht. Der Kontoauszug",
+   "time": "2026-11-08T05:14:10+00:00",
+   "title_zh": "小學老師：“我覺得老師當公務員是不對的”",
+   "summary_zh": "34 歲的皮亞是一名教師，出於信念決定放棄公務員特權。她的經濟狀況也很好。銀行對帳單"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "»Gen Z regelt! Studis«: Studierende rufen nach Jugendprotesten zu Streiks an mehreren Unis auf",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/gen-z-regelt-studis-streik-universitaeten-20-november",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/gen-z-regelt-studis-streik-universitaeten-20-november",
+   "summary": "Eine studentische Initiative will die Proteste von Gen Z regelt auf Universitäten ausweiten. Die Bestreikung von Universitäten solle zusätzlichen Druck ausüben.",
+   "time": "2026-11-08T23:05:31+00:00",
+   "title_zh": "»Z世代規則！ Studis«：學生在青年抗議後呼籲多所大學罷工",
+   "summary_zh": "一項學生倡議希望將 Z 世代的抗議活動擴展到大學。對大學的罷工應該會施加額外的壓力。"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Bremens Polizei warnt vor gefährlichem Straftäter",
+   "link": "https://www.focus.de/panorama/welt/bremens-polizei-warnt-vor-gefaehrlichem-straftaeter_ff4875f1-2639-4931-9042-b9e7c24d1bc9.html",
+   "key": "https://www.focus.de/panorama/welt/bremens-polizei-warnt-vor-gefaehrlichem-straftaeter_ff4875f1-2639-4931-9042-b9e7c24d1bc9.html",
+   "summary": "Ein 49-jähriger Mann ist in der Nacht aus der forensischen Station des Klinikums Bremen-Ost ausgebrochen. Der Mann gelte als gefährlich und sei dort wegen schwerer Straftaten zwangsweise untergebracht gewesen, teilte die Polizei am Abend mit.",
+   "time": "2026-11-08T22:24:00+00:00",
+   "title_zh": "不來梅警方警告危險罪犯",
+   "summary_zh": "一名 49 歲男子在夜間從不萊梅東診所法醫病房逃走。警方晚間表示，該男子被認為是危險人物，因犯下嚴重罪行而被強行安置在那裡。"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Tote und Verletzte nach Schießerei auf Marktplatz in Krakau",
+   "link": "https://www.focus.de/panorama/welt/tote-und-verletzte-nach-schiesserei-auf-marktplatz-in-krakau_08ca62fe-39eb-43ae-a937-1ae92c4146d3.html",
+   "key": "https://www.focus.de/panorama/welt/tote-und-verletzte-nach-schiesserei-auf-marktplatz-in-krakau_08ca62fe-39eb-43ae-a937-1ae92c4146d3.html",
+   "summary": "Ein Mann erschießt in Krakau aus einem Auto heraus sechs Menschen. Viele werden lebensgefährlich verletzt. Am späten Abend wurden drei weitere Leichen im Wohnhaus des Täters gefunden.",
+   "time": "2026-11-08T22:09:00+00:00",
+   "title_zh": "克拉科夫市場廣場發生槍擊事件，造成人員傷亡",
+   "summary_zh": "在克拉科夫，一名男子從一輛汽車向六人開槍。許多人傷勢嚴重。深夜，在肇事者的家中又發現了三具屍體。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Kim Kardashian: Kunden schimpfen über 148-Dollar-Adventskalender",
+   "link": "https://www.spiegel.de/panorama/leute/kim-kardashian-kunden-schimpfen-ueber-148-dollar-adventskalender-a-98ab4ec2-b4e8-4540-a804-2758fe0415a7#ref=rss",
+   "key": "https://www.spiegel.de/panorama/leute/kim-kardashian-kunden-schimpfen-ueber-148-dollar-adventskalender-a-98ab4ec2-b4e8-4540-a804-2758fe0415a7",
+   "summary": "Kim Kardashians Modemarke »Skims« hat einen Adventskalender voller billigem Kleinkram verkauft – zu einem stattlichen Preis. In den sozialen Medien hagelt es Häme und Spott. Jetzt reagiert das Unternehmen.",
+   "time": "2026-11-08T21:52:00+00:00",
+   "title_zh": "金卡戴珊 (Kim Kardashian)：顧客抱怨 148 美元的降臨節日曆",
+   "summary_zh": "金卡戴珊 (Kim Kardashian) 的時尚品牌「Skims」以高昂的價格出售了裝滿廉價雜物的降臨節日曆。社群媒體上充斥著惡意和嘲笑。現在該公司正在做出反應。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Österreich: 61-jähriger Deutscher stirbt bei Wingsuit-Unfall",
+   "link": "https://www.spiegel.de/panorama/oesterreich-61-jaehriger-deutscher-stirbt-bei-wingsuit-unfall-a-0fb09787-3103-40ba-a5e3-2af875499a51#ref=rss",
+   "key": "https://www.spiegel.de/panorama/oesterreich-61-jaehriger-deutscher-stirbt-bei-wingsuit-unfall-a-0fb09787-3103-40ba-a5e3-2af875499a51",
+   "summary": "Er galt als erfahren, doch nach dem Absprung brach der Kontakt ab: Ein deutscher Wingsuit-Flieger ist in Österreich tödlich verunglückt. Er wurde leblos auf einer Wiese aufgefunden.",
+   "time": "2026-11-08T20:28:00+00:00",
+   "title_zh": "奧地利：61歲德國人在翼裝飛行事故中死亡",
+   "summary_zh": "他被認為經驗豐富，但在跳躍後失去了聯繫：一名德國翼裝飛行員在奧地利發生了致命事故。他被發現倒在草地上毫無生氣。"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Nvidia-Chef Huang gesteht Affäre mit mutmaßlicher Spionin",
+   "link": "https://www.focus.de/panorama/welt/nvidia-chef-huang-gesteht-affaere-mit-mutmasslicher-spionin_2c3f4e1d-066c-4818-91f4-cc8d7f3e87b1.html",
+   "key": "https://www.focus.de/panorama/welt/nvidia-chef-huang-gesteht-affaere-mit-mutmasslicher-spionin_2c3f4e1d-066c-4818-91f4-cc8d7f3e87b1.html",
+   "summary": "Nvidia-Chef Jensen Huang hat intern gestanden, eine Affäre mit einer Frau gehabt zu haben, die nach aktuellen Berichten eine mutmaßliche chinesische Spionin ist. Der Nvidia-Vorstand hat eine Untersuchung eingeleitet, Huang bleibt vorerst CEO.",
+   "time": "2026-11-08T20:15:00+00:00",
+   "title_zh": "英偉達老闆黃承認與疑似間諜有染",
+   "summary_zh": "英偉達老闆黃仁勳在內部承認與一名女性有染，根據目前的報道，該名女性涉嫌中國間諜。英偉達董事會已啟動調查，黃仁勳暫時仍擔任執行長。"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Hofft auf 800.000-Dollar-Preis: Student will 790 km/h schnelle Rekord-Drohne entwickelt haben",
+   "link": "https://www.focus.de/panorama/welt/hofft-auf-800-000-dollar-preis-student-will-790-km-h-schnelle-rekord-drohne-entwickelt-haben_fcb474b1-ebd5-4c0a-970b-1f89bd3d5ac9.html",
+   "key": "https://www.focus.de/panorama/welt/hofft-auf-800-000-dollar-preis-student-will-790-km-h-schnelle-rekord-drohne-entwickelt-haben_fcb474b1-ebd5-4c0a-970b-1f89bd3d5ac9.html",
+   "summary": "Ein US-Student entwickelt eine düsenbetriebene Drohne, die mit 790 km/h einen Rekord aufgestellt haben soll. Jetzt arbeitet er daran, die Schallmauer zu durchbrechen und ein Preisgeld von 800.000 Dollar zu gewinnen.",
+   "time": "2026-11-08T20:01:00+00:00",
+   "title_zh": "希望獲得 80 萬美元的獎金：學生希望開發出速度達到 790 公里/小時的創紀錄無人機",
+   "summary_zh": "一名美國學生正在開發一種噴射動力無人機，據說創下了 790 公里/小時的紀錄。現在他正致力於突破音障並贏得 80 萬美元的獎金。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Berlin-Marzahn: Vermisste Schülerin aus Berlin-Marzahn tot aufgefunden",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/berlin-marzahn-lisa-t-maedchen-tot-kapialverbrechen-gxe",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/berlin-marzahn-lisa-t-maedchen-tot-kapialverbrechen-gxe",
+   "summary": "Seit Tagen galt in Berlin eine 13-Jährige als vermisst. Laut Staatsanwaltschaft wurde nun eine Leiche gefunden. Es sei davon auszugehen, dass es sich um Lisa T. handele.",
+   "time": "2026-11-08T19:42:35+00:00",
+   "title_zh": "Berlin-Marzahn：柏林-Marzahn失蹤學生被發現死亡",
+   "summary_zh": "一名 13 歲的青少年在柏林失蹤多日。據檢察官辦公室稱，目前已發現屍體。可以假設這是Lisa T.."
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Lisa (13) verschwunden – Polizei findet Leiche von junger Frau",
+   "link": "https://www.focus.de/panorama/welt/lisa-13-verschwunden-polizei-findet-leiche-von-junger-frau_760d4d5a-6344-4cb0-b99c-c7144e2e2c32.html",
+   "key": "https://www.focus.de/panorama/welt/lisa-13-verschwunden-polizei-findet-leiche-von-junger-frau_760d4d5a-6344-4cb0-b99c-c7144e2e2c32.html",
+   "summary": "Seit Tagen wurde intensiv nach der 13-jährigen Lisa gesucht. Nahe der polnischen Grenze findet die Polizei eine Leiche. Die Staatsanwaltschaft bestätigt: Es handelt sich um das Mädchen.",
+   "time": "2026-11-08T19:34:00+00:00",
+   "title_zh": "麗莎（13 歲）失蹤——警方找到年輕女子的屍體",
+   "summary_zh": "幾天來，警方一直在對 13 歲的麗莎進行密集搜尋。警方在波蘭邊境附近發現了一具屍體。檢察官證實：就是那個女孩。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Kirche: Pfarrer Christian Schäfer kellnert im Kasseler Café",
+   "link": "https://www.spiegel.de/panorama/gesellschaft/kirche-pfarrer-christian-schaefer-kellnert-im-kasseler-cafe-a-a152104c-9944-4415-815a-d74dd85bd1f1#ref=rss",
+   "key": "https://www.spiegel.de/panorama/gesellschaft/kirche-pfarrer-christian-schaefer-kellnert-im-kasseler-cafe-a-a152104c-9944-4415-815a-d74dd85bd1f1",
+   "summary": "Christian Schäfer ist Pfarrer – und serviert nebenher Kuchen und Getränke in einem Café in Kassel. Mit dem Job verbindet er eine ganz bestimmte Hoffnung.",
+   "time": "2026-11-08T18:28:00+00:00",
+   "title_zh": "教堂：克里斯蒂安·謝弗牧師在卡塞爾咖啡館等待",
+   "summary_zh": "Christian Schäfer 是一位牧師，也在卡塞爾的一家咖啡館供應蛋糕和飲料。他對這份工作有一個非常具體的希望。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Zugunglück in Ägypten: Mehrere Tote und mehr als 100 Verletzte bei Zugunglück in Ägypten",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/zugunglueck-aegypten-giseh-kairo-assuan-gxe",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/zugunglueck-aegypten-giseh-kairo-assuan-gxe",
+   "summary": "In Ägypten ist auf der Strecke zwischen Kairo und Assuan ein Zug in das Ende eines anderen Zuges gefahren. Mindestens sieben Menschen starben.",
+   "time": "2026-11-08T18:22:58+00:00",
+   "title_zh": "埃及火車事故：埃及火車事故造成多人死亡、百餘人受傷",
+   "summary_zh": "在埃及，一列火車在開羅和阿斯旺之間的路線上撞上了另一列火車的車尾。至少有七人死亡。"
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Berlin: Vermisste 13-Jährige tot aufgefunden – Verdächtiger gefasst",
+   "link": "https://www.sueddeutsche.de/panorama/berlin-schuelerin-vermisst-verdaechtiger-li.3577198",
+   "key": "https://www.sueddeutsche.de/panorama/berlin-schuelerin-vermisst-verdaechtiger-li.3577198",
+   "summary": "Eine seit Dienstag vermisste Schülerin aus Berlin-Marzahn ist tot aufgefunden worden. Ein Verdächtiger wurde festgenommen. Hunderte Beamte hatten an der Suche teilgenommen.",
+   "time": "2026-11-08T18:20:20+00:00",
+   "title_zh": "柏林：失蹤 13 歲少年被發現死亡，嫌犯被捕",
+   "summary_zh": "一名自周二以來失踪的柏林馬贊學生被發現死亡。一名嫌疑人被捕。數百名警官參與了搜查。"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Nach tagelanger Suche: Vermisste Schülerin aus Berlin tot aufgefunden – Verdächtiger festgenommen",
+   "link": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/vermisste-schuelerin-aus-berlin-tot-aufgefunden-201663880.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/vermisste-schuelerin-aus-berlin-tot-aufgefunden-201663880.html",
+   "summary": "Nach Angaben der Staatsanwaltschaft wurde die vermisste Dreizehnjährige aus Berlin-Marzahn tot in einem Haus in Brandenburg entdeckt. Die Polizei nahm einen schwer verletzten Verdächtigen fest.",
+   "time": "2026-11-08T17:21:39+00:00",
+   "title_zh": "經過幾天的搜尋：柏林失蹤學生被發現死亡，嫌犯被捕",
+   "summary_zh": "據檢察官辦公室稱，柏林馬贊失踪的 13 歲少年被發現死在勃蘭登堡的一所房子裡。警方逮捕了一名重傷嫌疑犯。"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Palästinafahne am Bundestag: Aktivisten hissen Palästinafahne vor dem Bundestag",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/palaestina-fahne-bundestag-einheitsflagge-berlin-gxe",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/palaestina-fahne-bundestag-einheitsflagge-berlin-gxe",
+   "summary": "Vor dem Berliner Reichstag haben Aktivisten die sogenannte Flagge der Einheit entfernt. Bundesinnenminister Dobrindt spricht von einem »Akt der Respektlosigkeit«.",
+   "time": "2026-11-08T17:04:24+00:00",
+   "title_zh": "聯邦議院的巴勒斯坦國旗：活動人士在聯邦議院前升起巴勒斯坦國旗",
+   "summary_zh": "活動人士移除了柏林國會大廈前的所謂統一旗幟。聯邦內政部長多布林特稱這是「不尊重的行為」。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Angst vorm Altwerden: »Wollen Sie den End-of-Life-Service wirklich nutzen, Herr Gutsch?«",
+   "link": "https://www.spiegel.de/panorama/angst-vorm-altwerden-wollen-sie-den-end-of-life-service-wirklich-nutzen-herr-gutsch-a-3b1e1204-df81-4649-b4b4-d6c6bd23247f#ref=rss",
+   "key": "https://www.spiegel.de/panorama/angst-vorm-altwerden-wollen-sie-den-end-of-life-service-wirklich-nutzen-herr-gutsch-a-3b1e1204-df81-4649-b4b4-d6c6bd23247f",
+   "summary": "Ich fürchte mich vor dem hohen Alter. Vor Einsamkeit und Verfall. Meine Hoffnung? Ein freundlicher KI-Pflegeroboter – mit Sterbehilfekompetenz.",
+   "time": "2026-11-08T15:29:00+00:00",
+   "title_zh": "害怕變老：“古奇先生，你真的想使用臨終服務嗎？”",
+   "summary_zh": "我害怕年老。來自孤獨和腐朽。我的希望？友善的人工智慧護理機器人—具有安樂死專業知識。"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Neues von den Promis: Sylvie Meis musste sich zu Masturbationsszene überwinden",
+   "link": "https://www.faz.net/aktuell/gesellschaft/smalltalk/sylvie-meis-musste-sich-zu-masturbationsszene-ueberwinden-accg-201662993.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/smalltalk/sylvie-meis-musste-sich-zu-masturbationsszene-ueberwinden-accg-201662993.html",
+   "summary": "„Sowas habe ich wirklich noch nie gespielt“: Sylvie Meis hat darüber gesprochen, wie sie mit einer intimen Szene am Set der Serie„Friesenjunkies“ umgegangen ist – und was ihre rote Linie ist.",
+   "time": "2026-11-08T15:12:28+00:00",
+   "title_zh": "名人消息：西爾維·梅斯不得不強迫自己做自慰戲",
+   "summary_zh": "「我以前真的從來沒有玩過這樣的東西」：Sylvie Meis 談到了她如何處理電視劇《Friesenjunkies》中的親密場景，以及她的紅線是什麼。"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Waggons Entgleist: Mindestens vier Tote und 88 Verletzte bei Zugunglück in Ägypten",
+   "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/mindestens-vier-tote-und-88-verletzte-bei-zugunglueck-in-aegypten-accg-201663568.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/ungluecke/mindestens-vier-tote-und-88-verletzte-bei-zugunglueck-in-aegypten-accg-201663568.html",
+   "summary": "Der Unfall hat sich auf der Strecke zwischen Kairo und Assuan ereignet. Ein Zug soll in einen zweiten Zug hineingefahren sein. In Ägypten kommt es immer wieder zu solchen schweren Unglücken.",
+   "time": "2026-11-08T14:53:14+00:00",
+   "title_zh": "埃及火車脫軌：至少4人死亡、88人受傷",
+   "summary_zh": "事故發生在開羅和阿斯旺之間的航線。據說一列火車撞上了第二列火車。此類嚴重事故在埃及屢屢發生。"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Schleinitz/Perba: Jäger findet 50 Kilo Fische am Feldweg – einige lebten noch",
+   "link": "https://www.spiegel.de/panorama/schleinitz-perba-jaeger-findet-50-kilo-fische-am-feldweg-einige-lebten-noch-a-3c2453ad-5bbe-4045-b099-ecced8dbc41d#ref=rss",
+   "key": "https://www.spiegel.de/panorama/schleinitz-perba-jaeger-findet-50-kilo-fische-am-feldweg-einige-lebten-noch-a-3c2453ad-5bbe-4045-b099-ecced8dbc41d",
+   "summary": "In Sachsen wollte ein 74-Jähriger offenbar eine große Menge Fische loswerden – und kippte sie an einem Feldweg aus. Gegen den Mann wird nun ermittelt.",
+   "time": "2026-11-08T14:47:00+00:00",
+   "title_zh": "Schleinitz/Perba：獵人在土路上發現了 50 公斤魚 - 有些還活著",
+   "summary_zh": "在薩克森州，一名 74 歲的老人顯然想處理大量的魚，並將它們扔在土路上。目前該男子正在接受調查。"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Cold Case in den USA: Hängen die Kindermorde mit einem Pädophilenring zusammen?",
+   "link": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/wieso-wurden-die-oakland-county-child-killings-nie-aufgeklaert-accg-201662610.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/wieso-wurden-die-oakland-county-child-killings-nie-aufgeklaert-accg-201662610.html",
+   "summary": "Vor 50 Jahren wurden in Michigan vier Kinder entführt und getötet. Der „Oakland County Child Killer“ ist bis heute nicht überführt. Wurde der Täter bewusst geschützt?",
+   "time": "2026-11-08T14:38:27+00:00",
+   "title_zh": "美國懸案：兒童謀殺案是否與戀童癖集團有關？",
+   "summary_zh": "五十年前，四名兒童在密西根州被綁架並殺害。 「奧克蘭縣兒童殺手」至今尚未被定罪。施暴者是否有意識地受到保護？"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "In den USA: Drei Menschen in einer Woche an Masern gestorben",
+   "link": "https://www.faz.net/aktuell/gesellschaft/gesundheit/drei-menschen-in-einer-woche-in-den-usa-an-masern-gestorben-accg-201663366.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/gesundheit/drei-menschen-in-einer-woche-in-den-usa-an-masern-gestorben-accg-201663366.html",
+   "summary": "In den Vereinigten Staaten sind ein Kind, ein Säugling und eine Frau binnen wenigen Tagen an der hochansteckenden Viruserkrankung gestorben. Die Zahl der Masern-Fälle ist so hoch wie seit Jahrzehnten nicht mehr.",
+   "time": "2026-11-08T14:06:13+00:00",
+   "title_zh": "美國：一週內有三人死於麻疹",
+   "summary_zh": "在美國，一名兒童、一名嬰兒和一名婦女在感染這種高度傳染性病毒性疾病的幾天內死亡。麻疹病例比幾十年來還要高。"
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Anschlag in Krakau: Der Tag, an dem Polen seine Sicherheit verlor",
+   "link": "https://www.sueddeutsche.de/panorama/polen-krakau-anschlag-li.3576940",
+   "key": "https://www.sueddeutsche.de/panorama/polen-krakau-anschlag-li.3576940",
+   "summary": "Sechs Menschen sterben, als am Samstag ein Mann in Krakau aus seinem Auto heraus wahllos in die Menge schießt. Ermittler vermuten ein politisches Motiv – der Täter soll von rechtsextremen Ideologien fasziniert gewesen sein.",
+   "time": "2026-11-08T13:57:22+00:00",
+   "title_zh": "克拉科夫襲擊：波蘭失去安全的那一天",
+   "summary_zh": "週六，克拉科夫一名男子從車內向人群隨意開槍，造成六人死亡。調查人員懷疑其有政治動機——據說肇事者對右翼極端主義意識形態著迷。"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "title": "Neues von den Promis: Keira Knightley verabscheut Sprachnachrichten",
+   "link": "https://www.faz.net/aktuell/gesellschaft/smalltalk/keira-knightley-verabscheut-sprachnachrichten-accg-201663119.html",
+   "key": "https://www.faz.net/aktuell/gesellschaft/smalltalk/keira-knightley-verabscheut-sprachnachrichten-accg-201663119.html",
+   "summary": "„Ich hasse Sprachnachrichten, verdammt noch mal“: Im Gespräch mit Schauspielkollege Ben Whishaw lässt Keira Knightley kein gutes Haar an Sprachnachrichten – erst recht nicht, wenn sie zehn Minuten lang sind.",
+   "time": "2026-11-08T13:29:12+00:00",
+   "title_zh": "名人新聞：凱拉奈特莉討厭語音郵件",
+   "summary_zh": "《我他媽的討厭語音郵件》：在與演員本·衛肖的對話中，凱拉·奈特利根本不關心語音郵件——尤其是當它們長達十分鐘時。"
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Leute: „Jemand monologisiert auf dich ein“",
+   "link": "https://www.sueddeutsche.de/panorama/keira-knightley-andrea-kiewel-simone-ballack-klaus-meine-rob-sand-li.3575276",
+   "key": "https://www.sueddeutsche.de/panorama/keira-knightley-andrea-kiewel-simone-ballack-klaus-meine-rob-sand-li.3575276",
+   "summary": "Keira Knightley verabscheut Sprachnachrichten, Klaus Meine möchte nach Kiew fahren, und Simone Ballack spricht über die Trauer um ihren verstorbenen Sohn.",
+   "time": "2026-11-08T12:02:16+00:00",
+   "title_zh": "人們：“有人在對你獨白”",
+   "summary_zh": "凱拉奈特莉討厭語音郵件，克勞斯梅恩想去基輔，西蒙娜巴拉克談到哀悼她已故的兒子。"
+  }
+ ],
+ "status": [
+  {
+   "paper": "faz",
+   "topic": "top",
+   "url": "https://www.faz.net/rss/aktuell/",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "url": "https://www.faz.net/rss/aktuell/politik/inland/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "url": "https://www.faz.net/rss/aktuell/politik/ausland/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "url": "https://www.faz.net/rss/aktuell/wirtschaft/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "url": "https://www.faz.net/rss/aktuell/feuilleton/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "url": "https://www.faz.net/rss/aktuell/wissen/",
+   "ok": true,
+   "info": "3 Artikel"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "url": "https://www.faz.net/rss/aktuell/gesellschaft/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "url": "https://rss.sueddeutsche.de/rss/Topthemen",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "url": "https://rss.sueddeutsche.de/rss/Politik",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "url": "https://rss.sueddeutsche.de/rss/Wirtschaft",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "url": "https://rss.sueddeutsche.de/rss/Kultur",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "url": "https://rss.sueddeutsche.de/rss/Wissen",
+   "ok": true,
+   "info": "1 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "url": "https://rss.sueddeutsche.de/rss/Bildung",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "url": "https://rss.sueddeutsche.de/rss/Panorama",
+   "ok": true,
+   "info": "3 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "url": "https://newsfeed.zeit.de/index",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "url": "https://newsfeed.zeit.de/politik/deutschland/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "url": "https://newsfeed.zeit.de/politik/ausland/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "url": "https://newsfeed.zeit.de/wirtschaft/index",
+   "ok": true,
+   "info": "4 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "url": "https://newsfeed.zeit.de/entdecken/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "url": "https://newsfeed.zeit.de/gesundheit/index",
+   "ok": true,
+   "info": "2 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "url": "https://newsfeed.zeit.de/arbeit/index",
+   "ok": true,
+   "info": "4 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "url": "https://newsfeed.zeit.de/gesellschaft/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "url": "https://www.spiegel.de/schlagzeilen/tops/index.rss",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "url": "https://www.spiegel.de/politik/deutschland/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "url": "https://www.spiegel.de/ausland/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "url": "https://www.spiegel.de/wirtschaft/index.rss",
+   "ok": true,
+   "info": "1 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "url": "https://www.spiegel.de/kultur/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "url": "https://www.spiegel.de/wissenschaft/index.rss",
+   "ok": true,
+   "info": "2 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "url": "https://www.spiegel.de/panorama/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "url": "https://rss.focus.de/",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "url": "https://rss.focus.de/politik/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "url": "https://rss.focus.de/finanzen/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "url": "https://rss.focus.de/kultur/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "url": "https://rss.focus.de/wissen/",
+   "ok": true,
+   "info": "3 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "url": "https://rss.focus.de/panorama/",
+   "ok": true,
+   "info": "6 Artikel"
+  }
+ ]
+}

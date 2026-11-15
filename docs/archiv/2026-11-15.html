@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presseschau · 2026/11/15（週日）</title>
+<style>
+:root { --bg:#f7f6f2; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --line:#e4e2dc; --accent:#8a2b1f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#17171a; --card:#222226; --ink:#ececee; --muted:#a0a0a8; --line:#34343a; --accent:#e08a6f; }
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:110px; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+a { color:inherit; }
+header { padding:28px 20px 14px; max-width:1180px; margin:0 auto; }
+header h1 { margin:0; font:700 30px/1.15 Georgia, "Times New Roman", serif; letter-spacing:-.01em; }
+header h1 small { font:500 16px/1 inherit; color:var(--muted); margin-left:8px; font-family:inherit; }
+.date { margin-top:6px; color:var(--muted); }
+.date b { color:var(--ink); font-weight:600; }
+.bar { position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
+.bar-in { max-width:1180px; margin:0 auto; padding:8px 20px; display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; }
+.chips, .toggles { display:flex; flex-wrap:wrap; gap:6px; }
+.chip, .tog { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px;
+  padding:4px 11px; font:600 13px/1.4 inherit; cursor:pointer; }
+.chip[aria-pressed="true"] { background:var(--c); border-color:var(--c); color:#fff; }
+.chip[aria-pressed="false"] { opacity:.55; text-decoration:line-through; }
+.tog[aria-pressed="true"] { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+nav { display:flex; gap:4px 14px; flex-wrap:wrap; font-size:14px; width:100%; }
+nav a { text-decoration:none; color:var(--muted); }
+nav a:hover { color:var(--accent); }
+main { max-width:1180px; margin:0 auto; padding:6px 20px 40px; }
+section { margin-top:30px; }
+h2 { font:700 22px/1.3 inherit; margin:0 0 12px; padding-bottom:6px; border-bottom:2px solid var(--ink); }
+h2 span { font:italic 400 17px/1 Georgia, serif; color:var(--muted); margin-left:6px; }
+.hint { color:var(--muted); font-size:14px; margin:-4px 0 12px; }
+.cols { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px; }
+.colhead { margin:0 0 8px; font:700 15px/1.3 inherit; color:var(--c); border-bottom:1px solid var(--line); padding-bottom:4px; }
+.col .item { margin-bottom:10px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:12px; }
+.item { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:11px 13px; }
+.meta { display:flex; gap:8px; align-items:center; font-size:12px; color:var(--muted); margin-bottom:3px; }
+.badge { background:var(--c); color:#fff; border-radius:4px; padding:1px 6px; font-weight:700; letter-spacing:.02em; font-size:11px; }
+.item h3 { margin:0; font:600 16.5px/1.38 Georgia, "Times New Roman", serif; }
+.item h3 a { text-decoration:none; }
+.item h3 a:hover { text-decoration:underline; color:var(--accent); }
+.zh-title { margin:3px 0 0; font-size:15px; color:var(--ink); opacity:.82; }
+.teaser { margin:6px 0 0; font-size:14px; color:var(--muted); }
+.teaser.zh { margin-top:3px; }
+.clusters { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); gap:14px; }
+.cluster { border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:10px; padding:10px 12px; background:var(--card); }
+.clhead { display:flex; justify-content:space-between; gap:8px; margin-bottom:6px; }
+.clhead strong { font:600 15px/1.3 Georgia, serif; }
+.count { font-size:12px; color:var(--muted); white-space:nowrap; }
+.item.compact { border:0; border-top:1px dashed var(--line); border-radius:0; padding:7px 0 4px; background:none; }
+.item.compact h3 { font-size:15px; }
+.item.compact .zh-title { font-size:14px; }
+body.no-zh .zh { display:none; }
+body.no-teaser .teaser { display:none; }
+[hidden] { display:none !important; }
+footer { max-width:1180px; margin:0 auto; padding:16px 20px 40px; color:var(--muted); font-size:13px; border-top:1px solid var(--line); }
+footer table { border-collapse:collapse; margin-top:8px; }
+footer th { text-align:left; padding:3px 12px 3px 0; vertical-align:top; color:var(--ink); }
+footer td { padding:3px 0; }
+footer td span { display:inline-block; margin:0 10px 2px 0; }
+.ok { color:#2c7a57; } .bad { color:#c0392b; font-weight:600; }
+.empty { color:var(--muted); }
+@media (max-width:600px) {
+  header h1 { font-size:25px; }
+  .grid, .cols, .clusters { grid-template-columns:1fr; }
+  html { scroll-padding-top:130px; }
+  nav { flex-wrap:nowrap; overflow-x:auto; white-space:nowrap; padding-bottom:2px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Presseschau<small>德國報紙每日導覽</small></h1>
+  <div class="date"><b>2026/11/15（週日）</b> · <span lang="de">Sonntag, 15. November 2026</span> · 更新於 09:58（台灣時間） · <a href="../archiv/">存檔 Archiv</a></div>
+</header>
+<div class="bar"><div class="bar-in">
+  <div class="chips" aria-label="報紙篩選"><button class="chip" data-chip="faz" style="--c:#33598f" aria-pressed="true">FAZ</button><button class="chip" data-chip="sz" style="--c:#2c7a57" aria-pressed="true">SZ</button><button class="chip" data-chip="zeit" style="--c:#6a4c9c" aria-pressed="true">ZEIT</button><button class="chip" data-chip="spiegel" style="--c:#b8432f" aria-pressed="true">SPIEGEL</button><button class="chip" data-chip="focus" style="--c:#c06f00" aria-pressed="true">FOCUS</button></div>
+  <div class="toggles">
+    <button class="tog" id="t-zh" aria-pressed="true" hidden>中文</button>
+    <button class="tog" id="t-teaser" aria-pressed="true">導言 Teaser</button>
+  </div>
+  <nav><a href="#top">頭條 Top</a><a href="#gemeinsam">多報共同 Gemeinsam</a><a href="#politik">德國政治</a><a href="#ausland">國際</a><a href="#wirtschaft">經濟</a><a href="#kultur">文化・藝文</a><a href="#wissen">科學・教育</a><a href="#gesellschaft">社會</a></nav>
+</div></div>
+<main>
+<section id="top"><h2>今日頭條 <span>Die Top-Meldungen</span></h2><div class="cols"><div class="col" data-p="sz"><h3 class="colhead" style="--c:#2c7a57">Süddeutsche Zeitung</h3><article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>03:22</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/spd-hubertus-heil-li.3580581" target="_blank" rel="noopener">Bundespolitik: Hubertus Heil kandidiert für SPD-Vorsitz</a></h3>
+<p class="teaser" lang="de">Der 54-Jährige will sich beim Parteitag Mitte Januar zur Wahl stellen. Er ist der erste, der seine Kandidatur offiziell verkündet hat.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>00:31</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-alaska-kreiss-tomkins-li.3578585" target="_blank" rel="noopener">US-Midterms: 37-jähriger Demokrat gewinnt Gouverneurswahl in Alaska</a></h3>
+<p class="teaser" lang="de">Jonathan Kreiss-Tomkins ist der erste demokratische Gouverneur in Alaska seit 1998. Mit seinem Wahlsieg werden die Demokraten künftig 30 der 50 Gouverneursposten in den USA besetzen.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 23:15</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/bayern/bayern-aiwanger-trauerfeier-liebfrauendom-staatsakt-soeder-aigner-li.3580451" target="_blank" rel="noopener">Staatsakt für Hubert Aiwanger: „Ich danke euch, dass ihr uns diesen Menschen gegeben habt“</a></h3>
+<p class="teaser" lang="de">Voller Respekt sprechen Markus Söder, Ilse Aigner und die anderen Trauerredner beim Staatsakt für den verstorbenen Hubert Aiwanger. Für den bewegendsten Moment sorgt FW-Fraktionschef Florian Streibl.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 20:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/sport/niederlande-griechenland-nations-league-li.3580519" target="_blank" rel="noopener">Deutschlands Gegner Niederlande: Oranje zelebriert Xavi-Ball im Cruyff-Stadion</a></h3>
+<p class="teaser" lang="de">Monster oder Scheinriese? Das 7:0 der Niederländer gegen Griechenland in der Nations League führt im Nachbarland zu Superlativen – nur der Trainer ist vor dem Duell mit dem DFB zurückhaltend.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 20:39</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-usa-russland-nato-donbass-rueckzug-li.3571967" target="_blank" rel="noopener">Krieg in der Ukraine: Selenskij: USA bringen Nato-Mitgliedschaft im Gegenzug für Donbass ins Spiel</a></h3>
+<p class="teaser" lang="de">Der ukrainische Präsident lehnt jedoch eine Preisgabe der Region im Osten des Landes weiter strikt ab – für Russland eine Hauptforderung zur Beendigung des Krieges.</p>
+</article></div><div class="col" data-p="zeit"><h3 class="colhead" style="--c:#6a4c9c">DIE ZEIT / ZEIT ONLINE</h3><article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:23</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/spd-parteivorsitz-lars-klingbeil-bundesumweltminister-carsten-schneider" target="_blank" rel="noopener">SPD: Bundespolitiker fordern Verbleib von Lars Klingbeil an Parteispitze</a></h3>
+<p class="teaser" lang="de">Bundesumweltminister Carsten Schneider hält einen Wechsel an der SPD-Spitze für unnötig. Fraktionschef Matthias Miersch warnt vor falschen Hoffnungen an einen neuen Mann.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:09</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/15/bilder-des-tages" target="_blank" rel="noopener">Fotografie: Bilder des Tages</a></h3>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:53</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wissenschaft/2026-11/spacex-starship-elon-musk-rakete-landung" target="_blank" rel="noopener">SpaceX: Dieser Moment wird die Welt verändern – aber wie?</a></h3>
+<p class="teaser" lang="de">SpaceX fängt seine Superrakete Starship aus der Luft – ein Moment Raumfahrtgeschichte. Und der Schlusspunkt einer verrückten Wette gegen die Physik.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:29</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/phantasialand-bruehl-chlor-unfall-pool-hotel-microsoft-stoerung" target="_blank" rel="noopener">Phantasialand in Brühl: 15 Verletzte in Freizeitpark nach Microsoft-Panne</a></h3>
+<p class="teaser" lang="de">Ein Dosierungssystem hatte zu viel Chlor in einen Pool des Phantasialands gepumpt. Doch E-Mail-Warnungen kamen wegen der weltweiten Microsoft-Störung nicht an.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:34</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/14/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf" target="_blank" rel="noopener">Raumfahrt: SpaceX fängt Riesen-Rakete Starship erstmals wieder auf</a></h3>
+</article></div><div class="col" data-p="spiegel"><h3 class="colhead" style="--c:#b8432f">DER SPIEGEL</h3><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:30</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/me-cfs-bei-kindern-wie-schwer-die-krankheit-das-leben-veraendert-a-064a199f-3c3c-4e45-b79d-56d489914130#ref=rss" target="_blank" rel="noopener">ME/CFS bei Kindern: Wie schwer die Krankheit das Leben verändert</a></h3>
+<p class="teaser" lang="de">Annabelle kann ihren Kopf nicht heben, verträgt kein Licht und wird künstlich ernährt. Ihre Schwester Mathilda wacht nachts vor Schmerzen auf. Die Mutter pflegt beide rund um die Uhr. Hat die Familie noch Hoffnung auf Heilung?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:52</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/karriere/arbeiten-mit-ki-diese-menschen-verdienen-geld-mit-prompts-seitenlangen-prompts-a-04b97b2f-5ae8-44e4-85f7-c854dff9190a#ref=rss" target="_blank" rel="noopener">Arbeiten mit KI: Diese Menschen verdienen Geld mit Prompts, seitenlangen Prompts</a></h3>
+<p class="teaser" lang="de">Alle reden von KI – aber was macht es eigentlich mit jemandem, den ganzen Tag mit KI zu reden? Promptwriter wie Fabian Scholz können mit ihrer Arbeit viel Geld verdienen. Oder sich darin verlieren.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 22:21</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/republikaner-nach-den-midterms-das-donald-trump-dilemma-a-7d259856-2698-4b59-b05c-9e57bc2d0cd9#ref=rss" target="_blank" rel="noopener">Republikaner nach den Midterms: Das Donald-Trump-Dilemma</a></h3>
+<p class="teaser" lang="de">Jetzt tobt in der Trump-Partei ein Streit über Konsequenzen aus der verlorenen Wahl: MAGA-Extremisten und Traditionalisten gehen gleichzeitig auf den Präsidenten los. Und seine potenziellen Kronprinzen lauern auf ihre Chance.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:34</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/weltklimakonferenz-in-der-tuerkei-deutsche-chefunterhaendlerin-erklaert-ihren-kurs-a-dda010eb-76ce-4856-9a2c-c28d8f8fbefb#ref=rss" target="_blank" rel="noopener">Weltklimakonferenz in der Türkei: Deutsche Chefunterhändlerin erklärt ihren Kurs</a></h3>
+<p class="teaser" lang="de">Nur ein Minister fliegt zum Klimagipfel, die Klimahilfen für arme Länder schrumpfen, die Golfstaaten bremsen jeden Fortschritt. Die deutsche Verhandlungsführerin Heike Henn erklärt, warum sie trotzdem kämpft.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:28</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/spd-hubertus-heil-will-fuer-parteivorsitz-kandidieren-a-f9209fb9-0404-43be-b66d-b2207e7e6aaa#ref=rss" target="_blank" rel="noopener">SPD: Hubertus Heil will für Parteivorsitz kandidieren</a></h3>
+<p class="teaser" lang="de">Bei der SPD zeichnet sich ein Machtkampf ab: Ex-Arbeitsminister Hubertus Heil will sich beim Bundesparteitag im Januar zum Chef der Sozialdemokraten wählen lassen. Damit wächst der Druck auf Amtsinhaber Lars Klingbeil.</p>
+</article></div><div class="col" data-p="focus"><h3 class="colhead" style="--c:#c06f00">FOCUS online</h3><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>08:54</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/gruene-warnen-vor-bezahlschranke-fuer-arzttermine_4afaa574-d895-43fd-9ec5-821890c68925.html" target="_blank" rel="noopener">Grüne warnen vor Bezahlschranke für Arzttermine</a></h3>
+<p class="teaser" lang="de">Eine schnellere Behandlung bei der Fachärztin wird möglich, wenn man sie als gesetzlich Versicherter selbst bezahlt? Die Grünen kritisieren, das führe zu einer zusätzlichen Ungleichbehandlung.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>08:48</time></div>
+<h3 lang="de"><a href="https://www.focus.de/sport/tennis/sabalenka-verliert-bei-wutanfall-gegen-ukrainerin-die-nerven_246846b9-3d6f-4838-aa56-5bf7c1823fbd.html" target="_blank" rel="noopener">Sabalenka verliert bei Wutanfall gegen Ukrainerin die Nerven</a></h3>
+<p class="teaser" lang="de">Aryna Sabalenka steht wegen eines angeblichen Wutausbruchs gegen Ukrainer in der Kritik. Nun wehrt sich die Belarussin gegen die Vorwürfe.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>08:20</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/miersch-spd-umfragewerte-bei-juengeren-schallende-ohrfeige_454478fd-c56d-4ebe-a3d9-c0baf2059806.html" target="_blank" rel="noopener">Miersch: SPD-Umfragewerte bei Jüngeren schallende Ohrfeige</a></h3>
+<p class="teaser" lang="de">Nur drei Prozent der jungen Menschen trauen laut Umfrage der SPD zu, sich für ihre Anliegen einzusetzen. Fraktionschef Miersch sieht darin eine klare Warnung – und sagt, wo die Partei nachlegen muss.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>06:19</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/haus-eines-journalisten-in-panama-geht-in-flammen-auf_641db040-d84b-49c2-a7c8-b364c909e35b.html" target="_blank" rel="noopener">Haus eines Journalisten in Panama geht in Flammen auf</a></h3>
+<p class="teaser" lang="de">Der Journalist recherchierte zu möglichen Verbindungen früherer Regierungsbeamter und eines Staatsauftragnehmers. Ob seine Arbeit mit dem mutmaßlichen Anschlag zu tun hat, ist bisher offen.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:49</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/trotz-hoher-zinsen-fuer-immobilienkaeufer-beginnt-eine-gute-zeit_325f827c-8c40-4bb9-9716-dc19df0d9e61.html" target="_blank" rel="noopener">Trotz hoher Zinsen: Für Immobilienkäufer beginnt eine gute Zeit</a></h3>
+<p class="teaser" lang="de">Höhere Zinsen bremsen die Nachfrage, Eigentümer müssen ihre Preisvorstellungen anpassen. Für Kaufinteressenten entstehen dadurch neue Chancen.</p>
+</article></div></div></section>
+<section id="gemeinsam"><h2>多家報紙共同報導 <span>Worüber mehrere Zeitungen berichten</span></h2><p class="hint">同一件事，看各報怎麼下標題。（依關鍵字自動比對，偶有誤差）</p><div class="clusters"><div class="cluster"><div class="clhead"><strong lang="de">Elon · SpaceX · Starship</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:34</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/weltraum/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf_4ec31db0-7076-45e4-a7b4-ba93bda28e16.html" target="_blank" rel="noopener">SpaceX fängt Riesen-Rakete Starship erstmals wieder auf</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 16:41</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/tesla-verkauft-robotaxis-fuer-29-990-dollar-plus-299-dollar-gebuehr-pro-monat-doch-nicht-an-alle-kunden-aber-es-faehrt-nur-nicht-ueberall-a-a09f25f3-2f82-4fab-b61e-1b97cb340006#ref=rss" target="_blank" rel="noopener">Tesla Cybercab: Robotaxi für 29.990 Dollar – aber mit Nutzungsbeschränkungen</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>05:47</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/spacex-faengt-starship-rakete-am-startturm-erstmals-wieder-auf-a-8995a28f-b04d-4a0f-a6bd-1b2298f5b450#ref=rss" target="_blank" rel="noopener">SpaceX fängt Starship-Rakete erstmals am Startturm wieder auf</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 10:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/musk-starship-space-x-start-panne-missglueckt-li.3580362" target="_blank" rel="noopener">Raumfahrt: Fehlschlag bei „Starship“-Testflug</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 14:59</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/unternehmen/2026-11/spacex-starship-super-heavy-booster-testflug-rakete" target="_blank" rel="noopener">SpaceX: SpaceX bricht Auffangversuch bei Starship-Test ab</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:34</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/14/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf" target="_blank" rel="noopener">Raumfahrt: SpaceX fängt Riesen-Rakete Starship erstmals wieder auf</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Hubertus · Heil · Klingbeil</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/konkurrenz-fuer-klingbeil-hubertus-heil-will-spd-chef-werden_5dbe24c0-03ee-43c7-a0fe-6fe76c826200.html" target="_blank" rel="noopener">Konkurrenz für Klingbeil: Hubertus Heil will SPD-Chef werden</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:28</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/spd-hubertus-heil-will-fuer-parteivorsitz-kandidieren-a-f9209fb9-0404-43be-b66d-b2207e7e6aaa#ref=rss" target="_blank" rel="noopener">SPD: Hubertus Heil will für Parteivorsitz kandidieren</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>03:22</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/spd-hubertus-heil-li.3580581" target="_blank" rel="noopener">Bundespolitik: Hubertus Heil kandidiert für SPD-Vorsitz</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:44</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/frueherer-arbeitsminister-hubertus-heil-kandidiert-fuer-den-spd-vorsitz" target="_blank" rel="noopener">SPD-Vorsitz: Früherer Arbeitsminister Hubertus Heil kandidiert für den SPD-Vorsitz</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 23:41</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/lars-klingbeil-spd-chef-basis-wahl" target="_blank" rel="noopener">Lars Klingbeil: Will ihn die SPD noch?</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Fraktionschef · Miersch · Partei</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>08:20</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/miersch-spd-umfragewerte-bei-juengeren-schallende-ohrfeige_454478fd-c56d-4ebe-a3d9-c0baf2059806.html" target="_blank" rel="noopener">Miersch: SPD-Umfragewerte bei Jüngeren schallende Ohrfeige</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:32</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/bundesregierung-liveblog-news-spd-klingbeil-parteitag-parteivorsitz-umfrage-gen-z-li.3580621" target="_blank" rel="noopener">Bundespolitik: Miersch: SPD-Umfragewerte bei Jüngeren „schallende Ohrfeige“</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:23</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/spd-parteivorsitz-lars-klingbeil-bundesumweltminister-carsten-schneider" target="_blank" rel="noopener">SPD: Bundespolitiker fordern Verbleib von Lars Klingbeil an Parteispitze</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Ilse · Aigner · Bundespräsidentin</strong><span class="count">2 家報紙</span></div><article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 19:12</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/ilse-aigner-csu-als-bundespraesidentin-ein-grosses-missverstaendnis-kolumne-a-9a10a4b5-917f-4872-aa69-7b3b1e7c208c#ref=rss" target="_blank" rel="noopener">Ilse Aigner (CSU) als Bundespräsidentin: Ein großes Missverständnis – Kolumne</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 23:15</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/bayern/bayern-aiwanger-trauerfeier-liebfrauendom-staatsakt-soeder-aigner-li.3580451" target="_blank" rel="noopener">Staatsakt für Hubert Aiwanger: „Ich danke euch, dass ihr uns diesen Menschen gegeben habt“</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 20:48</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/projekte/artikel/politik/ilse-aigner-bundespraesidentin-quiz-bundesversammlung-e951384/" target="_blank" rel="noopener">Quiz: Was wissen Sie über die Wahl der neuen Bundespräsidentin?</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Asia · Song · Eurovision</strong><span class="count">2 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:04</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/philippinen-gewinnen-ersten-eurovision-song-contest-asia_543ef411-e619-4600-a0bf-c231147b4835.html" target="_blank" rel="noopener">Philippinen gewinnen ersten Eurovision Song Contest Asia</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:15</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/musik/eurovision-song-contest-asia-philippinische-saengerin-carmelle-gewinnt-erste-ausgabe-a-f12ec3fd-897e-46a9-9e48-258f18cd889b#ref=rss" target="_blank" rel="noopener">Eurovision Song Contest Asia: Philippinische Sängerin Carmelle gewinnt erste Ausgabe</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 21:14</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/tv/eurovision-song-contest-asia-wie-soll-der-esc-in-asien-funktionieren-a-5f85f10e-3060-4216-a3b2-766d6d473153#ref=rss" target="_blank" rel="noopener">Eurovision Song Contest Asia: Alles, was Sie zum ESC Asia wissen müssen – und hören</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Gouverneur · Demokraten · Demokrat</strong><span class="count">2 家報紙</span></div><article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:01</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/midterms-in-den-usa-demokrat-jonathan-kreiss-tomkins-gewinnt-gouverneurswahl-in-alaska-a-fb2cad4c-5ecc-438a-b9dd-76812d0a333d#ref=rss" target="_blank" rel="noopener">Midterms in den USA: Demokrat Jonathan Kreiss-Tomkins gewinnt Gouverneurswahl in Alaska</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>00:31</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-alaska-kreiss-tomkins-li.3578585" target="_blank" rel="noopener">US-Midterms: 37-jähriger Demokrat gewinnt Gouverneurswahl in Alaska</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Starship · Moment</strong><span class="count">2 家報紙</span></div><article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>05:56</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/spacex-starship-nasa-raumfahrt-li.3580613" target="_blank" rel="noopener">Space-X: Noch ein historischer Moment für die Raumfahrt</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:53</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wissenschaft/2026-11/spacex-starship-elon-musk-rakete-landung" target="_blank" rel="noopener">SpaceX: Dieser Moment wird die Welt verändern – aber wie?</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Verletzte · Chlor · Brühl</strong><span class="count">2 家報紙</span></div><article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:17</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/phantasialand-in-bruehl-wegen-microsoft-ausfall-chlorpanne-zu-spaet-entdeckt-15-verletzte-a-6e70b4ec-9e3e-4c52-aae5-28beaa2fef62#ref=rss" target="_blank" rel="noopener">Phantasialand in Brühl: Wegen Microsoft-Ausfall Chlorpanne zu spät entdeckt – 15 Verletzte</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:29</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/phantasialand-bruehl-chlor-unfall-pool-hotel-microsoft-stoerung" target="_blank" rel="noopener">Phantasialand in Brühl: 15 Verletzte in Freizeitpark nach Microsoft-Panne</a></h3>
+</article></div></div></section>
+<section id="politik"><h2>德國政治 <span>Politik Deutschland</span></h2><div class="grid"><article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:32</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/bundesregierung-liveblog-news-spd-klingbeil-parteitag-parteivorsitz-umfrage-gen-z-li.3580621" target="_blank" rel="noopener">Bundespolitik: Miersch: SPD-Umfragewerte bei Jüngeren „schallende Ohrfeige“</a></h3>
+<p class="teaser" lang="de">Nur drei Prozent der jungen Menschen trauen laut Umfrage der SPD zu, sich für ihre Anliegen einzusetzen. Fraktionschef Matthias Miersch sieht das als Warnung – und sagt, wo die Partei nachlegen muss.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:06</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/arzttermine-selbstzahler-kassenaerzte-gassen-li.3580428" target="_blank" rel="noopener">Gesundheitspolitik: Kassenärzte-Chef erwartet Selbstzahler-Termine</a></h3>
+<p class="teaser" lang="de">Als Grund nennt Kassenärzte-Chef Gassen Honorarkürzungen bei den Ärzten. Besonders betroffen könnten die Bereiche HNO, Orthopädie, Kardiologie, Radiologie und Rheumatologie sein.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>05:49</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/generation-z-proteste-gen-z-regelt-berlin" target="_blank" rel="noopener">Jugendproteste: Erneute Gen-Z-Demonstrationen fallen deutschlandweit kleiner aus</a></h3>
+<p class="teaser" lang="de">In mehreren Städten haben erneut junge Menschen demonstriert, dieses Mal deutlich weniger als vor zwei Wochen. Für Freitag sind größere Proteste angekündigt.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:24</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/top-oekonomen-warnen-vor-schwerer-haushaltskrise-ab-2028_33653991-9913-4bfb-830e-f3d11f7384b6.html" target="_blank" rel="noopener">Top-Ökonomen warnen vor schwerer Haushaltskrise ab 2028</a></h3>
+<p class="teaser" lang="de">Deutschland steuert nach Einschätzung führender Ökonomen auf eine tiefgreifende Haushaltskrise zu.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:44</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/frueherer-arbeitsminister-hubertus-heil-kandidiert-fuer-den-spd-vorsitz" target="_blank" rel="noopener">SPD-Vorsitz: Früherer Arbeitsminister Hubertus Heil kandidiert für den SPD-Vorsitz</a></h3>
+<p class="teaser" lang="de">Der frühere Arbeitsminister Hubertus Heil will SPD-Parteichef werden. Seine Bewerbung nutzte er für einen Angriff auf den aktuellen Vorsitzenden Lars Klingbeil.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:39</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/koalitionsvertrag-mecklenburg-vorpommern-spd-linke-gruene-manuela-schwesig" target="_blank" rel="noopener">Mecklenburg-Vorpommern: SPD, Linke und Grüne unterschreiben Koalitionsvertrag</a></h3>
+<p class="teaser" lang="de">In Mecklenburg-Vorpommern haben SPD, Grüne und Linke den Koalitionsvertrag unterschrieben. Die rot-rot-grüne Landesregierung ist damit besiegelt.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/konkurrenz-fuer-klingbeil-hubertus-heil-will-spd-chef-werden_5dbe24c0-03ee-43c7-a0fe-6fe76c826200.html" target="_blank" rel="noopener">Konkurrenz für Klingbeil: Hubertus Heil will SPD-Chef werden</a></h3>
+<p class="teaser" lang="de">Hubertus Heil will SPD-Chef werden. In einem Brief kündigte der ehemalige Arbeitsminister seine Kandidatur an. Damit gibt es einen ersten Gegenkandidaten für Lars Klingbeil.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:25</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/eeg-reform-einspeiseverguetung-solaranlagen-netzpaket-spd-cdu-gxe" target="_blank" rel="noopener">Erneuerbare-Energien-Gesetz: Union und SPD weiter uneins bei Reform der Ökostromförderung</a></h3>
+<p class="teaser" lang="de">Die SPD verkündet den Erhalt der Einspeisevergütung für Solarstrom. Die Union widerspricht: Die Vereinbarung sei abhängig vom gesamten Netzpaket, das noch nicht steht.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>01:22</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/im-wald-vergraben-ermittler-in-ungarn-finden-millionen-euro_1dfd5ab0-79ef-47af-93d1-67c41bbcd828.html" target="_blank" rel="noopener">Im Wald vergraben: Ermittler in Ungarn finden Millionen Euro</a></h3>
+<p class="teaser" lang="de">Ermittler der ungarischen Anti-Korruptions-Behörde NVVH haben in Erdlöchern, Lagerhallen und Tresoren in mehreren Landesteilen Bargeld im Wert von 17,7 Millionen Euro gefunden.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:17</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/der-kanzler-meidet-das-s-wort-a-966f29df-ce02-4236-b554-4ecedae37898#ref=rss" target="_blank" rel="noopener">Friedrich Merz in Schleswig-Holstein: Der Kanzler meidet das S-Wort</a></h3>
+<p class="teaser" lang="de">Friedrich Merz drückt sich bei der CDU in Schleswig-Holstein um den Streit über die Stromsteuer herum. Umso deutlicher macht der Gastgeber, Ministerpräsident Daniel Günther, was die Partei erwartet.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>00:29</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/historikerin-ukraine-ist-beispiel-fuer-truegerische-ruhe_c9281d51-5149-4f5f-b875-c2c4e86c051f.html" target="_blank" rel="noopener">Historikerin: Ukraine ist Beispiel für „trügerische Ruhe“</a></h3>
+<p class="teaser" lang="de">Die Historikerin Ulrike von Hirschhausen beschäftigt sich unter anderem mit „eingefrorenen Konflikten“. In einem aktuellen Interview sagt sie, was vermeintlich stillgelegte Auseinandersetzungen so gefährlich macht.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 23:41</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/lars-klingbeil-spd-chef-basis-wahl" target="_blank" rel="noopener">Lars Klingbeil: Will ihn die SPD noch?</a></h3>
+<p class="teaser" lang="de">Lars Klingbeil versucht bei der SPD-Basis in Potsdam herauszufinden, ob er noch mal als Parteichef kandidieren sollte. Das hängt entscheidend von einer Frau ab.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/schleswig-holstein-daniel-guenther-erneut-cdu-spitzenkandidat-bei-landtagswahl-2027-a-19a20388-dc35-46f9-8d09-20c1aaf83358#ref=rss" target="_blank" rel="noopener">Schleswig-Holstein: Daniel Günther tritt erneut als CDU-Spitzenkandidat an</a></h3>
+<p class="teaser" lang="de">Zum dritten Mal auf Platz eins: Die CDU Schleswig-Holstein hat Daniel Günther als Spitzenkandidaten wiedergewählt. Der 53-Jährige ist seit 2017 Ministerpräsident – er will seinen Posten bei der Landtagswahl im April verteidigen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 22:45</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/lange-nacht-des-impfens-in-dresden-vielleicht-sagt-man-jetzt-nein-weil-man-sich-ueberhaupt-entscheiden-darf-a-f02dc236-c24b-4ccf-b3f3-dfb011a6e704#ref=rss" target="_blank" rel="noopener">Lange Nacht des Impfens in Dresden: »Vielleicht sagt man jetzt Nein, weil man sich überhaupt entscheiden darf«</a></h3>
+<p class="teaser" lang="de">Zwischen Schrundensalbe und Badesalz: Über 1400 Apotheken nehmen in Deutschland an der Langen Nacht des Impfens teil. Ein Vorsorge-Happening gegen Grippe und Covid-19, das seit vier Jahren wächst. Und in Sachsen so?</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 20:48</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/projekte/artikel/politik/ilse-aigner-bundespraesidentin-quiz-bundesversammlung-e951384/" target="_blank" rel="noopener">Quiz: Was wissen Sie über die Wahl der neuen Bundespräsidentin?</a></h3>
+<p class="teaser" lang="de">Klar ist: Ilse Aigner soll Staatsoberhaupt werden. Aber wie läuft die Wahl ab? Welche Partei schickt welche Promis in die Bundesversammlung? Und was sind die Aufgaben einer Bundespräsidentin?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 19:12</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/ilse-aigner-csu-als-bundespraesidentin-ein-grosses-missverstaendnis-kolumne-a-9a10a4b5-917f-4872-aa69-7b3b1e7c208c#ref=rss" target="_blank" rel="noopener">Ilse Aigner (CSU) als Bundespräsidentin: Ein großes Missverständnis – Kolumne</a></h3>
+<p class="teaser" lang="de">Koalition und Medien sind sich einig, dass Ilse Aigner die ideale Kandidatin für das Schloss Bellevue ist. Wie kann ein ganzes Land so irren?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 15:59</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/ben-berndt-und-sein-podcast-ungescriptet-ob-das-alles-stimmt-steht-auf-einem-anderen-blatt-a-be50afde-179c-4244-ac1b-b6378053361c#ref=rss" target="_blank" rel="noopener">Ben Berndt und sein Podcast »ungeskriptet«: »Ob das alles stimmt, steht auf einem anderen Blatt«</a></h3>
+<p class="teaser" lang="de">Ben Berndt verspricht Gespräche ohne Tabus und alternative Sichtweisen jenseits klassischer Medien. Millionen hören zu. Doch wo alles infrage gestellt werden darf, muss am Ende auch nichts mehr stimmen.</p>
+</article></div></section>
+<section id="ausland"><h2>國際 <span>Ausland</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>08:14</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/hamas-kommandeur-im-gazastreifen-getoetet-a-ed56078f-d554-4c35-b70c-2aaecb18ed90#ref=rss" target="_blank" rel="noopener">Hamas-Kommandeur im Gazastreifen getötet</a></h3>
+<p class="teaser" lang="de">Seit Monaten gilt eine Waffenruhe zwischen Israel und der Hamas. Doch die Attacken gehen weiter. Jetzt soll ein ranghoher Hamas-Kommandeur nach einem israelischen Luftangriff im Süden des Gazastreifens gestorben sein.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>06:54</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/us-flugsicherung-faa-sean-duffy-kongress" target="_blank" rel="noopener">Luftverkehr in den USA: US-Regierung fordert nach Flugstopp Milliarden für Flugsicherung</a></h3>
+<p class="teaser" lang="de">Veraltete IT-Systeme haben den Flugverkehr in den USA lahmgelegt. Für die Modernisierung fordert der Verkehrsminister 50 Milliarden Dollar. Er warnt vor weiteren Pannen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>05:47</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/spacex-faengt-starship-rakete-am-startturm-erstmals-wieder-auf-a-8995a28f-b04d-4a0f-a6bd-1b2298f5b450#ref=rss" target="_blank" rel="noopener">SpaceX fängt Starship-Rakete erstmals am Startturm wieder auf</a></h3>
+<p class="teaser" lang="de">Wichtiger Schritt in der Raumfahrtentwicklung: Elon Musks Unternehmen SpaceX hat es geschafft, die obere Stufe des »Starship«-Systems nach einem Testflug wieder aufzufangen. Ein voller Erfolg war das Manöver trotzdem nicht.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>05:33</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/proteste-frankreich-paris-schueler-polizei" target="_blank" rel="noopener">Demonstrationen: Mehr als 100.000 Menschen protestieren in Frankreich</a></h3>
+<p class="teaser" lang="de">Erneut haben mehr als 100.000 Menschen in Frankreich für bessere Bildung und gegen hohe Lebenshaltungskosten demonstriert. Mehr als 200 Menschen wurden festgenommen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:44</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/masern-usa-verlieren-offenbar-status-als-masernfreies-land-a-c2e5f007-0fbc-4e62-aa55-4abb1388fbd9#ref=rss" target="_blank" rel="noopener">Masern: USA verlieren offenbar Status als masernfreies Land</a></h3>
+<p class="teaser" lang="de">Die USA werden wohl nicht mehr als masernfrei eingestuft. Wie mehrere amerikanische Medien berichten, verliert das Land seinen Status – nach mehr als 25 Jahren.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:29</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/2026-11/abtreibungsverbot-liechtenstein-erbprinz-alois-veto" target="_blank" rel="noopener">Abtreibungsverbot in Liechtenstein: »Darf ich noch meine letzte Frage stellen? Ich rede sehr schnell«</a></h3>
+<p class="teaser" lang="de">In Liechtenstein sind Abtreibungen verboten. Der Erbprinz unterbindet jeden Versuch der Legalisierung. Warum? Unser Autor bekam drei Minuten Zeit für ein Interview.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:46</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/greenpeace-nordsee-boulder-vorfahr-norfolk-vanguard-bottom-trawling" target="_blank" rel="noopener">Greenpeace-Aktion: Protest gegen Schleppnetze gefährdet geplanten Offshore-Windpark</a></h3>
+<p class="teaser" lang="de">Umweltschützer haben Felsblöcke in der Nordsee versenkt, um Schleppnetzfischer zu stoppen. Die Steine liegen nun im Weg eines Windparkprojekts der britischen Regierung.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:07</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/meta-strafe-italien-datenschutz-facebook-app-garante" target="_blank" rel="noopener">Datenschutz: Italien verhängt 805 Millionen Euro Strafe gegen Meta</a></h3>
+<p class="teaser" lang="de">Meta soll ohne Zustimmung auf Fotos und Videos von 20 Millionen Nutzern in Italien zugegriffen haben. Die Datenschutzbehörde ordnete nun ein Bußgeld und Auflagen an.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:01</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/midterms-in-den-usa-demokrat-jonathan-kreiss-tomkins-gewinnt-gouverneurswahl-in-alaska-a-fb2cad4c-5ecc-438a-b9dd-76812d0a333d#ref=rss" target="_blank" rel="noopener">Midterms in den USA: Demokrat Jonathan Kreiss-Tomkins gewinnt Gouverneurswahl in Alaska</a></h3>
+<p class="teaser" lang="de">Elf Tage nach den US-Wahlen steht der Sieger im nördlichsten Bundesstaat fest: Alaska wird künftig von einem Demokraten regiert – dem jüngsten Gouverneur, den der Bundesstaat je hatte.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:01</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/ungarn-bei-korruptionsermittlungen-gegen-ex-minister-17-7-millionen-euro-sichergestellt-a-388f3d15-9839-401e-85c8-9ae015ee2c6b#ref=rss" target="_blank" rel="noopener">Ungarn: Bei Korruptionsermittlungen gegen Ex-Minister 17,7 Millionen Euro sichergestellt</a></h3>
+<p class="teaser" lang="de">Im Wald vergraben, in Lagerhallen versteckt: Ungarns Antikorruptionsbehörde hat bei Ermittlungen gegen einen früheren Minister der Regierung Orbán Bargeld in Millionenhöhe gefunden – und stundenlang gezählt.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 22:33</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog" target="_blank" rel="noopener">Gaza: EU fordert sofortigen Zugang für Hilfsorganisationen zum Gazastreifen</a></h3>
+<p class="teaser" lang="de">Um die katastrophale humanitäre Lage im Gazastreifen zu verbessern, fordert die EU Zugang für Hilfsorganisationen. Fünf Menschen sterben nach heftigem Regen. Das Liveblog</p>
+</article></div></section>
+<section id="wirtschaft"><h2>經濟 <span>Wirtschaft</span></h2><div class="grid"><article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>05:56</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/spacex-starship-nasa-raumfahrt-li.3580613" target="_blank" rel="noopener">Space-X: Noch ein historischer Moment für die Raumfahrt</a></h3>
+<p class="teaser" lang="de">Dem US-Raketenbauer Space-X gelingt es erstmals, die Oberstufe der Riesenrakete „Starship“ am Startplatz wieder einzufangen. Damit kann der Konzern die Rakete künftig komplett wieder verwenden.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:27</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/metzgerei-oeffnet-und-schliesst-innerhalb-von-6-wochen-die-jungen-leute-geben-nichts-aus_a57898be-e927-4be4-878e-1409ce4bbd46.html" target="_blank" rel="noopener">Metzgerei öffnet und schließt innerhalb von 6 Wochen: „Die jungen Leute geben nichts aus“</a></h3>
+<p class="teaser" lang="de">Nach nur sechs Wochen schließt die „Macelleria Di Vico“ überraschend ihre Filiale im Zentrum von Treviso. Inhaber Davide Di Vico nennt logistische Probleme und zu geringe Umsätze als Gründe.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:51</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/jensen-huang-nvidia-china-halbleiter-lieferkette" target="_blank" rel="noopener">Jensen Huang: Nvidia-Skandal könnte Chinas Chipindustrie schneller unabhängig machen</a></h3>
+<p class="teaser" lang="de">Die Affäre um Jensen Huang kann laut Experten die Gespräche zwischen China und den USA zur KI beeinträchtigen. Chinas Chipindustrie könnte rascher unabhängiger werden.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:14</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/pflege-land-nachbarschaftshilfe-gemeinde-landsberg" target="_blank" rel="noopener">Pflege auf dem Land: Hier pflegt jetzt der Nachbar</a></h3>
+<p class="teaser" lang="de">Vielerorts fehlt es an Pflegekräften. In Landsberg wollen sie nun Nachbarn motivieren, bei der Pflege zu helfen. Kann das Pilotprojekt funktionieren, auch finanziell?</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:06</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/wunsch-geht-in-erfuellung-rentner-70-kauft-historisches-elternhaus-der-familie-zurueck_3b1950d4-4540-4694-bada-76b7d9dfc552.html" target="_blank" rel="noopener">Wunsch geht in Erfüllung: Rentner (70) kauft historisches Elternhaus der Familie zurück</a></h3>
+<p class="teaser" lang="de">Ein italienischer Rentner hat es im Alter von 70 Jahren geschafft, seinen größten Wunsch zu erfüllen. Er kaufte das Haus in Sorbano zurück, in dem er 1956 geboren wurde.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:34</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/pokemon-karten-handel-spekulation-kriminalitaet" target="_blank" rel="noopener">Pokémon-Karten: Hunderttausend Dollar für eine Pokémon-Karte – ernsthaft?</a></h3>
+<p class="teaser" lang="de">Noch nie wurden die bunten Spielekarten für so hohe Summen gehandelt. Sie sind nicht nur begehrtes Sammlerobjekt, sondern ziehen inzwischen auch Kriminelle an.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:25</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/eurowings-interna-was-in-der-luft-gesagt-werden-darf-und-was-nicht-a-952d23fb-e5d6-4be6-bb4b-3443a07d188f#ref=rss" target="_blank" rel="noopener">Eurowings-Interna: Was in der Luft gesagt werden darf – und was nicht</a></h3>
+<p class="teaser" lang="de">Das Personal an Bord soll die Lage schönreden. Interne Dokumente zeigen, wie streng die Vorgaben für Durchsagen in der Luft sind. Und warum aus Gewittern »Regenschauer« werden.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>00:37</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/obwohl-440-kilo-uran-im-iran-verschwunden-sind-bleibt-der-oelmarkt-entspannt_a5d14ad8-a830-46b9-ade4-aabb40879444.html" target="_blank" rel="noopener">Obwohl 440 Kilo Uran im Iran verschwunden sind, bleibt der Ölmarkt entspannt</a></h3>
+<p class="teaser" lang="de">Neue Tankerangriffe und 440,9 Kilo Uran sorgen für Unsicherheit. Trotzdem droht Brent und WTI der zweite Wochenverlust in Folge.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>14.11. 23:36</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/reformen/ein-jahr-frueher-rente-kostet-kuenftig-195-euro-mehr-jaehrlich_822c93f2-dc9e-4e6f-bd91-bbd7179bbf3a.html" target="_blank" rel="noopener">Ein Jahr früher Rente kostet künftig 195 Euro mehr jährlich</a></h3>
+<p class="teaser" lang="de">Die Union plant höhere Rentenabschläge. Ein Jahr früher könnte 16 Euro monatlich mehr kosten. Berechnen Sie Ihren möglichen Verlust.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 23:29</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/meta-facebook-datenschutz-italien-strafe-li.3580557" target="_blank" rel="noopener">Italien: Meta muss 805 Millionen Euro Strafe zahlen</a></h3>
+<p class="teaser" lang="de">Der Konzern habe auf Fotos und Videos von Android-Nutzern zugegriffen, ohne eine Erlaubnis dafür einzuholen, kritisiert die italienische Datenschutzbehörde.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>14.11. 20:45</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/deutsches-start-up-setzt-nvidia-mit-neuer-chip-technik-unter-zugzwang_3afb181d-13ce-45c4-af25-2a70eff2ea19.html" target="_blank" rel="noopener">Deutsches Start-up setzt Nvidia mit neuer Chip-Technik unter Zugzwang</a></h3>
+<p class="teaser" lang="de">Ein Start-up aus München und dem Silicon Valley will Nvidia herausfordern. Seine KI-Chips sollen bis zu zehnmal weniger Strom verbrauchen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 19:44</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/soziales/csu-will-abschlaege-fuer-fruehrentner-erhoehen-a-e30254e8-833b-4ad1-ab30-a6114735d64b#ref=rss" target="_blank" rel="noopener">CSU will Abschläge für Frührentner erhöhen</a></h3>
+<p class="teaser" lang="de">Wegen der angespannten Haushaltslage will die Regierung weniger Milliarden an die Rentenversicherung überweisen. Um das Loch zu stopfen, sollen die Abschläge für Frührentner steigen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 17:56</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/reederei-msc-steht-vor-kauf-der-meyer-werft-a-16726211-4815-4015-b4de-1f2db396e978#ref=rss" target="_blank" rel="noopener">Reederei MSC steht vor Kauf der Meyer Werft</a></h3>
+<p class="teaser" lang="de">Die letzte bedeutende deutsche Kreuzfahrtschiffwerft geht wohl an die weltgrößte Reederei: Der Bund will dem Konzern MSC ein Kaufrecht auf die Meyer Werft einräumen. Kommende Woche soll der Vertrag unterzeichnet werden.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 16:41</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/tesla-verkauft-robotaxis-fuer-29-990-dollar-plus-299-dollar-gebuehr-pro-monat-doch-nicht-an-alle-kunden-aber-es-faehrt-nur-nicht-ueberall-a-a09f25f3-2f82-4fab-b61e-1b97cb340006#ref=rss" target="_blank" rel="noopener">Tesla Cybercab: Robotaxi für 29.990 Dollar – aber mit Nutzungsbeschränkungen</a></h3>
+<p class="teaser" lang="de">Es ist Elon Musks neues Lieblingsprojekt: ein selbstfahrendes goldenes Ei. Nun sollen auch Privatkunden das Robotaxi ordern können. Offen ist, ob sie es dann allerdings auch nutzen können.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 15:49</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/service/iran-meldet-zwei-brennende-oel-tanker-in-der-strasse-von-hormus-a-872ff571-83d5-4520-9cd2-bdbdf570b95e#ref=rss" target="_blank" rel="noopener">Straße von Hormus: Iran meldet drei brennende Öltanker in Meerenge</a></h3>
+<p class="teaser" lang="de">Es fließt wieder Öl durch die Straße von Hormus, doch die Passage gilt als teuer und riskant. Nun berichtet Iran über Feuer auf mehreren Tankern – angeblich verursacht durch Seeminen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 15:17</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/soziales/kassenaerzte-schlagen-selbstzahler-termine-fuer-kassenpatienten-vor-a-4282bfbb-79a4-447b-b77b-812ed98bfc04#ref=rss" target="_blank" rel="noopener">Kassenärzte schlagen Selbstzahler-Termine für Kassenpatienten vor</a></h3>
+<p class="teaser" lang="de">Die Ärzte sind sauer über das Sparprogramm im Gesundheitswesen. Viele Praxen würden dann weniger Termine anbieten, warnt der Chef der Kassenärzte – es sei denn, Patienten zahlten aus eigener Tasche.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 14:59</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/unternehmen/2026-11/spacex-starship-super-heavy-booster-testflug-rakete" target="_blank" rel="noopener">SpaceX: SpaceX bricht Auffangversuch bei Starship-Test ab</a></h3>
+<p class="teaser" lang="de">Bei einem Testflug der Starship-Rakete von Elon Musks Firma SpaceX ist die untere Raketenstufe ins Meer gestürzt. Sie sollte eigentlich wiederverwertbar sein.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 14:36</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/sean-duffy-donald-trump-faa-flugverbot-usa-flugsicherung-newark" target="_blank" rel="noopener">Flugstopp in den USA: Schon Kleinigkeiten können den US-Flugverkehr lahmlegen</a></h3>
+<p class="teaser" lang="de">Die USA erleben den längsten Flugstopp seit 9/11. Verantwortlich sind offenbar teils museumsreife Systeme, die mit Disketten und Verlängerungskabeln betrieben werden.</p>
+</article></div></section>
+<section id="kultur"><h2>文化・藝文 <span>Kultur &amp; Feuilleton</span></h2><div class="grid"><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:33</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/kleinwuechsige-leela-scherbaum-lebe-in-einer-welt-die-nicht-auf-mich-abgestimmt-ist_27f13274-f2d2-4887-bfb2-313cab34462a.html" target="_blank" rel="noopener">Kleinwüchsige Leela Scherbaum: „Lebe in einer Welt, die nicht auf mich abgestimmt ist“</a></h3>
+<p class="teaser" lang="de">Wie „normal“ kann man als kleinwüchsiger junger Mensch erwachsen werden? Die erste große Liebe erleben, im Traumberuf Schauspiel Fuß fassen? Leela Scherbaum, 1,30 Meter groß, kennt diese Themen. Spielt sie im Coming-of-Age-Film „Schlaflos in Bochum“ eine fiktive Version von sich …</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:32</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/michelle-reagiert-auf-die-kritik-zu-ihrer-neuen-frisur-nicht-jedermanns-geschmack_dfa0be91-7131-4a3d-8ee5-7dc47eb27910.html" target="_blank" rel="noopener">Michelle reagiert auf die Kritik zu ihrer neuen Frisur: „Nicht jedermanns Geschmack“</a></h3>
+<p class="teaser" lang="de">Optisch war es für Michelle ein großer Schritt von der blonden Mähne zum grauen Buzz Cut. Jetzt reagiert sie auf die gemischten Reaktionen ihrer Follower.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:04</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/philippinen-gewinnen-ersten-eurovision-song-contest-asia_543ef411-e619-4600-a0bf-c231147b4835.html" target="_blank" rel="noopener">Philippinen gewinnen ersten Eurovision Song Contest Asia</a></h3>
+<p class="teaser" lang="de">Beim ersten Eurovision Song Contest Asia traten in einer Mega-Show elf Länder gegeneinander an. Bangkok wurde zur Bühne für ein neues Kapitel des schillernden Wettbewerbs.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:56</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/nach-aus-mit-yvonne-woelke-reality-star-peter-klein-ist-wieder-vergeben_4c21eb0e-854a-4b6c-8311-3e2b7935cb6c.html" target="_blank" rel="noopener">Nach Aus mit Yvonne Woelke: Reality-Star Peter Klein ist wieder vergeben</a></h3>
+<p class="teaser" lang="de">Peter Klein geht nicht mehr als Single durchs Leben. Jetzt spricht der Reality-TV-Darsteller über seine neue Liebe.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:15</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/musik/eurovision-song-contest-asia-philippinische-saengerin-carmelle-gewinnt-erste-ausgabe-a-f12ec3fd-897e-46a9-9e48-258f18cd889b#ref=rss" target="_blank" rel="noopener">Eurovision Song Contest Asia: Philippinische Sängerin Carmelle gewinnt erste Ausgabe</a></h3>
+<p class="teaser" lang="de">Die Teilnehmerin aus den Philippinen hat die erste Ausgabe des asiatischen ESC gewonnen. Mit ihrem Song »Sobra-Sobra« siegte sie beim Finale in Thailand gegen Konkurrenten aus zehn anderen Ländern.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:05</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/vier-stunden-jeden-tag-wilson-gonzalez-ochsenknecht-hat-mehr-als-490-tage-gta-gezockt_519b9dd3-e335-4361-aa59-aef95c234f59.html" target="_blank" rel="noopener">Vier Stunden jeden Tag: Wilson Gonzalez Ochsenknecht hat mehr als 490 Tage GTA gezockt</a></h3>
+<p class="teaser" lang="de">Am 19. November erscheint der sechste Teil der bekannten Actionspielreihe „Grand Theft Auto“. Wilson Gonzalez Ochsenknecht ist schon lange Fan, wie er nun verrät.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/sat-1-wirft-die-landarztpraxis-nach-quoten-absturz-aus-dem-programm_6de49cf7-1886-4303-b348-d579590dad6d.html" target="_blank" rel="noopener">Sat.1 wirft „Die Landarztpraxis“ nach Quoten-Absturz aus dem Programm</a></h3>
+<p class="teaser" lang="de">Für „Die Landarztpraxis“ endet der bisherige Vorabendplatz bei Sat.1. Ab dem 14. Dezember übernimmt dort Jörg Pilawa mit „Deal or No Deal“.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:20</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/2026/49/85-lebensjahr-alter-konrad-adenauer-doris-payne-sophia-loren" target="_blank" rel="noopener">85. Lebensjahr: Mit 85 Jahren</a></h3>
+<p class="teaser" lang="de">In unserer Kolumne nehmen wir uns jede Woche Fakten eines Lebensjahrs vor. In diesem wurde Konrad Adenauer erneut zum Bundeskanzler gewählt.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 23:51</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/musik/koenig-charles-und-elton-john-brillieren-als-radio-djs-a-6d9ec9ee-82b9-423e-a489-59333141d861#ref=rss" target="_blank" rel="noopener">»Rocket Hour«: König Charles III. und Elton John brillieren als Radio-DJs</a></h3>
+<p class="teaser" lang="de">König Charles ist zu Gast in Elton Johns Radiosendung »Rocket Hour« – wer den beiden zuhört, erlebt eine Masterclass in Sachen Coolness. Und einen Streifzug durch die Popgeschichte.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 21:14</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/tv/eurovision-song-contest-asia-wie-soll-der-esc-in-asien-funktionieren-a-5f85f10e-3060-4216-a3b2-766d6d473153#ref=rss" target="_blank" rel="noopener">Eurovision Song Contest Asia: Alles, was Sie zum ESC Asia wissen müssen – und hören</a></h3>
+<p class="teaser" lang="de">Der ESC bekommt einen asiatischen Ableger, zum Start sind elf Länder dabei. Übersetzt sich die Mischung aus Kitsch, Glamour und Wettstreit?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 20:24</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/sandra-hueller-zweimal-fuer-europaeischen-filmpreis-nominiert-a-e73b9895-d242-4dc9-b559-a3f7b8f44e14#ref=rss" target="_blank" rel="noopener">Europäischer Filmpreis: Sandra Hüller zweimal nominiert</a></h3>
+<p class="teaser" lang="de">Sandra Hüller ist beim Europäischen Filmpreis für ihre Hauptrollen in »Vaterland« und »Rose« nominiert worden. Eine ungewöhnliche Dopplung? Der deutschen Schauspielerin passiert das nicht zum ersten Mal.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 18:50</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/joachim-sauer-verwehrt-sich-immer-noch-gegen-die-bezeichnung-kanzlerinnengatte-a-80492378-c962-41a1-9204-881f735487a7#ref=rss" target="_blank" rel="noopener">Joachim Sauer verwahrt sich immer noch gegen die Bezeichnung »Kanzlerinnengatte«</a></h3>
+<p class="teaser" lang="de">Während der Amtszeit seiner Frau Angela Merkel gab Joachim Sauer kein einziges Interview. Jetzt hat er seine Biografie geschrieben – und spricht über das Leben in der DDR und seine Liebe zu Wagner.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 13:21</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/2026/49/britta-hasselmann-gruene-afd-bundestag-kontakt" target="_blank" rel="noopener">Britta Haßelmann: »Warum sollte ich nett zur AfD sein?«</a></h3>
+<p class="teaser" lang="de">Die Grüne Britta Haßelmann hält viel von Höflichkeit. Außer gegenüber AfD-Abgeordneten. Deren Menschenfeindlichkeit will sie nicht mit Nettigkeit banalisieren.</p>
+</article></div></section>
+<section id="wissen"><h2>科學・教育 <span>Wissen &amp; Bildung</span></h2><div class="grid"><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:34</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/weltraum/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf_4ec31db0-7076-45e4-a7b4-ba93bda28e16.html" target="_blank" rel="noopener">SpaceX fängt Riesen-Rakete Starship erstmals wieder auf</a></h3>
+<p class="teaser" lang="de">Erstmals hat das US-Raumfahrtunternehmen SpaceX die obere Stufe des Riesen-Raketensystems Starship nach einem All-Testflug auf der Erde wieder aufgefangen.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:06</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/so-gross-wie-ein-mensch-die-erde-hat-einen-neuen-mini-mond-namens-2026-qq8_91da8e2b-ab45-4563-8456-d113d24e9ff0.html" target="_blank" rel="noopener">So groß wie ein Mensch: Die Erde hat einen neuen Mini-Mond namens „2026 QQ8“</a></h3>
+<p class="teaser" lang="de">Die Erde hat vorübergehend einen zweiten natürlichen Begleiter, einen sogenannten Mini-Mond. Eingefangen von der Erdanziehungskraft, kreist der kleiner Asteroid namens 2026 QQ8 derzeit um unseren Planeten.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:06</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/staatsforste-sammeln-ueber-600-000-eicheln-die-fruechte-werden-fuer-unsere-waelder-immer-wichtiger_0d5f79b1-4ce7-4c61-a3d9-c76301a6f591.html" target="_blank" rel="noopener">Staatsforste sammeln über 600.000 Eicheln – die Früchte werden für unsere Wälder immer wichtiger</a></h3>
+<p class="teaser" lang="de">Aus einem historischen Eichenbestand im Passauer Husarenwald entsteht Saatgut für die Wälder von morgen. Die robuste Eiche soll helfen, Bayerns Wälder widerstandsfähiger gegen Hitze und Klimawandel zu machen.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:03</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesundheit/2026-11/masern-usa-impfung-skepsis-donald-trump-robert-kennedy-junior" target="_blank" rel="noopener">Masern in den USA: Die USA sind offiziell wieder Masernland. Aus Gründen</a></h3>
+<p class="teaser" lang="de">In diesem Jahr sind in den USA zehn Menschen an den Masern gestorben. Ein WHO-Gremium will den Status als masernfrei entziehen. Das hat auch mit einem Kennedy zu tun.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>14.11. 23:56</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/natur/obstbaeume-jetzt-noch-einpflanzen-kuebelpflanzen-ab-ins-warme_15525920-b24e-41a3-95f4-4f115982d187.html" target="_blank" rel="noopener">Obstbäume jetzt noch einpflanzen, Kübelpflanzen ab ins Warme</a></h3>
+<p class="teaser" lang="de">Nicht jede Pflanze braucht für den Winter einen wärmeren Ort. Welche Kübelpflanzen jetzt ins Winterquartier gehören, wer draußen bleiben darf und worauf es beim Überwintern ankommt.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 23:12</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesundheit/2026-11/ebola-dr-kongo-christoph-friedl-aerzte-ohne-grenzen-impfstoff" target="_blank" rel="noopener">Ebola: »Die Angst vor einer Ansteckung ist immer da. Sie ist allgegenwärtig«</a></h3>
+<p class="teaser" lang="de">Drei Monate lang leitete Christoph Friedl ein Ebola-Behandlungszentrum im Ostkongo. Und obwohl ein Drittel seiner Patienten stirbt, gibt es auch Momente der Freude.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 21:54</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/natur/spatzen-in-berlin-was-hinter-dem-drastischen-rueckgang-der-singvoegel-steckt-a-a0eaec38-b58a-4dc1-8bd8-852d493ee6ab#ref=rss" target="_blank" rel="noopener">Spatzen in Berlin: Was hinter dem drastischen Rückgang der Singvögel steckt</a></h3>
+<p class="teaser" lang="de">Weltweit gibt es immer weniger Haussperlinge, und nun verschwinden sie auch aus der Hauptstadt. Woran liegt das?</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 20:51</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesundheit/2026-11/honorarkuerzungen-aerzte-kassenarztliche-bundesvereinigung-andreas-gassen-gkv-gxe" target="_blank" rel="noopener">Honorarkürzungen für Ärzte: Kassenärztliche Vereinigung rechnet mit mehr Selbstzahlerterminen</a></h3>
+<p class="teaser" lang="de">Wegen Honorarkürzungen rechnen die Kassenärzte mit einer Verlagerung von Terminen zugunsten von Selbstzahlern. Die Krankenkassen kritisieren das als »Angst-Kampagne«.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>14.11. 19:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/archaeologen-entdecken-seltene-artefakte-aus-dem-17-jahrhundert_3c50848d-ff48-45eb-bf56-d50892c6d932.html" target="_blank" rel="noopener">Archäologen entdecken seltene Artefakte aus dem 17. Jahrhundert</a></h3>
+<p class="teaser" lang="de">Vor Schweden untersuchen Taucher das Wrack eines historischen Sklavenschiffs. Seltene Funde liefern neue Hinweise auf seine Vergangenheit.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>14.11. 18:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/bis-zu-100-mal-schneller-unser-sonnensystem-koennte-frueher-auseinanderbrechen-als-gedacht_dbb21067-028d-4e39-b35c-148ddb8fa8c1.html" target="_blank" rel="noopener">Bis zu 100-mal schneller: Unser Sonnensystem könnte früher auseinanderbrechen als gedacht</a></h3>
+<p class="teaser" lang="de">Die Sonne könnte das Ende unseres Sonnensystems früher einläuten als gedacht. Neue Simulationen zeigen, wie die Planeten aus ihren Bahnen geraten könnten.</p>
+</article></div></section>
+<section id="gesellschaft"><h2>社會 <span>Gesellschaft &amp; Panorama</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>07:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/kabel-und-routertausch-soll-flugchaos-verursacht-haben-tausende-weitere-fluege-gestrichen-a-202245c3-145d-42b7-9107-8664ea1ac15e#ref=rss" target="_blank" rel="noopener">Kabel- und Routertausch soll Flugchaos verursacht haben – Tausende weitere Flüge gestrichen</a></h3>
+<p class="teaser" lang="de">Auch einen Tag nach dem Startverbot auf fast allen US-Airports ist der Flugverkehr stark gestört. 4000 weitere Verbindungen wurden gestrichen. Auslöser war offenbar die Installation neuer Kabel und Router in einem betagten IT-System.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:27</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/marco-59-erfindet-patentierte-module-die-stillgelegte-bahntrassen-fahrradtauglich-machen_01e8e99a-810c-431a-a8fa-73503ec7b618.html" target="_blank" rel="noopener">Marco (59) erfindet patentierte Module, die stillgelegte Bahntrassen fahrradtauglich machen</a></h3>
+<p class="teaser" lang="de">Eine patentierte Idee verwandelt stillgelegte Bahntrassen in modulare Radwege – ohne die Schienen zu entfernen. Die Stahlmodule sind schnell montiert und rückbaubar.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:13</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/experte-stufe-5-heizt-raeume-nicht-schneller-auf_13bbf9a3-1b10-4be9-a45f-182df60bac93.html" target="_blank" rel="noopener">Experte: Stufe 5 heizt Räume nicht schneller auf</a></h3>
+<p class="teaser" lang="de">Die kalte Jahreszeit ist da - und mit ihr die Frage: Wie wird es drinnen angenehm warm, ohne dass die Heizkosten überhitzen? „Beim Heizen ist Konstanz gefragt“, sagt Markus Lau, Technikexperte beim Flüssiggas Verband.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:13</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/anny-83-hat-ploetzlich-keinen-gehweg-mehr-vor-ihrem-haus-muss-jedes-mal-mein-leben-riskieren_f4f502d0-d12e-41ee-825d-abe8253465a5.html" target="_blank" rel="noopener">Anny (83) hat plötzlich keinen Gehweg mehr vor ihrem Haus – „Muss jedes Mal mein Leben riskieren“</a></h3>
+<p class="teaser" lang="de">Eine Gemeinde in Belgien verschönert ihre Straßen. Dabei verschwindet der Gehweg vor dem Haus der 83-jährigen Anny. Das hat Folgen für die Rentnerin.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:12</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/buergermeister-wettert-ueber-bummelpost-haushalte-wurden-erst-nach-dem-begraebnis-ueber-den-todesfall-informiert_a7b69463-f97c-456f-9b11-da236868f365.html" target="_blank" rel="noopener">Bürgermeister wettert über Bummelpost: „Haushalte wurden erst nach dem Begräbnis über den Todesfall informiert“</a></h3>
+<p class="teaser" lang="de">Post-Chaos im Innviertel: Briefe kommen teils Wochen zu spät an. Für eine Familie traf die traurige Nachricht erst nach dem Begräbnis ein.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:41</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/bergretter-warnt-leichtsinnige-touristen-wird-irgendwann-einmal-so-sein-dass-auch-wir-sagen-wir-gehen-da-nicht-rauf_67dacd6f-acaa-46c2-ae29-efdb8b68bfc8.html" target="_blank" rel="noopener">Bergretter warnt leichtsinnige Touristen: „Wird irgendwann einmal so sein, dass auch wir sagen: Wir gehen da nicht rauf“</a></h3>
+<p class="teaser" lang="de">Steigende Temperaturen machen die Alpen instabiler und erhöhen das Risiko für Steinschläge, Muren und Felsstürze. Die Bergrettung warnt: Bei extremer Gefahr können selbst Retter nicht mehr jeden Einsatz durchführen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:29</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/azubis-aus-vietnam-in-deutschland-acht-menschen-in-einem-raum-lohn-oft-verweigert-spiegel-tv-a-e8fb4408-0039-42ea-97a3-95a25c93d354#ref=rss" target="_blank" rel="noopener">Azubis aus Vietnam in Deutschland: Acht Menschen in einem Raum, Lohn oft verweigert - SPIEGEL TV</a></h3>
+<p class="teaser" lang="de">Sie kamen nach Deutschland für eine Ausbildung in der Pflege. Was sie erlebt haben, gleicht einem Albtraum: Zusammengepfercht zu acht in einem Zimmer, unregelmäßige bis keine Vergütung, Kündigungsdrohungen für Nachfragen nach dem Lohn.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:17</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/phantasialand-in-bruehl-wegen-microsoft-ausfall-chlorpanne-zu-spaet-entdeckt-15-verletzte-a-6e70b4ec-9e3e-4c52-aae5-28beaa2fef62#ref=rss" target="_blank" rel="noopener">Phantasialand in Brühl: Wegen Microsoft-Ausfall Chlorpanne zu spät entdeckt – 15 Verletzte</a></h3>
+<p class="teaser" lang="de">Wegen des Microsoft-Ausfalls ist offenbar ein Hotelpool des Phantasialands zur Gefahr geworden: Dem Wasser wurde laut dem Freizeitpark zu viel Chlor beigemischt, doch das Alarmsystem versagte.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:11</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/zeit-verbrechen/2026/41/7-oktober-hamas-israel-kibbuz-nir-oz-trauer-carolin-bohl" target="_blank" rel="noopener">7. Oktober: »Wir sind gestern doch nicht nach Tel Aviv gefahren«</a></h3>
+<p class="teaser" lang="de">Das war die letzte SMS der deutschen Studentin Carolin Bohl. Sie starb beim Hamas-Angriff am 7. Oktober. Ihre Mutter zieht es immer wieder an den Ort des Grauens zurück.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 22:37</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/2026-11/klimaprotest-tuerkei-antalya-klimakonferenz-menschenrechte-gxe" target="_blank" rel="noopener">Türkei: Tausende protestieren in Antalya während Klimakonferenz</a></h3>
+<p class="teaser" lang="de">Die COP31 ist eine der wenigen Gelegenheiten zum Protest in der Türkei. Zur Halbzeit der Klimakonferenz in Antalya gingen mehr als 10.000 Menschen auf die Straße.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 21:06</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/wetter-deutschland-auf-sonne-folgt-glatteis-an-kueste-und-im-bergland-wird-es-stuermisch-a-6edca535-47bc-4704-8e0a-bb9a49a3ebba#ref=rss" target="_blank" rel="noopener">Wetter: In Deutschland folgt auf Sonne Glatteis, an Küste und im Bergland wird es stürmisch</a></h3>
+<p class="teaser" lang="de">Vorsicht, glatt: Während es tagsüber verbreitet sonnig ist, kann es in der Nacht zum Sonntag stellenweise gefährlich rutschig werden. Vor allem im Westen und Südwesten müssen Verkehrsteilnehmer aufpassen.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 18:13</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/schiffsunglueck-zusammenstoss-tanker-kentern-kreuzfahrt-mississippi-usa-li.3580353" target="_blank" rel="noopener">USA: „Wunder“ auf dem Mississippi: Kreuzfahrtschiff kentert, alle überleben</a></h3>
+<p class="teaser" lang="de">In New Orleans drückt ein Tanker ein Kreuzfahrtschiff an die Kaimauer, das danach binnen Minuten kentert. Menschen klettern über die Reling und schwimmen um ihr Leben.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 17:55</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/wohnungsnot-in-berlin-so-mein-lieber-hast-du-deine-bewerbungsunterlagen-tippitoppi-a-02586753-775e-4f8e-aecf-78dc0a2ae814#ref=rss" target="_blank" rel="noopener">Wohnungsnot in Berlin: »So mein Lieber, hast du deine Bewerbungsunterlagen tippitoppi?«</a></h3>
+<p class="teaser" lang="de">Achim Amann ist Makler in Berlin. Sein Ziel: so viele Wohnungen wie möglich vermieten und verkaufen. Sein Problem: hohe Preise, klamme Interessenten. Und jetzt kommen auch noch die Linken.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 17:01</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/familie/2026-11/versorgung-fruehgeborene-geburt-medizin-technologie" target="_blank" rel="noopener">Versorgung von Frühgeborenen: »Ich will ein normales Mädchen sein«</a></h3>
+<p class="teaser" lang="de">Lena wog bei der Geburt 680 Gramm. Sie überlebte dank der Fortschritte der Frühgeborenenmedizin. Doch wie beeinflusst eine extrem frühe Geburt das spätere Leben?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>14.11. 16:35</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/justiz/alexander-k-maschsee-moerder-wird-ein-fall-fuer-den-bundesgerichtshof-a-100118a8-1dc3-4c92-b378-85c5d7b6d841#ref=rss" target="_blank" rel="noopener">Hannover: Verteidigung legt im Fall »Maschseemörder« Revision ein</a></h3>
+<p class="teaser" lang="de">Alexander K. ist mehrfach vorbestraft und ein verurteilter Frauenmörder, erst kürzlich erging ein neues Urteil gegen ihn. Sein Verteidiger will das nicht akzeptieren. Nun landet der Fall vor Deutschlands höchstem Gericht.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 13:14</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/flugverkehr-chaos-flugstopp-luftfahrt-canceln-airport-verkehrsminister-duffy-trump-li.3580357" target="_blank" rel="noopener">Stundenlanger Flugstopp in den USA: Mehr als 7600 Flüge gestrichen, 8000 Flüge verspätet</a></h3>
+<p class="teaser" lang="de">Hunderttausende Passagiere stranden an Flughäfen. Grund ist ein Problem in der Radarkommunikation. US-Verkehrsminister Sean Duffy macht veraltete Infrastruktur dafür verantwortlich.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 10:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/musk-starship-space-x-start-panne-missglueckt-li.3580362" target="_blank" rel="noopener">Raumfahrt: Fehlschlag bei „Starship“-Testflug</a></h3>
+<p class="teaser" lang="de">Mit dem größten je gebauten Raketensystem will Elon Musk den Mars erschließen. Jetzt ist „Starship“ erneut zu einem Testflug aufgebrochen – doch der Fangversuch scheitert.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>14.11. 06:54</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/new-orleans-mississippi-schiffsunglueck-american-heritage-tankschiff" target="_blank" rel="noopener">USA: Tanker und Flusskreuzfahrtschiff kollidieren in New Orleans</a></h3>
+<p class="teaser" lang="de">In Louisiana sind zwei Schiffe zusammengestoßen. Ein Kreuzfahrtschiff mit über 180 Menschen an Bord kenterte, 32 Personen wurden verletzt. Es gibt keine Vermissten.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>14.11. 04:05</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/lori-huang-jensen-huang-nvidia-scheidung-tech-industrie-wirtschafsspionage-spionin-china-li.3579383" target="_blank" rel="noopener">Lori Huang: Sie hielt Jensen Huang den Rücken frei. Wird sie jetzt Milliardärin?</a></h3>
+<p class="teaser" lang="de">Lori Huang ist seit 41 Jahren mit dem untreuen Nvidia-Gründer verheiratet. Im Fall einer Scheidung könnte sie eine der reichsten Frauen der Welt werden.</p>
+</article></div></section>
+</main>
+<footer>
+  <p>本次未產生中文翻譯（deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand u）。標題與導言著作權屬各報社，點標題閱讀原文（部分為付費內容）。時間為台灣時間。</p>
+  <details><summary>來源狀態 Quellenstatus：28/35 正常，7 個無法讀取</summary><table><tr><th>FAZ</th><td><span class="bad" title="https://www.faz.net/rss/aktuell/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 頭條</span> <span class="bad" title="https://www.faz.net/rss/aktuell/politik/inland/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 德國政治</span> <span class="bad" title="https://www.faz.net/rss/aktuell/politik/ausland/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 國際</span> <span class="bad" title="https://www.faz.net/rss/aktuell/wirtschaft/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 經濟</span> <span class="bad" title="https://www.faz.net/rss/aktuell/feuilleton/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 文化・藝文</span> <span class="bad" title="https://www.faz.net/rss/aktuell/wissen/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 科學・教育</span> <span class="bad" title="https://www.faz.net/rss/aktuell/gesellschaft/ — HTTPError: HTTP Error 302: Moved Temporarily">✗ 社會</span></td></tr><tr><th>SZ</th><td><span class="ok" title="https://rss.sueddeutsche.de/rss/Topthemen — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Politik — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Wirtschaft — 2 Artikel">✓ 經濟</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Kultur — 0 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Wissen — 0 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Bildung — 0 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Panorama — 4 Artikel">✓ 社會</span></td></tr><tr><th>ZEIT</th><td><span class="ok" title="https://newsfeed.zeit.de/index — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://newsfeed.zeit.de/politik/deutschland/index — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://newsfeed.zeit.de/politik/ausland/index — 6 Artikel">✓ 國際</span> <span class="ok" title="https://newsfeed.zeit.de/wirtschaft/index — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://newsfeed.zeit.de/entdecken/index — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://newsfeed.zeit.de/gesundheit/index — 3 Artikel">✓ 科學・教育</span> <span class="ok" title="https://newsfeed.zeit.de/arbeit/index — 0 Artikel">✓ 科學・教育</span> <span class="ok" title="https://newsfeed.zeit.de/gesellschaft/index — 6 Artikel">✓ 社會</span></td></tr><tr><th>SPIEGEL</th><td><span class="ok" title="https://www.spiegel.de/schlagzeilen/tops/index.rss — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://www.spiegel.de/politik/deutschland/index.rss — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://www.spiegel.de/ausland/index.rss — 6 Artikel">✓ 國際</span> <span class="ok" title="https://www.spiegel.de/wirtschaft/index.rss — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://www.spiegel.de/kultur/index.rss — 5 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://www.spiegel.de/wissenschaft/index.rss — 3 Artikel">✓ 科學・教育</span> <span class="ok" title="https://www.spiegel.de/panorama/index.rss — 6 Artikel">✓ 社會</span></td></tr><tr><th>FOCUS</th><td><span class="ok" title="https://rss.focus.de/ — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://rss.focus.de/politik/ — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://rss.focus.de/finanzen/ — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://rss.focus.de/kultur/ — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://rss.focus.de/wissen/ — 6 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.focus.de/panorama/ — 6 Artikel">✓ 社會</span></td></tr></table></details>
+</footer>
+<script>
+(function () {
+  var KEY = "presseschau-prefs", prefs = { zh: true, teaser: true, hidden: [] };
+  try { var s = JSON.parse(localStorage.getItem(KEY) || "{}"); for (var k in s) prefs[k] = s[k]; } catch (e) {}
+  function apply() {
+    document.body.classList.toggle("no-zh", !prefs.zh);
+    document.body.classList.toggle("no-teaser", !prefs.teaser);
+    document.getElementById("t-zh").setAttribute("aria-pressed", prefs.zh);
+    document.getElementById("t-teaser").setAttribute("aria-pressed", prefs.teaser);
+    document.querySelectorAll("[data-chip]").forEach(function (b) {
+      b.setAttribute("aria-pressed", prefs.hidden.indexOf(b.dataset.chip) < 0);
+    });
+    document.querySelectorAll("[data-p]").forEach(function (el) {
+      el.hidden = prefs.hidden.indexOf(el.dataset.p) >= 0;
+    });
+    try { localStorage.setItem(KEY, JSON.stringify(prefs)); } catch (e) {}
+  }
+  document.getElementById("t-zh").onclick = function () { prefs.zh = !prefs.zh; apply(); };
+  document.getElementById("t-teaser").onclick = function () { prefs.teaser = !prefs.teaser; apply(); };
+  document.querySelectorAll("[data-chip]").forEach(function (b) {
+    b.onclick = function () {
+      var id = b.dataset.chip, i = prefs.hidden.indexOf(id);
+      if (i >= 0) prefs.hidden.splice(i, 1); else prefs.hidden.push(id);
+      apply();
+    };
+  });
+  apply();
+})();
+</script>
+</body>
+</html>

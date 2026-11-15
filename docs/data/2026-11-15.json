@@ -1,0 +1,1449 @@
+{
+ "generated": "2026-11-15T09:58:43.220260+08:00",
+ "translated": false,
+ "translation_errors": [
+  "gtx: HTTPError: HTTP Error 429: Too Many Requests",
+  "gtx: HTTPError: HTTP Error 429: Too Many Requests",
+  "gtx: HTTPError: HTTP Error 429: Too Many Requests",
+  "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try",
+  "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try",
+  "deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand up to 200k requests per day. You can wait and try again later oryou can try"
+ ],
+ "items": [
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Bundespolitik: Hubertus Heil kandidiert für SPD-Vorsitz",
+   "link": "https://www.sueddeutsche.de/politik/spd-hubertus-heil-li.3580581",
+   "key": "https://www.sueddeutsche.de/politik/spd-hubertus-heil-li.3580581",
+   "summary": "Der 54-Jährige will sich beim Parteitag Mitte Januar zur Wahl stellen. Er ist der erste, der seine Kandidatur offiziell verkündet hat.",
+   "time": "2026-11-14T19:22:20+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "US-Midterms: 37-jähriger Demokrat gewinnt Gouverneurswahl in Alaska",
+   "link": "https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-alaska-kreiss-tomkins-li.3578585",
+   "key": "https://www.sueddeutsche.de/politik/usa-news-liveblog-midterms-alaska-kreiss-tomkins-li.3578585",
+   "summary": "Jonathan Kreiss-Tomkins ist der erste demokratische Gouverneur in Alaska seit 1998. Mit seinem Wahlsieg werden die Demokraten künftig 30 der 50 Gouverneursposten in den USA besetzen.",
+   "time": "2026-11-14T16:31:48+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Staatsakt für Hubert Aiwanger: „Ich danke euch, dass ihr uns diesen Menschen gegeben habt“",
+   "link": "https://www.sueddeutsche.de/bayern/bayern-aiwanger-trauerfeier-liebfrauendom-staatsakt-soeder-aigner-li.3580451",
+   "key": "https://www.sueddeutsche.de/bayern/bayern-aiwanger-trauerfeier-liebfrauendom-staatsakt-soeder-aigner-li.3580451",
+   "summary": "Voller Respekt sprechen Markus Söder, Ilse Aigner und die anderen Trauerredner beim Staatsakt für den verstorbenen Hubert Aiwanger. Für den bewegendsten Moment sorgt FW-Fraktionschef Florian Streibl.",
+   "time": "2026-11-14T15:15:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Deutschlands Gegner Niederlande: Oranje zelebriert Xavi-Ball im Cruyff-Stadion",
+   "link": "https://www.sueddeutsche.de/sport/niederlande-griechenland-nations-league-li.3580519",
+   "key": "https://www.sueddeutsche.de/sport/niederlande-griechenland-nations-league-li.3580519",
+   "summary": "Monster oder Scheinriese? Das 7:0 der Niederländer gegen Griechenland in der Nations League führt im Nachbarland zu Superlativen – nur der Trainer ist vor dem Duell mit dem DFB zurückhaltend.",
+   "time": "2026-11-14T12:46:14+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "title": "Krieg in der Ukraine: Selenskij: USA bringen Nato-Mitgliedschaft im Gegenzug für Donbass ins Spiel",
+   "link": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-usa-russland-nato-donbass-rueckzug-li.3571967",
+   "key": "https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-usa-russland-nato-donbass-rueckzug-li.3571967",
+   "summary": "Der ukrainische Präsident lehnt jedoch eine Preisgabe der Region im Osten des Landes weiter strikt ab – für Russland eine Hauptforderung zur Beendigung des Krieges.",
+   "time": "2026-11-14T12:39:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "SPD: Bundespolitiker fordern Verbleib von Lars Klingbeil an Parteispitze",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/spd-parteivorsitz-lars-klingbeil-bundesumweltminister-carsten-schneider",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/spd-parteivorsitz-lars-klingbeil-bundesumweltminister-carsten-schneider",
+   "summary": "Bundesumweltminister Carsten Schneider hält einen Wechsel an der SPD-Spitze für unnötig. Fraktionschef Matthias Miersch warnt vor falschen Hoffnungen an einen neuen Mann.",
+   "time": "2026-11-15T01:23:04+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Fotografie: Bilder des Tages",
+   "link": "https://www.zeit.de/news/2026-11/15/bilder-des-tages",
+   "key": "https://www.zeit.de/news/2026-11/15/bilder-des-tages",
+   "summary": "",
+   "time": "2026-11-15T01:09:02+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "SpaceX: Dieser Moment wird die Welt verändern – aber wie?",
+   "link": "https://www.zeit.de/wissenschaft/2026-11/spacex-starship-elon-musk-rakete-landung",
+   "key": "https://www.zeit.de/wissenschaft/2026-11/spacex-starship-elon-musk-rakete-landung",
+   "summary": "SpaceX fängt seine Superrakete Starship aus der Luft – ein Moment Raumfahrtgeschichte. Und der Schlusspunkt einer verrückten Wette gegen die Physik.",
+   "time": "2026-11-15T00:53:45+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Phantasialand in Brühl: 15 Verletzte in Freizeitpark nach Microsoft-Panne",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/phantasialand-bruehl-chlor-unfall-pool-hotel-microsoft-stoerung",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/phantasialand-bruehl-chlor-unfall-pool-hotel-microsoft-stoerung",
+   "summary": "Ein Dosierungssystem hatte zu viel Chlor in einen Pool des Phantasialands gepumpt. Doch E-Mail-Warnungen kamen wegen der weltweiten Microsoft-Störung nicht an.",
+   "time": "2026-11-15T00:29:03+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "title": "Raumfahrt: SpaceX fängt Riesen-Rakete Starship erstmals wieder auf",
+   "link": "https://www.zeit.de/news/2026-11/14/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf",
+   "key": "https://www.zeit.de/news/2026-11/14/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf",
+   "summary": "",
+   "time": "2026-11-14T23:34:57+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "ME/CFS bei Kindern: Wie schwer die Krankheit das Leben verändert",
+   "link": "https://www.spiegel.de/wissenschaft/me-cfs-bei-kindern-wie-schwer-die-krankheit-das-leben-veraendert-a-064a199f-3c3c-4e45-b79d-56d489914130#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/me-cfs-bei-kindern-wie-schwer-die-krankheit-das-leben-veraendert-a-064a199f-3c3c-4e45-b79d-56d489914130",
+   "summary": "Annabelle kann ihren Kopf nicht heben, verträgt kein Licht und wird künstlich ernährt. Ihre Schwester Mathilda wacht nachts vor Schmerzen auf. Die Mutter pflegt beide rund um die Uhr. Hat die Familie noch Hoffnung auf Heilung?",
+   "time": "2026-11-14T19:30:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Arbeiten mit KI: Diese Menschen verdienen Geld mit Prompts, seitenlangen Prompts",
+   "link": "https://www.spiegel.de/karriere/arbeiten-mit-ki-diese-menschen-verdienen-geld-mit-prompts-seitenlangen-prompts-a-04b97b2f-5ae8-44e4-85f7-c854dff9190a#ref=rss",
+   "key": "https://www.spiegel.de/karriere/arbeiten-mit-ki-diese-menschen-verdienen-geld-mit-prompts-seitenlangen-prompts-a-04b97b2f-5ae8-44e4-85f7-c854dff9190a",
+   "summary": "Alle reden von KI – aber was macht es eigentlich mit jemandem, den ganzen Tag mit KI zu reden? Promptwriter wie Fabian Scholz können mit ihrer Arbeit viel Geld verdienen. Oder sich darin verlieren.",
+   "time": "2026-11-14T17:52:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Republikaner nach den Midterms: Das Donald-Trump-Dilemma",
+   "link": "https://www.spiegel.de/ausland/republikaner-nach-den-midterms-das-donald-trump-dilemma-a-7d259856-2698-4b59-b05c-9e57bc2d0cd9#ref=rss",
+   "key": "https://www.spiegel.de/ausland/republikaner-nach-den-midterms-das-donald-trump-dilemma-a-7d259856-2698-4b59-b05c-9e57bc2d0cd9",
+   "summary": "Jetzt tobt in der Trump-Partei ein Streit über Konsequenzen aus der verlorenen Wahl: MAGA-Extremisten und Traditionalisten gehen gleichzeitig auf den Präsidenten los. Und seine potenziellen Kronprinzen lauern auf ihre Chance.",
+   "time": "2026-11-14T14:21:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "Weltklimakonferenz in der Türkei: Deutsche Chefunterhändlerin erklärt ihren Kurs",
+   "link": "https://www.spiegel.de/wissenschaft/weltklimakonferenz-in-der-tuerkei-deutsche-chefunterhaendlerin-erklaert-ihren-kurs-a-dda010eb-76ce-4856-9a2c-c28d8f8fbefb#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/weltklimakonferenz-in-der-tuerkei-deutsche-chefunterhaendlerin-erklaert-ihren-kurs-a-dda010eb-76ce-4856-9a2c-c28d8f8fbefb",
+   "summary": "Nur ein Minister fliegt zum Klimagipfel, die Klimahilfen für arme Länder schrumpfen, die Golfstaaten bremsen jeden Fortschritt. Die deutsche Verhandlungsführerin Heike Henn erklärt, warum sie trotzdem kämpft.",
+   "time": "2026-11-14T16:34:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "title": "SPD: Hubertus Heil will für Parteivorsitz kandidieren",
+   "link": "https://www.spiegel.de/politik/deutschland/spd-hubertus-heil-will-fuer-parteivorsitz-kandidieren-a-f9209fb9-0404-43be-b66d-b2207e7e6aaa#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/spd-hubertus-heil-will-fuer-parteivorsitz-kandidieren-a-f9209fb9-0404-43be-b66d-b2207e7e6aaa",
+   "summary": "Bei der SPD zeichnet sich ein Machtkampf ab: Ex-Arbeitsminister Hubertus Heil will sich beim Bundesparteitag im Januar zum Chef der Sozialdemokraten wählen lassen. Damit wächst der Druck auf Amtsinhaber Lars Klingbeil.",
+   "time": "2026-11-14T18:28:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Grüne warnen vor Bezahlschranke für Arzttermine",
+   "link": "https://www.focus.de/politik/gruene-warnen-vor-bezahlschranke-fuer-arzttermine_4afaa574-d895-43fd-9ec5-821890c68925.html",
+   "key": "https://www.focus.de/politik/gruene-warnen-vor-bezahlschranke-fuer-arzttermine_4afaa574-d895-43fd-9ec5-821890c68925.html",
+   "summary": "Eine schnellere Behandlung bei der Fachärztin wird möglich, wenn man sie als gesetzlich Versicherter selbst bezahlt? Die Grünen kritisieren, das führe zu einer zusätzlichen Ungleichbehandlung.",
+   "time": "2026-11-15T00:54:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Sabalenka verliert bei Wutanfall gegen Ukrainerin die Nerven",
+   "link": "https://www.focus.de/sport/tennis/sabalenka-verliert-bei-wutanfall-gegen-ukrainerin-die-nerven_246846b9-3d6f-4838-aa56-5bf7c1823fbd.html",
+   "key": "https://www.focus.de/sport/tennis/sabalenka-verliert-bei-wutanfall-gegen-ukrainerin-die-nerven_246846b9-3d6f-4838-aa56-5bf7c1823fbd.html",
+   "summary": "Aryna Sabalenka steht wegen eines angeblichen Wutausbruchs gegen Ukrainer in der Kritik. Nun wehrt sich die Belarussin gegen die Vorwürfe.",
+   "time": "2026-11-15T00:48:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Miersch: SPD-Umfragewerte bei Jüngeren schallende Ohrfeige",
+   "link": "https://www.focus.de/politik/miersch-spd-umfragewerte-bei-juengeren-schallende-ohrfeige_454478fd-c56d-4ebe-a3d9-c0baf2059806.html",
+   "key": "https://www.focus.de/politik/miersch-spd-umfragewerte-bei-juengeren-schallende-ohrfeige_454478fd-c56d-4ebe-a3d9-c0baf2059806.html",
+   "summary": "Nur drei Prozent der jungen Menschen trauen laut Umfrage der SPD zu, sich für ihre Anliegen einzusetzen. Fraktionschef Miersch sieht darin eine klare Warnung – und sagt, wo die Partei nachlegen muss.",
+   "time": "2026-11-15T00:20:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Haus eines Journalisten in Panama geht in Flammen auf",
+   "link": "https://www.focus.de/panorama/welt/haus-eines-journalisten-in-panama-geht-in-flammen-auf_641db040-d84b-49c2-a7c8-b364c909e35b.html",
+   "key": "https://www.focus.de/panorama/welt/haus-eines-journalisten-in-panama-geht-in-flammen-auf_641db040-d84b-49c2-a7c8-b364c909e35b.html",
+   "summary": "Der Journalist recherchierte zu möglichen Verbindungen früherer Regierungsbeamter und eines Staatsauftragnehmers. Ob seine Arbeit mit dem mutmaßlichen Anschlag zu tun hat, ist bisher offen.",
+   "time": "2026-11-14T22:19:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "title": "Trotz hoher Zinsen: Für Immobilienkäufer beginnt eine gute Zeit",
+   "link": "https://www.focus.de/finanzen/trotz-hoher-zinsen-fuer-immobilienkaeufer-beginnt-eine-gute-zeit_325f827c-8c40-4bb9-9716-dc19df0d9e61.html",
+   "key": "https://www.focus.de/finanzen/trotz-hoher-zinsen-fuer-immobilienkaeufer-beginnt-eine-gute-zeit_325f827c-8c40-4bb9-9716-dc19df0d9e61.html",
+   "summary": "Höhere Zinsen bremsen die Nachfrage, Eigentümer müssen ihre Preisvorstellungen anpassen. Für Kaufinteressenten entstehen dadurch neue Chancen.",
+   "time": "2026-11-14T21:49:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Bundespolitik: Miersch: SPD-Umfragewerte bei Jüngeren „schallende Ohrfeige“",
+   "link": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-news-spd-klingbeil-parteitag-parteivorsitz-umfrage-gen-z-li.3580621",
+   "key": "https://www.sueddeutsche.de/politik/bundesregierung-liveblog-news-spd-klingbeil-parteitag-parteivorsitz-umfrage-gen-z-li.3580621",
+   "summary": "Nur drei Prozent der jungen Menschen trauen laut Umfrage der SPD zu, sich für ihre Anliegen einzusetzen. Fraktionschef Matthias Miersch sieht das als Warnung – und sagt, wo die Partei nachlegen muss.",
+   "time": "2026-11-15T01:32:14+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Gesundheitspolitik: Kassenärzte-Chef erwartet Selbstzahler-Termine",
+   "link": "https://www.sueddeutsche.de/politik/arzttermine-selbstzahler-kassenaerzte-gassen-li.3580428",
+   "key": "https://www.sueddeutsche.de/politik/arzttermine-selbstzahler-kassenaerzte-gassen-li.3580428",
+   "summary": "Als Grund nennt Kassenärzte-Chef Gassen Honorarkürzungen bei den Ärzten. Besonders betroffen könnten die Bereiche HNO, Orthopädie, Kardiologie, Radiologie und Rheumatologie sein.",
+   "time": "2026-11-15T01:06:50+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Jugendproteste: Erneute Gen-Z-Demonstrationen fallen deutschlandweit kleiner aus",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/generation-z-proteste-gen-z-regelt-berlin",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/generation-z-proteste-gen-z-regelt-berlin",
+   "summary": "In mehreren Städten haben erneut junge Menschen demonstriert, dieses Mal deutlich weniger als vor zwei Wochen. Für Freitag sind größere Proteste angekündigt.",
+   "time": "2026-11-14T21:49:29+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Top-Ökonomen warnen vor schwerer Haushaltskrise ab 2028",
+   "link": "https://www.focus.de/politik/deutschland/top-oekonomen-warnen-vor-schwerer-haushaltskrise-ab-2028_33653991-9913-4bfb-830e-f3d11f7384b6.html",
+   "key": "https://www.focus.de/politik/deutschland/top-oekonomen-warnen-vor-schwerer-haushaltskrise-ab-2028_33653991-9913-4bfb-830e-f3d11f7384b6.html",
+   "summary": "Deutschland steuert nach Einschätzung führender Ökonomen auf eine tiefgreifende Haushaltskrise zu.",
+   "time": "2026-11-14T20:24:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "SPD-Vorsitz: Früherer Arbeitsminister Hubertus Heil kandidiert für den SPD-Vorsitz",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/frueherer-arbeitsminister-hubertus-heil-kandidiert-fuer-den-spd-vorsitz",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/frueherer-arbeitsminister-hubertus-heil-kandidiert-fuer-den-spd-vorsitz",
+   "summary": "Der frühere Arbeitsminister Hubertus Heil will SPD-Parteichef werden. Seine Bewerbung nutzte er für einen Angriff auf den aktuellen Vorsitzenden Lars Klingbeil.",
+   "time": "2026-11-14T19:44:16+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Mecklenburg-Vorpommern: SPD, Linke und Grüne unterschreiben Koalitionsvertrag",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/koalitionsvertrag-mecklenburg-vorpommern-spd-linke-gruene-manuela-schwesig",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/koalitionsvertrag-mecklenburg-vorpommern-spd-linke-gruene-manuela-schwesig",
+   "summary": "In Mecklenburg-Vorpommern haben SPD, Grüne und Linke den Koalitionsvertrag unterschrieben. Die rot-rot-grüne Landesregierung ist damit besiegelt.",
+   "time": "2026-11-14T19:39:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Konkurrenz für Klingbeil: Hubertus Heil will SPD-Chef werden",
+   "link": "https://www.focus.de/politik/deutschland/konkurrenz-fuer-klingbeil-hubertus-heil-will-spd-chef-werden_5dbe24c0-03ee-43c7-a0fe-6fe76c826200.html",
+   "key": "https://www.focus.de/politik/deutschland/konkurrenz-fuer-klingbeil-hubertus-heil-will-spd-chef-werden_5dbe24c0-03ee-43c7-a0fe-6fe76c826200.html",
+   "summary": "Hubertus Heil will SPD-Chef werden. In einem Brief kündigte der ehemalige Arbeitsminister seine Kandidatur an. Damit gibt es einen ersten Gegenkandidaten für Lars Klingbeil.",
+   "time": "2026-11-14T18:30:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Erneuerbare-Energien-Gesetz: Union und SPD weiter uneins bei Reform der Ökostromförderung",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/eeg-reform-einspeiseverguetung-solaranlagen-netzpaket-spd-cdu-gxe",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/eeg-reform-einspeiseverguetung-solaranlagen-netzpaket-spd-cdu-gxe",
+   "summary": "Die SPD verkündet den Erhalt der Einspeisevergütung für Solarstrom. Die Union widerspricht: Die Vereinbarung sei abhängig vom gesamten Netzpaket, das noch nicht steht.",
+   "time": "2026-11-14T17:25:56+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Im Wald vergraben: Ermittler in Ungarn finden Millionen Euro",
+   "link": "https://www.focus.de/politik/ausland/im-wald-vergraben-ermittler-in-ungarn-finden-millionen-euro_1dfd5ab0-79ef-47af-93d1-67c41bbcd828.html",
+   "key": "https://www.focus.de/politik/ausland/im-wald-vergraben-ermittler-in-ungarn-finden-millionen-euro_1dfd5ab0-79ef-47af-93d1-67c41bbcd828.html",
+   "summary": "Ermittler der ungarischen Anti-Korruptions-Behörde NVVH haben in Erdlöchern, Lagerhallen und Tresoren in mehreren Landesteilen Bargeld im Wert von 17,7 Millionen Euro gefunden.",
+   "time": "2026-11-14T17:22:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Friedrich Merz in Schleswig-Holstein: Der Kanzler meidet das S-Wort",
+   "link": "https://www.spiegel.de/politik/deutschland/der-kanzler-meidet-das-s-wort-a-966f29df-ce02-4236-b554-4ecedae37898#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/der-kanzler-meidet-das-s-wort-a-966f29df-ce02-4236-b554-4ecedae37898",
+   "summary": "Friedrich Merz drückt sich bei der CDU in Schleswig-Holstein um den Streit über die Stromsteuer herum. Umso deutlicher macht der Gastgeber, Ministerpräsident Daniel Günther, was die Partei erwartet.",
+   "time": "2026-11-14T17:17:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "title": "Historikerin: Ukraine ist Beispiel für „trügerische Ruhe“",
+   "link": "https://www.focus.de/politik/ausland/historikerin-ukraine-ist-beispiel-fuer-truegerische-ruhe_c9281d51-5149-4f5f-b875-c2c4e86c051f.html",
+   "key": "https://www.focus.de/politik/ausland/historikerin-ukraine-ist-beispiel-fuer-truegerische-ruhe_c9281d51-5149-4f5f-b875-c2c4e86c051f.html",
+   "summary": "Die Historikerin Ulrike von Hirschhausen beschäftigt sich unter anderem mit „eingefrorenen Konflikten“. In einem aktuellen Interview sagt sie, was vermeintlich stillgelegte Auseinandersetzungen so gefährlich macht.",
+   "time": "2026-11-14T16:29:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "title": "Lars Klingbeil: Will ihn die SPD noch?",
+   "link": "https://www.zeit.de/politik/deutschland/2026-11/lars-klingbeil-spd-chef-basis-wahl",
+   "key": "https://www.zeit.de/politik/deutschland/2026-11/lars-klingbeil-spd-chef-basis-wahl",
+   "summary": "Lars Klingbeil versucht bei der SPD-Basis in Potsdam herauszufinden, ob er noch mal als Parteichef kandidieren sollte. Das hängt entscheidend von einer Frau ab.",
+   "time": "2026-11-14T15:41:27+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Schleswig-Holstein: Daniel Günther tritt erneut als CDU-Spitzenkandidat an",
+   "link": "https://www.spiegel.de/politik/deutschland/schleswig-holstein-daniel-guenther-erneut-cdu-spitzenkandidat-bei-landtagswahl-2027-a-19a20388-dc35-46f9-8d09-20c1aaf83358#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/schleswig-holstein-daniel-guenther-erneut-cdu-spitzenkandidat-bei-landtagswahl-2027-a-19a20388-dc35-46f9-8d09-20c1aaf83358",
+   "summary": "Zum dritten Mal auf Platz eins: Die CDU Schleswig-Holstein hat Daniel Günther als Spitzenkandidaten wiedergewählt. Der 53-Jährige ist seit 2017 Ministerpräsident – er will seinen Posten bei der Landtagswahl im April verteidigen.",
+   "time": "2026-11-14T15:03:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Lange Nacht des Impfens in Dresden: »Vielleicht sagt man jetzt Nein, weil man sich überhaupt entscheiden darf«",
+   "link": "https://www.spiegel.de/politik/deutschland/lange-nacht-des-impfens-in-dresden-vielleicht-sagt-man-jetzt-nein-weil-man-sich-ueberhaupt-entscheiden-darf-a-f02dc236-c24b-4ccf-b3f3-dfb011a6e704#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/lange-nacht-des-impfens-in-dresden-vielleicht-sagt-man-jetzt-nein-weil-man-sich-ueberhaupt-entscheiden-darf-a-f02dc236-c24b-4ccf-b3f3-dfb011a6e704",
+   "summary": "Zwischen Schrundensalbe und Badesalz: Über 1400 Apotheken nehmen in Deutschland an der Langen Nacht des Impfens teil. Ein Vorsorge-Happening gegen Grippe und Covid-19, das seit vier Jahren wächst. Und in Sachsen so?",
+   "time": "2026-11-14T14:45:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "title": "Quiz: Was wissen Sie über die Wahl der neuen Bundespräsidentin?",
+   "link": "https://www.sueddeutsche.de/projekte/artikel/politik/ilse-aigner-bundespraesidentin-quiz-bundesversammlung-e951384/",
+   "key": "https://www.sueddeutsche.de/projekte/artikel/politik/ilse-aigner-bundespraesidentin-quiz-bundesversammlung-e951384",
+   "summary": "Klar ist: Ilse Aigner soll Staatsoberhaupt werden. Aber wie läuft die Wahl ab? Welche Partei schickt welche Promis in die Bundesversammlung? Und was sind die Aufgaben einer Bundespräsidentin?",
+   "time": "2026-11-14T12:48:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Ilse Aigner (CSU) als Bundespräsidentin: Ein großes Missverständnis – Kolumne",
+   "link": "https://www.spiegel.de/politik/deutschland/ilse-aigner-csu-als-bundespraesidentin-ein-grosses-missverstaendnis-kolumne-a-9a10a4b5-917f-4872-aa69-7b3b1e7c208c#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/ilse-aigner-csu-als-bundespraesidentin-ein-grosses-missverstaendnis-kolumne-a-9a10a4b5-917f-4872-aa69-7b3b1e7c208c",
+   "summary": "Koalition und Medien sind sich einig, dass Ilse Aigner die ideale Kandidatin für das Schloss Bellevue ist. Wie kann ein ganzes Land so irren?",
+   "time": "2026-11-14T11:12:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "title": "Ben Berndt und sein Podcast »ungeskriptet«: »Ob das alles stimmt, steht auf einem anderen Blatt«",
+   "link": "https://www.spiegel.de/politik/deutschland/ben-berndt-und-sein-podcast-ungescriptet-ob-das-alles-stimmt-steht-auf-einem-anderen-blatt-a-be50afde-179c-4244-ac1b-b6378053361c#ref=rss",
+   "key": "https://www.spiegel.de/politik/deutschland/ben-berndt-und-sein-podcast-ungescriptet-ob-das-alles-stimmt-steht-auf-einem-anderen-blatt-a-be50afde-179c-4244-ac1b-b6378053361c",
+   "summary": "Ben Berndt verspricht Gespräche ohne Tabus und alternative Sichtweisen jenseits klassischer Medien. Millionen hören zu. Doch wo alles infrage gestellt werden darf, muss am Ende auch nichts mehr stimmen.",
+   "time": "2026-11-14T07:59:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "Space-X: Noch ein historischer Moment für die Raumfahrt",
+   "link": "https://www.sueddeutsche.de/wirtschaft/spacex-starship-nasa-raumfahrt-li.3580613",
+   "key": "https://www.sueddeutsche.de/wirtschaft/spacex-starship-nasa-raumfahrt-li.3580613",
+   "summary": "Dem US-Raketenbauer Space-X gelingt es erstmals, die Oberstufe der Riesenrakete „Starship“ am Startplatz wieder einzufangen. Damit kann der Konzern die Rakete künftig komplett wieder verwenden.",
+   "time": "2026-11-14T21:56:13+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Metzgerei öffnet und schließt innerhalb von 6 Wochen: „Die jungen Leute geben nichts aus“",
+   "link": "https://www.focus.de/finanzen/metzgerei-oeffnet-und-schliesst-innerhalb-von-6-wochen-die-jungen-leute-geben-nichts-aus_a57898be-e927-4be4-878e-1409ce4bbd46.html",
+   "key": "https://www.focus.de/finanzen/metzgerei-oeffnet-und-schliesst-innerhalb-von-6-wochen-die-jungen-leute-geben-nichts-aus_a57898be-e927-4be4-878e-1409ce4bbd46.html",
+   "summary": "Nach nur sechs Wochen schließt die „Macelleria Di Vico“ überraschend ihre Filiale im Zentrum von Treviso. Inhaber Davide Di Vico nennt logistische Probleme und zu geringe Umsätze als Gründe.",
+   "time": "2026-11-14T21:27:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Jensen Huang: Nvidia-Skandal könnte Chinas Chipindustrie schneller unabhängig machen",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/jensen-huang-nvidia-china-halbleiter-lieferkette",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/jensen-huang-nvidia-china-halbleiter-lieferkette",
+   "summary": "Die Affäre um Jensen Huang kann laut Experten die Gespräche zwischen China und den USA zur KI beeinträchtigen. Chinas Chipindustrie könnte rascher unabhängiger werden.",
+   "time": "2026-11-14T19:51:57+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Pflege auf dem Land: Hier pflegt jetzt der Nachbar",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/pflege-land-nachbarschaftshilfe-gemeinde-landsberg",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/pflege-land-nachbarschaftshilfe-gemeinde-landsberg",
+   "summary": "Vielerorts fehlt es an Pflegekräften. In Landsberg wollen sie nun Nachbarn motivieren, bei der Pflege zu helfen. Kann das Pilotprojekt funktionieren, auch finanziell?",
+   "time": "2026-11-14T19:14:50+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Wunsch geht in Erfüllung: Rentner (70) kauft historisches Elternhaus der Familie zurück",
+   "link": "https://www.focus.de/finanzen/wunsch-geht-in-erfuellung-rentner-70-kauft-historisches-elternhaus-der-familie-zurueck_3b1950d4-4540-4694-bada-76b7d9dfc552.html",
+   "key": "https://www.focus.de/finanzen/wunsch-geht-in-erfuellung-rentner-70-kauft-historisches-elternhaus-der-familie-zurueck_3b1950d4-4540-4694-bada-76b7d9dfc552.html",
+   "summary": "Ein italienischer Rentner hat es im Alter von 70 Jahren geschafft, seinen größten Wunsch zu erfüllen. Er kaufte das Haus in Sorbano zurück, in dem er 1956 geboren wurde.",
+   "time": "2026-11-14T18:06:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Pokémon-Karten: Hunderttausend Dollar für eine Pokémon-Karte – ernsthaft?",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/pokemon-karten-handel-spekulation-kriminalitaet",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/pokemon-karten-handel-spekulation-kriminalitaet",
+   "summary": "Noch nie wurden die bunten Spielekarten für so hohe Summen gehandelt. Sie sind nicht nur begehrtes Sammlerobjekt, sondern ziehen inzwischen auch Kriminelle an.",
+   "time": "2026-11-14T17:34:11+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Eurowings-Interna: Was in der Luft gesagt werden darf – und was nicht",
+   "link": "https://www.spiegel.de/wirtschaft/unternehmen/eurowings-interna-was-in-der-luft-gesagt-werden-darf-und-was-nicht-a-952d23fb-e5d6-4be6-bb4b-3443a07d188f#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/unternehmen/eurowings-interna-was-in-der-luft-gesagt-werden-darf-und-was-nicht-a-952d23fb-e5d6-4be6-bb4b-3443a07d188f",
+   "summary": "Das Personal an Bord soll die Lage schönreden. Interne Dokumente zeigen, wie streng die Vorgaben für Durchsagen in der Luft sind. Und warum aus Gewittern »Regenschauer« werden.",
+   "time": "2026-11-14T17:25:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Obwohl 440 Kilo Uran im Iran verschwunden sind, bleibt der Ölmarkt entspannt",
+   "link": "https://www.focus.de/finanzen/obwohl-440-kilo-uran-im-iran-verschwunden-sind-bleibt-der-oelmarkt-entspannt_a5d14ad8-a830-46b9-ade4-aabb40879444.html",
+   "key": "https://www.focus.de/finanzen/obwohl-440-kilo-uran-im-iran-verschwunden-sind-bleibt-der-oelmarkt-entspannt_a5d14ad8-a830-46b9-ade4-aabb40879444.html",
+   "summary": "Neue Tankerangriffe und 440,9 Kilo Uran sorgen für Unsicherheit. Trotzdem droht Brent und WTI der zweite Wochenverlust in Folge.",
+   "time": "2026-11-14T16:37:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Ein Jahr früher Rente kostet künftig 195 Euro mehr jährlich",
+   "link": "https://www.focus.de/finanzen/reformen/ein-jahr-frueher-rente-kostet-kuenftig-195-euro-mehr-jaehrlich_822c93f2-dc9e-4e6f-bd91-bbd7179bbf3a.html",
+   "key": "https://www.focus.de/finanzen/reformen/ein-jahr-frueher-rente-kostet-kuenftig-195-euro-mehr-jaehrlich_822c93f2-dc9e-4e6f-bd91-bbd7179bbf3a.html",
+   "summary": "Die Union plant höhere Rentenabschläge. Ein Jahr früher könnte 16 Euro monatlich mehr kosten. Berechnen Sie Ihren möglichen Verlust.",
+   "time": "2026-11-14T15:36:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "title": "Italien: Meta muss 805 Millionen Euro Strafe zahlen",
+   "link": "https://www.sueddeutsche.de/wirtschaft/meta-facebook-datenschutz-italien-strafe-li.3580557",
+   "key": "https://www.sueddeutsche.de/wirtschaft/meta-facebook-datenschutz-italien-strafe-li.3580557",
+   "summary": "Der Konzern habe auf Fotos und Videos von Android-Nutzern zugegriffen, ohne eine Erlaubnis dafür einzuholen, kritisiert die italienische Datenschutzbehörde.",
+   "time": "2026-11-14T15:29:52+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "title": "Deutsches Start-up setzt Nvidia mit neuer Chip-Technik unter Zugzwang",
+   "link": "https://www.focus.de/finanzen/deutsches-start-up-setzt-nvidia-mit-neuer-chip-technik-unter-zugzwang_3afb181d-13ce-45c4-af25-2a70eff2ea19.html",
+   "key": "https://www.focus.de/finanzen/deutsches-start-up-setzt-nvidia-mit-neuer-chip-technik-unter-zugzwang_3afb181d-13ce-45c4-af25-2a70eff2ea19.html",
+   "summary": "Ein Start-up aus München und dem Silicon Valley will Nvidia herausfordern. Seine KI-Chips sollen bis zu zehnmal weniger Strom verbrauchen.",
+   "time": "2026-11-14T12:45:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "CSU will Abschläge für Frührentner erhöhen",
+   "link": "https://www.spiegel.de/wirtschaft/soziales/csu-will-abschlaege-fuer-fruehrentner-erhoehen-a-e30254e8-833b-4ad1-ab30-a6114735d64b#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/soziales/csu-will-abschlaege-fuer-fruehrentner-erhoehen-a-e30254e8-833b-4ad1-ab30-a6114735d64b",
+   "summary": "Wegen der angespannten Haushaltslage will die Regierung weniger Milliarden an die Rentenversicherung überweisen. Um das Loch zu stopfen, sollen die Abschläge für Frührentner steigen.",
+   "time": "2026-11-14T11:44:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Reederei MSC steht vor Kauf der Meyer Werft",
+   "link": "https://www.spiegel.de/wirtschaft/reederei-msc-steht-vor-kauf-der-meyer-werft-a-16726211-4815-4015-b4de-1f2db396e978#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/reederei-msc-steht-vor-kauf-der-meyer-werft-a-16726211-4815-4015-b4de-1f2db396e978",
+   "summary": "Die letzte bedeutende deutsche Kreuzfahrtschiffwerft geht wohl an die weltgrößte Reederei: Der Bund will dem Konzern MSC ein Kaufrecht auf die Meyer Werft einräumen. Kommende Woche soll der Vertrag unterzeichnet werden.",
+   "time": "2026-11-14T09:56:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Tesla Cybercab: Robotaxi für 29.990 Dollar – aber mit Nutzungsbeschränkungen",
+   "link": "https://www.spiegel.de/wirtschaft/tesla-verkauft-robotaxis-fuer-29-990-dollar-plus-299-dollar-gebuehr-pro-monat-doch-nicht-an-alle-kunden-aber-es-faehrt-nur-nicht-ueberall-a-a09f25f3-2f82-4fab-b61e-1b97cb340006#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/tesla-verkauft-robotaxis-fuer-29-990-dollar-plus-299-dollar-gebuehr-pro-monat-doch-nicht-an-alle-kunden-aber-es-faehrt-nur-nicht-ueberall-a-a09f25f3-2f82-4fab-b61e-1b97cb340006",
+   "summary": "Es ist Elon Musks neues Lieblingsprojekt: ein selbstfahrendes goldenes Ei. Nun sollen auch Privatkunden das Robotaxi ordern können. Offen ist, ob sie es dann allerdings auch nutzen können.",
+   "time": "2026-11-14T08:41:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Straße von Hormus: Iran meldet drei brennende Öltanker in Meerenge",
+   "link": "https://www.spiegel.de/wirtschaft/service/iran-meldet-zwei-brennende-oel-tanker-in-der-strasse-von-hormus-a-872ff571-83d5-4520-9cd2-bdbdf570b95e#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/service/iran-meldet-zwei-brennende-oel-tanker-in-der-strasse-von-hormus-a-872ff571-83d5-4520-9cd2-bdbdf570b95e",
+   "summary": "Es fließt wieder Öl durch die Straße von Hormus, doch die Passage gilt als teuer und riskant. Nun berichtet Iran über Feuer auf mehreren Tankern – angeblich verursacht durch Seeminen.",
+   "time": "2026-11-14T07:49:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "title": "Kassenärzte schlagen Selbstzahler-Termine für Kassenpatienten vor",
+   "link": "https://www.spiegel.de/wirtschaft/soziales/kassenaerzte-schlagen-selbstzahler-termine-fuer-kassenpatienten-vor-a-4282bfbb-79a4-447b-b77b-812ed98bfc04#ref=rss",
+   "key": "https://www.spiegel.de/wirtschaft/soziales/kassenaerzte-schlagen-selbstzahler-termine-fuer-kassenpatienten-vor-a-4282bfbb-79a4-447b-b77b-812ed98bfc04",
+   "summary": "Die Ärzte sind sauer über das Sparprogramm im Gesundheitswesen. Viele Praxen würden dann weniger Termine anbieten, warnt der Chef der Kassenärzte – es sei denn, Patienten zahlten aus eigener Tasche.",
+   "time": "2026-11-14T07:17:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "SpaceX: SpaceX bricht Auffangversuch bei Starship-Test ab",
+   "link": "https://www.zeit.de/wirtschaft/unternehmen/2026-11/spacex-starship-super-heavy-booster-testflug-rakete",
+   "key": "https://www.zeit.de/wirtschaft/unternehmen/2026-11/spacex-starship-super-heavy-booster-testflug-rakete",
+   "summary": "Bei einem Testflug der Starship-Rakete von Elon Musks Firma SpaceX ist die untere Raketenstufe ins Meer gestürzt. Sie sollte eigentlich wiederverwertbar sein.",
+   "time": "2026-11-14T06:59:19+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "title": "Flugstopp in den USA: Schon Kleinigkeiten können den US-Flugverkehr lahmlegen",
+   "link": "https://www.zeit.de/wirtschaft/2026-11/sean-duffy-donald-trump-faa-flugverbot-usa-flugsicherung-newark",
+   "key": "https://www.zeit.de/wirtschaft/2026-11/sean-duffy-donald-trump-faa-flugverbot-usa-flugsicherung-newark",
+   "summary": "Die USA erleben den längsten Flugstopp seit 9/11. Verantwortlich sind offenbar teils museumsreife Systeme, die mit Disketten und Verlängerungskabeln betrieben werden.",
+   "time": "2026-11-14T06:36:37+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Kabel- und Routertausch soll Flugchaos verursacht haben – Tausende weitere Flüge gestrichen",
+   "link": "https://www.spiegel.de/panorama/kabel-und-routertausch-soll-flugchaos-verursacht-haben-tausende-weitere-fluege-gestrichen-a-202245c3-145d-42b7-9107-8664ea1ac15e#ref=rss",
+   "key": "https://www.spiegel.de/panorama/kabel-und-routertausch-soll-flugchaos-verursacht-haben-tausende-weitere-fluege-gestrichen-a-202245c3-145d-42b7-9107-8664ea1ac15e",
+   "summary": "Auch einen Tag nach dem Startverbot auf fast allen US-Airports ist der Flugverkehr stark gestört. 4000 weitere Verbindungen wurden gestrichen. Auslöser war offenbar die Installation neuer Kabel und Router in einem betagten IT-System.",
+   "time": "2026-11-14T23:40:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Marco (59) erfindet patentierte Module, die stillgelegte Bahntrassen fahrradtauglich machen",
+   "link": "https://www.focus.de/panorama/welt/marco-59-erfindet-patentierte-module-die-stillgelegte-bahntrassen-fahrradtauglich-machen_01e8e99a-810c-431a-a8fa-73503ec7b618.html",
+   "key": "https://www.focus.de/panorama/welt/marco-59-erfindet-patentierte-module-die-stillgelegte-bahntrassen-fahrradtauglich-machen_01e8e99a-810c-431a-a8fa-73503ec7b618.html",
+   "summary": "Eine patentierte Idee verwandelt stillgelegte Bahntrassen in modulare Radwege – ohne die Schienen zu entfernen. Die Stahlmodule sind schnell montiert und rückbaubar.",
+   "time": "2026-11-14T21:27:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Experte: Stufe 5 heizt Räume nicht schneller auf",
+   "link": "https://www.focus.de/panorama/welt/experte-stufe-5-heizt-raeume-nicht-schneller-auf_13bbf9a3-1b10-4be9-a45f-182df60bac93.html",
+   "key": "https://www.focus.de/panorama/welt/experte-stufe-5-heizt-raeume-nicht-schneller-auf_13bbf9a3-1b10-4be9-a45f-182df60bac93.html",
+   "summary": "Die kalte Jahreszeit ist da - und mit ihr die Frage: Wie wird es drinnen angenehm warm, ohne dass die Heizkosten überhitzen? „Beim Heizen ist Konstanz gefragt“, sagt Markus Lau, Technikexperte beim Flüssiggas Verband.",
+   "time": "2026-11-14T21:13:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Anny (83) hat plötzlich keinen Gehweg mehr vor ihrem Haus – „Muss jedes Mal mein Leben riskieren“",
+   "link": "https://www.focus.de/panorama/welt/anny-83-hat-ploetzlich-keinen-gehweg-mehr-vor-ihrem-haus-muss-jedes-mal-mein-leben-riskieren_f4f502d0-d12e-41ee-825d-abe8253465a5.html",
+   "key": "https://www.focus.de/panorama/welt/anny-83-hat-ploetzlich-keinen-gehweg-mehr-vor-ihrem-haus-muss-jedes-mal-mein-leben-riskieren_f4f502d0-d12e-41ee-825d-abe8253465a5.html",
+   "summary": "Eine Gemeinde in Belgien verschönert ihre Straßen. Dabei verschwindet der Gehweg vor dem Haus der 83-jährigen Anny. Das hat Folgen für die Rentnerin.",
+   "time": "2026-11-14T20:13:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Bürgermeister wettert über Bummelpost: „Haushalte wurden erst nach dem Begräbnis über den Todesfall informiert“",
+   "link": "https://www.focus.de/panorama/welt/buergermeister-wettert-ueber-bummelpost-haushalte-wurden-erst-nach-dem-begraebnis-ueber-den-todesfall-informiert_a7b69463-f97c-456f-9b11-da236868f365.html",
+   "key": "https://www.focus.de/panorama/welt/buergermeister-wettert-ueber-bummelpost-haushalte-wurden-erst-nach-dem-begraebnis-ueber-den-todesfall-informiert_a7b69463-f97c-456f-9b11-da236868f365.html",
+   "summary": "Post-Chaos im Innviertel: Briefe kommen teils Wochen zu spät an. Für eine Familie traf die traurige Nachricht erst nach dem Begräbnis ein.",
+   "time": "2026-11-14T20:12:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "title": "Bergretter warnt leichtsinnige Touristen: „Wird irgendwann einmal so sein, dass auch wir sagen: Wir gehen da nicht rauf“",
+   "link": "https://www.focus.de/panorama/welt/bergretter-warnt-leichtsinnige-touristen-wird-irgendwann-einmal-so-sein-dass-auch-wir-sagen-wir-gehen-da-nicht-rauf_67dacd6f-acaa-46c2-ae29-efdb8b68bfc8.html",
+   "key": "https://www.focus.de/panorama/welt/bergretter-warnt-leichtsinnige-touristen-wird-irgendwann-einmal-so-sein-dass-auch-wir-sagen-wir-gehen-da-nicht-rauf_67dacd6f-acaa-46c2-ae29-efdb8b68bfc8.html",
+   "summary": "Steigende Temperaturen machen die Alpen instabiler und erhöhen das Risiko für Steinschläge, Muren und Felsstürze. Die Bergrettung warnt: Bei extremer Gefahr können selbst Retter nicht mehr jeden Einsatz durchführen.",
+   "time": "2026-11-14T19:41:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Azubis aus Vietnam in Deutschland: Acht Menschen in einem Raum, Lohn oft verweigert - SPIEGEL TV",
+   "link": "https://www.spiegel.de/panorama/azubis-aus-vietnam-in-deutschland-acht-menschen-in-einem-raum-lohn-oft-verweigert-spiegel-tv-a-e8fb4408-0039-42ea-97a3-95a25c93d354#ref=rss",
+   "key": "https://www.spiegel.de/panorama/azubis-aus-vietnam-in-deutschland-acht-menschen-in-einem-raum-lohn-oft-verweigert-spiegel-tv-a-e8fb4408-0039-42ea-97a3-95a25c93d354",
+   "summary": "Sie kamen nach Deutschland für eine Ausbildung in der Pflege. Was sie erlebt haben, gleicht einem Albtraum: Zusammengepfercht zu acht in einem Zimmer, unregelmäßige bis keine Vergütung, Kündigungsdrohungen für Nachfragen nach dem Lohn.",
+   "time": "2026-11-14T19:29:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Phantasialand in Brühl: Wegen Microsoft-Ausfall Chlorpanne zu spät entdeckt – 15 Verletzte",
+   "link": "https://www.spiegel.de/panorama/phantasialand-in-bruehl-wegen-microsoft-ausfall-chlorpanne-zu-spaet-entdeckt-15-verletzte-a-6e70b4ec-9e3e-4c52-aae5-28beaa2fef62#ref=rss",
+   "key": "https://www.spiegel.de/panorama/phantasialand-in-bruehl-wegen-microsoft-ausfall-chlorpanne-zu-spaet-entdeckt-15-verletzte-a-6e70b4ec-9e3e-4c52-aae5-28beaa2fef62",
+   "summary": "Wegen des Microsoft-Ausfalls ist offenbar ein Hotelpool des Phantasialands zur Gefahr geworden: Dem Wasser wurde laut dem Freizeitpark zu viel Chlor beigemischt, doch das Alarmsystem versagte.",
+   "time": "2026-11-14T19:17:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "7. Oktober: »Wir sind gestern doch nicht nach Tel Aviv gefahren«",
+   "link": "https://www.zeit.de/zeit-verbrechen/2026/41/7-oktober-hamas-israel-kibbuz-nir-oz-trauer-carolin-bohl",
+   "key": "https://www.zeit.de/zeit-verbrechen/2026/41/7-oktober-hamas-israel-kibbuz-nir-oz-trauer-carolin-bohl",
+   "summary": "Das war die letzte SMS der deutschen Studentin Carolin Bohl. Sie starb beim Hamas-Angriff am 7. Oktober. Ihre Mutter zieht es immer wieder an den Ort des Grauens zurück.",
+   "time": "2026-11-14T16:11:23+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Türkei: Tausende protestieren in Antalya während Klimakonferenz",
+   "link": "https://www.zeit.de/gesellschaft/2026-11/klimaprotest-tuerkei-antalya-klimakonferenz-menschenrechte-gxe",
+   "key": "https://www.zeit.de/gesellschaft/2026-11/klimaprotest-tuerkei-antalya-klimakonferenz-menschenrechte-gxe",
+   "summary": "Die COP31 ist eine der wenigen Gelegenheiten zum Protest in der Türkei. Zur Halbzeit der Klimakonferenz in Antalya gingen mehr als 10.000 Menschen auf die Straße.",
+   "time": "2026-11-14T14:37:27+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Wetter: In Deutschland folgt auf Sonne Glatteis, an Küste und im Bergland wird es stürmisch",
+   "link": "https://www.spiegel.de/panorama/wetter-deutschland-auf-sonne-folgt-glatteis-an-kueste-und-im-bergland-wird-es-stuermisch-a-6edca535-47bc-4704-8e0a-bb9a49a3ebba#ref=rss",
+   "key": "https://www.spiegel.de/panorama/wetter-deutschland-auf-sonne-folgt-glatteis-an-kueste-und-im-bergland-wird-es-stuermisch-a-6edca535-47bc-4704-8e0a-bb9a49a3ebba",
+   "summary": "Vorsicht, glatt: Während es tagsüber verbreitet sonnig ist, kann es in der Nacht zum Sonntag stellenweise gefährlich rutschig werden. Vor allem im Westen und Südwesten müssen Verkehrsteilnehmer aufpassen.",
+   "time": "2026-11-14T13:06:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "USA: „Wunder“ auf dem Mississippi: Kreuzfahrtschiff kentert, alle überleben",
+   "link": "https://www.sueddeutsche.de/panorama/schiffsunglueck-zusammenstoss-tanker-kentern-kreuzfahrt-mississippi-usa-li.3580353",
+   "key": "https://www.sueddeutsche.de/panorama/schiffsunglueck-zusammenstoss-tanker-kentern-kreuzfahrt-mississippi-usa-li.3580353",
+   "summary": "In New Orleans drückt ein Tanker ein Kreuzfahrtschiff an die Kaimauer, das danach binnen Minuten kentert. Menschen klettern über die Reling und schwimmen um ihr Leben.",
+   "time": "2026-11-14T10:13:13+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Wohnungsnot in Berlin: »So mein Lieber, hast du deine Bewerbungsunterlagen tippitoppi?«",
+   "link": "https://www.spiegel.de/panorama/wohnungsnot-in-berlin-so-mein-lieber-hast-du-deine-bewerbungsunterlagen-tippitoppi-a-02586753-775e-4f8e-aecf-78dc0a2ae814#ref=rss",
+   "key": "https://www.spiegel.de/panorama/wohnungsnot-in-berlin-so-mein-lieber-hast-du-deine-bewerbungsunterlagen-tippitoppi-a-02586753-775e-4f8e-aecf-78dc0a2ae814",
+   "summary": "Achim Amann ist Makler in Berlin. Sein Ziel: so viele Wohnungen wie möglich vermieten und verkaufen. Sein Problem: hohe Preise, klamme Interessenten. Und jetzt kommen auch noch die Linken.",
+   "time": "2026-11-14T09:55:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "Versorgung von Frühgeborenen: »Ich will ein normales Mädchen sein«",
+   "link": "https://www.zeit.de/familie/2026-11/versorgung-fruehgeborene-geburt-medizin-technologie",
+   "key": "https://www.zeit.de/familie/2026-11/versorgung-fruehgeborene-geburt-medizin-technologie",
+   "summary": "Lena wog bei der Geburt 680 Gramm. Sie überlebte dank der Fortschritte der Frühgeborenenmedizin. Doch wie beeinflusst eine extrem frühe Geburt das spätere Leben?",
+   "time": "2026-11-14T09:01:56+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "title": "Hannover: Verteidigung legt im Fall »Maschseemörder« Revision ein",
+   "link": "https://www.spiegel.de/panorama/justiz/alexander-k-maschsee-moerder-wird-ein-fall-fuer-den-bundesgerichtshof-a-100118a8-1dc3-4c92-b378-85c5d7b6d841#ref=rss",
+   "key": "https://www.spiegel.de/panorama/justiz/alexander-k-maschsee-moerder-wird-ein-fall-fuer-den-bundesgerichtshof-a-100118a8-1dc3-4c92-b378-85c5d7b6d841",
+   "summary": "Alexander K. ist mehrfach vorbestraft und ein verurteilter Frauenmörder, erst kürzlich erging ein neues Urteil gegen ihn. Sein Verteidiger will das nicht akzeptieren. Nun landet der Fall vor Deutschlands höchstem Gericht.",
+   "time": "2026-11-14T08:35:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Stundenlanger Flugstopp in den USA: Mehr als 7600 Flüge gestrichen, 8000 Flüge verspätet",
+   "link": "https://www.sueddeutsche.de/panorama/flugverkehr-chaos-flugstopp-luftfahrt-canceln-airport-verkehrsminister-duffy-trump-li.3580357",
+   "key": "https://www.sueddeutsche.de/panorama/flugverkehr-chaos-flugstopp-luftfahrt-canceln-airport-verkehrsminister-duffy-trump-li.3580357",
+   "summary": "Hunderttausende Passagiere stranden an Flughäfen. Grund ist ein Problem in der Radarkommunikation. US-Verkehrsminister Sean Duffy macht veraltete Infrastruktur dafür verantwortlich.",
+   "time": "2026-11-14T05:14:02+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Raumfahrt: Fehlschlag bei „Starship“-Testflug",
+   "link": "https://www.sueddeutsche.de/panorama/musk-starship-space-x-start-panne-missglueckt-li.3580362",
+   "key": "https://www.sueddeutsche.de/panorama/musk-starship-space-x-start-panne-missglueckt-li.3580362",
+   "summary": "Mit dem größten je gebauten Raketensystem will Elon Musk den Mars erschließen. Jetzt ist „Starship“ erneut zu einem Testflug aufgebrochen – doch der Fangversuch scheitert.",
+   "time": "2026-11-14T02:46:17+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "title": "USA: Tanker und Flusskreuzfahrtschiff kollidieren in New Orleans",
+   "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/new-orleans-mississippi-schiffsunglueck-american-heritage-tankschiff",
+   "key": "https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/new-orleans-mississippi-schiffsunglueck-american-heritage-tankschiff",
+   "summary": "In Louisiana sind zwei Schiffe zusammengestoßen. Ein Kreuzfahrtschiff mit über 180 Menschen an Bord kenterte, 32 Personen wurden verletzt. Es gibt keine Vermissten.",
+   "time": "2026-11-13T22:54:52+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "title": "Lori Huang: Sie hielt Jensen Huang den Rücken frei. Wird sie jetzt Milliardärin?",
+   "link": "https://www.sueddeutsche.de/panorama/lori-huang-jensen-huang-nvidia-scheidung-tech-industrie-wirtschafsspionage-spionin-china-li.3579383",
+   "key": "https://www.sueddeutsche.de/panorama/lori-huang-jensen-huang-nvidia-scheidung-tech-industrie-wirtschafsspionage-spionin-china-li.3579383",
+   "summary": "Lori Huang ist seit 41 Jahren mit dem untreuen Nvidia-Gründer verheiratet. Im Fall einer Scheidung könnte sie eine der reichsten Frauen der Welt werden.",
+   "time": "2026-11-13T20:05:52+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Hamas-Kommandeur im Gazastreifen getötet",
+   "link": "https://www.spiegel.de/ausland/hamas-kommandeur-im-gazastreifen-getoetet-a-ed56078f-d554-4c35-b70c-2aaecb18ed90#ref=rss",
+   "key": "https://www.spiegel.de/ausland/hamas-kommandeur-im-gazastreifen-getoetet-a-ed56078f-d554-4c35-b70c-2aaecb18ed90",
+   "summary": "Seit Monaten gilt eine Waffenruhe zwischen Israel und der Hamas. Doch die Attacken gehen weiter. Jetzt soll ein ranghoher Hamas-Kommandeur nach einem israelischen Luftangriff im Süden des Gazastreifens gestorben sein.",
+   "time": "2026-11-15T00:14:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Luftverkehr in den USA: US-Regierung fordert nach Flugstopp Milliarden für Flugsicherung",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/us-flugsicherung-faa-sean-duffy-kongress",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/us-flugsicherung-faa-sean-duffy-kongress",
+   "summary": "Veraltete IT-Systeme haben den Flugverkehr in den USA lahmgelegt. Für die Modernisierung fordert der Verkehrsminister 50 Milliarden Dollar. Er warnt vor weiteren Pannen.",
+   "time": "2026-11-14T22:54:50+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "SpaceX fängt Starship-Rakete erstmals am Startturm wieder auf",
+   "link": "https://www.spiegel.de/ausland/spacex-faengt-starship-rakete-am-startturm-erstmals-wieder-auf-a-8995a28f-b04d-4a0f-a6bd-1b2298f5b450#ref=rss",
+   "key": "https://www.spiegel.de/ausland/spacex-faengt-starship-rakete-am-startturm-erstmals-wieder-auf-a-8995a28f-b04d-4a0f-a6bd-1b2298f5b450",
+   "summary": "Wichtiger Schritt in der Raumfahrtentwicklung: Elon Musks Unternehmen SpaceX hat es geschafft, die obere Stufe des »Starship«-Systems nach einem Testflug wieder aufzufangen. Ein voller Erfolg war das Manöver trotzdem nicht.",
+   "time": "2026-11-14T21:47:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Demonstrationen: Mehr als 100.000 Menschen protestieren in Frankreich",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/proteste-frankreich-paris-schueler-polizei",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/proteste-frankreich-paris-schueler-polizei",
+   "summary": "Erneut haben mehr als 100.000 Menschen in Frankreich für bessere Bildung und gegen hohe Lebenshaltungskosten demonstriert. Mehr als 200 Menschen wurden festgenommen.",
+   "time": "2026-11-14T21:33:47+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Masern: USA verlieren offenbar Status als masernfreies Land",
+   "link": "https://www.spiegel.de/ausland/masern-usa-verlieren-offenbar-status-als-masernfreies-land-a-c2e5f007-0fbc-4e62-aa55-4abb1388fbd9#ref=rss",
+   "key": "https://www.spiegel.de/ausland/masern-usa-verlieren-offenbar-status-als-masernfreies-land-a-c2e5f007-0fbc-4e62-aa55-4abb1388fbd9",
+   "summary": "Die USA werden wohl nicht mehr als masernfrei eingestuft. Wie mehrere amerikanische Medien berichten, verliert das Land seinen Status – nach mehr als 25 Jahren.",
+   "time": "2026-11-14T19:44:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Abtreibungsverbot in Liechtenstein: »Darf ich noch meine letzte Frage stellen? Ich rede sehr schnell«",
+   "link": "https://www.zeit.de/politik/2026-11/abtreibungsverbot-liechtenstein-erbprinz-alois-veto",
+   "key": "https://www.zeit.de/politik/2026-11/abtreibungsverbot-liechtenstein-erbprinz-alois-veto",
+   "summary": "In Liechtenstein sind Abtreibungen verboten. Der Erbprinz unterbindet jeden Versuch der Legalisierung. Warum? Unser Autor bekam drei Minuten Zeit für ein Interview.",
+   "time": "2026-11-14T19:29:28+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Greenpeace-Aktion: Protest gegen Schleppnetze gefährdet geplanten Offshore-Windpark",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/greenpeace-nordsee-boulder-vorfahr-norfolk-vanguard-bottom-trawling",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/greenpeace-nordsee-boulder-vorfahr-norfolk-vanguard-bottom-trawling",
+   "summary": "Umweltschützer haben Felsblöcke in der Nordsee versenkt, um Schleppnetzfischer zu stoppen. Die Steine liegen nun im Weg eines Windparkprojekts der britischen Regierung.",
+   "time": "2026-11-14T17:46:56+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Datenschutz: Italien verhängt 805 Millionen Euro Strafe gegen Meta",
+   "link": "https://www.zeit.de/politik/ausland/2026-11/meta-strafe-italien-datenschutz-facebook-app-garante",
+   "key": "https://www.zeit.de/politik/ausland/2026-11/meta-strafe-italien-datenschutz-facebook-app-garante",
+   "summary": "Meta soll ohne Zustimmung auf Fotos und Videos von 20 Millionen Nutzern in Italien zugegriffen haben. Die Datenschutzbehörde ordnete nun ein Bußgeld und Auflagen an.",
+   "time": "2026-11-14T17:07:38+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Midterms in den USA: Demokrat Jonathan Kreiss-Tomkins gewinnt Gouverneurswahl in Alaska",
+   "link": "https://www.spiegel.de/ausland/midterms-in-den-usa-demokrat-jonathan-kreiss-tomkins-gewinnt-gouverneurswahl-in-alaska-a-fb2cad4c-5ecc-438a-b9dd-76812d0a333d#ref=rss",
+   "key": "https://www.spiegel.de/ausland/midterms-in-den-usa-demokrat-jonathan-kreiss-tomkins-gewinnt-gouverneurswahl-in-alaska-a-fb2cad4c-5ecc-438a-b9dd-76812d0a333d",
+   "summary": "Elf Tage nach den US-Wahlen steht der Sieger im nördlichsten Bundesstaat fest: Alaska wird künftig von einem Demokraten regiert – dem jüngsten Gouverneur, den der Bundesstaat je hatte.",
+   "time": "2026-11-14T17:01:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "title": "Ungarn: Bei Korruptionsermittlungen gegen Ex-Minister 17,7 Millionen Euro sichergestellt",
+   "link": "https://www.spiegel.de/ausland/ungarn-bei-korruptionsermittlungen-gegen-ex-minister-17-7-millionen-euro-sichergestellt-a-388f3d15-9839-401e-85c8-9ae015ee2c6b#ref=rss",
+   "key": "https://www.spiegel.de/ausland/ungarn-bei-korruptionsermittlungen-gegen-ex-minister-17-7-millionen-euro-sichergestellt-a-388f3d15-9839-401e-85c8-9ae015ee2c6b",
+   "summary": "Im Wald vergraben, in Lagerhallen versteckt: Ungarns Antikorruptionsbehörde hat bei Ermittlungen gegen einen früheren Minister der Regierung Orbán Bargeld in Millionenhöhe gefunden – und stundenlang gezählt.",
+   "time": "2026-11-14T16:01:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "title": "Gaza: EU fordert sofortigen Zugang für Hilfsorganisationen zum Gazastreifen",
+   "link": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+   "key": "https://www.zeit.de/politik/ausland/2025-10/krieg-gaza-israel-hamas-liveblog",
+   "summary": "Um die katastrophale humanitäre Lage im Gazastreifen zu verbessern, fordert die EU Zugang für Hilfsorganisationen. Fünf Menschen sterben nach heftigem Regen. Das Liveblog",
+   "time": "2026-11-14T14:33:31+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Kleinwüchsige Leela Scherbaum: „Lebe in einer Welt, die nicht auf mich abgestimmt ist“",
+   "link": "https://www.focus.de/kultur/stars/kleinwuechsige-leela-scherbaum-lebe-in-einer-welt-die-nicht-auf-mich-abgestimmt-ist_27f13274-f2d2-4887-bfb2-313cab34462a.html",
+   "key": "https://www.focus.de/kultur/stars/kleinwuechsige-leela-scherbaum-lebe-in-einer-welt-die-nicht-auf-mich-abgestimmt-ist_27f13274-f2d2-4887-bfb2-313cab34462a.html",
+   "summary": "Wie „normal“ kann man als kleinwüchsiger junger Mensch erwachsen werden? Die erste große Liebe erleben, im Traumberuf Schauspiel Fuß fassen? Leela Scherbaum, 1,30 Meter groß, kennt diese Themen. Spielt sie im Coming-of-Age-Film „Schlaflos in Bochum“ eine fiktive Version von sich …",
+   "time": "2026-11-14T20:33:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Michelle reagiert auf die Kritik zu ihrer neuen Frisur: „Nicht jedermanns Geschmack“",
+   "link": "https://www.focus.de/kultur/stars/michelle-reagiert-auf-die-kritik-zu-ihrer-neuen-frisur-nicht-jedermanns-geschmack_dfa0be91-7131-4a3d-8ee5-7dc47eb27910.html",
+   "key": "https://www.focus.de/kultur/stars/michelle-reagiert-auf-die-kritik-zu-ihrer-neuen-frisur-nicht-jedermanns-geschmack_dfa0be91-7131-4a3d-8ee5-7dc47eb27910.html",
+   "summary": "Optisch war es für Michelle ein großer Schritt von der blonden Mähne zum grauen Buzz Cut. Jetzt reagiert sie auf die gemischten Reaktionen ihrer Follower.",
+   "time": "2026-11-14T20:32:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Philippinen gewinnen ersten Eurovision Song Contest Asia",
+   "link": "https://www.focus.de/kultur/kino-tv/philippinen-gewinnen-ersten-eurovision-song-contest-asia_543ef411-e619-4600-a0bf-c231147b4835.html",
+   "key": "https://www.focus.de/kultur/kino-tv/philippinen-gewinnen-ersten-eurovision-song-contest-asia_543ef411-e619-4600-a0bf-c231147b4835.html",
+   "summary": "Beim ersten Eurovision Song Contest Asia traten in einer Mega-Show elf Länder gegeneinander an. Bangkok wurde zur Bühne für ein neues Kapitel des schillernden Wettbewerbs.",
+   "time": "2026-11-14T20:04:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Nach Aus mit Yvonne Woelke: Reality-Star Peter Klein ist wieder vergeben",
+   "link": "https://www.focus.de/kultur/stars/nach-aus-mit-yvonne-woelke-reality-star-peter-klein-ist-wieder-vergeben_4c21eb0e-854a-4b6c-8311-3e2b7935cb6c.html",
+   "key": "https://www.focus.de/kultur/stars/nach-aus-mit-yvonne-woelke-reality-star-peter-klein-ist-wieder-vergeben_4c21eb0e-854a-4b6c-8311-3e2b7935cb6c.html",
+   "summary": "Peter Klein geht nicht mehr als Single durchs Leben. Jetzt spricht der Reality-TV-Darsteller über seine neue Liebe.",
+   "time": "2026-11-14T19:56:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Eurovision Song Contest Asia: Philippinische Sängerin Carmelle gewinnt erste Ausgabe",
+   "link": "https://www.spiegel.de/kultur/musik/eurovision-song-contest-asia-philippinische-saengerin-carmelle-gewinnt-erste-ausgabe-a-f12ec3fd-897e-46a9-9e48-258f18cd889b#ref=rss",
+   "key": "https://www.spiegel.de/kultur/musik/eurovision-song-contest-asia-philippinische-saengerin-carmelle-gewinnt-erste-ausgabe-a-f12ec3fd-897e-46a9-9e48-258f18cd889b",
+   "summary": "Die Teilnehmerin aus den Philippinen hat die erste Ausgabe des asiatischen ESC gewonnen. Mit ihrem Song »Sobra-Sobra« siegte sie beim Finale in Thailand gegen Konkurrenten aus zehn anderen Ländern.",
+   "time": "2026-11-14T18:15:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Vier Stunden jeden Tag: Wilson Gonzalez Ochsenknecht hat mehr als 490 Tage GTA gezockt",
+   "link": "https://www.focus.de/kultur/stars/vier-stunden-jeden-tag-wilson-gonzalez-ochsenknecht-hat-mehr-als-490-tage-gta-gezockt_519b9dd3-e335-4361-aa59-aef95c234f59.html",
+   "key": "https://www.focus.de/kultur/stars/vier-stunden-jeden-tag-wilson-gonzalez-ochsenknecht-hat-mehr-als-490-tage-gta-gezockt_519b9dd3-e335-4361-aa59-aef95c234f59.html",
+   "summary": "Am 19. November erscheint der sechste Teil der bekannten Actionspielreihe „Grand Theft Auto“. Wilson Gonzalez Ochsenknecht ist schon lange Fan, wie er nun verrät.",
+   "time": "2026-11-14T18:05:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "title": "Sat.1 wirft „Die Landarztpraxis“ nach Quoten-Absturz aus dem Programm",
+   "link": "https://www.focus.de/kultur/kino-tv/sat-1-wirft-die-landarztpraxis-nach-quoten-absturz-aus-dem-programm_6de49cf7-1886-4303-b348-d579590dad6d.html",
+   "key": "https://www.focus.de/kultur/kino-tv/sat-1-wirft-die-landarztpraxis-nach-quoten-absturz-aus-dem-programm_6de49cf7-1886-4303-b348-d579590dad6d.html",
+   "summary": "Für „Die Landarztpraxis“ endet der bisherige Vorabendplatz bei Sat.1. Ab dem 14. Dezember übernimmt dort Jörg Pilawa mit „Deal or No Deal“.",
+   "time": "2026-11-14T18:00:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "title": "85. Lebensjahr: Mit 85 Jahren",
+   "link": "https://www.zeit.de/2026/49/85-lebensjahr-alter-konrad-adenauer-doris-payne-sophia-loren",
+   "key": "https://www.zeit.de/2026/49/85-lebensjahr-alter-konrad-adenauer-doris-payne-sophia-loren",
+   "summary": "In unserer Kolumne nehmen wir uns jede Woche Fakten eines Lebensjahrs vor. In diesem wurde Konrad Adenauer erneut zum Bundeskanzler gewählt.",
+   "time": "2026-11-14T17:20:37+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "»Rocket Hour«: König Charles III. und Elton John brillieren als Radio-DJs",
+   "link": "https://www.spiegel.de/kultur/musik/koenig-charles-und-elton-john-brillieren-als-radio-djs-a-6d9ec9ee-82b9-423e-a489-59333141d861#ref=rss",
+   "key": "https://www.spiegel.de/kultur/musik/koenig-charles-und-elton-john-brillieren-als-radio-djs-a-6d9ec9ee-82b9-423e-a489-59333141d861",
+   "summary": "König Charles ist zu Gast in Elton Johns Radiosendung »Rocket Hour« – wer den beiden zuhört, erlebt eine Masterclass in Sachen Coolness. Und einen Streifzug durch die Popgeschichte.",
+   "time": "2026-11-14T15:51:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Eurovision Song Contest Asia: Alles, was Sie zum ESC Asia wissen müssen – und hören",
+   "link": "https://www.spiegel.de/kultur/tv/eurovision-song-contest-asia-wie-soll-der-esc-in-asien-funktionieren-a-5f85f10e-3060-4216-a3b2-766d6d473153#ref=rss",
+   "key": "https://www.spiegel.de/kultur/tv/eurovision-song-contest-asia-wie-soll-der-esc-in-asien-funktionieren-a-5f85f10e-3060-4216-a3b2-766d6d473153",
+   "summary": "Der ESC bekommt einen asiatischen Ableger, zum Start sind elf Länder dabei. Übersetzt sich die Mischung aus Kitsch, Glamour und Wettstreit?",
+   "time": "2026-11-14T13:14:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Europäischer Filmpreis: Sandra Hüller zweimal nominiert",
+   "link": "https://www.spiegel.de/kultur/kino/sandra-hueller-zweimal-fuer-europaeischen-filmpreis-nominiert-a-e73b9895-d242-4dc9-b559-a3f7b8f44e14#ref=rss",
+   "key": "https://www.spiegel.de/kultur/kino/sandra-hueller-zweimal-fuer-europaeischen-filmpreis-nominiert-a-e73b9895-d242-4dc9-b559-a3f7b8f44e14",
+   "summary": "Sandra Hüller ist beim Europäischen Filmpreis für ihre Hauptrollen in »Vaterland« und »Rose« nominiert worden. Eine ungewöhnliche Dopplung? Der deutschen Schauspielerin passiert das nicht zum ersten Mal.",
+   "time": "2026-11-14T12:24:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "title": "Joachim Sauer verwahrt sich immer noch gegen die Bezeichnung »Kanzlerinnengatte«",
+   "link": "https://www.spiegel.de/kultur/joachim-sauer-verwehrt-sich-immer-noch-gegen-die-bezeichnung-kanzlerinnengatte-a-80492378-c962-41a1-9204-881f735487a7#ref=rss",
+   "key": "https://www.spiegel.de/kultur/joachim-sauer-verwehrt-sich-immer-noch-gegen-die-bezeichnung-kanzlerinnengatte-a-80492378-c962-41a1-9204-881f735487a7",
+   "summary": "Während der Amtszeit seiner Frau Angela Merkel gab Joachim Sauer kein einziges Interview. Jetzt hat er seine Biografie geschrieben – und spricht über das Leben in der DDR und seine Liebe zu Wagner.",
+   "time": "2026-11-14T10:50:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "title": "Britta Haßelmann: »Warum sollte ich nett zur AfD sein?«",
+   "link": "https://www.zeit.de/2026/49/britta-hasselmann-gruene-afd-bundestag-kontakt",
+   "key": "https://www.zeit.de/2026/49/britta-hasselmann-gruene-afd-bundestag-kontakt",
+   "summary": "Die Grüne Britta Haßelmann hält viel von Höflichkeit. Außer gegenüber AfD-Abgeordneten. Deren Menschenfeindlichkeit will sie nicht mit Nettigkeit banalisieren.",
+   "time": "2026-11-14T05:21:33+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "SpaceX fängt Riesen-Rakete Starship erstmals wieder auf",
+   "link": "https://www.focus.de/wissen/weltraum/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf_4ec31db0-7076-45e4-a7b4-ba93bda28e16.html",
+   "key": "https://www.focus.de/wissen/weltraum/spacex-faengt-riesen-rakete-starship-erstmals-wieder-auf_4ec31db0-7076-45e4-a7b4-ba93bda28e16.html",
+   "summary": "Erstmals hat das US-Raumfahrtunternehmen SpaceX die obere Stufe des Riesen-Raketensystems Starship nach einem All-Testflug auf der Erde wieder aufgefangen.",
+   "time": "2026-11-14T21:34:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "So groß wie ein Mensch: Die Erde hat einen neuen Mini-Mond namens „2026 QQ8“",
+   "link": "https://www.focus.de/wissen/so-gross-wie-ein-mensch-die-erde-hat-einen-neuen-mini-mond-namens-2026-qq8_91da8e2b-ab45-4563-8456-d113d24e9ff0.html",
+   "key": "https://www.focus.de/wissen/so-gross-wie-ein-mensch-die-erde-hat-einen-neuen-mini-mond-namens-2026-qq8_91da8e2b-ab45-4563-8456-d113d24e9ff0.html",
+   "summary": "Die Erde hat vorübergehend einen zweiten natürlichen Begleiter, einen sogenannten Mini-Mond. Eingefangen von der Erdanziehungskraft, kreist der kleiner Asteroid namens 2026 QQ8 derzeit um unseren Planeten.",
+   "time": "2026-11-14T18:06:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Staatsforste sammeln über 600.000 Eicheln – die Früchte werden für unsere Wälder immer wichtiger",
+   "link": "https://www.focus.de/wissen/staatsforste-sammeln-ueber-600-000-eicheln-die-fruechte-werden-fuer-unsere-waelder-immer-wichtiger_0d5f79b1-4ce7-4c61-a3d9-c76301a6f591.html",
+   "key": "https://www.focus.de/wissen/staatsforste-sammeln-ueber-600-000-eicheln-die-fruechte-werden-fuer-unsere-waelder-immer-wichtiger_0d5f79b1-4ce7-4c61-a3d9-c76301a6f591.html",
+   "summary": "Aus einem historischen Eichenbestand im Passauer Husarenwald entsteht Saatgut für die Wälder von morgen. Die robuste Eiche soll helfen, Bayerns Wälder widerstandsfähiger gegen Hitze und Klimawandel zu machen.",
+   "time": "2026-11-14T18:06:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Masern in den USA: Die USA sind offiziell wieder Masernland. Aus Gründen",
+   "link": "https://www.zeit.de/gesundheit/2026-11/masern-usa-impfung-skepsis-donald-trump-robert-kennedy-junior",
+   "key": "https://www.zeit.de/gesundheit/2026-11/masern-usa-impfung-skepsis-donald-trump-robert-kennedy-junior",
+   "summary": "In diesem Jahr sind in den USA zehn Menschen an den Masern gestorben. Ein WHO-Gremium will den Status als masernfrei entziehen. Das hat auch mit einem Kennedy zu tun.",
+   "time": "2026-11-14T17:03:06+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Obstbäume jetzt noch einpflanzen, Kübelpflanzen ab ins Warme",
+   "link": "https://www.focus.de/wissen/natur/obstbaeume-jetzt-noch-einpflanzen-kuebelpflanzen-ab-ins-warme_15525920-b24e-41a3-95f4-4f115982d187.html",
+   "key": "https://www.focus.de/wissen/natur/obstbaeume-jetzt-noch-einpflanzen-kuebelpflanzen-ab-ins-warme_15525920-b24e-41a3-95f4-4f115982d187.html",
+   "summary": "Nicht jede Pflanze braucht für den Winter einen wärmeren Ort. Welche Kübelpflanzen jetzt ins Winterquartier gehören, wer draußen bleiben darf und worauf es beim Überwintern ankommt.",
+   "time": "2026-11-14T15:56:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Ebola: »Die Angst vor einer Ansteckung ist immer da. Sie ist allgegenwärtig«",
+   "link": "https://www.zeit.de/gesundheit/2026-11/ebola-dr-kongo-christoph-friedl-aerzte-ohne-grenzen-impfstoff",
+   "key": "https://www.zeit.de/gesundheit/2026-11/ebola-dr-kongo-christoph-friedl-aerzte-ohne-grenzen-impfstoff",
+   "summary": "Drei Monate lang leitete Christoph Friedl ein Ebola-Behandlungszentrum im Ostkongo. Und obwohl ein Drittel seiner Patienten stirbt, gibt es auch Momente der Freude.",
+   "time": "2026-11-14T15:12:34+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "title": "Spatzen in Berlin: Was hinter dem drastischen Rückgang der Singvögel steckt",
+   "link": "https://www.spiegel.de/wissenschaft/natur/spatzen-in-berlin-was-hinter-dem-drastischen-rueckgang-der-singvoegel-steckt-a-a0eaec38-b58a-4dc1-8bd8-852d493ee6ab#ref=rss",
+   "key": "https://www.spiegel.de/wissenschaft/natur/spatzen-in-berlin-was-hinter-dem-drastischen-rueckgang-der-singvoegel-steckt-a-a0eaec38-b58a-4dc1-8bd8-852d493ee6ab",
+   "summary": "Weltweit gibt es immer weniger Haussperlinge, und nun verschwinden sie auch aus der Hauptstadt. Woran liegt das?",
+   "time": "2026-11-14T13:54:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "title": "Honorarkürzungen für Ärzte: Kassenärztliche Vereinigung rechnet mit mehr Selbstzahlerterminen",
+   "link": "https://www.zeit.de/gesundheit/2026-11/honorarkuerzungen-aerzte-kassenarztliche-bundesvereinigung-andreas-gassen-gkv-gxe",
+   "key": "https://www.zeit.de/gesundheit/2026-11/honorarkuerzungen-aerzte-kassenarztliche-bundesvereinigung-andreas-gassen-gkv-gxe",
+   "summary": "Wegen Honorarkürzungen rechnen die Kassenärzte mit einer Verlagerung von Terminen zugunsten von Selbstzahlern. Die Krankenkassen kritisieren das als »Angst-Kampagne«.",
+   "time": "2026-11-14T12:51:35+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Archäologen entdecken seltene Artefakte aus dem 17. Jahrhundert",
+   "link": "https://www.focus.de/wissen/archaeologen-entdecken-seltene-artefakte-aus-dem-17-jahrhundert_3c50848d-ff48-45eb-bf56-d50892c6d932.html",
+   "key": "https://www.focus.de/wissen/archaeologen-entdecken-seltene-artefakte-aus-dem-17-jahrhundert_3c50848d-ff48-45eb-bf56-d50892c6d932.html",
+   "summary": "Vor Schweden untersuchen Taucher das Wrack eines historischen Sklavenschiffs. Seltene Funde liefern neue Hinweise auf seine Vergangenheit.",
+   "time": "2026-11-14T11:00:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "title": "Bis zu 100-mal schneller: Unser Sonnensystem könnte früher auseinanderbrechen als gedacht",
+   "link": "https://www.focus.de/wissen/bis-zu-100-mal-schneller-unser-sonnensystem-koennte-frueher-auseinanderbrechen-als-gedacht_dbb21067-028d-4e39-b35c-148ddb8fa8c1.html",
+   "key": "https://www.focus.de/wissen/bis-zu-100-mal-schneller-unser-sonnensystem-koennte-frueher-auseinanderbrechen-als-gedacht_dbb21067-028d-4e39-b35c-148ddb8fa8c1.html",
+   "summary": "Die Sonne könnte das Ende unseres Sonnensystems früher einläuten als gedacht. Neue Simulationen zeigen, wie die Planeten aus ihren Bahnen geraten könnten.",
+   "time": "2026-11-14T10:00:00+00:00",
+   "title_zh": "",
+   "summary_zh": ""
+  }
+ ],
+ "status": [
+  {
+   "paper": "faz",
+   "topic": "top",
+   "url": "https://www.faz.net/rss/aktuell/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "faz",
+   "topic": "politik",
+   "url": "https://www.faz.net/rss/aktuell/politik/inland/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "faz",
+   "topic": "ausland",
+   "url": "https://www.faz.net/rss/aktuell/politik/ausland/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "faz",
+   "topic": "wirtschaft",
+   "url": "https://www.faz.net/rss/aktuell/wirtschaft/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "faz",
+   "topic": "kultur",
+   "url": "https://www.faz.net/rss/aktuell/feuilleton/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "faz",
+   "topic": "wissen",
+   "url": "https://www.faz.net/rss/aktuell/wissen/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "faz",
+   "topic": "gesellschaft",
+   "url": "https://www.faz.net/rss/aktuell/gesellschaft/",
+   "ok": false,
+   "info": "HTTPError: HTTP Error 302: Moved Temporarily"
+  },
+  {
+   "paper": "sz",
+   "topic": "top",
+   "url": "https://rss.sueddeutsche.de/rss/Topthemen",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "politik",
+   "url": "https://rss.sueddeutsche.de/rss/Politik",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wirtschaft",
+   "url": "https://rss.sueddeutsche.de/rss/Wirtschaft",
+   "ok": true,
+   "info": "2 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "kultur",
+   "url": "https://rss.sueddeutsche.de/rss/Kultur",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "url": "https://rss.sueddeutsche.de/rss/Wissen",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "wissen",
+   "url": "https://rss.sueddeutsche.de/rss/Bildung",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "sz",
+   "topic": "gesellschaft",
+   "url": "https://rss.sueddeutsche.de/rss/Panorama",
+   "ok": true,
+   "info": "4 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "top",
+   "url": "https://newsfeed.zeit.de/index",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "politik",
+   "url": "https://newsfeed.zeit.de/politik/deutschland/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "ausland",
+   "url": "https://newsfeed.zeit.de/politik/ausland/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wirtschaft",
+   "url": "https://newsfeed.zeit.de/wirtschaft/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "kultur",
+   "url": "https://newsfeed.zeit.de/entdecken/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "url": "https://newsfeed.zeit.de/gesundheit/index",
+   "ok": true,
+   "info": "3 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "wissen",
+   "url": "https://newsfeed.zeit.de/arbeit/index",
+   "ok": true,
+   "info": "0 Artikel"
+  },
+  {
+   "paper": "zeit",
+   "topic": "gesellschaft",
+   "url": "https://newsfeed.zeit.de/gesellschaft/index",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "top",
+   "url": "https://www.spiegel.de/schlagzeilen/tops/index.rss",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "politik",
+   "url": "https://www.spiegel.de/politik/deutschland/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "ausland",
+   "url": "https://www.spiegel.de/ausland/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wirtschaft",
+   "url": "https://www.spiegel.de/wirtschaft/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "kultur",
+   "url": "https://www.spiegel.de/kultur/index.rss",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "wissen",
+   "url": "https://www.spiegel.de/wissenschaft/index.rss",
+   "ok": true,
+   "info": "3 Artikel"
+  },
+  {
+   "paper": "spiegel",
+   "topic": "gesellschaft",
+   "url": "https://www.spiegel.de/panorama/index.rss",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "top",
+   "url": "https://rss.focus.de/",
+   "ok": true,
+   "info": "5 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "politik",
+   "url": "https://rss.focus.de/politik/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "wirtschaft",
+   "url": "https://rss.focus.de/finanzen/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "kultur",
+   "url": "https://rss.focus.de/kultur/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "wissen",
+   "url": "https://rss.focus.de/wissen/",
+   "ok": true,
+   "info": "6 Artikel"
+  },
+  {
+   "paper": "focus",
+   "topic": "gesellschaft",
+   "url": "https://rss.focus.de/panorama/",
+   "ok": true,
+   "info": "6 Artikel"
+  }
+ ]
+}

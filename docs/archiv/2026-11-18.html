@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presseschau · 2026/11/18（週三）</title>
+<style>
+:root { --bg:#f7f6f2; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --line:#e4e2dc; --accent:#8a2b1f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#17171a; --card:#222226; --ink:#ececee; --muted:#a0a0a8; --line:#34343a; --accent:#e08a6f; }
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:110px; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+a { color:inherit; }
+header { padding:28px 20px 14px; max-width:1180px; margin:0 auto; }
+header h1 { margin:0; font:700 30px/1.15 Georgia, "Times New Roman", serif; letter-spacing:-.01em; }
+header h1 small { font:500 16px/1 inherit; color:var(--muted); margin-left:8px; font-family:inherit; }
+.date { margin-top:6px; color:var(--muted); }
+.date b { color:var(--ink); font-weight:600; }
+.bar { position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
+.bar-in { max-width:1180px; margin:0 auto; padding:8px 20px; display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; }
+.chips, .toggles { display:flex; flex-wrap:wrap; gap:6px; }
+.chip, .tog { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px;
+  padding:4px 11px; font:600 13px/1.4 inherit; cursor:pointer; }
+.chip[aria-pressed="true"] { background:var(--c); border-color:var(--c); color:#fff; }
+.chip[aria-pressed="false"] { opacity:.55; text-decoration:line-through; }
+.tog[aria-pressed="true"] { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+nav { display:flex; gap:4px 14px; flex-wrap:wrap; font-size:14px; width:100%; }
+nav a { text-decoration:none; color:var(--muted); }
+nav a:hover { color:var(--accent); }
+main { max-width:1180px; margin:0 auto; padding:6px 20px 40px; }
+section { margin-top:30px; }
+h2 { font:700 22px/1.3 inherit; margin:0 0 12px; padding-bottom:6px; border-bottom:2px solid var(--ink); }
+h2 span { font:italic 400 17px/1 Georgia, serif; color:var(--muted); margin-left:6px; }
+.hint { color:var(--muted); font-size:14px; margin:-4px 0 12px; }
+.cols { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px; }
+.colhead { margin:0 0 8px; font:700 15px/1.3 inherit; color:var(--c); border-bottom:1px solid var(--line); padding-bottom:4px; }
+.col .item { margin-bottom:10px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:12px; }
+.item { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:11px 13px; }
+.meta { display:flex; gap:8px; align-items:center; font-size:12px; color:var(--muted); margin-bottom:3px; }
+.badge { background:var(--c); color:#fff; border-radius:4px; padding:1px 6px; font-weight:700; letter-spacing:.02em; font-size:11px; }
+.item h3 { margin:0; font:600 16.5px/1.38 Georgia, "Times New Roman", serif; }
+.item h3 a { text-decoration:none; }
+.item h3 a:hover { text-decoration:underline; color:var(--accent); }
+.zh-title { margin:3px 0 0; font-size:15px; color:var(--ink); opacity:.82; }
+.teaser { margin:6px 0 0; font-size:14px; color:var(--muted); }
+.teaser.zh { margin-top:3px; }
+.clusters { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); gap:14px; }
+.cluster { border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:10px; padding:10px 12px; background:var(--card); }
+.clhead { display:flex; justify-content:space-between; gap:8px; margin-bottom:6px; }
+.clhead strong { font:600 15px/1.3 Georgia, serif; }
+.count { font-size:12px; color:var(--muted); white-space:nowrap; }
+.item.compact { border:0; border-top:1px dashed var(--line); border-radius:0; padding:7px 0 4px; background:none; }
+.item.compact h3 { font-size:15px; }
+.item.compact .zh-title { font-size:14px; }
+body.no-zh .zh { display:none; }
+body.no-teaser .teaser { display:none; }
+[hidden] { display:none !important; }
+footer { max-width:1180px; margin:0 auto; padding:16px 20px 40px; color:var(--muted); font-size:13px; border-top:1px solid var(--line); }
+footer table { border-collapse:collapse; margin-top:8px; }
+footer th { text-align:left; padding:3px 12px 3px 0; vertical-align:top; color:var(--ink); }
+footer td { padding:3px 0; }
+footer td span { display:inline-block; margin:0 10px 2px 0; }
+.ok { color:#2c7a57; } .bad { color:#c0392b; font-weight:600; }
+.empty { color:var(--muted); }
+@media (max-width:600px) {
+  header h1 { font-size:25px; }
+  .grid, .cols, .clusters { grid-template-columns:1fr; }
+  html { scroll-padding-top:130px; }
+  nav { flex-wrap:nowrap; overflow-x:auto; white-space:nowrap; padding-bottom:2px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Presseschau<small>德國報紙每日導覽</small></h1>
+  <div class="date"><b>2026/11/18（週三）</b> · <span lang="de">Mittwoch, 18. November 2026</span> · 更新於 11:44（台灣時間） · <a href="../archiv/">存檔 Archiv</a></div>
+</header>
+<div class="bar"><div class="bar-in">
+  <div class="chips" aria-label="報紙篩選"><button class="chip" data-chip="faz" style="--c:#33598f" aria-pressed="true">FAZ</button><button class="chip" data-chip="sz" style="--c:#2c7a57" aria-pressed="true">SZ</button><button class="chip" data-chip="zeit" style="--c:#6a4c9c" aria-pressed="true">ZEIT</button><button class="chip" data-chip="spiegel" style="--c:#b8432f" aria-pressed="true">SPIEGEL</button><button class="chip" data-chip="focus" style="--c:#c06f00" aria-pressed="true">FOCUS</button></div>
+  <div class="toggles">
+    <button class="tog" id="t-zh" aria-pressed="true" hidden>中文</button>
+    <button class="tog" id="t-teaser" aria-pressed="true">導言 Teaser</button>
+  </div>
+  <nav><a href="#top">頭條 Top</a><a href="#gemeinsam">多報共同 Gemeinsam</a><a href="#politik">德國政治</a><a href="#ausland">國際</a><a href="#wirtschaft">經濟</a><a href="#kultur">文化・藝文</a><a href="#wissen">科學・教育</a><a href="#gesellschaft">社會</a></nav>
+</div></div>
+<main>
+<section id="top"><h2>今日頭條 <span>Die Top-Meldungen</span></h2><div class="cols"><div class="col" data-p="faz"><h3 class="colhead" style="--c:#33598f">Frankfurter Allgemeine Zeitung</h3><article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>09:00</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/nach-ruecktritt-nvidia-gruender-huang-erwaegt-rueckkehr-auf-ceo-posten-201692517.html" target="_blank" rel="noopener">Chipkonzern: Nvidia: Jensen Huang kommt nicht zurück</a></h3>
+<p class="teaser" lang="de">Der ehemalige Vorstandschef bringt sich für ein Comeback ins Gespräch, aber Nvidia lehnt das unmissverständlich ab. Derweil legt der Chipkonzern abermals glänzende Geschäftsergebnisse vor.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>08:13</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/jensen-huang-scheitert-mit-comeback-nvidia-setzt-auf-colette-kress-201692999.html" target="_blank" rel="noopener">Nvidia-Skandal: „Business as Usual“ ohne den Visionär</a></h3>
+<p class="teaser" lang="de">Nvidia lehnt eine Rückkehr von Jensen Huang ab und verbreitet die Botschaft, dass es auch ohne ihn geht. Der Mythos von Huangs Unersetzbarkeit bröckelt.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:02</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/angriff-auf-die-krim-bruecke-was-der-treffer-fuer-putin-bedeutet-201691161.html" target="_blank" rel="noopener">Krim-Brücke: Ein empfindlicher Treffer gegen Putin</a></h3>
+<p class="teaser" lang="de">Der ukrainische Angriff auf die Krim-Brücke wird den Krieg nicht entscheiden. Aber er macht die Grenzen russischer Macht sichtbar – auch für Trump.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 23:36</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-ziemlich-dumm-pistorius-verurteilt-us-kritik-an-ukraine-faz-110683325.html" target="_blank" rel="noopener">Liveblog Ukrainekrieg: „Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine</a></h3>
+<p class="teaser" lang="de">Stattdessen solle man über die terroristischen Angriffe Russlands sprechen, so der Verteidigungsminister +++ NATO-Generalsekretär nennt Angriff auf Krim-Brücke „unvermeidlich“ +++ Selenskyj bestätigt teilweisen Einsturz der Krim-Brücke +++ alle Neuigkeiten im Liveblog</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 17:05</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/kertsch-bruecke-nach-ukrainenangriff-teilweise-eingestuerzt-accg-201689956.html" target="_blank" rel="noopener">Teileinsturz: Nun ist Putins Brücke eingestürzt – zumindest teilweise</a></h3>
+<p class="teaser" lang="de">Ein ukrainischer Angriff zerstört den Bogen der Kertsch-Straßenbrücke. Moskau schweigt zunächst zu dem Schlag auf Putins Prestigeprojekt.</p>
+</article></div><div class="col" data-p="sz"><h3 class="colhead" style="--c:#2c7a57">Süddeutsche Zeitung</h3><article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/usa-news-liveblog-ki-nvidia-quartalszahlen-huang-rueckkehr-li.3578585" target="_blank" rel="noopener">USA: Nvidia verdoppelt Umsatz und Gewinn</a></h3>
+<p class="teaser" lang="de">Kurz nach dem Rücktritt des bisherigen Konzernchefs legt der Chiphersteller überraschend starke Quartalsergebnisse vor. Jensen Huang zeigt sich zur Rückkehr an Nvidia-Spitze bereit – der Verwaltungsratschef lehnt dies ab.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:39</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/bundesregierung-liveblog-spd-giffey-hubertus-heil-koalitionsausschuss-li.3580621" target="_blank" rel="noopener">Bundespolitik: Koalition beendet Verhandlungen nach mehr als acht Stunden</a></h3>
+<p class="teaser" lang="de">Der Kanzler wollte bei der Stromsteuer eine rasche Einigung. Dann zogen sich die Verhandlungen doch bis in die Nacht. Ergebnisse wurden zunächst nicht bekanntgegeben.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>06:11</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/kertsch-bruecke-ukraine-krim-russland-li.3581771" target="_blank" rel="noopener">Zerstörte Krim-Brücke: Die Ukraine versetzt Putin einen schweren Schlag</a></h3>
+<p class="teaser" lang="de">Die Kertsch-Brücke Richtung Krim gilt als Prestigeprojekt des Kremlchefs. Nun sind Teile davon nach massiven ukrainischen Angriffen eingestürzt. Im Gegenzug trifft Moskau zwei zentrale Kiewer Brücken.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>04:50</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-pistorius-us-kritik-dumm-krim-terrorismus-li.3571967" target="_blank" rel="noopener">Krieg in der Ukraine: „Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine</a></h3>
+<p class="teaser" lang="de">Nach dem Angriff auf die Krim-Brücke hatten die USA die Zielauswahl der ukrainischen Militärführung kritisiert. Die Zerstörung von Zivileinrichtungen in der Ukraine sei „eine Form von Terrorismus“, so der deutsche Verteidigungsminister.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>00:07</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/sport/podcast-und-nun-zum-sport-deutschland-niederlande-li.3581023" target="_blank" rel="noopener">Podcast „Und nun zum Sport“: 5:0 gegen die Niederlande: Wie Deutschland über den Klopp zum Pep fand</a></h3>
+<p class="teaser" lang="de">Beim rauschhaften Spiel in Berlin lässt sich erahnen, wie der Fußball des neuen Bundestrainers aussehen soll. Den Aufschwung haben strategische und kommunikative Kniffe Jürgen Klopps ermöglicht.</p>
+</article></div><div class="col" data-p="zeit"><h3 class="colhead" style="--c:#6a4c9c">DIE ZEIT / ZEIT ONLINE</h3><article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>11:37</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/18/demokratin-nimmt-republikanern-senatssitz-in-alaska-ab" target="_blank" rel="noopener">Wahlen: Demokratin nimmt Republikanern Senatssitz in Alaska ab</a></h3>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>11:30</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/18/protest-mit-perspektive-was-gen-z-anders-machen-will" target="_blank" rel="noopener">Erneute Protestaktion: Protest mit Perspektive: Was Gen Z anders machen will</a></h3>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>11:30</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/18/ministerin-fachlich-kein-bedarf-fuer-polizei-kennzeichnung" target="_blank" rel="noopener">Landtag: Ministerin: Fachlich kein Bedarf für Polizei-Kennzeichnung</a></h3>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>11:26</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/18/300-000-euro-schaden-auto-brennt-in-garage-aus" target="_blank" rel="noopener">Landkreis Konstanz: 300.000 Euro Schaden - Auto brennt in Garage aus</a></h3>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>11:23</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/18/waymo-stoppt-autonome-fahrten-auf-us-autobahnen" target="_blank" rel="noopener">Nach Behörden-Anordnung: Waymo stoppt autonome Fahrten auf US-Autobahnen</a></h3>
+</article></div><div class="col" data-p="spiegel"><h3 class="colhead" style="--c:#b8432f">DER SPIEGEL</h3><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>05:24</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/christian-sewing-wie-sich-der-deutsche-bank-chef-an-die-spitze-kaempfte-a-89df9ba3-c6d1-4ebf-b75d-b353e5066448#ref=rss" target="_blank" rel="noopener">Christian Sewing: Wie sich der Deutsche-Bank-Chef an die Spitze kämpfte</a></h3>
+<p class="teaser" lang="de">Das Datenleck bei der Deutschen Bank enthüllt, wie sich Konzernchef Christian Sewing an die Spitze kämpfte. Aus einem Mann, der einst streng auf das Einhalten von Regeln achtete, ist ein Manager geworden, den Vorschriften nerven.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-warum-die-tech-bosse-jensen-huangs-rueckkehr-fordern-a-7c966f6a-6430-47e6-b5f4-edb6202a2617#ref=rss" target="_blank" rel="noopener">Nvidia: Warum die Tech-Bosse Jensen Huangs Rückkehr fordern</a></h3>
+<p class="teaser" lang="de">Mehr als 190.000 Menschen haben eine Onlinepetition für die Rückkehr von Jensen Huang zu Nvidia unterschrieben. Viele Chefs von Techkonzernen sind dabei, auch aus eigenem Interesse.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:49</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/netzwelt/anthropic-boersengang-ki-firmen-arbeiten-wie-goldminen-sagt-analyst-benedict-evans-a-c13cc772-5972-4613-bfb4-35289408e6fd#ref=rss" target="_blank" rel="noopener">Anthropic-Börsengang: »KI-Firmen arbeiten wie Goldminen«, sagt Analyst Benedict Evans</a></h3>
+<p class="teaser" lang="de">Anthropic steuert auf einen billionenschweren Börsenstart zu, oder platzt die KI-Blase? Der prominente Techanalyst Benedict Evans spricht über nervöse Märkte und späte Gewinner des KI-Booms.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>08:32</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/donald-trump-technikprobleme-in-serie-kritik-in-eigenen-reihen-waechst-a-ac69b24a-5440-4007-a586-c375f20b6b68#ref=rss" target="_blank" rel="noopener">Donald Trump: Technikprobleme in Serie – Kritik in eigenen Reihen wächst</a></h3>
+<p class="teaser" lang="de">Bemerkenswert leichtfertig tut Donald Trump die Ausfälle bei Banken, Behörden und im Flugverkehr ab. Aber selbst enge Vertraute geben sich damit nicht mehr zufrieden. Der Druck auf den US-Präsidenten wächst.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:06</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/gerald-knaus-ueber-return-hubs-in-ruanda-den-tausenden-die-jeden-monat-kommen-muss-die-ueberfahrt-sinnlos-erscheinen-a-47546ef9-905c-47d7-95b9-4d0eb1f4b6bb#ref=rss" target="_blank" rel="noopener">Gerald Knaus über Return Hubs in Ruanda: »Den Tausenden, die jeden Monat kommen, muss die Überfahrt sinnlos erscheinen«</a></h3>
+<p class="teaser" lang="de">Können Abschiebungen ins ferne Ruanda Europas Problem mit irregulärer Migration lösen? Der Experte Gerald Knaus befürwortet ein Abkommen mit dem afrikanischen Land. Moralische Bedenken lässt er nicht gelten.</p>
+</article></div><div class="col" data-p="focus"><h3 class="colhead" style="--c:#c06f00">FOCUS online</h3><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>10:21</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ziemlich-dumm-pistorius-verurteilt-us-kritik-an-ukraine_1f4cf2d0-5fbf-40a1-8f0a-85e995c85146.html" target="_blank" rel="noopener">„Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine</a></h3>
+<p class="teaser" lang="de">Die US-Regierung rügt nach dem ukrainischen Angriff auf die Krim-Brücke die Angriffstaktik Kiews. Der deutsche Verteidigungsminister wird daraufhin deutlich. Und sein ukrainischer Kollege auch.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>10:20</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/eu-einigung-europas-stromnetze-sollen-schneller-wachsen_d9969994-0ebe-4a3b-859b-522462673038.html" target="_blank" rel="noopener">EU-Einigung: Europas Stromnetze sollen schneller wachsen</a></h3>
+<p class="teaser" lang="de">Mehr als eine Billion Euro muss nach Schätzung der EU-Kommission bis 2040 in Europas Stromnetze investiert werden. Der Ausbau dauert bisweilen auch wegen Bürokratie lange. Das soll sich nun ändern.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>10:19</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/usa-verlieren-status-als-masernfreies-land_27fb3fa9-a3dc-40bb-b5c5-0f95c74f79d5.html" target="_blank" rel="noopener">USA verlieren Status als masernfreies Land</a></h3>
+<p class="teaser" lang="de">Mehr als 25 Jahre lang galten die USA als masernfrei. Nun hat das Land diesen Status verloren. Grund dafür sind anhaltende Ausbrüche der hochansteckenden Krankheit.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>09:14</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/cambridge-dictionary-kuert-human-zum-wort-des-jahres_831f4a03-e5c3-41c4-9e02-164b1310645a.html" target="_blank" rel="noopener">Cambridge Dictionary kürt „human“ zum Wort des Jahres</a></h3>
+<p class="teaser" lang="de">Die Entwicklungen im Feld der Künstlichen Intelligenz lassen die Menschen über eine jahrtausendealte Frage grübeln: Wer sind wir und was macht uns aus? Das schlägt sich auch im Wort des Jahres nieder.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>09:13</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/us-aufsicht-stoppt-wetten-auf-trumps-aussagen-bei-kalshi_63267d29-4135-4810-b116-10fd6d2b9ddc.html" target="_blank" rel="noopener">US-Aufsicht stoppt Wetten auf Trumps Aussagen bei Kalshi</a></h3>
+<p class="teaser" lang="de">Ein Mitarbeiter des Weißen Hauses verdiente mit Insiderwissen mehr als 100.000 Dollar - er hatte Trumps Teleprompter bedient. Nun greifen die Behörden bei Wetten auf Äußerungen des Präsidenten ein.</p>
+</article></div></div></section>
+<section id="gemeinsam"><h2>多家報紙共同報導 <span>Worüber mehrere Zeitungen berichten</span></h2><p class="hint">同一件事，看各報怎麼下標題。（依關鍵字自動比對，偶有誤差）</p><div class="clusters"><div class="cluster"><div class="clhead"><strong lang="de">Huang · Jensen · Nvidia</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>09:00</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/nach-ruecktritt-nvidia-gruender-huang-erwaegt-rueckkehr-auf-ceo-posten-201692517.html" target="_blank" rel="noopener">Chipkonzern: Nvidia: Jensen Huang kommt nicht zurück</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-warum-die-tech-bosse-jensen-huangs-rueckkehr-fordern-a-7c966f6a-6430-47e6-b5f4-edb6202a2617#ref=rss" target="_blank" rel="noopener">Nvidia: Warum die Tech-Bosse Jensen Huangs Rückkehr fordern</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>06:43</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-will-jensen-huang-nicht-als-chef-zurueckholen-a-f28605ac-ea1f-421b-afd9-4649bc8b91e6#ref=rss" target="_blank" rel="noopener">Nvidia will Jensen Huang nicht als Chef zurückholen</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:52</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-ex-ceo-jensen-huang-ist-bereit-zu-chiphersteller-zurueckzukehren-a-bc20dd25-f830-42e0-a404-de9743ecaf95#ref=rss" target="_blank" rel="noopener">Nvidia: Ex-CEO Jensen Huang ist bereit, zu Chiphersteller zurückzukehren</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/usa-news-liveblog-ki-nvidia-quartalszahlen-huang-rueckkehr-li.3578585" target="_blank" rel="noopener">USA: Nvidia verdoppelt Umsatz und Gewinn</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:29</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/nvidia-quartalszahlen-umsatz-gewinn-jensen-huang" target="_blank" rel="noopener">Chipkonzern: Nvidia lehnt Rückkehr von Jensen Huang an die Konzernspitze ab</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Pistorius · Ukraine · US-Kritik</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 23:36</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-ziemlich-dumm-pistorius-verurteilt-us-kritik-an-ukraine-faz-110683325.html" target="_blank" rel="noopener">Liveblog Ukrainekrieg: „Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine</a></h3>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:42</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/pistorius-us-kritik-an-ukraine-ist-ziemlich-dumme-sache_8704eedb-2e4b-4afd-b5cc-73e3c324066d.html" target="_blank" rel="noopener">Pistorius: US-Kritik an Ukraine ist „ziemlich dumme Sache“</a></h3>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>10:21</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ziemlich-dumm-pistorius-verurteilt-us-kritik-an-ukraine_1f4cf2d0-5fbf-40a1-8f0a-85e995c85146.html" target="_blank" rel="noopener">„Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine</a></h3>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:16</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/selenskyj-sind-bei-waffenentwicklung-nummer-eins-in-europa_785d37d2-9b17-4daf-9c09-e7f51cb94374.html" target="_blank" rel="noopener">Selenskyj: Sind bei Waffenentwicklung Nummer eins in Europa</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:44</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/ukraine-krieg-usa-kritisieren-ukrainische-angriffe-im-inneren-russlands-a-fc373566-240e-4b4f-bf86-dfa5f1ad41d0#ref=rss" target="_blank" rel="noopener">Ukraine-Krieg: USA kritisieren ukrainische Angriffe im inneren Russlands</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>04:50</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-pistorius-us-kritik-dumm-krim-terrorismus-li.3571967" target="_blank" rel="noopener">Krieg in der Ukraine: „Ziemlich dumm“: Pistorius verurteilt US-Kritik an Ukraine</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Putins · Angriff · Schlag</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:02</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/angriff-auf-die-krim-bruecke-was-der-treffer-fuer-putin-bedeutet-201691161.html" target="_blank" rel="noopener">Krim-Brücke: Ein empfindlicher Treffer gegen Putin</a></h3>
+</article>
+<article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 17:05</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/kertsch-bruecke-nach-ukrainenangriff-teilweise-eingestuerzt-accg-201689956.html" target="_blank" rel="noopener">Teileinsturz: Nun ist Putins Brücke eingestürzt – zumindest teilweise</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:10</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/news-des-tages-deutsche-bank-angriff-auf-die-krimbruecke-gluecksatlas-a-54b6649a-6b11-44b8-bf5d-637e3ff64120#ref=rss" target="_blank" rel="noopener">News des Tages: Deutsche Bank, Angriff auf die Krimbrücke, Glücksatlas</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>06:11</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/kertsch-bruecke-ukraine-krim-russland-li.3581771" target="_blank" rel="noopener">Zerstörte Krim-Brücke: Die Ukraine versetzt Putin einen schweren Schlag</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>02:02</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/bruecke-krim-strasse-von-kertsch-logistik-russland" target="_blank" rel="noopener">Brücke zur Krim: Angriff auf Putins Prestigeobjekt</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Ergebnisse · Nacht · Stunden</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>10:19</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-koalitionsausschuss-bis-in-die-nacht-ergebnisse-noch-nicht-bekannt-faz-110093143.html" target="_blank" rel="noopener">Deutschland Liveblog: Koalitionsausschuss bis in die Nacht – Ergebnisse noch nicht bekannt</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:39</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/bundesregierung-liveblog-spd-giffey-hubertus-heil-koalitionsausschuss-li.3580621" target="_blank" rel="noopener">Bundespolitik: Koalition beendet Verhandlungen nach mehr als acht Stunden</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:35</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/koalition-cdu-csu-spd-carsten-linnemann-stromsteuer" target="_blank" rel="noopener">Schwarz-rote Koalition: Linnemann wirbt vor Koalitionsausschuss für Geschlossenheit</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>10:08</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/koalitionsausschuss-cdu-csu-spd-stromsteuer-friedrich-merz-lars-klingbeil-markus-soeder" target="_blank" rel="noopener">Koalitionsausschuss: Koalition beendet Stromsteuergespräche tief in der Nacht</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:23</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/vanessa-emde-linke-berlin-abgeordnete-ausschluss" target="_blank" rel="noopener">Linkenfraktion in Berlin: Berliner Linkenspitze beantragt Ausschluss von Vanessa Emde</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">James · Bond · Robert</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:12</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/robert-pattinson-als-james-bond-warum-england-aufatmet-201691614.html" target="_blank" rel="noopener">England und James Bond: Jetzt kann nur noch 007 die Ehre der Briten retten</a></h3>
+</article>
+<article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:50</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/robert-pattinson-ueber-den-beginn-seiner-karriere-201691209.html" target="_blank" rel="noopener">Robert Pattinson: Raus aus der Einzimmer-WG</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>10:27</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/james-bond-jeff-bezos-schildert-casting-von-robert-pattinson-als-007-a-af29142c-86f7-45d8-9e8b-2f9118af39ec#ref=rss" target="_blank" rel="noopener">James Bond: Jeff Bezos schildert Casting von Robert Pattinson als 007</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 22:28</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/james-bond-stimmen-sie-ab-welches-bondgirl-soll-neben-robert-pattinson-auftreten-a-1ef27a0a-4ac5-4660-a3cd-ed9c1b375d62#ref=rss" target="_blank" rel="noopener">James Bond: Stimmen Sie ab! Welches Bondgirl soll neben Robert Pattinson auftreten?</a></h3>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 23:53</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/podcast-nachrichten-auf-den-punkt-james-bond-pattinson-film-li.3581823" target="_blank" rel="noopener">Podcast: „Auf den Punkt“: Neuer James Bond: Ist Robert Pattinson der richtige?</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Ruanda · Land · Abschiebungen</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:54</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/return-hubs-in-ruanda-was-will-die-eu-was-will-ruanda-201690982.html" target="_blank" rel="noopener">Return Hubs: Was will Ruanda?</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/ruanda-deal-dieser-mann-kann-kein-partner-sein-meinung-a-d9d38003-6d8b-4488-ac12-5d5ea4dbee87#ref=rss" target="_blank" rel="noopener">Ruanda-Deal: Dieser Mann kann kein Partner sein – Meinung</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:06</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/gerald-knaus-ueber-return-hubs-in-ruanda-den-tausenden-die-jeden-monat-kommen-muss-die-ueberfahrt-sinnlos-erscheinen-a-47546ef9-905c-47d7-95b9-4d0eb1f4b6bb#ref=rss" target="_blank" rel="noopener">Gerald Knaus über Return Hubs in Ruanda: »Den Tausenden, die jeden Monat kommen, muss die Überfahrt sinnlos erscheinen«</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:02</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/abschiebezentrum-ruanda-asyl-alexander-dobrindt" target="_blank" rel="noopener">Abschiebungen nach Ruanda: Ruanda-Abschiebeplan lässt Ausreisepflichtige aus dem Land außer Acht</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Huang · Jensen · Nvidia</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>08:13</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/jensen-huang-scheitert-mit-comeback-nvidia-setzt-auf-colette-kress-201692999.html" target="_blank" rel="noopener">Nvidia-Skandal: „Business as Usual“ ohne den Visionär</a></h3>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/nvidia-nach-huang-ruecktritt-zahlen-uebertreffen-erwartungen_629334a9-2b61-4051-ad13-2ef0c9c2c6cf.html" target="_blank" rel="noopener">Nvidia nach Huang-Rücktritt: Zahlen übertreffen Erwartungen</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:54</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/ex-nvidia-ceo-jensen-huang-sagt-vor-us-senat-aus-a-0256fbdb-f7c3-4c6d-876f-097e3557807c#ref=rss" target="_blank" rel="noopener">Ex-Nvidia CEO Jensen Huang sagt vor US-Senat aus</a></h3>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Christian · Bank · Sewing</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:22</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/news/sewing-ueber-enthuellungen-wir-haben-nichts-zu-verbergen_28245c06-24f1-442b-b14d-3c43b648e1e3.html" target="_blank" rel="noopener">Sewing über Enthüllungen: „Wir haben nichts zu verbergen!“</a></h3>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>05:24</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/christian-sewing-wie-sich-der-deutsche-bank-chef-an-die-spitze-kaempfte-a-89df9ba3-c6d1-4ebf-b75d-b353e5066448#ref=rss" target="_blank" rel="noopener">Christian Sewing: Wie sich der Deutsche-Bank-Chef an die Spitze kämpfte</a></h3>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 20:06</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/deutsche-bank-christian-sewing-alexander-wynaendts-vorwuerfe-gxe" target="_blank" rel="noopener">Deutsche Bank: Aufsichtsrat stellt sich hinter Deutsche-Bank-CEO Christian Sewing</a></h3>
+</article></div></div></section>
+<section id="politik"><h2>德國政治 <span>Politik Deutschland</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>11:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/koalitionsausschuss-spitzen-von-cdu-csu-spd-beraten-ueber-stromsteuer-rente-spritpreisbremse-a-fee3177e-e386-42fd-98d7-37b8b344904b#ref=rss" target="_blank" rel="noopener">Koalitionsausschuss: Spitzen von CDU, CSU, SPD beraten über Stromsteuer, Rente, Spritpreisbremse</a></h3>
+<p class="teaser" lang="de">Gegen 2 Uhr nachts verließen Merz, Klingbeil, Söder und anderen Koalitionäre das Kanzleramt. Dort hatten sie vor allem nach einer Lösung im Streit über die Stromsteuer gesucht. Ob sie erfolgreich waren, ist noch nicht bekannt.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>11:22</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/reform-des-umgangsrechts-bundesregierung-will-kinder-besser-schuetzen-accg-201693039.html" target="_blank" rel="noopener">Reform vor Beschluss: Kein Umgangsrecht mehr für gewalttätigen Elternteil</a></h3>
+<p class="teaser" lang="de">Tun sich Vater oder Mutter gegenseitig Gewalt an, leiden auch ihre Kinder. Die Bundesregierung will heute eine Reform des Umgangsrechts mit neuen Regeln beschließen, die vor allem dem Kindeswohl dienen soll.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>11:06</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/trump-putin-xi-jingping-pannenserie-flugverkehr-cyberangriff-ki-ukraine-li.3582083" target="_blank" rel="noopener">Trumps Asienreise: Vor dem China-Gipfel dominieren Spannungen und Sorgen rund um KI</a></h3>
+<p class="teaser" lang="de">Die USA wollen Chinas Fortschritt bei der künstlichen Intelligenz bremsen. Sie verschärfen die Exportregeln für Chips. Derweil wirft eine Pannenserie in den USA Fragen zu KI und Cybersicherheit auf.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>10:19</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-koalitionsausschuss-bis-in-die-nacht-ergebnisse-noch-nicht-bekannt-faz-110093143.html" target="_blank" rel="noopener">Deutschland Liveblog: Koalitionsausschuss bis in die Nacht – Ergebnisse noch nicht bekannt</a></h3>
+<p class="teaser" lang="de">Acht Stunden Beratungen vor allem zur Stromsteuer +++ Berliner Grüne: Verhandeln nicht auf Grundlage alter Aussagen +++ Linken-Fraktionsvorstand beantragt Ausschluss von Emde +++ alle Entwicklungen im Liveblog</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>10:08</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/koalitionsausschuss-cdu-csu-spd-stromsteuer-friedrich-merz-lars-klingbeil-markus-soeder" target="_blank" rel="noopener">Koalitionsausschuss: Koalition beendet Stromsteuergespräche tief in der Nacht</a></h3>
+<p class="teaser" lang="de">Nach mehr als acht Stunden haben die Spitzenpolitiker von Union und SPD ihre Verhandlungen im Koalitionsausschuss beendet. Ergebnisse wollen sie erst später mitteilen.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>09:33</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/liveblog-nahost-westjordanland-israel-siedler-knesset-li.3579157" target="_blank" rel="noopener">Newsblog zu Nahost: Israels Opposition übernimmt den Parlamentsvorsitz</a></h3>
+<p class="teaser" lang="de">Die Mehrheit der Abgeordneten der Knesset stimmt für den früheren Minister Matan Kahana. Er gehört der Partei von Gadi Eisenkot an, der mit der Bildung der Regierung beauftragt ist.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:32</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/hubertus-heil-spd-vorsitz-lars-klingbeil-manuela-schwesig" target="_blank" rel="noopener">Wahl zum SPD-Chef: Heil will auch ohne Unterstützung der Parteispitze kandidieren</a></h3>
+<p class="teaser" lang="de">Der frühere Bundesarbeitsminister ist bereit, auch gegen den Willen des Vorstands für den SPD-Parteivorsitz zu kandidieren. Dies sei »innerparteiliche Demokratie«.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:02</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/abschiebezentrum-ruanda-asyl-alexander-dobrindt" target="_blank" rel="noopener">Abschiebungen nach Ruanda: Ruanda-Abschiebeplan lässt Ausreisepflichtige aus dem Land außer Acht</a></h3>
+<p class="teaser" lang="de">Bundesinnenminister Dobrindt will 20 abgelehnte Asylsuchende nach Ruanda abschieben, die von anderswo stammen. Aus Ruanda gibt es laut Bamf 367 Ausreisepflichtige.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:25</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/italien-verschaerft-kampf-gegen-antisemitismus-mit-neuem-gesetz_fcd40508-7bf2-47a2-a696-366d2783b880.html" target="_blank" rel="noopener">Italien verschärft Kampf gegen Antisemitismus mit neuem Gesetz</a></h3>
+<p class="teaser" lang="de">In Italien wurden zuletzt deutlich mehr antisemitische Vorfälle registriert als vor einigen Jahren. Nun ist ein Gesetz beschlossen, mit dem der Kampf gegen Antisemitismus verschärft wird.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:44</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/kanzler-merz-nimmt-an-csu-vorstandssitzung-teil_88a2fd1a-2c0b-443c-b8ea-4012ec55d358.html" target="_blank" rel="noopener">Merz erwartet Stromsteuer-Einigung am Dienstag – Söder feuert gegen Heil</a></h3>
+<p class="teaser" lang="de">Kommt die Stromsteuersenkung für alle? Das ist die zentrale Frage der Beratungen der Spitzen von Union und SPD im Kanzleramt. Aber es geht auch noch um andere Themen.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:42</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/pistorius-us-kritik-an-ukraine-ist-ziemlich-dumme-sache_8704eedb-2e4b-4afd-b5cc-73e3c324066d.html" target="_blank" rel="noopener">Pistorius: US-Kritik an Ukraine ist „ziemlich dumme Sache“</a></h3>
+<p class="teaser" lang="de">Boris Pistorius hat Bedenken aus Washington bezüglich ukrainischer Militäraktionen weit abseits der Front scharf zurückgewiesen. Er bezeichnete die Kritik aus den USA als „ziemlich dumme Sache“.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:37</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/lka-ermittelt-wegen-noetigung-nach-cdu-fraktionssitzung_641e3ed6-f157-4a38-bf52-3dd3720a8334.html" target="_blank" rel="noopener">LKA ermittelt wegen Nötigung nach CDU-Fraktionssitzung</a></h3>
+<p class="teaser" lang="de">Nach einer Sitzung der zerstrittenen CDU-Landtagsfraktion von Sachsen-Anhalt ermittelt jetzt das LKA wegen einer möglichen Nötigung. Es geht um eidesstattliche Versicherungen, die die Abgeordneten abgeben sollten, nicht AfD-Kandidaten gewählt zu haben.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:56</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/niedersachsen-justizministerin-wahlmann-geraet-wegen-verschwundener-akte-in-bedraengnis-a-2e5af55d-26cf-41e0-bb8d-430e21f1c692#ref=rss" target="_blank" rel="noopener">Niedersachsen: Justizministerin Wahlmann gerät wegen verschwundener Akte in Bedrängnis</a></h3>
+<p class="teaser" lang="de">Eine Akte mit Ermittlungsergebnissen zu einem korrupten Staatsanwalt soll in Niedersachsens Justizministerium monatelang nicht auffindbar gewesen sein. Die Aussage eines Abteilungsleiters bringt Ministerin Kathrin Wahlmann nun in Bedrängnis.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:06</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/bundesregierung-will-svenja-schulze-als-unicef-chefin-a-e3c254e2-b095-4a71-94bd-df8aad89d560#ref=rss" target="_blank" rel="noopener">Unicef: Bundesregierung will Svenja Schulze als Chefin vorschlagen</a></h3>
+<p class="teaser" lang="de">Deutschland plant, sich um den Chefposten des Uno-Kinderhilfswerks zu bewerben. Über die Kandidatur der ehemaligen Ministerin soll SPIEGEL-Informationen zufolge das Kabinett entscheiden.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:28</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/rede-zum-volkstrauertag-antideutscher-hoecke-201691492.html" target="_blank" rel="noopener">Volkstrauertag: Antideutscher Höcke</a></h3>
+<p class="teaser" lang="de">Das gab es schon einmal: den Ausschluss von Juden aus dem deutschen Volk. Mit „national“ hat das nichts zu tun, nur mit Rassismus.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:10</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/news-des-tages-deutsche-bank-angriff-auf-die-krimbruecke-gluecksatlas-a-54b6649a-6b11-44b8-bf5d-637e3ff64120#ref=rss" target="_blank" rel="noopener">News des Tages: Deutsche Bank, Angriff auf die Krimbrücke, Glücksatlas</a></h3>
+<p class="teaser" lang="de">Ein riesiges Datenleck gibt Einblicke in das Geschäftsgebaren der Deutschen Bank. Die Ukraine zerstört Putins Krimbrücke. Und: Was der deutsche Glücksatlas über Sachsen-Anhalt verrät. Das ist die Lage am Dienstagabend.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:07</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/bsw-und-bundestagswahl-karlsruhe-entscheidet-ueber-neuauszaehlung-a-852c3f4f-1f36-40ff-bd91-b88e3486b93a#ref=rss" target="_blank" rel="noopener">BSW und Bundestagswahl: Karlsruhe entscheidet über Neuauszählung</a></h3>
+<p class="teaser" lang="de">Das BSW verpasste den Einzug in den Bundestag, am Ende fehlten nur knapp 10.000 Stimmen. Die Wagenknecht-Partei sah sich hintergangen. Jetzt entscheidet das Bundesverfassungsgericht, ob die Wahl gültig ist.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:47</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/steuervereinfachung-werbungskosten-arbeitszeitpauschale-arbeitnehmerpauschbetrag-lars-klingbeil" target="_blank" rel="noopener">Steuervereinfachungsgesetz: Bundesfinanzministerium will Steuerregeln vereinfachen</a></h3>
+<p class="teaser" lang="de">Das Finanzministerium plant eine Reihe von Änderungen bei den Steuern. Kleinere Abfindungen sollen steuerfrei werden, die Steuererklärung soll nur noch digital erfolgen.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:35</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/koalition-cdu-csu-spd-carsten-linnemann-stromsteuer" target="_blank" rel="noopener">Schwarz-rote Koalition: Linnemann wirbt vor Koalitionsausschuss für Geschlossenheit</a></h3>
+<p class="teaser" lang="de">Der Koalitionsausschuss ringt um Wege, die Stromsteuer für alle zu senken. Im Fokus müsse der Wille stehen, das Leben der Menschen zu verbessern, mahnt Carsten Linnemann.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:23</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/vanessa-emde-linke-berlin-abgeordnete-ausschluss" target="_blank" rel="noopener">Linkenfraktion in Berlin: Berliner Linkenspitze beantragt Ausschluss von Vanessa Emde</a></h3>
+<p class="teaser" lang="de">Wie angekündigt hat der Linken-Fraktionsvorstand in Berlin den Ausschluss der umstrittenen Abgeordneten Vanessa Emde beantragt. Abgestimmt wird wohl in einer Woche.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 19:15</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/el-irschad-berlin-verbietet-verein-wegen-hisbollah-unterstuetzung-accg-201690555.html" target="_blank" rel="noopener">Verein El-Irschad: Berlin verbietet Verein wegen Unterstützung der Hizbullah</a></h3>
+<p class="teaser" lang="de">Der Verein El-Irschad soll der Terrororganisation finanziell geholfen haben. Noch vor fünf Jahren besuchte ihn der Neuköllner Bürgermeisterkandidat der Linkspartei.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 18:49</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/hoecke-empoert-mit-aussagen-zu-volkstrauertag-accg-201690554.html" target="_blank" rel="noopener">Rede in Thüringen: Höcke empört mit Aussagen zu Volkstrauertag</a></h3>
+<p class="teaser" lang="de">Björn Höcke sagt, der deutsche Volkstrauertag sei kein jüdischer Volkstrauertag. Nun spricht er von einer „sprachlichen Ungenauigkeit“.</p>
+</article></div></section>
+<section id="ausland"><h2>國際 <span>Ausland</span></h2><div class="grid"><article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>10:33</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/kalshi-cftc-donald-trump-wetten-gabriel-perez" target="_blank" rel="noopener">Wettmärkte: US-Aufsicht stoppt Wetten auf Trumps Aussagen bei Kalshi</a></h3>
+<p class="teaser" lang="de">Beim Onlinewettanbieter Kalshi dürfen Nutzer nicht mehr Geld darauf setzen, was der US-Präsident sagt. Die US-Handelsaufsicht prüft Manipulationsrisiken.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:47</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/matan-kahana-parlamentspraesident-knesset-israel-benjamin-netanjahu" target="_blank" rel="noopener">Parlamentspräsident in Israel: Knesset wählt Eisenkot-Verbündeten zum Parlamentspräsidenten</a></h3>
+<p class="teaser" lang="de">Das israelische Parlament hat Matan Kahana zu seinem neuen Präsidenten gewählt. Auf ihn hatten sich die Gegner von Ministerpräsident Benjamin Netanjahu geeinigt.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:27</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/ukraine-krieg-news-liveblog" target="_blank" rel="noopener">Krieg gegen die Ukraine: Frankreich bestätigt Präsenz von Ausbildern in der Ukraine</a></h3>
+<p class="teaser" lang="de">Die französische Regierung spricht von einem »begrenzten« Ausbildungseinsatz in der Ukraine. Russlands Vorwurf einer Kriegsbeteiligung weist sie zurück. Das Liveblog</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>06:32</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/proteste-slowakei-bratislava-robert-fico-ukraine-russland" target="_blank" rel="noopener">Slowakei: Zehntausende protestieren in der Slowakei gegen Fico-Regierung</a></h3>
+<p class="teaser" lang="de">Zum Jahrestag der Samtenen Revolution haben in Bratislava rund 25.000 Menschen demonstriert. Sie kritisierten die Russlandverbindungen von Ministerpräsident Fico.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>06:03</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/vertrauter-von-eisenkot-israels-opposition-uebernimmt-parlamentsvorsitz-a-4c2a71d7-9f3b-4447-95bc-80236caf905e#ref=rss" target="_blank" rel="noopener">Vertrauter von Eisenkot: Israels Opposition übernimmt Parlamentsvorsitz</a></h3>
+<p class="teaser" lang="de">Ein Politiker der Opposition ist in Israel zum Vorsitzenden der Knesset gewählt worden. Matan Kahana ist Mitglied derselben Partei wie Gadi Eisenkot – doch für den bleibt die Regierungsbildung ein Drahtseilakt.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>04:10</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/nsa-net-internes-netzwerk-von-us-geheimdienst-nsa-gestoert-a-b392dbb8-8224-430f-a1e7-0e7ccd7a3101#ref=rss" target="_blank" rel="noopener">»NSA Net«: Internes Netzwerk von US-Geheimdienst NSA gestört</a></h3>
+<p class="teaser" lang="de">Die Serie technischer Defekte und Ausfälle in den USA geht weiter. Dieses Mal ist die geheime interne Kommunikation der NSA betroffen. Auch der Techkonzern Apple meldet Störungen bei mehreren Onlinediensten.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:52</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/zehntausende-menschen-protestieren-gegen-regierung-in-der-slowakei-201692751.html" target="_blank" rel="noopener">Jahrestag der Revolution: Zehntausende protestieren gegen Regierung in der Slowakei</a></h3>
+<p class="teaser" lang="de">Die Demonstranten gedenken des Sturzes der kommunistischen Diktatur vor 37 Jahren — und fordern mehr Unterstützung für die Ukraine.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/siedlungspolitik-grossbritannien-verhaengt-sanktionen-gegen-israelische-baufirmen-a-6c7e3aa3-91f4-469f-a99b-bb170eca3369#ref=rss" target="_blank" rel="noopener">Siedlungspolitik: Großbritannien verhängt Sanktionen gegen israelische Baufirmen</a></h3>
+<p class="teaser" lang="de">»Kein Geschäft mit der Zerstörung der Zweistaatenlösung«: Die britische Regierung geht mit Sanktionen gegen die illegale israelische Siedlungspolitik vor. Ziel sind mehrere Firmen in Großbritannien.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:44</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/ukraine-krieg-usa-kritisieren-ukrainische-angriffe-im-inneren-russlands-a-fc373566-240e-4b4f-bf86-dfa5f1ad41d0#ref=rss" target="_blank" rel="noopener">Ukraine-Krieg: USA kritisieren ukrainische Angriffe im inneren Russlands</a></h3>
+<p class="teaser" lang="de">Bei einem Treffen von Verbündeten der Ukraine haben die USA Manöver der Ukraine scharf kritisiert. Boris Pistorius gibt Kyjiw Rückendeckung und nennt die Vorwürfe »dumm«.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:14</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/openai-nato-abkommen-kuenstliche-intelligenz-cyberangriffe-daybreak" target="_blank" rel="noopener">Cyberabwehr: Nato erwirbt Zugang zu Cybersicherheits-Plattform von OpenAI</a></h3>
+<p class="teaser" lang="de">Die Nato und der KI-Konzern OpenAI haben ein Abkommen zur Abwehr von Cyberangriffen vereinbart. Das Militärbündnis darf künftig die KI-Plattform Daybreak nutzen.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:54</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/return-hubs-in-ruanda-was-will-die-eu-was-will-ruanda-201690982.html" target="_blank" rel="noopener">Return Hubs: Was will Ruanda?</a></h3>
+<p class="teaser" lang="de">Fünf EU-Staaten wollen Rückkehrzentren in dem zentralafrikanischen Land schaffen. Ruandas Innenminister weicht Fragen zu Details aus. Auch Uganda bestätigt Gespräche.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/ruanda-deal-dieser-mann-kann-kein-partner-sein-meinung-a-d9d38003-6d8b-4488-ac12-5d5ea4dbee87#ref=rss" target="_blank" rel="noopener">Ruanda-Deal: Dieser Mann kann kein Partner sein – Meinung</a></h3>
+<p class="teaser" lang="de">Deutschland und vier weitere EU-Staaten wollen abgelehnte Asylbewerber nach Ruanda schicken. Möglich, dass die Gerichte diese Idee durchwinken. Beschämend ist die Aufwertung des Autokraten dennoch.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:12</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/papst-leo-in-suedamerika-an-der-seite-der-armen-ohne-links-zu-sein-201689397.html" target="_blank" rel="noopener">Papst in Südamerika: An der Seite der Armen, ohne links zu sein</a></h3>
+<p class="teaser" lang="de">Papst Leo XIV. hat sich in Südamerika an die Seite der Schwachen gestellt und die Mächtigen an ihre Verantwortung erinnert. Nicht allen gefällt das.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>02:02</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/bruecke-krim-strasse-von-kertsch-logistik-russland" target="_blank" rel="noopener">Brücke zur Krim: Angriff auf Putins Prestigeobjekt</a></h3>
+<p class="teaser" lang="de">Der Ukraine gelingt ein Schlag gegen die Brücke zur Krim. Das geht weit über die symbolische Ebene hinaus – und verschärft die Versorgungskrise auf der Halbinsel.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:41</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/in-polen-geht-der-kampf-um-das-verfassungsgericht-weiter-201691437.html" target="_blank" rel="noopener">Machtkampf in Polen: Der frühere Gerichtspräsident verunglimpft die Regierung</a></h3>
+<p class="teaser" lang="de">An Polens Verfassungsgericht sollen jahrelang Besetzungen manipuliert worden sein. Dem suspendierten Präsidenten drohen Strafverfahren.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:30</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/hashim-thaci-17-monate-haft-im-zweiten-verfahren-accg-201689883.html" target="_blank" rel="noopener">Hashim Thaçi: 17 Monate Haft wegen Zeugenbeeinflussung</a></h3>
+<p class="teaser" lang="de">Im September wurde der frühere kosovarische Präsident zu 25 Jahren Haft wegen Kriegsverbrechen verurteilt. Nun kommt ein zweites Urteil hinzu.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:04</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/auf-die-kanaren-kommen-ueber-1500-migranten-an-einem-tag-201690329.html" target="_blank" rel="noopener">Krise auf Kanaren: So viele Migranten wie noch nie an einem Tag</a></h3>
+<p class="teaser" lang="de">Immer mehr Migranten kommen über die gefährliche Atlantikroute auf die Kanaren. Die Opposition macht mit der neuen Krise Wahlkampf.</p>
+</article></div></section>
+<section id="wirtschaft"><h2>經濟 <span>Wirtschaft</span></h2><div class="grid"><article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:29</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/nvidia-quartalszahlen-umsatz-gewinn-jensen-huang" target="_blank" rel="noopener">Chipkonzern: Nvidia lehnt Rückkehr von Jensen Huang an die Konzernspitze ab</a></h3>
+<p class="teaser" lang="de">Der US-Chipkonzern hat laut dem Verwaltungsrat nicht vor, den zurückgetretenen Manager zurückzuholen. Umsatz und Gewinn sind im dritten Quartal stark gestiegen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>06:43</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-will-jensen-huang-nicht-als-chef-zurueckholen-a-f28605ac-ea1f-421b-afd9-4649bc8b91e6#ref=rss" target="_blank" rel="noopener">Nvidia will Jensen Huang nicht als Chef zurückholen</a></h3>
+<p class="teaser" lang="de">Die Rückkehr von Jensen Huang an die Nvidia-Spitze ist laut Verwaltungsrat vom Tisch, obwohl er dazu bereit wäre. Derweil boomt das Geschäft des Chipriesen weiter.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:57</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/nvidia-legt-nach-150-milliarden-dollar-fuer-aktienrueckkaeufe_09257250-8b74-4c02-a01d-c605851678dc.html" target="_blank" rel="noopener">Nvidia legt nach: 150 Milliarden Dollar für Aktienrückkäufe</a></h3>
+<p class="teaser" lang="de">Starke Umsätze, optimistischer Ausblick und zusätzliche Milliarden für Aktienrückkäufe: Nvidia überzeugt Anleger. Die Aktie steigt nachbörslich um 2,6 Prozent.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/nvidia-nach-huang-ruecktritt-zahlen-uebertreffen-erwartungen_629334a9-2b61-4051-ad13-2ef0c9c2c6cf.html" target="_blank" rel="noopener">Nvidia nach Huang-Rücktritt: Zahlen übertreffen Erwartungen</a></h3>
+<p class="teaser" lang="de">Die ersten Zahlen seit Huangs Abgang zeigen ein boomendes KI-Geschäft. Nvidia schlägt die Prognosen deutlich – das Quartal endete allerdings noch unter dem bisherigen Chef.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:46</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/spritpreisdeckel-kommt-vielleicht-die-rechnung-ist-eindeutig_28d1998f-d7a1-4573-94b3-da5b10372f0b.html" target="_blank" rel="noopener">Spritpreisdeckel kommt vielleicht – die Rechnung ist eindeutig</a></h3>
+<p class="teaser" lang="de">Ab Januar wird Sprit teurer. Eine Rechnung für 12.000 Kilometer zeigt: Selbst wer öffentlich lädt, fährt mit dem E-Auto günstiger.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:22</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/news/sewing-ueber-enthuellungen-wir-haben-nichts-zu-verbergen_28245c06-24f1-442b-b14d-3c43b648e1e3.html" target="_blank" rel="noopener">Sewing über Enthüllungen: „Wir haben nichts zu verbergen!“</a></h3>
+<p class="teaser" lang="de">Die Enthüllung interner Dokumente rückt die Deutsche Bank erneut in ein schlechtes Licht. Der Chef des Kreditinstituts Christian Sewing übt etwas Selbstkritik, verteidigt ansonsten aber seine Bank.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:11</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/solarstromfoerderung-subvention-katherina-reiche-photovoltaik-kosten" target="_blank" rel="noopener">Solarstromförderung: Es ist ein Irrsinn</a></h3>
+<p class="teaser" lang="de">Eigentlich wollte Katherina Reiche die Ökostromförderung radikal kürzen. Nun sabotieren die Abgeordneten die Pläne und könnten die Biogasbranche mit Milliarden beglücken.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:11</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/frankfurt-als-schiedsstandort-gute-lage-aber-noch-viel-zu-tun-201691686.html" target="_blank" rel="noopener">Millionenprojekt Schiedszentrum: Besser streiten in Frankfurt</a></h3>
+<p class="teaser" lang="de">Frankfurt will bei Schiedsverfahren global eine wichtige Rolle einnehmen. Die Lage und Infrastruktur sprechen dafür. Ob das geplante Zentrum ein Erfolg wird, liegt aber allein in den Händen der Nutzer.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:10</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/cop31-in-antalya-koalition-der-willigen-gewinnt-an-dynamik-201691510.html" target="_blank" rel="noopener">Abseits der Einstimmigkeit: Einigen sich die Länder am Rande der Klimakonferenz?</a></h3>
+<p class="teaser" lang="de">Der Fossil-Ausstieg und das Elektrifizierungsziel könnten aus dem Abschlusspapier fallen, erhalten aber trotzdem immer mehr Unterstützung. Deutschland ist unter den Vorreitern.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:59</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/neue-enthuellungen-schocken-anleger-der-deutschen-bank_3bd80010-0bce-4d42-befc-cc85ec88a20c.html" target="_blank" rel="noopener">Neue Enthüllungen schocken Anleger der Deutschen Bank</a></h3>
+<p class="teaser" lang="de">Erst starke Quartalszahlen, jetzt ein Kurssturz: Neue Enthüllungen belasten die Aktie der Deutschen Bank. Analysten relativieren – viele Probleme seien längst bekannt.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:58</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/15-millionen-internen-dokumente-der-deutschen-bank-russische-milliardaere-tragen-erheblich-zu-unserem-erfolg-bei_cd9c4689-6cb2-4de2-a7ad-a7525ea60366.html" target="_blank" rel="noopener">15 Millionen internen Dokumente der Deutschen Bank: „Russische Milliardäre tragen erheblich zu unserem Erfolg bei“</a></h3>
+<p class="teaser" lang="de">Die Deutsche Bank war lange ein enger Partner Russlands und seiner Oligarchen. Recherchen zeigen, wie der Konzern immer wieder Warnungen nicht ernst genommen hat. Die damalige Begründung der Bank: „Russische Milliardäre tragen erheblich zu unserem Erfolg bei“</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:25</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/lufthansa-und-vereinigung-cockpit-neuer-streit-nach-gescheiterter-mediation-201690761.html" target="_blank" rel="noopener">TarifKonflikt: Lufthansa kommt im Streit mit Piloten nicht zur Ruhe</a></h3>
+<p class="teaser" lang="de">Eine Schlichtung, eine Mediation, aber kein Friede zwischen Piloten und Lufthansa. Der Konzern verbreitet schnell ein neues Angebot. Die Vereinigung Cockpit kontert, Lufthansa hätten die Resultate der Mediation nicht gefallen.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>02:02</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/rentenbeginn-vorsorge-geldanlage-entnahme-verkauf-steuer" target="_blank" rel="noopener">Rentenbeginn: Damit die private Rente am Ende nicht wegschmilzt</a></h3>
+<p class="teaser" lang="de">Wir werden älter, das Geld muss eine Weile reichen. Wie Sie schon mit Mitte 50 eine Strategie entwickeln, die sicherstellt, dass das Depot auch mit 85 etwas hergibt.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:54</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/jeffrey-epstein-interne-unterlagen-belasten-deutsche-bank-mit-weiteren-zahlungen-a-7055c4a4-a3ac-41f8-a1f7-e6312c13abb3#ref=rss" target="_blank" rel="noopener">Jeffrey Epstein: Interne Unterlagen belasten Deutsche Bank mit weiteren Zahlungen</a></h3>
+<p class="teaser" lang="de">Interne Unterlagen zeigen: Die Deutsche Bank hat deutlich mehr Zahlungen für Jeffrey Epstein abgewickelt als bekannt – weil sie auf hohe Millionengewinne spekulierte. Ein Dokument warnt vor weiteren Fällen von dem »Ausmaß«.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:52</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-ex-ceo-jensen-huang-ist-bereit-zu-chiphersteller-zurueckzukehren-a-bc20dd25-f830-42e0-a404-de9743ecaf95#ref=rss" target="_blank" rel="noopener">Nvidia: Ex-CEO Jensen Huang ist bereit, zu Chiphersteller zurückzukehren</a></h3>
+<p class="teaser" lang="de">Es wäre ihm »eine Ehre« zurückzukommen: Nvidia-CEO Jensen Huang sieht sich offenbar bald wieder an der Spitze des Chipherstellers. Der Konzern zeigt bisher aber kein Interesse.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:32</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/deutsche-bank-skandal-geschaefte-finanzen-unternehmen" target="_blank" rel="noopener">Deutsche Bank: Diese Geschäfte schaden dem ganzen Land</a></h3>
+<p class="teaser" lang="de">Deutschlands Wirtschaft braucht mehr denn je eine starke Deutsche Bank. Leaks zeigen nun, dass das Institut in dunkle Geschäfte verwickelt war.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:54</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/ex-nvidia-ceo-jensen-huang-sagt-vor-us-senat-aus-a-0256fbdb-f7c3-4c6d-876f-097e3557807c#ref=rss" target="_blank" rel="noopener">Ex-Nvidia CEO Jensen Huang sagt vor US-Senat aus</a></h3>
+<p class="teaser" lang="de">Der Skandal um den zurückgetretenen Nvidia-Chef hat ein Nachspiel im US-Kongress. Jensen Huang hat zugestimmt, der Vorladung durch den Senat zu folgen und vor mehreren Ausschüssen auszusagen.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 23:26</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/pascal-reddig-rente-union-finanzpolitik-staatsschulden" target="_blank" rel="noopener">Pascal Reddig: »Wir müssen auch bereit sein, an eigene heilige Kühe ranzugehen«</a></h3>
+<p class="teaser" lang="de">Pascal Reddig, Anführer der Union-Rentenrebellen, kritisiert die Finanzpolitik der Bundesregierung. Hier erklärt er seine Reformideen – und zeigt seine roten Linien auf.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 23:13</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/projekte/artikel/wirtschaft/autoversicherung-kfz-wechsel-auto-e326365/" target="_blank" rel="noopener">Kfz-Versicherung wechseln: So finden Autofahrer den besseren Tarif</a></h3>
+<p class="teaser" lang="de">Kündigen oder bleiben? Ein Wechsel der Autoversicherung ist nicht immer nötig. Oft lässt sich mit kleinen Änderungen am bestehenden Vertrag viel Geld sparen.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 22:42</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/marine-le-pen-rentenreform-rassemblement-national-li.3581784" target="_blank" rel="noopener">Wahlprogramm der extremen Rechten: Le Pen will Franzosen die Rente mit 60 anbieten</a></h3>
+<p class="teaser" lang="de">Die Präsidentschaftskandidatin der extremen Rechten verspricht den Franzosen die Rente mit 60 und einen Kapitalfonds. Doch Experten zweifeln an der Finanzierung.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 21:54</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/tesla-gruenheide-elon-musk-robotaxi-li.3581840" target="_blank" rel="noopener">Tesla: Wie Grünheide Teil der ultimativen Musk-Wette wird</a></h3>
+<p class="teaser" lang="de">Deutsche Autohersteller streichen Zehntausende Jobs in Deutschland – Tesla dagegen will Milliarden investieren. Ob daraus aber mehr wird als ein weiteres nie eingelöstes Versprechen von Elon Musk, ist offen.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 21:49</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/erdgas-lng-terminal-stade-katherina-reiche-li.3575038" target="_blank" rel="noopener">Strom und Heizung: Volle Energie voraus – oder mit Vollgas ins Verderben?</a></h3>
+<p class="teaser" lang="de">In diesem Winter spüren die Deutschen zum zweiten Mal innerhalb weniger Jahre, wie abhängig sie von teurem Erdgas sind. Wirtschaftsministerin Katherina Reiche eröffnet derweil ein neues LNG-Terminal.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 20:34</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/lufthansa-vereinigung-cockpit-li.3581842" target="_blank" rel="noopener">Luftfahrt: Lufthansa plant drastische Einschnitte</a></h3>
+<p class="teaser" lang="de">Bis 2030 könnten 76 der derzeit 176 Flugzeuge im Europaverkehr von Lufthansa Airlines wegfallen. Das liegt vor allem an den hohen Kosten und einem ungelösten Konflikt mit der Pilotengewerkschaft.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 20:06</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/deutsche-bank-christian-sewing-alexander-wynaendts-vorwuerfe-gxe" target="_blank" rel="noopener">Deutsche Bank: Aufsichtsrat stellt sich hinter Deutsche-Bank-CEO Christian Sewing</a></h3>
+<p class="teaser" lang="de">Der Datenleak bei der Deutschen Bank scheint Aufsichtsratschef Alexander Wynaendts nicht zu beunruhigen. Die Bank werde »profitabel und mit wirksamen Kontrollen« geführt.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 18:54</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/eu-kommission-wachstumsprognose-deutschland-wirtschaftswachstum-konjunktur-li.3581783" target="_blank" rel="noopener">Konjunktur: EU-Kommission verdoppelt Wachstumsprognose für Deutschland</a></h3>
+<p class="teaser" lang="de">Auch die EU-Kommission erwartet wie viele Experten und die Bundesregierung ein höheres Wirtschaftswachstum in Deutschland – trotz hoher Energiekosten.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 18:19</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-openai-und-nato-vereinbaren-zusammenarbeit-fuer-mehr-cybersicherheit-faz-200452404.html" target="_blank" rel="noopener">Business-Ticker: OpenAI und NATO vereinbaren Zusammenarbeit für Cybersicherheit</a></h3>
+<p class="teaser" lang="de">Lufthansa unterbreitet Piloten Tarif-Angebot +++ Zahl der Gründungen in Deutschland legt weiter zu +++ RTL kappt Prognose +++ TKMS erhält Auftrag für vier weitere Fregatten +++ alle Neuigkeiten im Unternehmen-Liveblog</p>
+</article></div></section>
+<section id="kultur"><h2>文化・藝文 <span>Kultur &amp; Feuilleton</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>10:27</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/james-bond-jeff-bezos-schildert-casting-von-robert-pattinson-als-007-a-af29142c-86f7-45d8-9e8b-2f9118af39ec#ref=rss" target="_blank" rel="noopener">James Bond: Jeff Bezos schildert Casting von Robert Pattinson als 007</a></h3>
+<p class="teaser" lang="de">Wie lief die Wahl zum neuen James-Bond-Darsteller ab? Amazon-Chef Jeff Bezos war eigenen Angaben zufolge bei entscheidenden Gesprächen dabei. Nun berichtet er, was für Robert Pattinson sprach – und was gegen ihn.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>04:34</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/debatten/holzinger-auf-platz-1-von-monopol-kuenstler-ranking-201690358.html" target="_blank" rel="noopener">Künstler-Ranking: Die Kunst, die wir verdient haben</a></h3>
+<p class="teaser" lang="de">Florentina Holzinger steht auf Platz eins der Monopol Top 100 Liste. Das sagt mehr über den Geist der Zeit und die Algorithmen sozialer Medien als über ihre Arbeit.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:05</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/schlagerstar-giovanni-zarrella-verraet-frueher-habe-ich-staerker-ueber-chart-erfolge-nachgedacht_ae994542-c344-4e8c-bf30-3eb24e2c2497.html" target="_blank" rel="noopener">Schlagerstar Giovanni Zarrella verrät: „Früher habe ich stärker über Chart-Erfolge nachgedacht“</a></h3>
+<p class="teaser" lang="de">Für Giovanni Zarrella hat sich der Blick auf seine Karriere verändert. Im Interview mit FOCUS online verrät der Schlagerstar, worauf es ihm heute bei seiner Musik wirklich ankommt.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:55</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/buecher/autoren/boualem-sansal-liebeserklaerung-an-marokko-nach-haft-in-algerien-201690652.html" target="_blank" rel="noopener">Autor Boualem Sansal: Eine Liebeserklärung an den Erzfeind Algeriens</a></h3>
+<p class="teaser" lang="de">In Algerien saß er in Haft, in Marokko sieht er nun den Himmel auf Erden: Der Schriftsteller Boualem Sansal macht dem Erzfeind seines Heimatlandes eine briefliche Liebeserklärung. Frankreich sieht er dem Untergang geweiht.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:52</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/toedliches-unglueck-snowboard-trainer-louis-mezentzeff-stirbt-mit-31-jahren_c4a7cf8c-fa2f-44b8-a714-621ab419350d.html" target="_blank" rel="noopener">Tödliches Unglück: Snowboard-Trainer Louis Mezentzeff stirbt mit 31 Jahren</a></h3>
+<p class="teaser" lang="de">Die internationale Wintersport-Szene steht unter Schock. Der französische Nachwuchstrainer Louis Mezentzeff ist im Alter von nur 31 Jahren verstorben.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:31</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/ermittlungen-in-zwei-laendern-meghans-vater-nun-auch-auf-den-philippinen-angeklagt_e18c03d9-306e-43dc-9667-c3e7bf4e8c93.html" target="_blank" rel="noopener">Ermittlungen in zwei Ländern: Meghans Vater nun auch auf den Philippinen angeklagt</a></h3>
+<p class="teaser" lang="de">Thomas Markle sitzt in den USA bereits in Gewahrsam und wartet auf seinen Prozess. Jetzt hat auch die Polizei auf den Philippinen Anklage gegen den Vater von Herzogin Meghan erhoben.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:15</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/du-fehlst-so-sehr-danni-buechner-gedenkt-jens-am-achten-todestag_86d553ed-f2b1-4bb4-b9bf-37d394d41677.html" target="_blank" rel="noopener">„Du fehlst so sehr“: Danni Büchner gedenkt Jens am achten Todestag</a></h3>
+<p class="teaser" lang="de">Am 17. November 2018 starb Jens Büchner an Lungenkrebs. Danni Büchner vermisst ihren Mann noch immer. Zum Todestag widmet sie dem TV-Auswanderer bewegende Zeilen auf Instagram.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:12</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/robert-pattinson-als-james-bond-warum-england-aufatmet-201691614.html" target="_blank" rel="noopener">England und James Bond: Jetzt kann nur noch 007 die Ehre der Briten retten</a></h3>
+<p class="teaser" lang="de">Das Empire ist verloren, geblieben ist Großbritannien die Kulturhoheit in der Welt. Unter den Exportschlagern von „Harry Potter“ bis „Downton Abbey“ ist James Bond der kostbarste. Deshalb bewegt die Neubesetzung des Agenten das ganze Land.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:58</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/bauer-sucht-frau-tobias-reagiert-auf-kritik-an-10-minuten-dates-es-gab-keine-unsicherheiten_7af1491a-d4e1-41bc-8d94-14fc852766de.html" target="_blank" rel="noopener">„Bauer sucht Frau“-Tobias reagiert auf Kritik an 10-Minuten-Dates: „Es gab keine Unsicherheiten“</a></h3>
+<p class="teaser" lang="de">Nur zehn Minuten für die große Liebe. Bei „Bauer sucht Frau“ sorgte Tobias mit einer ungewöhnlichen Entscheidung für Diskussionen. Nun erklärt der Landwirt, weshalb er sich für diese Regel entschieden hat.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:50</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/robert-pattinson-ueber-den-beginn-seiner-karriere-201691209.html" target="_blank" rel="noopener">Robert Pattinson: Raus aus der Einzimmer-WG</a></h3>
+<p class="teaser" lang="de">Robert Pattinson wird der neue James Bond. Als wir ihn vor Jahren wegen seiner Vampirrolle in der „Twilight-Saga“ sprachen, sinnierte er am liebsten über seine künstlerischen Anfänge.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:44</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/ben-stiller-als-elternteil-ist-man-da-unglaublich-verletzlich-oder_d1abb486-a4db-4d45-bb55-479000607177.html" target="_blank" rel="noopener">Ben Stiller: „Als Elternteil ist man da unglaublich verletzlich, oder?“</a></h3>
+<p class="teaser" lang="de">Ben Stiller ist nur einer der Hollywood-Stars bei der Deutschland-Premiere von „Meine Frau, unsere Schwiegertochter und ich“. In dem Film spielt er einen überfürsorglichen Vater – ein Gefühl, das er verstehen kann.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:08</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/buecher/literatur/martina-hefters-roman-nach-der-sonne-schauen-201674377.html" target="_blank" rel="noopener">Martina Hefters ROman: Vertrieben aus dem Baumhaus der Menschheit</a></h3>
+<p class="teaser" lang="de">Für eine enge Auslegung ist dieser Roman viel zu weit: Martina Hefters „Nach der Sonne schauen“ birgt eine märchenhafte Tiefenbohrung ins Leipziger Umland und eine Vision davon, wie es dort in 5000 Jahren aussehen wird.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:52</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/kunstmarkt/van-gogh-gemaelde-raubgutstreit-kurz-vor-auktion-beigelegt-201692268.html" target="_blank" rel="noopener">Kurz vor der Auktion: Rekordwert erwartet: Raubgutstreit um Gemälde Van Goghs beigelegt</a></h3>
+<p class="teaser" lang="de">Kurz vor der Auktion einigen sich die Einlieferer von Vincent van Goghs Gemälde „Châtaigniers en fleurs“ und die Erben seines jüdischen Voreigentümers. Das auf einen Rekordwert geschätzte Bild kann versteigert werden.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 23:53</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/podcast-nachrichten-auf-den-punkt-james-bond-pattinson-film-li.3581823" target="_blank" rel="noopener">Podcast: „Auf den Punkt“: Neuer James Bond: Ist Robert Pattinson der richtige?</a></h3>
+<p class="teaser" lang="de">Vom Teenie-Schwarm zu großer Kunst: Wird der britische Schauspieler als 007 die Gen Z fürs Kino begeistern können?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/tv/kurt-kroemer-staatsanwaltschaft-leitet-nach-afd-anzeige-keine-ermittlungen-ein-a-85dba520-0e82-4b8e-8018-e4cd61eb4650#ref=rss" target="_blank" rel="noopener">Kurt Krömer: Staatsanwaltschaft leitet nach AfD-Anzeige keine Ermittlungen ein</a></h3>
+<p class="teaser" lang="de">Der Comedian Kurt Krömer hat auf Instagram geschrieben, dass er keine AfD-Wähler bei seiner Lesung sehen will. Dennis Hohloch, AfD-Vorstandsmitglied, sah darin »Volksverhetzung«. Doch seine Anzeige bleibt folgenlos.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 23:40</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/2026/49/bergrettung-alpine-divorce-wandern-kompetenz" target="_blank" rel="noopener">Bergrettung: Das Drama am Berg</a></h3>
+<p class="teaser" lang="de">Am Berg lernt man, dass es keine gute Idee ist, sich in allzu gefährliche Situationen zu begeben. Hier zeigt sich das Drama des Gegenwartsmenschen besonders anschaulich.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:11</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/gta-vi-ein-spiel-gegen-trumps-amerika-a-7b200ccb-e790-44ea-b7f1-3f8e1c004629#ref=rss" target="_blank" rel="noopener">»GTA VI«: Ein Spiel gegen das Amerika von Donald Trump</a></h3>
+<p class="teaser" lang="de">Die »GTA«-Spiele sind ein Ort voll hemmungsloser, überzeichneter Gewalt. Der neue, sehnsüchtig erwartete sechste Teil belohnt womöglich Empathie. Ist er der Gegenentwurf zu einer ruchlosen Zeit?</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 22:28</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/james-bond-stimmen-sie-ab-welches-bondgirl-soll-neben-robert-pattinson-auftreten-a-1ef27a0a-4ac5-4660-a3cd-ed9c1b375d62#ref=rss" target="_blank" rel="noopener">James Bond: Stimmen Sie ab! Welches Bondgirl soll neben Robert Pattinson auftreten?</a></h3>
+<p class="teaser" lang="de">Noch ist offen, wer im neuen 007-Film die vielleicht wichtigste Nebenrolle in der Filmgeschichte übernimmt. Entscheiden Sie, wer James Bond retten, mit ihm flirten oder ihm nach dem Leben trachten soll.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 22:16</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/kessler-zwillinge-abschiedsbrief-erklaert-entscheidung-fuer-gemeinsamen-tod-a-8c6b8698-e153-40c2-8732-7ee2251d89d5#ref=rss" target="_blank" rel="noopener">Kessler-Zwillinge: Abschiedsbrief erklärt Entscheidung für gemeinsamen Tod</a></h3>
+<p class="teaser" lang="de">Ein Jahr nach ihrem assistierten Suizid veröffentlicht die »Bild«-Zeitung den Abschiedsbrief der Entertainerinnen Alice und Ellen Kessler. Darin erklären die Schwestern, warum sie zusammen sterben wollten.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 22:13</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/webadressen-top-level-domain-vergabe-silicon-valley-ki-li.3570648" target="_blank" rel="noopener">Internet: Zeig mir deine URL und ich sag dir, wer du bist</a></h3>
+<p class="teaser" lang="de">Erstmals seit 2012 werden neue Endungen für Webadressen vergeben. Besonders umkämpft ist, passend zum KI-Hype, die Endung .agent.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 21:38</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/roman-abschiedssommer-jochen-missfeldt-ostsee-nachkriegszeit-rezension-li.3581948" target="_blank" rel="noopener">Literatur: Katastrophen zu Tanzmusik</a></h3>
+<p class="teaser" lang="de">Wie fühlte es sich an, im Deutschland der Fünfzigerjahre zwischen Schuld und Aufbruch erwachsen zu werden? Der Frage geht Jochen Missfeldt in seinem Roman „Abschiedssommer“ nach.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 20:55</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/groenemeyer-poetikdozentur-tuebingen-lentz-li.3565974" target="_blank" rel="noopener">Pop: „Da kann ich die Melodie schmecken. Das macht mir Freude“</a></h3>
+<p class="teaser" lang="de">Fantastische Idee: Herbert Grönemeyer hält eine Poetikdozentur in Tübingen. Grauenhafte Idee: Moderiert wird der Abend von dem Schriftsteller Michael Lentz.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 20:38</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/musik/wacken-open-air-limp-bizkit-feiern-2027-premiere-beim-metal-festival-a-13c9bfd2-6a89-4b7b-997e-fb4e889e998e#ref=rss" target="_blank" rel="noopener">Wacken Open Air: Limp Bizkit feiern 2027 Premiere beim Metal-Festival</a></h3>
+<p class="teaser" lang="de">Es ist das erste Mal, dass die Nu-Metal-Band Limp Bizkit beim Wacken Open Air dabei ist. Außerdem da: Slash, Killswitch Engage und die Donots. Das Festival setzt auf Metal und Punkrock.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 20:07</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/juedische-kunstsammler-ausstellung-hamburg-kritik-restitution-sotheby-s-auktion-van-gogh-li.3579565" target="_blank" rel="noopener">Kunst: Wem gehört dieser van Gogh?</a></h3>
+<p class="teaser" lang="de">Die „Blühenden Kastanienbäume“ geraten vor der groß angekündigten Auktion in New York in Restitutionsstreitigkeiten. Warum das kein Zufall ist, erzählt eine sehenswerte Hamburger Ausstellung.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 19:10</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/grand-theft-auto-6-gta-hype-rockstar-games-li.3579521" target="_blank" rel="noopener">Games: Sie wissen nichts von GTA? Wie Sie trotzdem mitreden können</a></h3>
+<p class="teaser" lang="de">„Grand Theft Auto 6“ erscheint am Donnerstag und könnte das bislang erfolgreichste Entertainmentprodukt überhaupt werden. Was man dazu wissen sollte.</p>
+</article></div></section>
+<section id="wissen"><h2>科學・教育 <span>Wissen &amp; Bildung</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>09:55</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/medizin/masern-usa-verlieren-nach-26-jahren-ihren-status-als-masernfreies-land-a-03c5b292-0ced-4318-922d-b234797f5947#ref=rss" target="_blank" rel="noopener">Masern: USA verlieren nach 26 Jahren ihren Status als masernfreies Land</a></h3>
+<p class="teaser" lang="de">Die Vereinigten Staaten bekommen den aktuellen Masernausbruch nicht in den Griff. Das wirkt sich nun auf den Status des Landes aus. Warnungen gehen vor allem an Eltern von ⁠Säuglingen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>09:12</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/amazonasregenwald-in-brasilien-isoliert-lebende-awa-indigene-tauchen-in-dorf-auf-a-e70fbe07-91e0-4299-ad41-65592122178e#ref=rss" target="_blank" rel="noopener">Amazonasregenwald in Brasilien: Isoliert lebende Awá-Indigene tauchen in Dorf auf</a></h3>
+<p class="teaser" lang="de">Die Rede ist von einer »historischen Begegnung«: Im brasilianischen Amazonasregenwald haben sich etwa 20 Mitglieder des Awá-Volkes kurzzeitig aus ihrer Isolation begeben. Die Hintergründe sind alarmierend.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:33</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/medizin-ernaehrung/was-taugen-bioidentische-hormone-in-den-wechseljahren-201686693.html" target="_blank" rel="noopener">Wechseljahre: Wie gut sind bioidentische Hormone?</a></h3>
+<p class="teaser" lang="de">Für die Hormonersatztherapie werden bioidentische Hormone angepriesen, sie sollen natürlicher und verträglicher sein. Was Ärzte und Studien über Wirksamkeit und Nebenwirkungen sagen.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:32</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/medizin-ernaehrung/pankreaskrebs-ein-neues-mittel-im-kampf-gegen-einen-der-toedlichsten-tumore-201659709.html" target="_blank" rel="noopener">Krebs der Bauchspeicheldrüse: „Patienten überlebten mit diesem Medikament doppelt so lange“</a></h3>
+<p class="teaser" lang="de">Noch in diesem Jahr könnte ein neues Mittel zur Behandlung von Pankreastumoren in der EU zugelassen werden. Ein Forscher und Onkologe erklärt, wem es helfen kann.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>01:50</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/in-nur-2-kilometern-tiefe-koennte-bohrprojekt-in-den-alpen-zugang-zum-erdmantel-ermoeglichen_50ac813c-159d-440a-a19d-2413403cacab.html" target="_blank" rel="noopener">In nur 2 Kilometern Tiefe könnte Bohrprojekt in den Alpen Zugang zum Erdmantel ermöglichen</a></h3>
+<p class="teaser" lang="de">Eine Bohrung in den italienischen Alpen könnte Wissenschaftlern einen ungewöhnlichen Einblick ins Erdinnere ermöglichen. Schon in geringer Tiefe vermuten Forscher Gestein aus dem Erdmantel.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:33</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesundheit/2026-11/masern-usa-paho-who-impfquote-ausbruch" target="_blank" rel="noopener">Masern in den USA: USA verlieren Status als masernfreies Land</a></h3>
+<p class="teaser" lang="de">Mehr als 25 Jahre lang galten die USA als masernfrei. Nun hat das Land diesen Status verloren, Grund dafür sind anhaltende Ausbrüche der hochansteckenden Krankheit.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:18</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/medizin-ernaehrung/zungenschaber-gegen-mundgeruch-und-fuer-besseren-geschmackssinn-hilft-das-wirklich-201688419.html" target="_blank" rel="noopener">Kolumne „Gesundheitsmythen“: Ist Zungenschaben das neue Zähneputzen?</a></h3>
+<p class="teaser" lang="de">Sich die Zunge zu schaben, soll gegen Mundgeruch und Zahnfleischentzündungen helfen und sogar den Geschmackssinn verbessern. Was stimmt, wer profitiert und worauf man bei der Auswahl achten sollte.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:08</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/arbeit/2026-11/matthias-husch-alpen-berge-klimawandel-arbeit-podcast" target="_blank" rel="noopener">Matthias Huss: »Der Verlust der Gletscher tut weh«</a></h3>
+<p class="teaser" lang="de">Die Gletscher der Alpen schmelzen schneller als befürchtet. Im Podcast erklärt der Schweizer Glaziologe Matthias Huss, wie das die Berge und das Leben vor Ort verändert.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 23:07</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/weltraum/weltraumteleskop-euclid-erster-grosser-datensatz-zeigt-900-millionen-galaxien-201687106.html" target="_blank" rel="noopener">Fundamente des Kosmos: Weltraumteleskop „EuCLID“ liefert erste Daten</a></h3>
+<p class="teaser" lang="de">Astronomen wollen Dunkle Materie und Dunkle Energie aufspüren.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/leben-gene/spatzen-werden-die-voegel-wirklich-seltener-201599139.html" target="_blank" rel="noopener">Ökologie: Wie geht’s den Spatzen?</a></h3>
+<p class="teaser" lang="de">Spatzen leben gerne mit Menschen zusammen. Glenn-Peter Sætre erforscht seit zwanzig Jahren, wie es zu dieser ungewöhnlichen Liaison gekommen ist. Und erklärt, warum sie sich in London, Amsterdam und Berlin nicht mehr wohlfühlen.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 22:11</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/donald-trump-bis-afd-wie-populisten-die-sprache-veraendern-a-ff5e7226-e887-4c19-b724-910b5d04d8ea#ref=rss" target="_blank" rel="noopener">Populismus: Wie Donald Trump und AfD die Sprache verändern</a></h3>
+<p class="teaser" lang="de">Mit dem »Golf von Amerika« und dem Begriff »Superintelligenz« betreibt Donald Trump politisches Marketing, sagt Henning Lobin. Der Linguist erklärt, was zum Sprachwerkzeugkoffer von Populisten gehört.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 19:20</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/usa-ki-rechenzentren-verursachen-etwa-so-viele-emissionen-wie-daenemark-a-4f66f028-42ab-41fb-8a60-0ef0d981f77f#ref=rss" target="_blank" rel="noopener">USA: KI-Rechenzentren verursachen etwa so viele Emissionen wie Dänemark</a></h3>
+<p class="teaser" lang="de">Forscher haben den Energiehunger der KI-Datenzentren in den USA ermittelt. Die Zahlen sind so gigantisch wie die Anlagen selbst: Jährlich produzieren diese so viele Emissionen wie manche Staaten.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>17.11. 17:59</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/weltraum/weltweite-feier-nasa-bittet-menschen-ihre-smartphones-in-den-himmel-zu-halten_3448399e-98b3-4e37-ac8a-3593a6a7e6b7.html" target="_blank" rel="noopener">„Weltweite Feier“: Nasa bittet Menschen, ihre Smartphones in den Himmel zu halten</a></h3>
+<p class="teaser" lang="de">Die Raumsonde Voyager 1 erreicht bald eine historische Distanz zur Erde. Weltweit können Menschen dieses Ereignis mit einem einfachen Lichtsignal am Nachthimmel feiern.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 17:36</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesundheit/2026-11/kinderaerzte-deutschland-versorgung-ambulanter-mangel-saarland-hamburg-gxe" target="_blank" rel="noopener">Kinderärzte in Deutschland: Zahl an Kinderärzten pro Kind stieg in den vergangenen zehn Jahren</a></h3>
+<p class="teaser" lang="de">2025 haben ambulant tätige Kinderärzte durchschnittlich weniger Minderjährige versorgt als vor zehn Jahren. Behandlungskapazitäten hängen jedoch von weiteren Faktoren ab.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 17:14</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/arbeit/2026-11/psychische-erkrankungen-diskriminierung-berufsleben-betroffene-studie" target="_blank" rel="noopener">Psychische Erkrankungen: Psychisch Erkrankte erleben häufig Diskriminierung im Job</a></h3>
+<p class="teaser" lang="de">Sie werden übergangen, kontrolliert oder gemobbt: 40 Prozent der Beschäftigten mit psychischen Erkrankungen werden benachteiligt. Dahinter steckt oft fehlendes Wissen.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>17.11. 16:17</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/einzelnes-quantensystem-laesst-sich-wie-maschine-betreiben-finnische-forscher-bauen-quantenmotor_72423adc-ee2b-4165-8aa7-eb32ab98bcc0.html" target="_blank" rel="noopener">Einzelnes Quantensystem lässt sich wie Maschine betreiben: Finnische Forscher bauen Quantenmotor</a></h3>
+<p class="teaser" lang="de">Kein Kolben, kein Rotor, keine Verbrennung: Physiker haben einen Motor, der aus einem einzigen Quantensystem besteht, im Labor gebaut. Und er verrichtet tatsächlich Arbeit.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 14:44</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wissen/weltklimarat-ipcc-klimakonferenz-cop31-jim-skea-li.3579071" target="_blank" rel="noopener">Klimakonferenz in Antalya: „Es ist nicht unmöglich, die Temperaturen bis zum Ende des Jahrhunderts wieder auf 1,5 Grad zu senken“</a></h3>
+<p class="teaser" lang="de">Der Vorsitzende des Weltklimarats Jim Skea erklärt, wo die großen Lücken im Klimaschutz klaffen – und welche Chancen bleiben, die globale Erwärmung zurückzudrehen.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>17.11. 14:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/nach-125-000-jahren-forscher-entdecken-giftwaffen-aus-der-steinzeit_73c0e4c7-4250-4d7e-95f2-dd3b977a58c2.html" target="_blank" rel="noopener">Nach 125.000 Jahren: Forscher entdecken Giftwaffen aus der Steinzeit</a></h3>
+<p class="teaser" lang="de">In Saudi-Arabien haben Archäologen Tausende steinerne Werkzeuge entdeckt. Sie könnten möglicherweise die ältesten vergifteten Jagdwaffen der Menschheit sein.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 13:00</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/klimakrise-extremwetter-forderte-seit-1996-mehr-als-900-000-todesopfer-a-5729e7d1-7d52-4611-b870-0abbf11c3116#ref=rss" target="_blank" rel="noopener">Klima-Risiko-Index: Extremwetter forderte seit 1996 mehr als 900.000 Todesopfer</a></h3>
+<p class="teaser" lang="de">Ärmere Länder sind am stärksten von Wetterextremen betroffen. Doch auch Italien, Frankreich und Spanien gehören laut Germanwatch zu den größten Leidtragenden. Selbst Deutschland zählt zum oberen Viertel.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 12:41</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/medizin-ernaehrung/blutwerte-auf-eigene-kosten-testen-sinnvoll-oder-geldverschwendung-accg-201668547.html" target="_blank" rel="noopener">Teure Tests: Einmal alle Blutwerte bitte!</a></h3>
+<p class="teaser" lang="de">Eisen, Vitamin D, Tumormarker: Immer mehr Menschen lassen ihr Blut auf eigene Kosten analysieren. Das kann negative Folgen haben. Welche Werte man kennen sollte.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 12:22</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/arbeit/2026-10/lisa-herzog-philosophie-kuenstliche-intelligenz-arbeitswelt" target="_blank" rel="noopener">Lisa Herzog: »KI ersetzt weder Empathie noch originelles Denken«</a></h3>
+<p class="teaser" lang="de">Die Philosophin Lisa Herzog sagt, dass KI den Menschen im Job nicht wirklich ersetzen kann. Und sie erklärt, warum Philosophen in der Tech-Branche gerade so gefragt sind.</p>
+</article></div></section>
+<section id="gesellschaft"><h2>社會 <span>Gesellschaft &amp; Panorama</span></h2><div class="grid"><article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>11:09</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/brasilien-hunger-treibt-indigene-aus-amazonas-regenwald-accg-201693085.html" target="_blank" rel="noopener">Brasilien: Hunger treibt isoliert lebende Indigene aus Regenwald</a></h3>
+<p class="teaser" lang="de">Ihr traditioneller Lebensraum schrumpft durch Abholzung im Amazonas-Gebiet. Nun haben Mitglieder einer indigenen Gruppe sich in ein Dorf vorgewagt und nach Essen gefragt. Um auf ihr Schicksal aufmerksam zu machen, veröffentlicht eine NGO ein Video.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>10:14</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/wort-des-jahres-cambridge-dictionary-human-ki" target="_blank" rel="noopener">Künstliche Intelligenz: Cambridge Dictionary kürt »human« zum Wort des Jahres 2026</a></h3>
+<p class="teaser" lang="de">Was bedeutet es, menschlich zu sein? Angesichts von KI prägten Debatten über diese Frage das Jahr, begründet das renommierte Wörterbuch seine Wahl zum Wort des Jahres.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>07:56</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/leute/wayne-rooney-ueber-psychischen-tiefpunkt-duestere-jahre-bei-manchester-united-a-d78ab554-962d-47fc-bc65-d4de2542784b#ref=rss" target="_blank" rel="noopener">Wayne Rooney über psychischen Tiefpunkt: Düstere Jahre bei Manchester United</a></h3>
+<p class="teaser" lang="de">Als der englische Fußballstar Wayne Rooney bei Manchester United spielte, war das eine der besten Phasen seiner Karriere. Privat sah es zur selben Zeit aber extrem düster aus, wie er nun erzählt.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:17</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/boom-um-ki-gelder-fuer-deutsche-start-ups-fast-verdoppelt_ce1304d0-80ac-4177-9b42-ad41d74c1ff3.html" target="_blank" rel="noopener">Boom um KI: Gelder für deutsche Start-ups fast verdoppelt</a></h3>
+<p class="teaser" lang="de">Der Trend zu Künstlicher Intelligenz und Aufrüstung treibt die Investitionen in deutsche Techfirmen. Doch das Kapital konzentriert sich auf wenige Firmen – und Europas Rückstand zu den USA ist groß.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:16</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/selenskyj-sind-bei-waffenentwicklung-nummer-eins-in-europa_785d37d2-9b17-4daf-9c09-e7f51cb94374.html" target="_blank" rel="noopener">Selenskyj: Sind bei Waffenentwicklung Nummer eins in Europa</a></h3>
+<p class="teaser" lang="de">Der ukrainische Präsident rühmt nach dem Angriff auf die Krim-Brücke die technologischen Fortschritte seines Landes - und droht Russland mit weiteren Attacken.</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:07</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/in-russland-debatte-cyber-angriff-auf-eishockey-weltverband_f7f873dc-5425-4687-835f-f3a51771af3a.html" target="_blank" rel="noopener">In Russland-Debatte: Cyber-Angriff auf Eishockey-Weltverband</a></h3>
+<p class="teaser" lang="de">Der Eishockey-Weltverband IIHF ist Ziel einer Hacker-Attacke geworden. Berichten zufolge geht es dabei um das aktuell heftig diskutierte Russland-Thema.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>04:58</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/ungluecke/militaermaschine-in-sibirien-abgestuerzt-19-tote-201692769.html" target="_blank" rel="noopener">Russland: Militärflugzeug stürzt in Sibirien ab — 19 Tote</a></h3>
+<p class="teaser" lang="de">Alle Besatzungsmitglieder sollen bei dem Absturz umgekommen sein, hieß es von Seiten des Verteidigungsministeriums. Ursache ist wohl ein technischer Defekt.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:10</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/denkmal-opfer-kommunistische-diktatur-berlin-spreebogenpark" target="_blank" rel="noopener">Denkmal in Berlin: Entwurf für Denkmal zu Ehren der Opfer der DDR vorgestellt</a></h3>
+<p class="teaser" lang="de">In Berlin soll ein Denkmal für die Opfer der kommunistischen Diktatur entstehen. Der Siegerentwurf zeigt laut Wolfram Weimer, wie Menschen in Systemen gebrochen werden.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:09</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/2026-11/attentaeter-schweden-einwanderer-lasermann-verbrechen-podcast" target="_blank" rel="noopener">Attentäter in Schweden: Der rote Punkt</a></h3>
+<p class="teaser" lang="de">Ein roter Punkt auf der Jacke, dann fällt der Schuss: In den frühen 90ern macht ein Mann in Schweden Jagd auf Einwanderer. Was trieb den Lasermann zu seinen Taten?</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:39</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/mannheim-stadtrat-wegen-swingerparty-im-rathaus-mit-ordnungsgeld-belegt-201692611.html" target="_blank" rel="noopener">Mannheim: Stadtrat wegen Swingerparty im Rathaus mit Ordnungsgeld belegt</a></h3>
+<p class="teaser" lang="de">Julien Ferrat lud im August zu einer „politischen Swingerparty“ — und sieht das in Übereinstimmung mit der Hausordnung. Der Gemeinderat kommt zu einem anderen Urteil.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:37</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/justiz/augsburg-15-jaehrige-verletzt-maedchen-mit-messer-a-dc6a3696-122f-409b-a497-821477763134#ref=rss" target="_blank" rel="noopener">Augsburg: 15-Jährige verletzt Mädchen mit Messer</a></h3>
+<p class="teaser" lang="de">Erst streiten sie, dann sticht eines der beiden Mädchen zu: In Augsburg hat eine Jugendliche zwei Menschen verletzt, ein Opfer ist erst 14 Jahre alt. Die mutmaßliche Täterin sitzt in Untersuchungshaft.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>01:01</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/familie/2026-11/familienfilme-eltern-kinder-genre-unterhaltung-streaming" target="_blank" rel="noopener">Familienfilme: Was können wir als Familie zusammen gucken?</a></h3>
+<p class="teaser" lang="de">Die Tochter will »Pippi Langstrumpf«, der Vater »Fluch der Karibik«, die Mutter Arthouse. Und jetzt? Welche Filme sich für alle eignen – und wo man suchen muss.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 23:56</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/gta-vi-so-bereiten-sich-fans-auf-das-gaming-vor-201688186.html" target="_blank" rel="noopener">Bereit für GTA 6: „Seit dreizehn Jahren warte ich nun auf GTA VI und kann’s kaum erwarten“</a></h3>
+<p class="teaser" lang="de">In der Nacht zum Donnerstag erscheint GTA VI. Hier berichten Fans, wie sich auf ihren großen Tag vorbereiten, ob sie extra Urlaub genommen haben und was ihre Partnerinnen davon halten.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:45</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/justiz/lena-meyer-landrut-saengerin-aeussert-sich-auf-tiktok-zu-comeback-a-35b88c2f-7eb8-45ad-a30f-a7b3570d4946#ref=rss" target="_blank" rel="noopener">Lena Meyer-Landrut: Sängerin äußert sich auf TikTok zu Comeback</a></h3>
+<p class="teaser" lang="de">Seit mehr als zwei Jahren ist Lena Meyer-Landrut nicht öffentlich aufgetreten. Jetzt weckt ein Kommentar unter einem TikTok-Video Hoffnungen auf ein Comeback.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 23:26</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/leute/john-travolta-us-star-ist-sechs-jahre-nach-tod-seiner-ehefrau-bereit-fuer-neue-liebe-a-6383a11c-0298-41ad-a249-38818f1da55a#ref=rss" target="_blank" rel="noopener">John Travolta: US-Star ist sechs Jahre nach Tod seiner Ehefrau bereit für neue Liebe</a></h3>
+<p class="teaser" lang="de">Nach dem Tod seiner Ehefrau Kelly Preston im Jahr 2020 hat sich John Travolta vor allem um seine Kinder gekümmert. Nun hat er die schlimmste Trauer offenbar überwunden. In einem Interview gab sich der Schauspieler lebensfroh.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 23:18</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/kriminalitaet/hendrik-holt-ist-offenbar-in-dubai-auf-freiem-fuss-201692214.html" target="_blank" rel="noopener">Windkraftbetrüger: Hendrik Holt ist nach eigenen Angaben in Dubai auf freiem Fuß</a></h3>
+<p class="teaser" lang="de">Der Windparkbetrüger war nach einem Freigang nicht mehr ins Gefängnis in Berlin zurückgekehrt und später in Dubai festgenommen worden. Nun hat Holt offenbar seine Auslieferungshaft verlassen können.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 22:10</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/polen-bergsteigerin-in-der-hohen-tatra-verunglueckt-a-bf4aa024-3cb1-4e5f-84cc-f689c3bba7c9#ref=rss" target="_blank" rel="noopener">Polen: Bergsteigerin stirbt in der Hohen Tatra</a></h3>
+<p class="teaser" lang="de">In Polen ist eine Bergsteigerin aus großer Höhe abgestürzt. Bei Schnee und Nebel kämpften sich Retter zu ihr vor. Dann versagte der Kreislauf der Frau.</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>17.11. 21:13</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/intensivmediziner-rettet-flugbegleiter-offenbar-das-leben-a-75231a18-c4de-44be-97ed-0369a6bfdad0#ref=rss" target="_blank" rel="noopener">Intensivmediziner rettet Flugbegleiter offenbar das Leben</a></h3>
+<p class="teaser" lang="de">Wohl weil er allergisch auf Sesam reagiert, hat ein Besatzungsmitglied auf einem Flug von Tel Aviv nach Frankfurt am Main das Bewusstsein verloren. Ein Arzt an Bord griff ein und riet zu einer außerplanmäßigen Landung.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 20:26</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/tokio-ziegen-bahnhof-yotsuya-japan-lustige-tiere-li.3577541" target="_blank" rel="noopener">Japan: Die berühmtesten Ziegen von ganz Tokio</a></h3>
+<p class="teaser" lang="de">Nagi und Pokke sollen im Auftrag einer Bahngesellschaft einen Damm abgrasen, erweisen sich aber als bockig. Es ist nicht der erste Fall, in dem tierische Hilfsarbeiter in Japan ihr eigenes Ding machen.</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>17.11. 19:54</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/kriminalitaet/razzia-hells-angels-in-moenchengladbach-verboten-accg-201689668.html" target="_blank" rel="noopener">„West Central“: Gegen die „Hells Angels“ brauchen die Ermittler einen langen Atem</a></h3>
+<p class="teaser" lang="de">Ein bedeutender Schlag gegen die Rockerkriminalität: Wieder gehen die Behörden in Nordrhein-Westfalen gegen eine „Hells Angels“-Ortsgruppe vor. Womöglich gibt es Verbindungen zu den „Grauen Wölfen“.</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 19:33</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/sozialgerichte-antraege-ki-eilverfahren-justiz-ueberlastung-li.3575286" target="_blank" rel="noopener">Sozialgerichte: Wie KI-Anträge die Justiz lahmlegen</a></h3>
+<p class="teaser" lang="de">Bürger können Streitigkeiten mit Behörden von einem Sozialgericht klären lassen, und noch nie war es leichter, ein Verfahren anzustrengen: Die KI kann ja schnell den Antrag schreiben. Wie gehen die Gerichte damit um?</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>17.11. 19:24</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/arnold-schwarzenegger-promi-news-weihnachten-ex-frau-li.3581849" target="_blank" rel="noopener">Leute: Merry Ex-mas!</a></h3>
+<p class="teaser" lang="de">Arnold Schwarzenegger feiert Weihnachten mit der Frau, die sich von ihm scheiden ließ. Carolin Kebekus preist alte Damen. Und der Papst geht vor einem Wurfgeschoss zu spät in Deckung.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 17:24</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/2026-11/el-irschad-hisbollah-verbot-berlin-gxe" target="_blank" rel="noopener">El-Irschad: Berlin verbietet Verein wegen Unterstützung der Hisbollah</a></h3>
+<p class="teaser" lang="de">Die Berliner Innenverwaltung wirft dem Verein El-Irschad vor, die Hisbollah zu unterstützen. Die Polizei durchsuchte Vereinsräume und Wohnungen.</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>17.11. 16:31</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/skl-gluecksatlas-lebenszufriedenheit-bundeslaender-bayern-mecklenburg-vorpommern-gxe" target="_blank" rel="noopener">SKL-Glücksatlas: Bayern ist das glücklichste deutsche Bundesland</a></h3>
+<p class="teaser" lang="de">Die Lebenszufriedenheit in Deutschland ist leicht gesunken – in Bayern ist sie am höchsten. Die Unterschiede zwischen den Bundesländern sind insgesamt kleiner geworden.</p>
+</article></div></section>
+</main>
+<footer>
+  <p>本次未產生中文翻譯（deep-translator: TooManyRequests: Server Error: You made too many requests to the server.According to google, you are allowed to make 5 requests per secondand u）。標題與導言著作權屬各報社，點標題閱讀原文（部分為付費內容）。時間為台灣時間。</p>
+  <details><summary>來源狀態 Quellenstatus：35/35 正常</summary><table><tr><th>FAZ</th><td><span class="ok" title="https://www.faz.net/rss/aktuell/ — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://www.faz.net/rss/aktuell/politik/inland/ — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://www.faz.net/rss/aktuell/politik/ausland/ — 6 Artikel">✓ 國際</span> <span class="ok" title="https://www.faz.net/rss/aktuell/wirtschaft/ — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://www.faz.net/rss/aktuell/feuilleton/ — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://www.faz.net/rss/aktuell/wissen/ — 6 Artikel">✓ 科學・教育</span> <span class="ok" title="https://www.faz.net/rss/aktuell/gesellschaft/ — 6 Artikel">✓ 社會</span></td></tr><tr><th>SZ</th><td><span class="ok" title="https://rss.sueddeutsche.de/rss/Topthemen — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Politik — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Wirtschaft — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Kultur — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Wissen — 1 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Bildung — 0 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Panorama — 3 Artikel">✓ 社會</span></td></tr><tr><th>ZEIT</th><td><span class="ok" title="https://newsfeed.zeit.de/index — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://newsfeed.zeit.de/politik/deutschland/index — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://newsfeed.zeit.de/politik/ausland/index — 6 Artikel">✓ 國際</span> <span class="ok" title="https://newsfeed.zeit.de/wirtschaft/index — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://newsfeed.zeit.de/entdecken/index — 1 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://newsfeed.zeit.de/gesundheit/index — 3 Artikel">✓ 科學・教育</span> <span class="ok" title="https://newsfeed.zeit.de/arbeit/index — 3 Artikel">✓ 科學・教育</span> <span class="ok" title="https://newsfeed.zeit.de/gesellschaft/index — 6 Artikel">✓ 社會</span></td></tr><tr><th>SPIEGEL</th><td><span class="ok" title="https://www.spiegel.de/schlagzeilen/tops/index.rss — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://www.spiegel.de/politik/deutschland/index.rss — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://www.spiegel.de/ausland/index.rss — 6 Artikel">✓ 國際</span> <span class="ok" title="https://www.spiegel.de/wirtschaft/index.rss — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://www.spiegel.de/kultur/index.rss — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://www.spiegel.de/wissenschaft/index.rss — 5 Artikel">✓ 科學・教育</span> <span class="ok" title="https://www.spiegel.de/panorama/index.rss — 6 Artikel">✓ 社會</span></td></tr><tr><th>FOCUS</th><td><span class="ok" title="https://rss.focus.de/ — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://rss.focus.de/politik/ — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://rss.focus.de/finanzen/ — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://rss.focus.de/kultur/ — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://rss.focus.de/wissen/ — 4 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.focus.de/panorama/ — 6 Artikel">✓ 社會</span></td></tr></table></details>
+</footer>
+<script>
+(function () {
+  var KEY = "presseschau-prefs", prefs = { zh: true, teaser: true, hidden: [] };
+  try { var s = JSON.parse(localStorage.getItem(KEY) || "{}"); for (var k in s) prefs[k] = s[k]; } catch (e) {}
+  function apply() {
+    document.body.classList.toggle("no-zh", !prefs.zh);
+    document.body.classList.toggle("no-teaser", !prefs.teaser);
+    document.getElementById("t-zh").setAttribute("aria-pressed", prefs.zh);
+    document.getElementById("t-teaser").setAttribute("aria-pressed", prefs.teaser);
+    document.querySelectorAll("[data-chip]").forEach(function (b) {
+      b.setAttribute("aria-pressed", prefs.hidden.indexOf(b.dataset.chip) < 0);
+    });
+    document.querySelectorAll("[data-p]").forEach(function (el) {
+      el.hidden = prefs.hidden.indexOf(el.dataset.p) >= 0;
+    });
+    try { localStorage.setItem(KEY, JSON.stringify(prefs)); } catch (e) {}
+  }
+  document.getElementById("t-zh").onclick = function () { prefs.zh = !prefs.zh; apply(); };
+  document.getElementById("t-teaser").onclick = function () { prefs.teaser = !prefs.teaser; apply(); };
+  document.querySelectorAll("[data-chip]").forEach(function (b) {
+    b.onclick = function () {
+      var id = b.dataset.chip, i = prefs.hidden.indexOf(id);
+      if (i >= 0) prefs.hidden.splice(i, 1); else prefs.hidden.push(id);
+      apply();
+    };
+  });
+  apply();
+})();
+</script>
+</body>
+</html>

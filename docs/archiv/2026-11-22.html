@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presseschau · 2026/11/22（週日）</title>
+<style>
+:root { --bg:#f7f6f2; --card:#fff; --ink:#1d1d1f; --muted:#6b6b70; --line:#e4e2dc; --accent:#8a2b1f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#17171a; --card:#222226; --ink:#ececee; --muted:#a0a0a8; --line:#34343a; --accent:#e08a6f; }
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:110px; }
+body { margin:0; background:var(--bg); color:var(--ink);
+  font:16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif; }
+a { color:inherit; }
+header { padding:28px 20px 14px; max-width:1180px; margin:0 auto; }
+header h1 { margin:0; font:700 30px/1.15 Georgia, "Times New Roman", serif; letter-spacing:-.01em; }
+header h1 small { font:500 16px/1 inherit; color:var(--muted); margin-left:8px; font-family:inherit; }
+.date { margin-top:6px; color:var(--muted); }
+.date b { color:var(--ink); font-weight:600; }
+.bar { position:sticky; top:0; z-index:5; background:color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter:blur(8px); border-bottom:1px solid var(--line); }
+.bar-in { max-width:1180px; margin:0 auto; padding:8px 20px; display:flex; flex-wrap:wrap; gap:8px 14px; align-items:center; }
+.chips, .toggles { display:flex; flex-wrap:wrap; gap:6px; }
+.chip, .tog { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px;
+  padding:4px 11px; font:600 13px/1.4 inherit; cursor:pointer; }
+.chip[aria-pressed="true"] { background:var(--c); border-color:var(--c); color:#fff; }
+.chip[aria-pressed="false"] { opacity:.55; text-decoration:line-through; }
+.tog[aria-pressed="true"] { background:var(--ink); color:var(--bg); border-color:var(--ink); }
+nav { display:flex; gap:4px 14px; flex-wrap:wrap; font-size:14px; width:100%; }
+nav a { text-decoration:none; color:var(--muted); }
+nav a:hover { color:var(--accent); }
+main { max-width:1180px; margin:0 auto; padding:6px 20px 40px; }
+section { margin-top:30px; }
+h2 { font:700 22px/1.3 inherit; margin:0 0 12px; padding-bottom:6px; border-bottom:2px solid var(--ink); }
+h2 span { font:italic 400 17px/1 Georgia, serif; color:var(--muted); margin-left:6px; }
+.hint { color:var(--muted); font-size:14px; margin:-4px 0 12px; }
+.cols { display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:16px; }
+.colhead { margin:0 0 8px; font:700 15px/1.3 inherit; color:var(--c); border-bottom:1px solid var(--line); padding-bottom:4px; }
+.col .item { margin-bottom:10px; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(320px, 1fr)); gap:12px; }
+.item { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:11px 13px; }
+.meta { display:flex; gap:8px; align-items:center; font-size:12px; color:var(--muted); margin-bottom:3px; }
+.badge { background:var(--c); color:#fff; border-radius:4px; padding:1px 6px; font-weight:700; letter-spacing:.02em; font-size:11px; }
+.item h3 { margin:0; font:600 16.5px/1.38 Georgia, "Times New Roman", serif; }
+.item h3 a { text-decoration:none; }
+.item h3 a:hover { text-decoration:underline; color:var(--accent); }
+.zh-title { margin:3px 0 0; font-size:15px; color:var(--ink); opacity:.82; }
+.teaser { margin:6px 0 0; font-size:14px; color:var(--muted); }
+.teaser.zh { margin-top:3px; }
+.clusters { display:grid; grid-template-columns:repeat(auto-fill, minmax(340px, 1fr)); gap:14px; }
+.cluster { border:1px solid var(--line); border-left:4px solid var(--accent); border-radius:10px; padding:10px 12px; background:var(--card); }
+.clhead { display:flex; justify-content:space-between; gap:8px; margin-bottom:6px; }
+.clhead strong { font:600 15px/1.3 Georgia, serif; }
+.count { font-size:12px; color:var(--muted); white-space:nowrap; }
+.item.compact { border:0; border-top:1px dashed var(--line); border-radius:0; padding:7px 0 4px; background:none; }
+.item.compact h3 { font-size:15px; }
+.item.compact .zh-title { font-size:14px; }
+body.no-zh .zh { display:none; }
+body.no-teaser .teaser { display:none; }
+[hidden] { display:none !important; }
+footer { max-width:1180px; margin:0 auto; padding:16px 20px 40px; color:var(--muted); font-size:13px; border-top:1px solid var(--line); }
+footer table { border-collapse:collapse; margin-top:8px; }
+footer th { text-align:left; padding:3px 12px 3px 0; vertical-align:top; color:var(--ink); }
+footer td { padding:3px 0; }
+footer td span { display:inline-block; margin:0 10px 2px 0; }
+.ok { color:#2c7a57; } .bad { color:#c0392b; font-weight:600; }
+.empty { color:var(--muted); }
+@media (max-width:600px) {
+  header h1 { font-size:25px; }
+  .grid, .cols, .clusters { grid-template-columns:1fr; }
+  html { scroll-padding-top:130px; }
+  nav { flex-wrap:nowrap; overflow-x:auto; white-space:nowrap; padding-bottom:2px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Presseschau<small>德國報紙每日導覽</small></h1>
+  <div class="date"><b>2026/11/22（週日）</b> · <span lang="de">Sonntag, 22. November 2026</span> · 更新於 10:18（台灣時間） · <a href="../archiv/">存檔 Archiv</a></div>
+</header>
+<div class="bar"><div class="bar-in">
+  <div class="chips" aria-label="報紙篩選"><button class="chip" data-chip="faz" style="--c:#33598f" aria-pressed="true">FAZ</button><button class="chip" data-chip="sz" style="--c:#2c7a57" aria-pressed="true">SZ</button><button class="chip" data-chip="zeit" style="--c:#6a4c9c" aria-pressed="true">ZEIT</button><button class="chip" data-chip="spiegel" style="--c:#b8432f" aria-pressed="true">SPIEGEL</button><button class="chip" data-chip="focus" style="--c:#c06f00" aria-pressed="true">FOCUS</button></div>
+  <div class="toggles">
+    <button class="tog" id="t-zh" aria-pressed="true">中文</button>
+    <button class="tog" id="t-teaser" aria-pressed="true">導言 Teaser</button>
+  </div>
+  <nav><a href="#top">頭條 Top</a><a href="#gemeinsam">多報共同 Gemeinsam</a><a href="#politik">德國政治</a><a href="#ausland">國際</a><a href="#wirtschaft">經濟</a><a href="#kultur">文化・藝文</a><a href="#wissen">科學・教育</a><a href="#gesellschaft">社會</a></nav>
+</div></div>
+<main>
+<section id="top"><h2>今日頭條 <span>Die Top-Meldungen</span></h2><div class="cols"><div class="col" data-p="faz"><h3 class="colhead" style="--c:#33598f">Frankfurter Allgemeine Zeitung</h3><article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>04:31</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/von-elon-musk-bis-frankenstein-jonas-grethlein-erklaert-warum-prometheus-auch-heute-fasziniert-201639053.html" target="_blank" rel="noopener">Jonas Grethlein im Interview: Der Preis des Feuers</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Jonas Grethlein 接受採訪：火的代價</p>
+<p class="teaser" lang="de">Frankenstein, Faust, Musk: Prometheus gilt als Patron des technischen Fortschritts. Er bringt den Menschen das Feuer, gegen den Willen der Götter. Der Altphilologe Jonas Grethlein erklärt, was sich daraus für die KI-Gegenwart lernen lässt.</p>
+<p class="teaser zh" lang="zh-Hant">科學怪人、浮士德、馬斯克：普羅米修斯被認為是科技進步的守護神。他違背眾神的意願，將火帶給人們。古典語言學家 Jonas Grethlein 解釋了人工智慧現在可以從中學到什麼。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/philosoph-dieter-mersch-warum-ki-niemals-bewusstsein-entwickeln-wird-accg-201634477.html" target="_blank" rel="noopener">Philosoph über KI: „Es droht eine gewaltige Verflachung unserer Kultur“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">人工智慧哲學家：“我們的文化面臨著巨大扁平化的威脅”</p>
+<p class="teaser" lang="de">Können Computer Bewusstsein erlangen? Der Philosoph Dieter Mersch geht der Mathematik von Künstlicher Intelligenz auf den Grund. Im Gespräch zeigt er, warum die Entwickler auf eine unüberwindbare Grenze stoßen werden – und wo die eigentliche Gefahr liegt.</p>
+<p class="teaser zh" lang="zh-Hant">電腦可以變得有意識嗎？哲學家 Dieter Mersch 深入探討了人工智慧的數學原理。在對話中，他展示了為什麼開發人員會遇到難以逾越的限制——以及真正的危險所在。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:28</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/ukraine-greift-russisches-schiff-sparta-ii-an-finnlands-gefaehrliches-dilemma-in-der-ostsee-201702129.html" target="_blank" rel="noopener">Angriff auf „Sparta II“: Krieg vor Finnlands Haustür</a></h3>
+<p class="zh zh-title" lang="zh-Hant">對「斯巴達II」的攻擊：芬蘭家門口的戰爭</p>
+<p class="teaser" lang="de">Die Ukraine greift nun russische Schiffe vor Finnland an. Helsinki stellt das vor ein Dilemma. Und die Sorge vor einer Umweltkatastrophe wächst.</p>
+<p class="teaser zh" lang="zh-Hant">烏克蘭現在正在芬蘭附近攻擊俄羅斯船隻。這讓赫爾辛基陷入了兩難的境地。人們對環境災難的擔憂日益加劇。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:23</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-rutte-nato-wird-jeden-zentimeter-von-polen-verteidigen-faz-110683325.html" target="_blank" rel="noopener">Liveblog Ukrainekrieg: Rutte: NATO wird jeden Zentimeter von Polen verteidigen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">烏克蘭戰爭：呂特：北約將保衛波蘭的每一寸領土</p>
+<p class="teaser" lang="de">NATO-Generalsekretär beschwört Bündnistreue nach Abstürzen militärischer Flugobjekte in Polen +++ Chefin von Wildberries offenbar zurückgetreten +++ Russisches Frachtschiff nach Drohnenangriff vor Finnland in Brand +++ alle Neuigkeiten im Liveblog</p>
+<p class="teaser zh" lang="zh-Hant">軍事飛行器在波蘭墜毀後，北約秘書長呼籲忠誠於聯盟 +++ Wildberry 老闆顯然辭職了 +++ 俄羅斯貨船在芬蘭附近遭遇無人機襲擊後起火 +++ 直播博客中的所有新聞</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:05</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/liveticker-bundespolitik-schwerdtner-emdes-ego-show-brauchen-wir-nicht-faz-110093143.html" target="_blank" rel="noopener">Deutschland Liveblog: Schwerdtner: Emdes Ego-Show brauchen wir nicht</a></h3>
+<p class="zh zh-title" lang="zh-Hant">德國直播部落格：施韋特納：我們不需要艾姆德的自我展示</p>
+<p class="teaser" lang="de">Linke-Vorsitzende für Parteiausschluss der Abgeordneten +++ Höcke bleibt Vorsitzender der Thüringer AfD +++ alle Entwicklungen im Liveblog</p>
+<p class="teaser zh" lang="zh-Hant">因議員被排除在政黨之外而導致左主席 +++ Höcke 仍擔任圖林根選擇黨主席 +++ 實時博客中的所有動態</p>
+</article></div><div class="col" data-p="sz"><h3 class="colhead" style="--c:#2c7a57">Süddeutsche Zeitung</h3><article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>04:00</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/bayern/hubert-aiwanger-beerdigung-inkofen-niederbayern-freie-waehler-li.3583841" target="_blank" rel="noopener">Beisetzung von Hubert Aiwanger: „Du warst ein Unikat, einer, den man nicht ersetzen kann“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">休伯特·艾旺格的葬禮：“你是獨一無二的，無法取代的”</p>
+<p class="teaser" lang="de">Vor einer Woche wurden Pontifikalrequiem und Staatsakt für Hubert Aiwanger in München gehalten, nun ist der verstorbene Chef der Freien Wähler unter großer Anteilnahme in seiner Heimat beigesetzt worden.</p>
+<p class="teaser zh" lang="zh-Hant">一週前，為休伯特·艾旺格舉行的宗座安魂曲和國家儀式在慕尼黑舉行，現在這位已故自由選民領袖在他的祖國得到了極大的同情安葬。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>03:20</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-drohnen-frachter-finnland-li.3571967" target="_blank" rel="noopener">Krieg in der Ukraine: Drohnen greifen Schiff im Finnischen Meerbusen an</a></h3>
+<p class="zh zh-title" lang="zh-Hant">烏克蘭戰爭：無人機襲擊芬蘭灣的船隻</p>
+<p class="teaser" lang="de">Finnland schränkt den Luft- und Seeverkehr wegen des brennenden Frachters vorsorglich ein. Nach Aussagen von Selenskij habe die Krim-Brücke keine Zukunft.</p>
+<p class="teaser zh" lang="zh-Hant">由於貨輪著火，芬蘭正在限制空中和海上交通，作為預防措施。澤連斯基表示，克里米亞大橋沒有未來。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>01:05</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/sport/bundesliga-bvb-gladbach-nmecha-jubel-krone-tabellenfuehrer-li.3584099" target="_blank" rel="noopener">Borussia Dortmund: Nmecha trifft – und zeigt einen anderen Jubel</a></h3>
+<p class="zh zh-title" lang="zh-Hant">多特蒙德：恩梅查進球－再次慶祝</p>
+<p class="teaser" lang="de">Der BVB gewinnt in Gladbach und ist neuer Tabellenführer. Das Tor des Tages gelingt Felix Nmecha – beim Torjubel verzichtet er diesmal auf seine Kronen-Geste.</p>
+<p class="teaser zh" lang="zh-Hant">多特蒙德在格拉德巴赫隊獲勝，成為新的聯賽領頭羊。菲利克斯·恩梅查 (Felix Nmecha) 打進了當天的進球 - 這次他在慶祝進球時放棄了皇冠手勢。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>00:51</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/eu-antonio-costa-eu-haushalt-friedrich-merz-steuer-digitalkonzerne-li.3582105" target="_blank" rel="noopener">Europa: EU-Ratspräsident Costa will Tech-Konzerne zur Kasse bitten</a></h3>
+<p class="zh zh-title" lang="zh-Hant">歐洲：歐盟理事會主席科斯塔希望要求科技公司付款</p>
+<p class="teaser" lang="de">Der Portugiese will den Streit um den Brüsseler Haushalt unter anderem mit einer Digitalsteuer lösen. Nicht nur Bundeskanzler Merz übt augenblicklich Kritik: Das EU-Budget sei nach wie vor zu üppig bemessen.</p>
+<p class="teaser zh" lang="zh-Hant">葡萄牙人希望透過數位稅等方式解決布魯塞爾預算爭端。目前批評的不僅是默茨總理：歐盟預算仍然過於慷慨。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>00:43</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/sport/bundesliga-spiele-ergebnisse-leipzig-leverkusen-tore-li.3584089" target="_blank" rel="noopener">Bundesliga: Zwei verschossene Elfmeter in drei Minuten</a></h3>
+<p class="zh zh-title" lang="zh-Hant">德甲：三分鐘內兩次錯失點球</p>
+<p class="teaser" lang="de">Beim Spiel Frankfurt gegen Hoffenheim überragen die Torhüter. Leverkusen gelingen vier Tore, Leipzig sogar fünf. Und Schalke mal wieder keins. Alles Wichtige zum Spieltag.</p>
+<p class="teaser zh" lang="zh-Hant">在法蘭克福與霍芬海姆的比賽中，門將表現出色。勒沃庫森打進4球，萊比錫甚至打進5球。而沙爾克再次無緣。關於比賽日您需要了解的一切。</p>
+</article></div><div class="col" data-p="zeit"><h3 class="colhead" style="--c:#6a4c9c">DIE ZEIT / ZEIT ONLINE</h3><article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>10:02</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/22/betrunkener-faehrt-mit-kehrmaschine-durch-industriegebiet" target="_blank" rel="noopener">Mehr als 2,2 Promille: Betrunkener fährt mit Kehrmaschine durch Industriegebiet</a></h3>
+<p class="zh zh-title" lang="zh-Hant">超過千分之 2.2：醉酒男子駕駛掃地機穿越工業區</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:43</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/cop31-antalya-einigung-tuerkei-australien-fossile-brennstoffe-finanzhilfe" target="_blank" rel="noopener">COP31: Weltklimakonferenz nähert sich laut Präsident einem Konsens</a></h3>
+<p class="zh zh-title" lang="zh-Hant">COP31：主席表示，世界氣候大會正接近達成共識</p>
+<p class="teaser" lang="de">Nach zähen Verhandlungen haben Australien und die Türkei in der Nacht einen neuen Abschlusstext vorgelegt. Gipfelpräsident Murat Kurum sieht einen Deal in Reichweite.</p>
+<p class="teaser zh" lang="zh-Hant">經過艱苦的談判，澳洲和土耳其當晚提出了新的最終文本。峰會主席穆拉特·庫魯姆認為達成協議指日可待。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:40</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/karoline-preisler-angriff-demonstration-berlin-antisemitismus-katharina-von-schnurbein" target="_blank" rel="noopener">Antisemitismus: FDP-Politikerin bei propalästinensischer Demo angegriffen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">反猶太主義：自民黨政治人物在親巴勒斯坦示威活動中受到攻擊</p>
+<p class="teaser" lang="de">Die Aktivistin Karoline Preisler macht sich gegen Antisemitismus stark. Jetzt ist sie in Berlin in ein Handgemenge geraten und getreten worden. Die Polizei griff ein.</p>
+<p class="teaser zh" lang="zh-Hant">活動人士卡洛琳·普萊斯勒 (Karoline Preisler) 進行反對反猶太主義的活動。現在她在柏林發生扭打並被踢了。警方介入。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:35</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/22/merkur-sonde-bepicolombo-umkreist-zielplaneten" target="_blank" rel="noopener">Sonnennächster Planet: Merkur-Sonde «BepiColombo» umkreist Zielplaneten</a></h3>
+<p class="zh zh-title" lang="zh-Hant">最接近太陽的行星：水星探測器“BepiColombo”繞著目標行星運行</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:32</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/news/2026-11/22/dichter-rauch-feuerwehr-evakuiert-hochhaus-in-eppelheim" target="_blank" rel="noopener">Rhein-Neckar-Kreis: Dichter Rauch: Feuerwehr evakuiert Hochhaus in Eppelheim</a></h3>
+<p class="zh zh-title" lang="zh-Hant">萊茵-內卡地區：濃煙：消防隊疏散埃佩爾海姆高層建築</p>
+</article></div><div class="col" data-p="spiegel"><h3 class="colhead" style="--c:#b8432f">DER SPIEGEL</h3><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>04:13</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/karl-lauterbach-dass-ki-die-menschheit-ausloescht-halte-ich-fuer-unsinn-a-89b982ec-a41a-4dbc-9a4c-3834629fa058#ref=rss" target="_blank" rel="noopener">Karl Lauterbach: »Dass KI die Menschheit auslöscht, halte ich für Unsinn«</a></h3>
+<p class="zh zh-title" lang="zh-Hant">卡爾·勞特巴赫：“我認為人工智慧正在消滅人類的說法是無稽之談。”</p>
+<p class="teaser" lang="de">Ex-Gesundheitsminister Karl Lauterbach hat gerade die wichtigsten KI-Labore in den USA und China besucht. Jetzt schlägt er Alarm: Deutschland dürfe sich nicht weiter abhängen lassen. Doch etwas macht ihm Hoffnung.</p>
+<p class="teaser zh" lang="zh-Hant">前衛生部長卡爾·勞特巴赫剛剛訪問了美國和中國最重要的人工智慧實驗室。現在他發出警報：德國絕不能讓自己再次落後。但有件事給了他希望。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 21:13</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-und-anthropic-das-steckt-hinter-dem-boersenbeben-a-f2133f0d-0378-4c58-9875-7410412e0df1#ref=rss" target="_blank" rel="noopener">Nvidia und Anthropic: Das steckt hinter dem Börsenbeben</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Nvidia 和 Anthropic：這就是股市地震背後的原因</p>
+<p class="teaser" lang="de">An den Finanzmärkten geht die Angst um. Die Kurse vieler Techaktien stürzen ab. Der Chiphersteller Nvidia hat binnen weniger Wochen fast die Hälfte seines Börsenwerts verloren. Was ist da los? Was Sie jetzt wissen müssen.</p>
+<p class="teaser zh" lang="zh-Hant">金融市場瀰漫著恐懼情緒。許多科技股的價格正在暴跌。晶片製造商英偉達在短短幾週內就損失了近一半的股票市值。那裡發生了什麼事？您現在需要了解什麼。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:56</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/auswandern-in-die-schweiz-12-dinge-die-sie-vorher-wissen-sollten-a-14cd0939-59d0-4648-b770-91769305ae7a#ref=rss" target="_blank" rel="noopener">Auswandern in die Schweiz – 12 Dinge, die Sie vorher wissen sollten</a></h3>
+<p class="zh zh-title" lang="zh-Hant">移民瑞士 – 您應該事先了解的 12 件事</p>
+<p class="teaser" lang="de">Das Gehalt ist hoch, die Sprache vertraut. Doch Wohnungsmarkt, Arztrechnungen und Kitakosten überraschen viele Deutsche. Was vom Schweizer Lohn wirklich bleibt – und warum der Konjunktiv beim Ankommen hilft.</p>
+<p class="teaser zh" lang="zh-Hant">薪水高，語言熟悉。但房地產市場、醫療費用和日託費用讓許多德國人感到驚訝。瑞士工資到底還剩下什麼——以及為什麼虛擬語氣可以幫助你實現這一目標。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/vw-mercedes-bmw-wie-chinas-e-autos-von-der-absatzkrise-in-deutschland-profitieren-spiegel-tv-a-ca7dfa0a-7514-49eb-a828-d7ef69e180e8#ref=rss" target="_blank" rel="noopener">VW, Mercedes, BMW: Wie Chinas E-Autos von der Absatzkrise in Deutschland profitieren – SPIEGEL TV</a></h3>
+<p class="zh zh-title" lang="zh-Hant">大眾、梅賽德斯、寶馬：中國電動車如何從德國銷售危機中受益 - SPIEGEL TV</p>
+<p class="teaser" lang="de">Zu hohe Arbeitskosten, Werkschließungen, Absatzkrise: Konzerne wie Volkswagen und Mercedes schwächeln, Fahrzeuge aus Chinas mischen den deutschen Automarkt auf. Unterwegs mit Gewinnern und Verlierern des Umbruchs.</p>
+<p class="teaser zh" lang="zh-Hant">勞動成本過高、工廠倒閉、銷售危機：福斯和賓士等公司正在衰弱，來自中國的汽車正在撼動德國汽車市場。與劇變的贏家和輸家一起前進。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>04:10</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/antonio-costa-kuerzt-friedrich-merz-kritisiert-dennoch-den-eu-budget-vorschlag-a-dabd98ed-f515-48af-af87-b52c783e71ee#ref=rss" target="_blank" rel="noopener">António Costa kürzt, Friedrich Merz kritisiert dennoch den EU-Budget-Vorschlag</a></h3>
+<p class="zh zh-title" lang="zh-Hant">安東尼奧科斯塔削減預算，弗里德里希梅爾茨仍然批評歐盟預算提案</p>
+<p class="teaser" lang="de">Was kostet die EU-Mitgliedschaft demnächst? Ratspräsident Costa kommt dem Bundeskanzler entgegen, aber der Streit geht weiter. Steuern für Digitalkonzerne sollen die Finanzen entspannen.</p>
+<p class="teaser zh" lang="zh-Hant">歐盟會員資格很快要花多少錢？議會主席科斯塔接待了財政大臣，但爭議仍在繼續。對數位公司徵稅的目的是緩解財務狀況。</p>
+</article></div><div class="col" data-p="focus"><h3 class="colhead" style="--c:#c06f00">FOCUS online</h3><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>08:49</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/nach-kritik-trump-bezeichnet-putin-erneut-als-freund_e5d9d771-070d-4e40-bbd6-ea791337e898.html" target="_blank" rel="noopener">Nach Kritik: Trump bezeichnet Putin erneut als „Freund“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">批評後：川普再次稱普丁為“朋友”</p>
+<p class="teaser" lang="de">US-Präsident Trump sorgte mit seinen warmen Worten an Kremlchef Putin für Aufsehen und Kritik. Nun hat er eine umstrittene Bezeichnung wiederholt.</p>
+<p class="teaser zh" lang="zh-Hant">美國總統川普對克里姆林宮主席普丁的熱情表態引起軒然大波和批評。現在他又重複了一個有爭議的術語。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>08:48</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/lkw-fahrer-mit-3-2-promille-gestoppt_b0056b51-d81b-4869-80ab-51dfe5fc3ff4.html" target="_blank" rel="noopener">Lkw-Fahrer mit 3,2 Promille gestoppt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">卡車司機每英里停車 3.2 次</p>
+<p class="teaser" lang="de">Mehrere Zeugen melden einen Lastwagen wegen auffälliger Fahrweise bei der Polizei. Die Beamten ziehen den sturzbetrunkenen Fahrer aus dem Verkehr. Auch für dessen Kollegen hat das Folgen.</p>
+<p class="teaser zh" lang="zh-Hant">幾名目擊者因卡車行駛不穩定而向警方報案。警察將醉酒司機從車流中拉了出來。這也對他的同事產生了影響。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:32</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/mexiko-festnahme-von-drogenboss-loest-toedliche-gewalt-aus_7711f9e8-cb19-46dc-bd0d-27995e37d810.html" target="_blank" rel="noopener">Mexiko: Festnahme von Drogenboss löst tödliche Gewalt aus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">墨西哥：毒梟被捕引發致命暴力</p>
+<p class="teaser" lang="de">Er steht auf der FBI-Liste der zehn meistgesuchten Flüchtigen. Mexikos Militär hat den Drogenboss nun bei einem Großeinsatz festgenommen. Dabei kommen mehrere Menschen ums Leben.</p>
+<p class="teaser zh" lang="zh-Hant">他是聯邦調查局十大通緝犯之一。墨西哥軍方現已在一次重大行動中逮捕了毒梟。多人被殺。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:31</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/metaller-warnstreiks-im-norden-werden-fortgesetzt_29c33aa4-1bb9-4fb3-9f4e-3313dfed23f9.html" target="_blank" rel="noopener">Metaller-Warnstreiks im Norden werden fortgesetzt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">北方金屬樂團警告罷工仍在繼續</p>
+<p class="teaser" lang="de">Die Gewerkschaftsvorsitzende Benner besucht nach Ankündigung mehrere Betriebe. Am Sonntagabend soll sie zunächst in Cuxhaven sprechen.</p>
+<p class="teaser zh" lang="zh-Hant">消息公佈後，工會領袖本納拜訪了多家公司。她定於週日晚上在庫克斯港發表演講。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:31</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/soeder-bayern-will-ausgleich-kalter-progression-mittragen_9401040c-887d-4a57-befd-24374fb1d8ec.html" target="_blank" rel="noopener">Söder: Bayern will Ausgleich kalter Progression mittragen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">索德：巴伐利亞希望幫忙彌補寒冷的進展</p>
+<p class="teaser" lang="de">Die schleichende Steuererhöhung wurde in den vergangenen Jahren für die Steuerzahler ausgeglichen. Ob das auch 2027 gelingt, ist offen.</p>
+<p class="teaser zh" lang="zh-Hant">近年來逐步增加的稅收已被納稅人所抵消。 2027 年這是否也可能實現還有待觀察。</p>
+</article></div></div></section>
+<section id="gemeinsam"><h2>多家報紙共同報導 <span>Worüber mehrere Zeitungen berichten</span></h2><p class="hint">同一件事，看各報怎麼下標題。（依關鍵字自動比對，偶有誤差）</p><div class="clusters"><div class="cluster"><div class="clhead"><strong lang="de">Trump · Donald · Aktien</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 13:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-bringt-stabschef-miller-als-praesidentschaftskandidaten-ins-spiel-faz-19444916.html" target="_blank" rel="noopener">USA unter Trump: Trump zu Miller: „Willst du für das Präsidentenamt kandidieren?“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">川普治下的美國：川普問米勒：“你想競選總統嗎？”</p>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 23:02</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/vom-boom-zum-absturz-die-trump-wette-geht-nicht-mehr-auf_3f006815-3ea2-4d90-9562-653aad882a67.html" target="_blank" rel="noopener">Vom Boom zum Absturz: Die Trump-Wette geht nicht mehr auf</a></h3>
+<p class="zh zh-title" lang="zh-Hant">從繁榮到崩潰：川普的賭注不再有效</p>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/trump-erhofft-sich-gutes-von-hackerangriff-auf-das-fbi_67b1380d-a975-485b-9412-9e75c6f8537c.html" target="_blank" rel="noopener">Trump erhofft sich Gutes von Hackerangriff auf das FBI</a></h3>
+<p class="zh zh-title" lang="zh-Hant">川普希望聯邦調查局駭客攻擊能帶來好處</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>09:02</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/usa-donald-trump-hofft-auf-erkenntnisse-nach-hackerangriff-auf-fbi-a-d16451cc-3f81-4768-89e4-6f1b57438b3d#ref=rss" target="_blank" rel="noopener">USA: Donald Trump hofft auf Erkenntnisse nach Hackerangriff auf FBI</a></h3>
+<p class="zh zh-title" lang="zh-Hant">美國：唐納德·特朗普希望在聯邦調查局遭受黑客攻擊後得到調查結果</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 13:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/news-boris-pistorius-patzt-hilfen-fuer-die-ukraine-afd-auf-kurssuche-donald-trump-lobt-stephen-miller-a-cb84b583-511a-4850-9455-833a6e8d92a7#ref=rss" target="_blank" rel="noopener">News: Boris Pistorius, Ukraine, AfD auf Kurssuche, Donald Trump lobt Stephen Miller</a></h3>
+<p class="zh zh-title" lang="zh-Hant">新聞：鮑里斯·皮斯托利斯、烏克蘭、選擇黨正在尋找路線，唐納德·川普讚揚史蒂芬·米勒</p>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 15:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/aktien-boerse-nasdaq-anthropic-nvidia-li.3583968" target="_blank" rel="noopener">Aktien: Und auf einmal herrscht ein bisschen Panik an den Börsen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">股票：股市突然出現一點恐慌</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Militär · Drogenboss · Festnahme</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:32</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/mexiko-festnahme-von-drogenboss-loest-toedliche-gewalt-aus_7711f9e8-cb19-46dc-bd0d-27995e37d810.html" target="_blank" rel="noopener">Mexiko: Festnahme von Drogenboss löst tödliche Gewalt aus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">墨西哥：毒梟被捕引發致命暴力</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:51</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/justiz/mexiko-heftige-feuergefechte-bei-festnahme-von-kartell-boss-fausto-isidro-meza-flores-a-0485868c-060d-4086-b981-5bb0611f6c9c#ref=rss" target="_blank" rel="noopener">Mexiko: Heftige Feuergefechte bei Festnahme von Drogenkartell-Boss</a></h3>
+<p class="zh zh-title" lang="zh-Hant">墨西哥：激烈槍戰，販毒集團頭目被捕</p>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 21:17</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/mexiko-drogenboss-fbi-festnahme-organisierte-kriminalitaet-li.3584054" target="_blank" rel="noopener">Organisierte Kriminalität: Mutmaßlicher Drogenboss in Mexiko gefasst</a></h3>
+<p class="zh zh-title" lang="zh-Hant">組織犯罪：毒梟嫌疑犯在墨西哥被捕</p>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:06</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/fausto-isidro-meza-flores-el-chapo-isidro-sinaloa-fbi" target="_blank" rel="noopener">El Chapo Isidro: Mexikanisches Militär fasst mutmaßlichen Drogenboss</a></h3>
+<p class="zh zh-title" lang="zh-Hant">矮子伊西德羅：墨西哥軍方逮捕毒梟嫌疑人</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Aiwanger · Hubert · Familie</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/hubert-aiwanger-in-inkofen-beigesetzt-2-000-menschen-nehmen-abschied-accg-201704863.html" target="_blank" rel="noopener">ZWei Wochen nach Tod: Freie-Wähler-Chef Aiwanger in Niederbayern beigesetzt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">去世兩週後：自由選民領袖艾旺格被埋葬在下巴伐利亞州</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:33</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/hubert-aiwanger-trauerfeier-tanja-schweiger-dankt-fuer-solidaritaet-a-3f4f98fd-8596-4c5a-ab68-f614f25b4e5f#ref=rss" target="_blank" rel="noopener">Hubert-Aiwanger-Trauerfeier: Tanja Schweiger dankt für Solidarität</a></h3>
+<p class="zh zh-title" lang="zh-Hant">休伯特·艾萬格葬禮：塔妮亞·施威格感謝大家的團結</p>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>04:00</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/bayern/hubert-aiwanger-beerdigung-inkofen-niederbayern-freie-waehler-li.3583841" target="_blank" rel="noopener">Beisetzung von Hubert Aiwanger: „Du warst ein Unikat, einer, den man nicht ersetzen kann“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">休伯特·艾旺格的葬禮：“你是獨一無二的，無法取代的”</p>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 22:51</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/trauerfeier-hubert-aiwanger-freie-waehler-inkofen-gxe" target="_blank" rel="noopener">Trauerfeier für Hubert Aiwanger: Tausende Menschen begleiten Beisetzung von Hubert Aiwanger</a></h3>
+<p class="zh zh-title" lang="zh-Hant">休伯特·艾旺格的葬禮：數千人參加休伯特·艾旺格的葬禮</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Städten · Gen-Z-Proteste · Bewegung</strong><span class="count">4 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:27</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/brite-schwimmt-aus-protest-gegen-iran-krieg-durch-strasse-von-hormus-201705223.html" target="_blank" rel="noopener">In drei tagen: Brite schwimmt aus Protest gegen Irankrieg durch Straße von Hormus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">三天内：英国游过霍尔木兹海峡抗议伊朗战争</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>05:22</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/frankreich-deutlich-weniger-teilnehmer-am-sechsten-protestsamstag-a-4e6b94d5-2440-450f-a18e-6fba793ebcf8#ref=rss" target="_blank" rel="noopener">Frankreich: Deutlich weniger Teilnehmer am sechsten Protestsamstag</a></h3>
+<p class="zh zh-title" lang="zh-Hant">法國：抗議活動第六個週六參與者明顯減少</p>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 05:43</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/gen-z-proteste-schueler-studierende-frankfurt-berlin-ausschreitungen-gewerkschaften-li.3582673" target="_blank" rel="noopener">Gen-Z-Proteste: Wie die Jugend versucht, aus Demos eine Bewegung zu machen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Z世代抗議：年輕人如何試圖將示威變成一場運動</p>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 08:09</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/gen-z-proteste-schueler-berlin-leipzig-frankfurt" target="_blank" rel="noopener">Gen-Z-Proteste: Wird das noch eine Bewegung?</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Z世代抗議：這還會是一場運動嗎？</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Finnland · Krieg · Ukraine</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:28</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/ukraine-greift-russisches-schiff-sparta-ii-an-finnlands-gefaehrliches-dilemma-in-der-ostsee-201702129.html" target="_blank" rel="noopener">Angriff auf „Sparta II“: Krieg vor Finnlands Haustür</a></h3>
+<p class="zh zh-title" lang="zh-Hant">對「斯巴達II」的攻擊：芬蘭家門口的戰爭</p>
+</article>
+<article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:23</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ukraine/ukraine-liveticker-rutte-nato-wird-jeden-zentimeter-von-polen-verteidigen-faz-110683325.html" target="_blank" rel="noopener">Liveblog Ukrainekrieg: Rutte: NATO wird jeden Zentimeter von Polen verteidigen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">烏克蘭戰爭：呂特：北約將保衛波蘭的每一寸領土</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:33</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/tatjana-kim-chefin-von-russischem-onlinehaendler-wildberries-tritt-zurueck-a-c7075012-6bff-4f8e-8bc0-f8c3e9ac6d53#ref=rss" target="_blank" rel="noopener">Tatjana Kim: Chefin von russischem Onlinehändler Wildberries tritt zurück</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Tatjana Kim：俄羅斯線上零售商 Wildberry 負責人辭職</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:50</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/polen-flugobjekt-in-polen-war-russische-rakete-nato-spricht-von-einem-gefaehrlichen-vorfall-a-e82b2c83-f347-4ef6-b4b6-970b0d909be3#ref=rss" target="_blank" rel="noopener">Polen: Abgestürztes Flugobjekt war russische Rakete</a></h3>
+<p class="zh zh-title" lang="zh-Hant">波蘭：墜毀的飛行物是俄羅斯飛彈</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:27</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/finnland-russisches-frachtschiff-nach-drohnenangriff-in-brand-a-4a4de76e-5165-4547-9c57-787de3fec8d8#ref=rss" target="_blank" rel="noopener">Finnland: Russisches Frachtschiff nach Drohnenangriff in Brand</a></h3>
+<p class="zh zh-title" lang="zh-Hant">芬蘭：俄羅斯貨船在無人機攻擊後起火</p>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>03:20</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/ukraine-krieg-newsblog-drohnen-frachter-finnland-li.3571967" target="_blank" rel="noopener">Krieg in der Ukraine: Drohnen greifen Schiff im Finnischen Meerbusen an</a></h3>
+<p class="zh zh-title" lang="zh-Hant">烏克蘭戰爭：無人機襲擊芬蘭灣的船隻</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Antalya · Konsens · Klimagipfel</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 21:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/uno-klimakonferenz-in-antalya-frust-und-verhaertete-fronten-beim-verhandlungsfinale-a-1beb060c-afd7-45c3-8da2-6663214f4dd7#ref=rss" target="_blank" rel="noopener">Uno-Klimakonferenz in Antalya: Frust und verhärtete Fronten beim Verhandlungsfinale</a></h3>
+<p class="zh zh-title" lang="zh-Hant">安塔利亞聯合國氣候會議：談判結局中的挫折感與強硬立場</p>
+</article>
+<article class="item compact" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 12:20</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/cop31-antalya-klimakonferenz-li.3583943" target="_blank" rel="noopener">COP31 in Antalya: Klimagipfel verlängert – Ringen um einen Konsens</a></h3>
+<p class="zh zh-title" lang="zh-Hant">安塔利亞 COP31：氣候高峰會延長－爭取共識</p>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>09:43</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/cop31-antalya-einigung-tuerkei-australien-fossile-brennstoffe-finanzhilfe" target="_blank" rel="noopener">COP31: Weltklimakonferenz nähert sich laut Präsident einem Konsens</a></h3>
+<p class="zh zh-title" lang="zh-Hant">COP31：主席表示，世界氣候大會正接近達成共識</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Partei · Frage · Linke</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 18:59</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/afd-streit-ueber-migration-chrupalla-und-das-krokodil-accg-201690981.html" target="_blank" rel="noopener">Streit in der PArtei: Über die Remigration fliegen in der AfD die Fetzen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">黨內爭議：選擇黨內部關於移民議題存在許多爭議</p>
+</article>
+<article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:18</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/schraege-voegel-sind-kein-einzelfall-berliner-linken-politiker-wegen-verbotenem-hisbollah-verein-unter-druck_9477e266-fe86-4c2c-bad3-06bee22f0cf2.html" target="_blank" rel="noopener">„Schräge Vögel sind kein Einzelfall“: Berliner Linken-Politiker wegen verbotenem Hisbollah-Verein unter Druck</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《怪鳥並非孤例》：柏林左翼政客因真主黨協會被禁而面臨壓力</p>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>02:34</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/berlin-linke-ines-schwerdtner-vanessa-emde-ausschluss-abstimmung" target="_blank" rel="noopener">Berliner Linke: Schwerdtner befürwortet Fraktionsausschluss von Vanessa Emde</a></h3>
+<p class="zh zh-title" lang="zh-Hant">柏林左翼：施韋特納支持將凡妮莎·艾姆德排除在議會黨團之外</p>
+</article></div><div class="cluster"><div class="clhead"><strong lang="de">Nvidia · Anthropic · Fall</strong><span class="count">3 家報紙</span></div><article class="item compact" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 20:08</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/nvidia-und-anthropic-im-freien-fall-nasdaq-droht-baerenmarkt_f6962d91-332e-42ef-b58a-e62a63e1449f.html" target="_blank" rel="noopener">Nvidia und Anthropic im freien Fall: Nasdaq droht Bärenmarkt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Nvidia 和 Anthropic 直線下滑：納斯達克面臨熊市威脅</p>
+</article>
+<article class="item compact" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 21:13</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/nvidia-und-anthropic-das-steckt-hinter-dem-boersenbeben-a-f2133f0d-0378-4c58-9875-7410412e0df1#ref=rss" target="_blank" rel="noopener">Nvidia und Anthropic: Das steckt hinter dem Börsenbeben</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Nvidia 和 Anthropic：這就是股市地震背後的原因</p>
+</article>
+<article class="item compact" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:08</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/howard-lutnick-usa-minister-wirtschaftspolitik-donald-trump" target="_blank" rel="noopener">Howard Lutnick: Kostet die Nvidia-Affäre Trumps Lieblingsminister das Amt?</a></h3>
+<p class="zh zh-title" lang="zh-Hant">霍華盧特尼克：英偉達事件會讓川普最喜歡的部長丟掉飯碗嗎？</p>
+</article></div></div></section>
+<section id="politik"><h2>德國政治 <span>Politik Deutschland</span></h2><div class="grid"><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/trump-erhofft-sich-gutes-von-hackerangriff-auf-das-fbi_67b1380d-a975-485b-9412-9e75c6f8537c.html" target="_blank" rel="noopener">Trump erhofft sich Gutes von Hackerangriff auf das FBI</a></h3>
+<p class="zh zh-title" lang="zh-Hant">川普希望聯邦調查局駭客攻擊能帶來好處</p>
+<p class="teaser" lang="de">Die US-Bundespolizei ist Berichten zufolge erneut Ziel eines Hackerangriffs geworden. So reagiert Präsident Trump.</p>
+<p class="teaser zh" lang="zh-Hant">據報道，美國聯邦警察再次成為駭客攻擊的目標。這就是川普總統的反應。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>07:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/ausland/bundeswehr-aendert-kurzfristig-truppen-verlegung-nach-litauen_5b22dcbe-a82a-47ff-912b-8956ceb83f79.html" target="_blank" rel="noopener">Bundeswehr ändert kurzfristig Truppen-Verlegung nach Litauen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">德國聯邦國防軍臨時通知改變向立陶宛的部隊部署</p>
+<p class="teaser" lang="de">Die Bundeswehr hat kurzfristig die geplante Verlegung deutscher Truppen für die derzeit laufende Großübung „Grand Eagle 26“ in Litauen geändert.</p>
+<p class="teaser zh" lang="zh-Hant">德國聯邦國防軍迅速改變了德國軍隊在立陶宛正在進行的大規模「鷹號26」演習的計畫。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:18</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/schraege-voegel-sind-kein-einzelfall-berliner-linken-politiker-wegen-verbotenem-hisbollah-verein-unter-druck_9477e266-fe86-4c2c-bad3-06bee22f0cf2.html" target="_blank" rel="noopener">„Schräge Vögel sind kein Einzelfall“: Berliner Linken-Politiker wegen verbotenem Hisbollah-Verein unter Druck</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《怪鳥並非孤例》：柏林左翼政客因真主黨協會被禁而面臨壓力</p>
+<p class="teaser" lang="de">Fotos zeigen zwei Berliner Linken-Politiker bei einem Verein, der jetzt wegen Unterstützung der Hisbollah verboten wurde. Die Partei gerät weiter in Erklärungsnot. Die Frage, ob diese Linke Berlin überhaupt regieren kann, wird lauter.</p>
+<p class="teaser zh" lang="zh-Hant">照片顯示，兩名柏林左翼政客在一傢俱樂部，該俱樂部因支持真主黨而被禁止。該黨仍然發現自己需要解釋。關於左派能否統治柏林的問題越來越大聲。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:45</time></div>
+<h3 lang="de"><a href="https://www.focus.de/politik/deutschland/aktivistin-preisler-geht-bei-demo-in-handgemenge-zu-boden_909f724c-6ed5-4289-9c7a-f0cff3431e0d.html" target="_blank" rel="noopener">Aktivistin Preisler geht bei Demo in Handgemenge zu Boden</a></h3>
+<p class="zh zh-title" lang="zh-Hant">活動人士普萊斯勒在示威中扭打中倒地</p>
+<p class="teaser" lang="de">Die FDP-Politikerin Karolin Preisler ist in Berlin am Rande einer palästinensischen Demonstration in Berlin-Schöneberg körperlich angegriffen worden.</p>
+<p class="teaser zh" lang="zh-Hant">自民黨政治家卡洛琳·普萊斯勒 (Karolin Preisler) 在柏林舍恩貝格舉行的巴勒斯坦示威活動期間遭到人身攻擊。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>03:26</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/christian-freuding-staerkt-der-neue-generalinspekteur-die-bundeswehr-201694897.html" target="_blank" rel="noopener">Bald Generalinspekteur: Im guten Geiste Preußens</a></h3>
+<p class="zh zh-title" lang="zh-Hant">很快監察長：本著普魯士的良好精神</p>
+<p class="teaser" lang="de">Manche erinnert der künftige Generalinspekteur Christian Freuding an den preußischen Militärreformer Scharnhorst. Ähnlich ist jedenfalls die Aufgabe, „unserem Unglück zuvorzukommen“.</p>
+<p class="teaser zh" lang="zh-Hant">未來的監察長克里斯蒂安·弗洛伊丁讓人想起普魯士軍事改革家沙恩霍斯特。無論如何，「防止我們的不幸」的任務是相似的。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>02:34</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/berlin-linke-ines-schwerdtner-vanessa-emde-ausschluss-abstimmung" target="_blank" rel="noopener">Berliner Linke: Schwerdtner befürwortet Fraktionsausschluss von Vanessa Emde</a></h3>
+<p class="zh zh-title" lang="zh-Hant">柏林左翼：施韋特納支持將凡妮莎·艾姆德排除在議會黨團之外</p>
+<p class="teaser" lang="de">Die Berliner Linksfraktion entscheidet am Dienstag, ob sie die Abgeordnete Vanessa Emde ausschließt. Parteichefin Ines Schwerdtner wirft ihr eine »Egoshow« vor.</p>
+<p class="teaser zh" lang="zh-Hant">柏林左翼黨將於週二決定是否驅逐議員凡妮莎·埃姆德。黨魁伊內斯·施韋特納指責她「自我表演」。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:59</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/preise-konzerte-tickets-justizministerium-verfassungsgericht" target="_blank" rel="noopener">Preise für Tickets: Haben Fans ein Recht auf faire Ticketpreise?</a></h3>
+<p class="zh zh-title" lang="zh-Hant">票價：球迷是否有權利獲得公平的票價？</p>
+<p class="teaser" lang="de">Die Bundesjustizministerin will den Ticketmarkt regulieren. Dagegen gibt es Widerstand. Ein Ex-Verfassungsrichter hält die Pläne sogar für verfassungswidrig.</p>
+<p class="teaser zh" lang="zh-Hant">聯邦司法部長希望規範門票市場。對此存在阻力。一位前憲法法官甚至認為該計劃違憲。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:01</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/altersvorsorgedepot-rente-banken-fonds-gxe" target="_blank" rel="noopener">Altersvorsorgedepot: Staatliches Depot für Zusatzrente verzögert sich wohl bis Sommer 2027</a></h3>
+<p class="zh zh-title" lang="zh-Hant">退休金存款：額外退休金的國家存款可能會延後到 2027 年夏季</p>
+<p class="teaser" lang="de">In wenigen Wochen startet das geförderte Altersvorsorgedepot. Doch die vom Staat angebotene Basisvariante kommt laut Bundesfinanzministerium wohl erst deutlich später.</p>
+<p class="teaser zh" lang="zh-Hant">補貼退休儲蓄帳戶將在幾週內啟動。但根據聯邦財政部的說法，國家提供的基本版本可能會晚得多。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 23:40</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/interview-mit-bestatter-trauer-moechte-gesehen-werden-accg-201693689.html" target="_blank" rel="noopener">Bestatter: „Unsere Gesellschaft begleitet Trauernde nicht gut“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">殯儀人員：“我們的社會並沒有很好地陪伴哀悼者”</p>
+<p class="teaser" lang="de">Wenn ein Mensch stirbt, trifft das die Angehörigen oft unvorbereitet. Trauer wird tabuisiert. Dabei würde es allen helfen, mehr darüber zu reden, sagt der Bestatter David Roth.</p>
+<p class="teaser zh" lang="zh-Hant">當一個人去世時，他們的親屬往往毫無準備。悲傷是禁忌。殯儀館負責人 David Roth 表示，這將有助於每個人更多地談論它。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 23:32</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/braver-new-world-john-kampfner-politiker-mut-hoffnung" target="_blank" rel="noopener">»Braver New World« von John Kampfner: Nur Mut!</a></h3>
+<p class="zh zh-title" lang="zh-Hant">約翰坎普夫納的《美麗新世界》：鼓起勇氣！</p>
+<p class="teaser" lang="de">Viele politische Akteure wirken erschöpft und blicken ängstlich auf die Umfragewerte. Ein neues Buch könnte ihnen (und uns) neue Hoffnung geben.</p>
+<p class="teaser zh" lang="zh-Hant">許多政治人物顯得精疲力竭，焦急地看著民調數字。一本新書可以給他們（和我們）新的希望。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:27</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/bjoern-hoecke-wiederwahl-als-thueringer-afd-chef-a-e44dee38-ea82-4269-8b15-eb3406dfe402#ref=rss" target="_blank" rel="noopener">Björn Höcke als AfD-Landeschef in Thüringen wiedergewählt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">比約恩·霍克 (Björn Höcke) 再次當選圖林根州選擇黨 (AfD) 州領導人</p>
+<p class="teaser" lang="de">Björn Höcke bleibt Chef der Thüringer AfD und sich treu: In einer Rede attackierte der radikale Politiker den Verfassungsschutz und die Reform der Geheimdienste.</p>
+<p class="teaser zh" lang="zh-Hant">比約恩·霍克（Björn Höcke）仍然是圖林根選擇黨的領導人，並且仍然忠於自己：這位激進政治家在一次演講中攻擊了憲法保護辦公室和特工部門的改革。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:07</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/franziska-brantner-gruenenchefin-kritisiert-soeder-geschenke-zulasten-jugend-a-a69c41bb-868d-4c29-bc4c-4fa4860f82fc#ref=rss" target="_blank" rel="noopener">Franziska Brantner: Grünenchefin kritisiert »Söder-Geschenke« zulasten Jugend</a></h3>
+<p class="zh zh-title" lang="zh-Hant">弗蘭齊斯卡·布蘭特納：綠黨領袖批評“索德禮物”以犧牲年輕人為代價</p>
+<p class="teaser" lang="de">Grünenchefin Brantner hat sich an die Seite der protestierenden Jugendlichen gestellt. Der Regierungskoalition warf sie eine »grausame Politik« vor und forderte mehr Geld für Schulen.</p>
+<p class="teaser zh" lang="zh-Hant">綠黨領袖布蘭特納站在抗議的年輕人這邊。她指責政府聯盟“殘酷的政治”，並要求為學校提供更多資金。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 23:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/hubert-aiwanger-in-inkofen-beigesetzt-2-000-menschen-nehmen-abschied-accg-201704863.html" target="_blank" rel="noopener">ZWei Wochen nach Tod: Freie-Wähler-Chef Aiwanger in Niederbayern beigesetzt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">去世兩週後：自由選民領袖艾旺格被埋葬在下巴伐利亞州</p>
+<p class="teaser" lang="de">In einer feierlichen Zeremonie haben sich Familie, Weggefährten und Bürger von Hubert Aiwanger verabschiedet. Rund 2.000 Menschen nahmen an der Zeremonie teil.</p>
+<p class="teaser zh" lang="zh-Hant">家人、同伴和市民在莊嚴的儀式中向休伯特·艾旺格告別。約2,000人參加了儀式。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 22:51</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/deutschland/2026-11/trauerfeier-hubert-aiwanger-freie-waehler-inkofen-gxe" target="_blank" rel="noopener">Trauerfeier für Hubert Aiwanger: Tausende Menschen begleiten Beisetzung von Hubert Aiwanger</a></h3>
+<p class="zh zh-title" lang="zh-Hant">休伯特·艾旺格的葬禮：數千人參加休伯特·艾旺格的葬禮</p>
+<p class="teaser" lang="de">Im niederbayerischen Inkofen haben Familie, Parteifreunde und Trauernde Abschied von Hubert Aiwanger genommen. Rund 2.000 Menschen nahmen an der Zeremonie teil.</p>
+<p class="teaser zh" lang="zh-Hant">在下巴伐利亞州因科芬，家人、派對朋友和哀悼者向休伯特·艾旺格告別。約2,000人參加了儀式。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 18:59</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/afd-streit-ueber-migration-chrupalla-und-das-krokodil-accg-201690981.html" target="_blank" rel="noopener">Streit in der PArtei: Über die Remigration fliegen in der AfD die Fetzen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">黨內爭議：選擇黨內部關於移民議題存在許多爭議</p>
+<p class="teaser" lang="de">Die AfD streitet um Remigration und ihren Volksbegriff. Dahinter steckt die Frage, ob die Partei gestalten will oder nur brutal wirken möchte.</p>
+<p class="teaser zh" lang="zh-Hant">德國選擇黨就移民及其人民概念展開爭論。這背後的問題是，該黨是否想要塑造事物，或者只是想表現得殘暴。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 16:38</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/inland/wie-stark-schuetzt-der-foederalismus-in-deutschland-die-demokratie-201701861.html" target="_blank" rel="noopener">Magdeburg und Berlin: Die föderale Widerstandskraft</a></h3>
+<p class="zh zh-title" lang="zh-Hant">馬格德堡與柏林：聯邦的復原力</p>
+<p class="teaser" lang="de">Föderalismus bietet Kontrollen und Gegengewichte. Besser wäre es, Extreme kämen nicht in die Nähe von Regierungsmacht. Aber es wäre nicht gleich ein Untergang.</p>
+<p class="teaser zh" lang="zh-Hant">聯邦制提供製衡。如果極端行為不接近政府權力，那就更好了。但這不會立即垮台。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 13:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/politik/deutschland/news-boris-pistorius-patzt-hilfen-fuer-die-ukraine-afd-auf-kurssuche-donald-trump-lobt-stephen-miller-a-cb84b583-511a-4850-9455-833a6e8d92a7#ref=rss" target="_blank" rel="noopener">News: Boris Pistorius, Ukraine, AfD auf Kurssuche, Donald Trump lobt Stephen Miller</a></h3>
+<p class="zh zh-title" lang="zh-Hant">新聞：鮑里斯·皮斯托利斯、烏克蘭、選擇黨正在尋找路線，唐納德·川普讚揚史蒂芬·米勒</p>
+<p class="teaser" lang="de">Verteidigungsminister Boris Pistorius patzt. Ex-CDU-Chefin Annegret Kramp-Karrenbauer mahnt zur Solidarität mit der Ukraine. AfD-Landesverbände stimmen über Programm und Personal ab. Das ist die Lage am Samstagmorgen.</p>
+<p class="teaser zh" lang="zh-Hant">國防部長鮑里斯·皮斯托利斯犯了一個錯誤。基民盟前領導人安妮格雷特·克蘭普-卡倫鮑爾呼籲聲援烏克蘭。德國選擇黨各州協會對該計劃和人員進行投票。這是周六早上的情況。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 12:20</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/cop31-antalya-klimakonferenz-li.3583943" target="_blank" rel="noopener">COP31 in Antalya: Klimagipfel verlängert – Ringen um einen Konsens</a></h3>
+<p class="zh zh-title" lang="zh-Hant">安塔利亞 COP31：氣候高峰會延長－爭取共識</p>
+<p class="teaser" lang="de">Die Erde steuert laut UN bis 2100 auf 2,8 Grad Erwärmung zu. Doch auf der nun verlängerten Klimakonferenz sind nur bescheidene Fortschritte im Kampf gegen die Erderwärmung in Sicht.</p>
+<p class="teaser zh" lang="zh-Hant">據聯合國稱，到 2100 年，地球升溫將達到 2.8 度。但在現在延長的氣候會議上，在應對全球暖化方面只看到了有限的進展。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 05:43</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/gen-z-proteste-schueler-studierende-frankfurt-berlin-ausschreitungen-gewerkschaften-li.3582673" target="_blank" rel="noopener">Gen-Z-Proteste: Wie die Jugend versucht, aus Demos eine Bewegung zu machen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Z世代抗議：年輕人如何試圖將示威變成一場運動</p>
+<p class="teaser" lang="de">Wieder demonstrieren junge Menschen in Dutzenden Städten. Schülervertreter suchen den Schulterschluss mit Eltern und Erziehungsgewerkschaft. Die Sorge vor Ausschreitungen bleibt.</p>
+<p class="teaser zh" lang="zh-Hant">數十個城市的年輕人再次示威。學生代表尋求與家長和教育工會的團結。對騷亂的恐懼仍然存在。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 05:23</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/politik/ki-newsblog-killerroboter-waffen-un-li.3566658" target="_blank" rel="noopener">Newsblog zu KI: Regeln für Killerroboter: Staaten einigen sich nur auf Minimalkompromiss</a></h3>
+<p class="zh zh-title" lang="zh-Hant">關於人工智慧的新聞部落格：殺手機器人的規則：各國僅就最小限度的妥協達成協議</p>
+<p class="teaser" lang="de">In den nächsten zwei Jahren soll weiter unverbindlich über die tödlichen autonomen Waffensysteme beraten werden. Rüstungsgegner sind von dem Ergebnis der UN-Verhandlungen enttäuscht.</p>
+<p class="teaser zh" lang="zh-Hant">未來兩年，關於致命自主武器系統的非約束性討論將繼續進行。武器反對者對聯合國談判的結果感到失望。</p>
+</article></div></section>
+<section id="ausland"><h2>國際 <span>Ausland</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>09:02</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/usa-donald-trump-hofft-auf-erkenntnisse-nach-hackerangriff-auf-fbi-a-d16451cc-3f81-4768-89e4-6f1b57438b3d#ref=rss" target="_blank" rel="noopener">USA: Donald Trump hofft auf Erkenntnisse nach Hackerangriff auf FBI</a></h3>
+<p class="zh zh-title" lang="zh-Hant">美國：唐納德·特朗普希望在聯邦調查局遭受黑客攻擊後得到調查結果</p>
+<p class="teaser" lang="de">Donald Trump findet den jüngsten Cyberangriff auf Ermittler in den USA wenig erfreulich. Sieht aber eine Chance: Vielleicht bringt der Vorfall Erkenntnisse, die man sonst nie gewonnen hätte.</p>
+<p class="teaser zh" lang="zh-Hant">唐納德·川普並不認為最近針對美國調查人員的網路攻擊非常令人鼓舞。但他看到了一個機會：也許這件事會帶來一些原本無法獲得的洞見。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:06</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/fausto-isidro-meza-flores-el-chapo-isidro-sinaloa-fbi" target="_blank" rel="noopener">El Chapo Isidro: Mexikanisches Militär fasst mutmaßlichen Drogenboss</a></h3>
+<p class="zh zh-title" lang="zh-Hant">矮子伊西德羅：墨西哥軍方逮捕毒梟嫌疑人</p>
+<p class="teaser" lang="de">El Chapo Isidro stand auf der Liste der meistgesuchten Verbrecher der US-Bundespolizei FBI. Nach seiner Festnahme kommt es zu gewalttätigen Ausschreitungen.</p>
+<p class="teaser zh" lang="zh-Hant">矮子伊西德羅 (El Chapo Isidro) 被列入聯邦調查局 (FBI) 通緝犯名單。他被捕後，爆發了暴力騷亂。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:28</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/freihandelsabkommen-eu-indonesien-zolle-rohstoffe" target="_blank" rel="noopener">Freihandel: EU und Indonesien unterzeichnen Handelsabkommen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">自由貿易：歐盟與印尼簽署貿易協定</p>
+<p class="teaser" lang="de">Die EU hat nach langen Verhandlungen ein Handelsabkommen mit dem weltgrößten Inselstaat unterzeichnet. Damit fallen etwa indonesische Zölle auf europäische Autos weg.</p>
+<p class="teaser zh" lang="zh-Hant">經過長期談判，歐盟與世界上最大的島國簽署了貿易協定。這意味著印尼對歐洲汽車徵收的關稅將不再適用。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>07:08</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/israel-gadi-eisenkot-regierungsbildung-likud-benjamin-netanjahu" target="_blank" rel="noopener">Regierungsbildung in Israel: Gadi Eisenkot sondiert Koalition mit rechter Likud-Partei</a></h3>
+<p class="zh zh-title" lang="zh-Hant">以色列組成政府：加迪艾森科特正在探索與右翼利庫德集結結盟</p>
+<p class="teaser" lang="de">Israels Oppositionschef Gadi Eisenkot hat die Likud-Partei des amtierenden Premiers Benjamin Netanjahu zu Koalitionsgesprächen eingeladen. Die stellt bereits Forderungen.</p>
+<p class="teaser zh" lang="zh-Hant">以色列反對派領袖加迪·艾森科特邀請現任總理本傑明·內塔尼亞胡領導的利庫德集團參與聯合談判。她已經在提出要求了。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>06:22</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/wahl-in-israel-gadi-eisenkot-trifft-benjamin-netanyahus-partei-zu-koalitionsgespraechen-a-5350748d-252f-43b2-ada8-8c0279780790#ref=rss" target="_blank" rel="noopener">Wahl in Israel: Gadi Eisenkot trifft Benjamin Netanyahus Partei zu Koalitionsgesprächen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">以色列選舉：加迪·艾森科特會見本傑明·內塔尼亞胡的政黨進行聯合談判</p>
+<p class="teaser" lang="de">Die israelische Partei Jaschar hat die amtierende Likud-Partei zu Koalitionsgesprächen eingeladen. Am Tag zuvor hatte der Oppositionsführer Gadi Eisenkot noch eine Minderheitsregierung in den Raum gestellt.</p>
+<p class="teaser zh" lang="zh-Hant">以色列賈沙爾黨已邀請現任利庫德集團參與聯合談判。此前一天，反對黨領袖加迪·艾森科特提議組成少數政府。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>06:15</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/proteste-frankreich-gelbwesten-weniger-teilnehmer-gewalt" target="_blank" rel="noopener">Gelbwestenbewegung: Sozialproteste in Frankreich münden in Gewalt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">黃背心運動：法國社會抗議演變成暴力</p>
+<p class="teaser" lang="de">Das sechste Wochenende in Folge haben Zehntausende Franzosen gegen hohe Preise und andere Missstände demonstriert. Erneut kam es zu Brandstiftungen und Sachbeschädigung.</p>
+<p class="teaser zh" lang="zh-Hant">連續第六個週末，數萬名法國民眾舉行示威抗議高物價和其他不滿情緒。再次發生縱火和財產損失事件。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>05:22</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/frankreich-deutlich-weniger-teilnehmer-am-sechsten-protestsamstag-a-4e6b94d5-2440-450f-a18e-6fba793ebcf8#ref=rss" target="_blank" rel="noopener">Frankreich: Deutlich weniger Teilnehmer am sechsten Protestsamstag</a></h3>
+<p class="zh zh-title" lang="zh-Hant">法國：抗議活動第六個週六參與者明顯減少</p>
+<p class="teaser" lang="de">Die Proteste gegen steigende Lebenshaltungskosten in Frankreich flachen ab. In manchen Städten kam es erneut zu Ausschreitungen.</p>
+<p class="teaser zh" lang="zh-Hant">法國針對生活成本上漲的抗議活動正在平息。一些城市再次爆發騷亂。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>04:54</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/politik/ausland/2026-11/igh-urteil-myanmar-rohingya-voelkermord-un-sicherheitsrat-frankreich" target="_blank" rel="noopener">IGH-Urteil: Frankreich will UN-Sicherheitsrat zur Lage in Myanmar einberufen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">國際法院裁決：法國欲召開聯合國安理會討論緬甸局勢</p>
+<p class="teaser" lang="de">Der IGH hatte Myanmar einen Völkermord an den Rohingya vorgeworfen und ihren Schutz gefordert. Weil die Junta sich weigert, sollen sich die UN damit befassen.</p>
+<p class="teaser zh" lang="zh-Hant">國際法院指控緬甸對羅興亞人進行種族滅絕，並呼籲保護他們。因為軍政府拒絕，聯合國應該處理。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:50</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/polen-flugobjekt-in-polen-war-russische-rakete-nato-spricht-von-einem-gefaehrlichen-vorfall-a-e82b2c83-f347-4ef6-b4b6-970b0d909be3#ref=rss" target="_blank" rel="noopener">Polen: Abgestürztes Flugobjekt war russische Rakete</a></h3>
+<p class="zh zh-title" lang="zh-Hant">波蘭：墜毀的飛行物是俄羅斯飛彈</p>
+<p class="teaser" lang="de">Drei militärische Flugobjekte schlugen im Südosten Polens ein, laut Ministerpräsident Donald Tusk eine »Provokation« Putins. Nun schaltet sich Nato-Generalsekretär Mark Rutte ein.</p>
+<p class="teaser zh" lang="zh-Hant">波蘭總理唐納德·圖斯克表示，三枚軍用飛行器襲擊了波蘭東南部，這是普丁的「挑釁」。現在北約秘書長馬克·呂特也介入其中。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:27</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/finnland-russisches-frachtschiff-nach-drohnenangriff-in-brand-a-4a4de76e-5165-4547-9c57-787de3fec8d8#ref=rss" target="_blank" rel="noopener">Finnland: Russisches Frachtschiff nach Drohnenangriff in Brand</a></h3>
+<p class="zh zh-title" lang="zh-Hant">芬蘭：俄羅斯貨船在無人機攻擊後起火</p>
+<p class="teaser" lang="de">»Der Krieg greift auf Gebiete in unserer Nachbarschaft über«, so Finnlands Ministerpräsident Orpo: Vor der Küste des Landes hat vermutlich eine ukrainische Drohne ein russisches Schiff getroffen.</p>
+<p class="teaser zh" lang="zh-Hant">芬蘭總理奧爾波表示：「戰爭正在蔓延到我們附近的地區。」一架烏克蘭無人機可能在該國海岸附近擊中了一艘俄羅斯船隻。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:02</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/ausland/afghanistan-wie-brutal-die-taliban-die-medizinische-versorgung-von-frauen-unterbinden-a-2f43cfc9-919f-4746-b5d4-4172000c54e6#ref=rss" target="_blank" rel="noopener">Afghanistan: Wie brutal die Taliban die medizinische Versorgung von Frauen unterbinden</a></h3>
+<p class="zh zh-title" lang="zh-Hant">阿富汗：塔利班如何殘酷地阻止婦女獲得醫療服務</p>
+<p class="teaser" lang="de">Die Sittenpolizei der Taliban greift immer härter durch: Afghanische Ärzte sollen Frauen nicht einmal mehr im Notfall behandeln. Hebammen dürfen nicht mehr ausgebildet werden. Es droht eine medizinische Katastrophe.</p>
+<p class="teaser zh" lang="zh-Hant">塔利班的道德警察正在採取越來越嚴厲的措施：阿富汗醫生甚至不再被允許在緊急情況下治療婦女。助產士不再被允許接受訓練。存在發生醫療災難的風險。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:55</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-neuer-angriff-israels-in-gaza-faz-200583539.html" target="_blank" rel="noopener">Liveblog Nahost: Neuer Angriff Israels in Gaza</a></h3>
+<p class="zh zh-title" lang="zh-Hant">中東直播部落格：以色列對加薩的新攻擊</p>
+<p class="teaser" lang="de">Berichte über vier Tote und mehrere verletzte Menschen +++ Neue Angriffe auf Tanker in Straße von Hormus +++ Irak geht gegen proiranische Miliz vor +++ Iran will US-Seeblockade durchbrechen +++ alle Entwicklungen im Liveblog</p>
+<p class="teaser zh" lang="zh-Hant">據報道，四人死亡、數人受傷 +++ 霍爾木茲海峽油輪遭遇新襲擊 +++ 伊拉克對親伊朗民兵採取行動 +++ 伊朗希望打破美國海上封鎖 +++ 實時博客中的所有動態</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 21:43</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/millionen-fund-in-ungarn-orban-und-die-korruption-201691514.html" target="_blank" rel="noopener">Korruption in Ungarn: Das Ende des Paten Orbán</a></h3>
+<p class="zh zh-title" lang="zh-Hant">匈牙利的腐敗：教父歐爾班的終結</p>
+<p class="teaser" lang="de">Nach dem Fund von vielen Millionen an Bargeld in ungarischen Wäldern spricht Péter Magyar vom Ende der „Fidesz-KDNP-Mafia“. Im Ton ist das übertrieben, im Kern hat Magyar aber recht.</p>
+<p class="teaser zh" lang="zh-Hant">在匈牙利森林中發現數百萬美元現金後，彼得·馬扎爾 (Péter Magyar) 談到“青民盟 - 庫德民族黨黑手黨”的終結。從語氣上看，這有些誇張，但本質上馬札爾是對的。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 13:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-bringt-stabschef-miller-als-praesidentschaftskandidaten-ins-spiel-faz-19444916.html" target="_blank" rel="noopener">USA unter Trump: Trump zu Miller: „Willst du für das Präsidentenamt kandidieren?“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">川普治下的美國：川普問米勒：“你想競選總統嗎？”</p>
+<p class="teaser" lang="de">Liveticker zur US-Politik unter Donald Trump / Trump dampft Militärübung mit Südkorea ein / Jetzt lesen im Liveticker der FAZ</p>
+<p class="teaser zh" lang="zh-Hant">唐納德·特朗普領導下的美國政治實時行情/特朗普取消與韓國的軍事演習/立即在 FAZ 實時行情中閱讀</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 10:26</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/jair-bolsonaro-im-krankenhaus-fast-vollstaendige-darmobstruktion-accg-201704017.html" target="_blank" rel="noopener">Unterleibsschmerzen: Brasiliens Ex-Präsident Jair Bolsonaro im Krankenhaus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">腹痛：巴西前總統雅伊爾·博爾索納羅住院</p>
+<p class="teaser" lang="de">Seit einem Messerangriff 2018 musste Bolsonaro mehrfach operiert werden. Nun befindet er sich wieder in einer Klinik. Sein Sohn führt die Beschwerden auf dessen Inhaftierung zurück.</p>
+<p class="teaser zh" lang="zh-Hant">自2018年遭遇持刀攻擊以來，博索納羅不得不接受多次手術。現在他又回到了診所。他的兒子將這些投訴歸因於他的監禁。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 04:18</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/politik/ausland/gipfeltreffen-in-shenzen-putin-und-trump-machen-es-xi-leicht-201691480.html" target="_blank" rel="noopener">Gipfeltreffen: Auch in Shenzhen lässt Trump mit sich spielen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">高峰會：川普在深圳也讓自己上場</p>
+<p class="teaser" lang="de">Xi Jinping suchte maximale Symbolik und geringe konkrete Ergebnisse. Putin und Trump machten es ihm leicht in Shenzhen.</p>
+<p class="teaser zh" lang="zh-Hant">習近平尋求最大限度的象徵意義，但很少取得具體成果。普丁和川普讓他在深圳的日子變得輕鬆。</p>
+</article></div></section>
+<section id="wirtschaft"><h2>經濟 <span>Wirtschaft</span></h2><div class="grid"><article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>04:03</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/was-denkt-harald-christ-der-investor-lobbyist-und-mann-zwischen-den-welten-201689491.html" target="_blank" rel="noopener">Harald Christ im Gespräch: „Heute lasse ich mich nicht mehr von einer Partei vereinnahmen“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">哈拉爾·基督對話：“今天我不會再讓自己被政黨接管”</p>
+<p class="teaser" lang="de">Harald Christ ist in vielen Rollen zwischen Wirtschaft und Politik unterwegs. Das sorgt immer wieder für Kritik. Mit seinem Unternehmen will er nicht weniger als einen Beitrag zur deutsch-europäischen Souveränität leisten.</p>
+<p class="teaser zh" lang="zh-Hant">哈拉爾德·克里斯特在商業和政治之間扮演著許多角色。這總是引起批評。他希望與他的公司一起為德歐主權做出貢獻。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>03:01</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/unternehmen/2026-11/paolo-bulgari-schmuckunternehmer-tod-edelsteine" target="_blank" rel="noopener">Paolo Bulgari: Schmuckunternehmer Paolo Bulgari ist tot</a></h3>
+<p class="zh zh-title" lang="zh-Hant">保羅·寶格麗 (Paolo Bulgari)：珠寶企業家保羅·寶格麗 (Paolo Bulgari) 去世</p>
+<p class="teaser" lang="de">Er galt als einer der weltweit führenden Experten für Edelsteine und prägte den Stil des Hauses Bulgari über Jahrzehnte. Mit 89 ist Paolo Bulgari gestorben.</p>
+<p class="teaser zh" lang="zh-Hant">他被認為是世界領先的寶石專家之一，數十年來塑造了寶格麗品牌的風格。保羅·寶格麗 (Paolo Bulgari) 去世，享年 89 歲。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:30</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/lars-klingbeil-und-das-defizit-tappt-deutschland-in-die-schuldenfalle-201621537.html" target="_blank" rel="noopener">Wachstum durch schulden?: Die Droge Defizit</a></h3>
+<p class="zh zh-title" lang="zh-Hant">透過債務實現成長？ ：毒品赤字</p>
+<p class="teaser" lang="de">Die Schulden von heute gefährden die Staatsfinanzen morgen. Lars Klingbeil kümmert das wenig. Der Finanzminister spielt Zukunftsminister.</p>
+<p class="teaser zh" lang="zh-Hant">今天的債務會危及明天的公共財政。拉爾斯·克林貝爾對此不太關心。財政部長扮演未來的部長。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:29</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/thore-schoelermann-ueber-den-wechsel-vom-moderator-zum-mcdonalds-unternehmer-a-db3f070f-19e6-4d63-97b9-02ac76a21c37#ref=rss" target="_blank" rel="noopener">Thore Schölermann über den Wechsel vom Moderator zum McDonald&#x27;s-Unternehmer</a></h3>
+<p class="zh zh-title" lang="zh-Hant">托雷·舍勒曼 (Thore Schölermann) 談到從主持人到麥當勞企業家的轉變</p>
+<p class="teaser" lang="de">Tausche Millionenpublikum gegen Fast-Food-Franchise: Moderator Thore Schölermann betreibt nun drei McDonald’s-Filialen. Im Interview erklärt er den ungewöhnlichen Wechsel – und sagt, was die Jobs gemein haben.</p>
+<p class="teaser zh" lang="zh-Hant">將數百萬觀眾換成快餐連鎖店：主持人托雷·舍勒曼 (Thore Schölermann) 現在經營三個麥當勞分店。在採訪中，他解釋了這一不尋常的變化，並講述了這些工作的共同點。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>02:25</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/eu-und-indonesien-unterzeichnen-weitreichenden-handelspakt-a-169be32d-6dd7-4308-8329-005d9e97b0bc#ref=rss" target="_blank" rel="noopener">EU und Indonesien unterzeichnen weitreichenden Handelspakt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">歐盟和印尼簽署影響深遠的貿易協定</p>
+<p class="teaser" lang="de">Die EU gewinnt die drittgrößte Demokratie der Welt als Partner: Indonesien. Schon bald sollen dadurch etwa Zölle auf europäische Autos entfallen, das ostasiatische Land will mehr wichtige Batterierohstoffe liefern.</p>
+<p class="teaser zh" lang="zh-Hant">歐盟獲得了世界第三大民主國家作為合作夥伴：印尼。歐洲汽車的關稅即將取消，東亞國家希望供應更重要的電池原料。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:33</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/unternehmen/tatjana-kim-chefin-von-russischem-onlinehaendler-wildberries-tritt-zurueck-a-c7075012-6bff-4f8e-8bc0-f8c3e9ac6d53#ref=rss" target="_blank" rel="noopener">Tatjana Kim: Chefin von russischem Onlinehändler Wildberries tritt zurück</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Tatjana Kim：俄羅斯線上零售商 Wildberry 負責人辭職</p>
+<p class="teaser" lang="de">Die Sanktionen der EU gegen die russische Unternehmerin Tatjana Kim zeigen Wirkung. Die Gründerin des »russischen Amazon« räumt ihren Führungsposten.</p>
+<p class="teaser zh" lang="zh-Hant">歐盟對俄羅斯企業家塔賈娜·金(Tatjana Kim)的製裁正在產生效果。 「俄羅斯亞馬遜」的創辦人正在放棄她的領導地位。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:07</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/klima-nachhaltigkeit/bauern-rufen-wieder-zum-protest-warum-ist-der-politische-einfluss-der-landwirte-so-gross-201635365.html" target="_blank" rel="noopener">Einfluss der Landwirte: Die Macht der Bauernlobby</a></h3>
+<p class="zh zh-title" lang="zh-Hant">農民的影響力：農民遊說的力量</p>
+<p class="teaser" lang="de">Der Deutsche Bauernverband ruft zu neuen Protesten gegen geplante Kürzungen der EU-Direktzahlungen auf. Wie schafft es eine so kleine Gruppe, so viel Gehör zu bekommen?</p>
+<p class="teaser zh" lang="zh-Hant">德國農民協會呼籲針對歐盟直接付款削減計畫發起新的抗議。這麼小的一個群體是如何獲得這麼多的關注的呢？</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:00</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wirtschaft/kaufland-ruft-speisekartoffeln-von-parmentine-zurueck-a-1dcaa54e-82ac-456d-a997-7b4b5824b793#ref=rss" target="_blank" rel="noopener">Kaufland ruft Speisekartoffeln von Parmentine zurück</a></h3>
+<p class="zh zh-title" lang="zh-Hant">考夫蘭正在召回 Parmentine 食用土豆</p>
+<p class="teaser" lang="de">Speisekartoffeln rot, festkochend: Die Handelskette Kaufland warnt vor dem Verzehr einer bestimmten Kartoffelsorte.</p>
+<p class="teaser zh" lang="zh-Hant">紅器土豆，蠟質：考夫蘭零售連鎖店警告不要食用某種類型的土豆。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:59</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/schneller-schlau/das-bier-ist-auf-dem-rueckzug-201698741.html" target="_blank" rel="noopener">Schneller Schlau: Bier auf dem Rückzug</a></h3>
+<p class="zh zh-title" lang="zh-Hant">快速聰明：啤酒正在下降</p>
+<p class="teaser" lang="de">1980 trank jeder Deutsche im Schnitt eine Badewanne voller Bier, mittlerweile ist es beinahe nur noch halb so viel. In der Rangliste der größten Braukonzerne spielen deutsche kaum noch eine Rolle.</p>
+<p class="teaser zh" lang="zh-Hant">1980年，每個德國人平均喝掉一浴缸的啤酒，但現在幾乎減少了一半。德國人在最大啤酒公司的排名中幾乎沒有發揮作用。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>00:14</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/mercedes-unter-druck-die-machtverhaeltnisse-verschieben-sich_969a2386-a390-48ea-864f-82afd43f6589.html" target="_blank" rel="noopener">Mercedes unter Druck: Die Machtverhältnisse verschieben sich</a></h3>
+<p class="zh zh-title" lang="zh-Hant">梅賽德斯面臨壓力：力量平衡正在改變</p>
+<p class="teaser" lang="de">Mercedes und IG Metall ringen um die Zukunft der Standorte. Warum beide Seiten ihre Macht überschätzen und damit eine Lösung erschweren könnten.</p>
+<p class="teaser zh" lang="zh-Hant">梅賽德斯和 IG Metall 正在為這些地點的未來而爭論。為什麼雙方都高估了自己的力量，使解決方案變得更加困難。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>00:08</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/howard-lutnick-usa-minister-wirtschaftspolitik-donald-trump" target="_blank" rel="noopener">Howard Lutnick: Kostet die Nvidia-Affäre Trumps Lieblingsminister das Amt?</a></h3>
+<p class="zh zh-title" lang="zh-Hant">霍華盧特尼克：英偉達事件會讓川普最喜歡的部長丟掉飯碗嗎？</p>
+<p class="teaser" lang="de">US-Wirtschaftsminister Howard Lutnick ist das loyalste Mitglied in Trumps Kabinett. Doch die Verbindungen seiner Familie zu Nvidia könnten ihn nun zu Fall bringen</p>
+<p class="teaser zh" lang="zh-Hant">美國商務部長霍華德·盧特尼克是川普內閣中最忠誠的成員。但他的家人與英偉達的關係現在可能會讓他失望</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 23:02</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/vom-boom-zum-absturz-die-trump-wette-geht-nicht-mehr-auf_3f006815-3ea2-4d90-9562-653aad882a67.html" target="_blank" rel="noopener">Vom Boom zum Absturz: Die Trump-Wette geht nicht mehr auf</a></h3>
+<p class="zh zh-title" lang="zh-Hant">從繁榮到崩潰：川普的賭注不再有效</p>
+<p class="teaser" lang="de">Donald Trumps geschätztes Vermögen ist seit September 2025 um eine Milliarde US-Dollar geschrumpft. Härter trifft der Absturz viele Anleger. Der Präsident hat Kryptogewinne längst in Aktien und Anleihen gesteckt.</p>
+<p class="teaser zh" lang="zh-Hant">自 2025 年 9 月以來，唐納德·川普的估計淨資產已縮水 10 億美元。這次崩盤對許多投資者造成了更嚴重的打擊。總統早已將加密貨幣利潤投資於股票和債券。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 22:03</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/geld/2026-11/ki-boom-boersencrash-technologieaktien-nasdaq" target="_blank" rel="noopener">Börse: Die Woche, in der der KI-Boom endete</a></h3>
+<p class="zh zh-title" lang="zh-Hant">股市：人工智慧熱潮結束的一周</p>
+<p class="teaser" lang="de">US-amerikanische Technologieaktien sind in einer Woche um zehn Prozent gefallen. So begannen früher Börsenkrisen. Und heute?</p>
+<p class="teaser zh" lang="zh-Hant">美國科技股一週內下跌百分之十。股市危機就是這樣開始的。今天呢？</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 20:59</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/trendwende-oder-naechster-kursrutsch-rheinmetall-im-check_ea5db799-0043-4495-a997-ba61771b1f2d.html" target="_blank" rel="noopener">Trendwende oder nächster Kursrutsch: Rheinmetall im Check</a></h3>
+<p class="zh zh-title" lang="zh-Hant">趨勢逆轉或下一次價格下滑：萊茵金屬正在接受審查</p>
+<p class="teaser" lang="de">Die Rheinmetall-Aktie hat binnen eines Jahres fast 65 Prozent an Wert verloren und steht nun an einer kritischen Unterstützungszone. Zwar gibt es technische Indikatoren, die für eine technische Erholung sprechen.</p>
+<p class="teaser zh" lang="zh-Hant">萊茵金屬股價在一年內損失了近 65% 的價值，目前處於關鍵支撐區域。有技術指標顯示技術性復甦。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 20:08</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/nvidia-und-anthropic-im-freien-fall-nasdaq-droht-baerenmarkt_f6962d91-332e-42ef-b58a-e62a63e1449f.html" target="_blank" rel="noopener">Nvidia und Anthropic im freien Fall: Nasdaq droht Bärenmarkt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Nvidia 和 Anthropic 直線下滑：納斯達克面臨熊市威脅</p>
+<p class="teaser" lang="de">Historischer Ausverkauf an der Wall Street: Chipwerte erleben ihre schwärzeste Woche seit 2001, während die Technologiebörse Nasdaq kurz vor einem Bärenmarkt steht. Charttechnisch ist die Nvidia-Aktie schwer angeschlagen.</p>
+<p class="teaser zh" lang="zh-Hant">華爾街歷史性拋售：晶片股正在經歷 2001 年以來最黑暗的一周，而納斯達克科技交易所正處於熊市的邊緣。從圖表來看，英偉達股價受到嚴重打擊。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 19:54</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/boerse/vw-aktie-analysten-sehen-fast-80-prozent-kurspotenzial_0f97be5b-9150-4feb-81cb-62e3179dbd1b.html" target="_blank" rel="noopener">VW-Aktie: Analysten sehen fast 80 Prozent Kurspotenzial</a></h3>
+<p class="zh zh-title" lang="zh-Hant">大眾汽車股票：分析師認為近 80% 的價格潛力</p>
+<p class="teaser" lang="de">Der Konzernumbau könnte die Gewinne von Volkswagen stärken – birgt aber auch Risiken. Ein Bonus-Zertifikat bietet auch bei seitwärts laufenden Kursen die Chance auf eine attraktive Rendite.</p>
+<p class="teaser zh" lang="zh-Hant">集團重組可能會增強大眾汽車的利潤，但也會帶來風險。即使價格橫向波動，獎金證書也能提供有吸引力的回報的機會。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 19:40</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/klimaschutzmassnahnen-vergleich-laender-griechenland-china" target="_blank" rel="noopener">Klimaschutzmaßnahmen: Diese Länder hängen uns beim Klimaschutz ab</a></h3>
+<p class="zh zh-title" lang="zh-Hant">氣候保護措施：這些國家在氣候保護方面依賴我們</p>
+<p class="teaser" lang="de">Deutschland war einst Vorreiter der erneuerbaren Energien, heute haben andere die Führung übernommen. Was Griechenland, Indien und selbst die USA besser machen.</p>
+<p class="teaser zh" lang="zh-Hant">德國曾經是再生能源的先驅，但今天其他國家已經佔據了領先地位。希臘、印度甚至美國做得更好。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 18:58</time></div>
+<h3 lang="de"><a href="https://www.focus.de/finanzen/news/reiche-will-autobahntankstellen-von-preisdeckel-ausnehmen_552c5a0c-185a-4459-81a1-b76d8eae7a2a.html" target="_blank" rel="noopener">Reiche will Autobahntankstellen von Preisdeckel ausnehmen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">賴什希望免除高速公路加油站的價格上限</p>
+<p class="teaser" lang="de">Wirtschaftsministerin Katherina Reiche (CDU) will Autobahntankstellen vom geplanten Preisdeckel für Benzin und Diesel ausnehmen.</p>
+<p class="teaser zh" lang="zh-Hant">經濟部長凱瑟琳娜·賴什（基民盟）希望將高速公路加油站排除在汽油和柴油計畫價格上限之外。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 18:40</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wirtschaft/unternehmen/business-liveticker-unsinn-tiktok-kritisiert-verkaufsplaene-vom-kulturstaatsminister-weimer-faz-200452404.html" target="_blank" rel="noopener">Business-Ticker: „Unsinn“: Tiktok kritisiert Verkaufspläne vom Kulturstaatsminister Weimer</a></h3>
+<p class="zh zh-title" lang="zh-Hant">商業代碼：「無稽之談」：Tiktok 批評文化國務部長韋默的銷售計劃</p>
+<p class="teaser" lang="de">Hackerangriff auf Hugendubel +++ Pharmakonzern CSL Behring baut Produktion in Marburg aus +++ Lagarde will EZB-Schutzschirm gegen Finanzstress von außerhalb der Eurozone ausweiten +++ alle Neuigkeiten im Unternehmen-Liveblog</p>
+<p class="teaser zh" lang="zh-Hant">Hugendubel 遭遇駭客攻擊 +++ 製藥公司 CSL Behring 擴大馬爾堡生產 +++ 拉加德希望擴大歐洲央行抵禦歐元區以外金融壓力的保護範圍 +++ 所有新聞均在公司即時部落格中</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 17:28</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/strompreise-stromkosten-stromsteuer-netzentgelte-verivox-gxe" target="_blank" rel="noopener">Stromsteuersenkung: Stromausgaben steigen laut Verivox trotz Stromsteuersenkung</a></h3>
+<p class="zh zh-title" lang="zh-Hant">電費減免：據 Verivox 稱，儘管電費減免，但電力支出仍在增加</p>
+<p class="teaser" lang="de">Wegen der Preiserhöhungen der Versorger müssen Verbraucher laut einer Studie 2027 mit höheren Stromkosten rechnen. Die Stromsteuersenkung hält das demnach nicht auf.</p>
+<p class="teaser zh" lang="zh-Hant">一項研究表明，由於供應商提價，消費者將不得不預計 2027 年電費將上漲。電力稅的削減不會阻止這一點。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 15:49</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/wirtschaft/2026-11/plastikmuell-export-eu-oecd-ausfuhr-verbot-gxe" target="_blank" rel="noopener">Müllexport: EU verbietet Ausfuhr von Plastikmüll in Staaten außerhalb der OECD</a></h3>
+<p class="zh zh-title" lang="zh-Hant">垃圾出口：歐盟禁止向經合組織以外國家出口塑膠垃圾</p>
+<p class="teaser" lang="de">Die Europäische Union führt bis mindestens Mai 2029 strenge Regeln für den Export von Plastikmüll ein. Künftig sind nur noch Ausfuhren in die 38 OECD-Länder erlaubt.</p>
+<p class="teaser zh" lang="zh-Hant">歐盟正在製定嚴格的塑膠廢棄物出口規定，至少到 2029 年 5 月為止。未來，僅允許向 38 個 OECD 國家出口。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 15:46</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wirtschaft/aktien-boerse-nasdaq-anthropic-nvidia-li.3583968" target="_blank" rel="noopener">Aktien: Und auf einmal herrscht ein bisschen Panik an den Börsen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">股票：股市突然出現一點恐慌</p>
+<p class="teaser" lang="de">Nur einen Tag nach dem Anthropic-Börsengang brechen Kurse ein und KI-Aktien stürzen ab. Anleger flüchten in vermeintlich sichere Anlagen. Das sind die Gründe.</p>
+<p class="teaser zh" lang="zh-Hant">Anthropic 首次公開發行僅一天后，價格就暴跌，人工智慧股票暴跌。投資者紛紛湧入所謂安全的投資領域。原因有這些。</p>
+</article></div></section>
+<section id="kultur"><h2>文化・藝文 <span>Kultur &amp; Feuilleton</span></h2><div class="grid"><article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>05:33</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/ich-hab-nichts-genommen-maite-kelly-patzt-in-der-giovanni-zarrella-show_302654c5-3ddc-4f58-a488-8d3d0d502ff9.html" target="_blank" rel="noopener">„Ich hab nichts genommen“: Maite Kelly patzt in der „Giovanni Zarrella Show“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《我什麼都沒拿》：梅特凱利在《喬瓦尼·扎雷拉秀》上犯了一個錯誤</p>
+<p class="teaser" lang="de">Maite Kelly sorgt in der „Giovanni Zarrella Show“ für einen unfreiwillig komischen Moment. Der Moderator reagiert prompt mit einem Scherz.</p>
+<p class="teaser zh" lang="zh-Hant">梅特凱利在“喬瓦尼·扎雷拉秀”上無意中創造了一個有趣的時刻。主持人迅速回應了一個笑話。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:56</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/ex-viva-moderator-tobias-schlegl-im-rettungsdienst-angegriffen-lebensgefaehrlich_5a58c127-5e8c-4b24-a4e1-124f277f5e26.html" target="_blank" rel="noopener">Ex-Viva-Moderator Tobias Schlegl im Rettungsdienst angegriffen: „Lebensgefährlich“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">前 Viva 主持人托比亞斯·施萊格爾在緊急服務中遭到襲擊：“危及生命”</p>
+<p class="teaser" lang="de">Seit rund zehn Jahren arbeitet der frühere Viva-Moderator Tobias Schlegl im Rettungsdienst. Nun ist er bei einem Einsatz selbst zum Ziel geworden. Körperlich blieb er wohl unverletzt, doch das Erlebnis lässt ihn nicht los.</p>
+<p class="teaser zh" lang="zh-Hant">前 Viva 主持人 Tobias Schlegl 在緊急服務部門工作了大約十年。現在他自己也成為了一次行動中的目標。他的身體可能沒有受傷，但這種經歷從未離開過他。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:47</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/live-im-zdf-giovanni-zarrella-richtet-emotionale-worte-an-erkrankten-hartmut-engler_9506bc1a-dfb7-4b77-80fd-2a55b9734cda.html" target="_blank" rel="noopener">Live im ZDF: Giovanni Zarrella richtet emotionale Worte an erkrankten Hartmut Engler</a></h3>
+<p class="zh zh-title" lang="zh-Hant">ZDF 直播：喬瓦尼·扎雷拉 (Giovanni Zarrella) 對生病的哈特穆特·恩格勒 (Hartmut Engler) 發表了感人的話語</p>
+<p class="teaser" lang="de">PUR musste seinen Auftritt in der „Giovanni Zarrella Show“ krankheitsbedingt absagen. Live in der Sendung richtete der Gastgeber persönliche Genesungswünsche an Hartmut Engler.</p>
+<p class="teaser zh" lang="zh-Hant">PUR 因病不得不取消在「Giovanni Zarrella Show」上的亮相。節目現場主持人向哈特穆特·恩格勒送上了個人祝福。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:53</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/heiratsantrag-live-bei-der-giovanni-zarrella-show-zuschauerin-zu-traenen-geruehrt_ebb9663c-44cc-4596-8428-20d11ec7fd24.html" target="_blank" rel="noopener">Heiratsantrag live bei der „Giovanni Zarrella Show“: Zuschauerin zu Tränen gerührt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《喬瓦尼·扎雷拉秀》現場求婚：觀眾感動落淚</p>
+<p class="teaser" lang="de">Ein missglückter Heiratsantrag liegt 40 Jahre zurück. In der „Giovanni Zarrella Show“ überrascht Thomas seine Frau Manuela mit einer emotionalen Liebeserklärung.</p>
+<p class="teaser zh" lang="zh-Hant">40年前發生了一次失敗的求婚。在“喬瓦尼·扎雷拉秀”中，托馬斯用情感的愛的宣言給了他的妻子曼努埃拉一個驚喜。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:16</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/kino-tv/neben-michelle-serkan-yavuz-soll-ins-dschungelcamp-2027-ziehen_5274b5b7-3559-4feb-99e3-e86eb5f14aac.html" target="_blank" rel="noopener">Neben Michelle: Serkan Yavuz soll ins Dschungelcamp 2027 ziehen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">米歇爾旁邊：Serkan Yavuz 預計將於 2027 年搬到叢林營地</p>
+<p class="teaser" lang="de">Nachdem bekannt wurde, dass Michelle ins Dschungelcamp ziehen soll, steht nun offenbar der zweite Kandidat fest. Serkan Yavuz soll ein Jahr nach seiner Ex-Frau Samira bei „Ich bin ein Star – Holt mich hier raus!“ mitmachen.</p>
+<p class="teaser zh" lang="zh-Hant">在得知米歇爾將搬到叢林營地後，第二位候選人顯然已經被選中。據說塞爾坎·亞烏茲 (Serkan Yavuz) 是在他的前妻薩米拉 (Samira) 一年後出演《我是名人 – 帶我離開這裡！ 》加入。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:59</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/buecher/sachbuch/wie-die-welt-zur-ware-wurde-trevor-jackson-zur-geschichte-des-kapitalismus-201314097.html" target="_blank" rel="noopener">Wirtschaftsgeschichte: Kaum einer wollte den Kapitalismus – trotzdem setzte er sich durch</a></h3>
+<p class="zh zh-title" lang="zh-Hant">經濟史：幾乎沒有人想要資本主義——但它仍然盛行</p>
+<p class="teaser" lang="de">Von wegen historische Notwendigkeit: Der Wirtschaftshistoriker Trevor Jackson erzählt die Geschichte des Kapitalismus als Aneinanderreihung von Zufällen. Die Folgen habe fast niemand überblickt.</p>
+<p class="teaser zh" lang="zh-Hant">沒有歷史必然性：經濟歷史學家特雷弗傑克森將資本主義的歷史描述為一系列巧合。幾乎沒有人預見後果。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:14</time></div>
+<h3 lang="de"><a href="https://www.focus.de/kultur/stars/schlagerstar-giovanni-zarrella-wagt-neuen-musikalischen-schritt-ganz-natuerlich-angefuehlt_bc10d3fd-c705-4724-a006-54b0546988af.html" target="_blank" rel="noopener">Schlagerstar Giovanni Zarrella wagt neuen musikalischen Schritt: „Ganz natürlich angefühlt“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">流行歌手喬瓦尼·扎雷拉 (Giovanni Zarrella) 敢於邁出新的音樂一步：“感覺完全自然”</p>
+<p class="teaser" lang="de">Giovanni Zarrella überrascht mit einem englischen Weihnachtssong. Im Interview mit FOCUS online erklärt er, warum ihm das Lied besonders am Herzen liegt.</p>
+<p class="teaser zh" lang="zh-Hant">喬瓦尼·扎雷拉 (Giovanni Zarrella) 演唱了一首英文聖誕歌曲，帶給大家驚喜。在接受 FOCUS 在線採訪時，他解釋了為什麼這首歌特別貼近他的心。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>01:38</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/kultur/mick-flick-kunstsammler-gestorben-li.3584124" target="_blank" rel="noopener">Folgen eines Sturzes: Kunstsammler „Mick“ Flick ist tot</a></h3>
+<p class="zh zh-title" lang="zh-Hant">跌倒的後果：藝術收藏家「米克」弗里克去世</p>
+<p class="teaser" lang="de">Der Kunstsammler und Unternehmer Friedrich Christian „Mick“ Flick ist in Rosenheim an den Folgen eines Sturzes gestorben. Er wurde 82 Jahre alt.</p>
+<p class="teaser zh" lang="zh-Hant">藝術收藏家兼企業家弗里德里希·克里斯蒂安·“米克”·弗里克在羅森海姆墜落身亡。他已經82歲了。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>01:00</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/friedrich-christian-mick-flick-spross-einer-industriellendynastie-ist-tot-a-f9d81eae-7bc2-4cc3-a05a-2ab504c1c2a8#ref=rss" target="_blank" rel="noopener">»Mick« Flick: Kunstsammler und Spross der Industriellendynastie ist tot</a></h3>
+<p class="zh zh-title" lang="zh-Hant">「米克」弗里克：藝術收藏家和工業王朝的後裔去世</p>
+<p class="teaser" lang="de">Er war einer der superreichen Deutschen. Mit der skandalumwitterten Vergangenheit seiner Familie setzte er sich aktiv auseinander. Jetzt ist Friedrich Christian Flick gestorben. Er wurde 82 Jahre alt.</p>
+<p class="teaser zh" lang="zh-Hant">他是德國超級富豪之一。他積極處理家族不光彩的過去。現在弗里德里希·克里斯蒂安·弗利克去世了。他已經82歲了。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:59</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/john-turturro-spielt-the-only-pickpocket-in-new-yorck-accg-201637702.html" target="_blank" rel="noopener">Neu im Kino: Mit John Turturro durch New York</a></h3>
+<p class="zh zh-title" lang="zh-Hant">電影新作：與約翰特托羅一起穿越紐約</p>
+<p class="teaser" lang="de">Im Zwiegespräch mit einer Stadt: In „The Only Living Pickpocket in New York“ spielt das New Yorker Urgestein einen Taschendieb – der als Relikt einer alten Zeit auf die Gegenwart prallt.</p>
+<p class="teaser zh" lang="zh-Hant">與一座城市的對話：在《紐約唯一活著的扒手》中，紐約老兵扮演一名扒手——作為古代的遺物，與現在發生碰撞。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:00</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/buecher/literatur/birgit-birnbachers-roman-sie-wollen-uns-erzaehlen-201604277.html" target="_blank" rel="noopener">Birgit Birnbacher: Was es bei ADHS braucht</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Birgit Birnbacher：患有過動症需要什麼</p>
+<p class="teaser" lang="de">Birgit Birnbacher erzählt in ihrem Roman „Sie wollen uns erzählen“ von einer besonderen Mutter-Kind-Beziehung – weit weg von jeder Kunstsprache und gerade deshalb so nah an den kleinen Momenten.</p>
+<p class="teaser zh" lang="zh-Hant">比吉特·伯恩巴赫（Birgit Birnbacher）在她的小說《你想告訴我們》中講述了一種特殊的母子關係——遠離任何人為的語言，也正因為如此，才如此貼近微小的時刻。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/gerard-depardieu-und-michel-houellebecq-vorwurf-der-gemeinschaftliche-vergewaltigung-justiz-ermittelt-a-2c73adeb-f0e4-4ce6-a7fc-c3f29f12b3b3#ref=rss" target="_blank" rel="noopener">Gérard Depardieu und Michel Houellebecq: Vorwurf der gemeinschaftliche Vergewaltigung</a></h3>
+<p class="zh zh-title" lang="zh-Hant">熱拉爾·德帕迪約和米歇爾·維勒貝克：集體強姦指控</p>
+<p class="teaser" lang="de">Eine Schauspielerin wirft Gérard Depardieu und Michel Houellebecq vor, ihr gegenüber sexuell übergriffig geworden sein. Die Frau hat den Schauspieler und den Schriftsteller verklagt, ein Verfahren wurde eröffnet.</p>
+<p class="teaser zh" lang="zh-Hant">一名女演員指控傑拉爾·德帕迪約和米歇爾·維勒貝克對她進行性侵犯。該女子已起訴演員和作家，​​訴訟程序已啟動。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 23:40</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/fernsehfilm/wohnungsnot-in-muenchen-hoerspiel-am-meer-lag-muenchen-nie-201691290.html" target="_blank" rel="noopener">Hörspiel zu Wohnungsnot: Sie macht die Welt, wie sie ihr gefällt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">關於住房危機的廣播劇：她按照她喜歡的方式創造了世界</p>
+<p class="teaser" lang="de">Das Hörspiel „Am Meer lag München nie“ nimmt seine Hörer mit in ein München, das für alle Menschen erschwinglich ist. Möglich macht’s ein Pakt mit der Vergangenheit. Doch der hat seinen Preis.</p>
+<p class="teaser zh" lang="zh-Hant">廣播劇《慕尼黑從來不靠海》將聽眾帶入人人都能負擔得起的慕尼黑。使之成為可能的是與過去的契約。但它有它的價格。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 23:30</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/feuilleton/medien-und-film/kino/renate-reinsve-spielt-grossartig-in-butterfly-rueckkehr-nach-gran-canaria-201691215.html" target="_blank" rel="noopener">Kinofilm „Butterfly“: Sag mir, wer ich wirklich bin</a></h3>
+<p class="zh zh-title" lang="zh-Hant">電影《蝴蝶》：告訴我我到底是誰</p>
+<p class="teaser" lang="de">In dem Film „Butterfly – Rückkehr nach Gran Canaria“ reisen zwei ungleiche Schwestern auf die Kanaren, um den Nachlass ihrer Mutter zu ordnen. Mit dabei: die großartige Renate Reinsve, die ihre Klasse auch hier beweist.</p>
+<p class="teaser zh" lang="zh-Hant">在電影《蝴蝶之重返大加那利島》中，兩個不太可能的姐妹前往加那利群島整理她們母親的遺產。還有偉大的 Renate Reinsve，她也在這裡證明了自己的等級。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 23:04</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/2026/50/gozo-insel-wandern-strand" target="_blank" rel="noopener">Gozo: Gozo</a></h3>
+<p class="zh zh-title" lang="zh-Hant">戈佐島： 戈佐島</p>
+<p class="teaser" lang="de">Noch nie von Gozo gehört? Dürfte vielen so gehen. Dabei kann man auf Maltas kleiner Schwesterinsel so erholsame Tage zwischen Salzbecken und Steilklippen verbringen.</p>
+<p class="teaser zh" lang="zh-Hant">從未聽過戈佐島？對很多人來說可能都是這樣。您可以在馬耳他的小姊妹島上的鹽盆地和陡峭的懸崖之間度過輕鬆的日子。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 20:05</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/2026/50/essen-unterwegs-meal-prep-kosten-gesundheit" target="_blank" rel="noopener">Essen unterwegs: Proviant ist Notwehr</a></h3>
+<p class="zh zh-title" lang="zh-Hant">邊走邊吃：食物是自衛</p>
+<p class="teaser" lang="de">An deutschen Reiserouten herrscht eine Trostlosigkeit aus Remoulade, Schinken-Käse-Baguettes und Pressfleisch-Pizzazungen. Laura Ewert lässt sich so nicht mehr abspeisen.</p>
+<p class="teaser zh" lang="zh-Hant">德國的旅行路線充滿了韃靼醬、火腿起司法國麵包和壓肉披薩舌頭的荒涼。勞拉·埃沃特不能再像這樣被欺騙了。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 19:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/musik/mick-jagger-rolling-stones-frontmann-mick-jagger-wundert-sich-ueber-vorbehalte-gegen-migration-a-fc00f367-f024-4594-b257-7911983d40b2#ref=rss" target="_blank" rel="noopener">Mick Jagger: Rolling Stones-Frontmann wundert sich über Vorbehalte gegen Migration</a></h3>
+<p class="zh zh-title" lang="zh-Hant">米克賈格爾：滾石主唱對移民持保留態度感到驚訝</p>
+<p class="teaser" lang="de">Fast überall auf der Welt haben Migranten einen schweren Stand. Mick Jagger will sich damit nicht abfinden. Menschen sollten zusammenhalten, erklärte der Rolling-Stones-Sänger jetzt in einem Interview.</p>
+<p class="teaser zh" lang="zh-Hant">世界各地的移民幾乎都過著艱苦的日子。米克·賈格爾不想接受這一點。這位滾石歌手在接受採訪時解釋說，人們應該團結在一起。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 15:50</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/literatur/bosco-ruebe-und-die-beweisung-des-weihnachtsmanns-der-beste-verstecker-der-welt-a-bd3b685c-0266-4976-8754-59218afad363#ref=rss" target="_blank" rel="noopener">»Bosco Rübe und die Beweisung des Weihnachtsmanns«: Der beste Verstecker der Welt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《博斯科·魯貝與聖誕老人的證據》：世界上最好的藏匿者</p>
+<p class="teaser" lang="de">Die Kinderbuchreihe um Bosco Rübe erzieht nicht die Kinder, sondern die Erwachsenen. Im neuen Teil zweifelt der Titelheld am Weihnachtsmann. Aber je mehr er zweifelt, desto tiefer wird sein Glaube.</p>
+<p class="teaser zh" lang="zh-Hant">關於 Bosco Rübe 的兒童讀物系列不是教育兒童，而是教育成人。在新的部分中，主角懷疑聖誕老人。但他越懷疑，他的信仰就越深。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 12:46</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/kultur/kino/kevin-allein-zu-haus-macaulay-culkin-plant-dritte-fortsetzung-nach-35-jahren-a-ecdbb8df-9679-4753-bd84-cfa988e23d81#ref=rss" target="_blank" rel="noopener">»Kevin – Allein zu Haus«: Macaulay Culkin plant dritte Fortsetzung nach 35 Jahren</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《凱文 – 小鬼當家》：麥考利卡爾金計畫拍攝 35 年後的第三部續集</p>
+<p class="teaser" lang="de">Vor gut 35 Jahren kam die Erfolgskomödie »Kevin – Allein zu Haus« in die Kinos, wenig später eine Fortsetzung. Nun soll ein dritter Teil entstehen – mit dem damaligen Kinderstar Macaulay Culkin.</p>
+<p class="teaser zh" lang="zh-Hant">35 年前，成功的喜劇《小鬼當家》在電影院上映，不久後又推出了續集。現在第三部即將製作——由當時的童星麥考利·卡爾金主演。</p>
+</article></div></section>
+<section id="wissen"><h2>科學・教育 <span>Wissen &amp; Bildung</span></h2><div class="grid"><article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>08:53</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/arbeit/2026-11/tarifkonflikt-metall-elektroindustrie-ig-metall-arbeitgeber" target="_blank" rel="noopener">Metall- und Elektroindustrie: IG Metall weitet Warnstreiks aus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">金屬和電氣產業：IG Metall 擴大警告罷工</p>
+<p class="teaser" lang="de">In der kommenden Woche will die IG Metall ihre 24-Stunden-Streiks fortführen. Im Norden sind mehr als 23.000 Beschäftigte zur Arbeitsniederlegung aufgerufen.</p>
+<p class="teaser zh" lang="zh-Hant">IG Metall 希望下週繼續 24 小時罷工。在北部，超過23,000名員工被要求停工。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>04:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/seit-13-jahren-beobachtet-nasa-rover-ein-seltsames-phaenomen-forscher-vermuten-nun-wasser-auf-der-mars-oberflaeche_1ed5d23b-68a7-4dc0-aaf3-a3517dd2ce35.html" target="_blank" rel="noopener">Seit 13 Jahren beobachtet Nasa-Rover ein seltsames Phänomen: Forscher vermuten nun Wasser auf der Mars-Oberfläche</a></h3>
+<p class="zh zh-title" lang="zh-Hant">NASA的火星車13年來一直在觀察一個奇怪的現象：研究人員現在懷疑火星表面有水</p>
+<p class="teaser" lang="de">Dreizehn Jahre gesammelter Daten ergeben ein auffälliges Muster: Der Anteil schweren Sauerstoffs in der Marsluft schwankt mit den Jahreszeiten. Eine mögliche Erklärung ist Wasser an der Oberfläche.</p>
+<p class="teaser zh" lang="zh-Hant">十三年收集的數據揭示了一個驚人的模式：火星空氣中重氧的比例隨季節波動。一個可能的解釋是表面有水。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>01:40</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/forscher-entdecken-125-000-jahre-alte-giftwaffen-aus-der-steinzeit_73c0e4c7-4250-4d7e-95f2-dd3b977a58c2.html" target="_blank" rel="noopener">Forscher entdecken 125.000 Jahre alte Giftwaffen aus der Steinzeit</a></h3>
+<p class="zh zh-title" lang="zh-Hant">研究人員發現了125,000年前石器時代的有毒武器</p>
+<p class="teaser" lang="de">In Saudi-Arabien haben Archäologen Tausende steinerne Werkzeuge entdeckt. Sie könnten möglicherweise die ältesten vergifteten Jagdwaffen der Menschheit sein.</p>
+<p class="teaser zh" lang="zh-Hant">考古學家在沙烏地阿拉伯發現了數千件石器。它們可能是人類最古老的有毒狩獵武器。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>01:30</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/mensch/forscher-entdecken-neandertaler-erbe-mit-effekt-auf-das-menschliche-gehirn_3f7f9d27-d04d-49d1-855c-ce152e0c3f23.html" target="_blank" rel="noopener">Forscher entdecken Neandertaler-Erbe mit Effekt auf das menschliche Gehirn</a></h3>
+<p class="zh zh-title" lang="zh-Hant">研究人員發現尼安德特人的遺傳對人類大腦有影響</p>
+<p class="teaser" lang="de">Eine von Neandertalern stammende Genvariante beeinflusst Menschen bis heute. Sie hat unter anderem Auswirkungen auf unsere psychische Gesundheit.</p>
+<p class="teaser zh" lang="zh-Hant">來自尼安德特人的基因變異仍然影響著今天的人們。除此之外，它對我們的心理健康有影響。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 21:40</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/uno-klimakonferenz-in-antalya-frust-und-verhaertete-fronten-beim-verhandlungsfinale-a-1beb060c-afd7-45c3-8da2-6663214f4dd7#ref=rss" target="_blank" rel="noopener">Uno-Klimakonferenz in Antalya: Frust und verhärtete Fronten beim Verhandlungsfinale</a></h3>
+<p class="zh zh-title" lang="zh-Hant">安塔利亞聯合國氣候會議：談判結局中的挫折感與強硬立場</p>
+<p class="teaser" lang="de">Auch 20 Stunden nach dem offiziellen Ende des diesjährigen Klimagipfels in der Türkei stocken die Verhandlungen über die Abschlusserklärung. Verhandler sind frustriert, Ländergruppen heillos zerstritten. Die EU drohte sogar mit einem Scheitern.</p>
+<p class="teaser zh" lang="zh-Hant">即使今年土耳其氣候高峰會正式結束20小時後，最終宣言的談判仍陷入停滯。談判代表們感到沮喪，各國集團也陷入了無可救藥的分裂。歐盟甚至威脅要失敗。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 20:57</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/wissenschaft/mensch/mundgeruch-die-ursache-fuer-schlechten-atem-wird-oft-jahrelang-uebersehen-a-86c42235-e3b8-4693-a49e-4b2b3824cd36#ref=rss" target="_blank" rel="noopener">Mundgeruch: Die Ursache für schlechten Atem wird oft jahrelang übersehen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">口臭：口臭的原因多年来常常被忽视</p>
+<p class="teaser" lang="de">Millionen Menschen riechen unangenehm aus dem Mund, häufig ohne es selbst zu bemerken. In einer speziellen Sprechstunde der Universitätsmedizin Göttingen zeigt Zahnarzt Tim Hausdörfer, wie man den schlechten Atem loswird.</p>
+<p class="teaser zh" lang="zh-Hant">數百萬人在嘴裡聞到難聞的氣味，但往往沒有註意到。在哥廷根大學醫學中心的一次特別諮詢中，牙醫 Tim Hausdörfer 展示瞭如何消除口臭。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 20:53</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wissen/riemannsche-vermutung-kuenstliche-intelligenz-mathematik-millennium-problem-claude-li.3584001" target="_blank" rel="noopener">Künstliche Intelligenz: Anthropic-Mathematiker will Riemannsche Vermutung bewiesen haben</a></h3>
+<p class="zh zh-title" lang="zh-Hant">人工智能：人择数学家声称已证明黎曼猜想</p>
+<p class="teaser" lang="de">Levent Alpöge hat am Freitag einen zusammen mit dem KI-Modell Claude erstellten Beweis des berühmten Millennium-Problems veröffentlicht. Warum das ein historisches Ergebnis sein könnte.</p>
+<p class="teaser zh" lang="zh-Hant">Levent Alpöge 於週五發表了與人工智慧模式 Claude 共同創建的著名千年問題的證明。為什麼這可能是一個歷史性的結果。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 19:38</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/konservative-christen-gegen-lgbtq-nicht-in-meinem-namen-sagt-passauer-bischof-stefan-oster_d64319dc-5c89-4e02-9c6c-ec636d7e379c.html" target="_blank" rel="noopener">Konservative Christen gegen LGBTQ: „Nicht in meinem Namen“, sagt Passauer Bischof Stefan Oster</a></h3>
+<p class="zh zh-title" lang="zh-Hant">反对 LGBTQ 的保守派基督徒：“不是以我的名义，”帕绍主教斯特凡·奥斯特 (Stefan Oster) 说道</p>
+<p class="teaser" lang="de">Der Europarat will homosexuelle und transgeschlechtliche Menschen besser schützen. Evangelikale Christen fürchten um ihre Glaubensfreiheit. Auch katholische Bischöfe wehren sich gegen ein verändertes Verständnis von Sexualität und Geschlecht.</p>
+<p class="teaser zh" lang="zh-Hant">歐洲委員會希望能更好地保護同性戀者和跨性別者。福音派基督徒擔心他們的宗教自由。天主教主教也抵制改變對性和性別的理解。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 18:20</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/medizin-ernaehrung/warum-die-eu-ihre-buerger-nicht-vor-pfas-schuetzen-kann-den-teilweise-giftigen-ewigkeitschemikalien-accg-201695785.html" target="_blank" rel="noopener">EU-Report: Im Frühstücksei könnten PFAS stecken</a></h3>
+<p class="zh zh-title" lang="zh-Hant">欧盟报告：早餐鸡蛋中可能含有PFAS</p>
+<p class="teaser" lang="de">Die EU soll ihre Bürger vor schädlichen Substanzen schützen. Warum das bei Ewigkeitschemikalien nicht funktioniert.</p>
+<p class="teaser zh" lang="zh-Hant">歐盟應該保護其公民免受有害物質的侵害。為什麼這不適用於永恆化學物質。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 18:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/mensch/archaeologische-sensation-rund-320-000-jahre-alte-zaehne-offenbaren-neuen-lebensraum-des-homo-erectus_03dd20b4-25f0-4dca-9e96-628cd9a7a9d9.html" target="_blank" rel="noopener">Archäologische Sensation: Rund 320.000 Jahre alte Zähne offenbaren neuen Lebensraum des Homo erectus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">考古轰动：32万年前的牙齿揭示了直立人的新栖息地</p>
+<p class="teaser" lang="de">Der Frühmensch könnten noch vor 184.000 Jahren im Süden Chinas gelebt haben, wie fossile Zähne belegen. Überraschend ist auch der Lebensraum dieser Population.</p>
+<p class="teaser zh" lang="zh-Hant">牙齒化石顯示，18.4萬年前，早期人類可能生活在中國南方。這個族群的棲息地也令人驚訝。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 15:39</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/wissen/medizin-ernaehrung/sport-gegen-depression-was-wirklich-hilft-und-wie-man-anfaengt-accg-201340324.html" target="_blank" rel="noopener">Sport bei Depressionen: „Man erlebt, dass man zu etwas fähig ist“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">运动治疗抑郁症：“你体验到自己有能力做某事”</p>
+<p class="teaser" lang="de">Ob an Hantelstange, Tennisschläger oder Yogamatte – Menschen können in Krisen Halt im Sport finden. Aber welcher Sport ist der richtige? Und wie schafft man es, anzufangen, wenn schon das Aufstehen ein Kraftakt ist?</p>
+<p class="teaser zh" lang="zh-Hant">無論是啞鈴桿、網球拍還是瑜珈墊——人們都可以在危機時刻從運動中找到支持。但哪一項運動才是正確的呢？當起床就很困難的時候，你要如何開始呢？</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 14:56</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/2026/50/eisschwimmen-josef-koeberl-unterkuehlung-gefahr-gluecksgefuehle" target="_blank" rel="noopener">Eisschwimmen: »Ich wusste, dass ich das nicht mehr überlebe«</a></h3>
+<p class="zh zh-title" lang="zh-Hant">冰泳：“我知道我活不下去了”</p>
+<p class="teaser" lang="de">Josef Köberl ist einer der besten Eisschwimmer der Welt. Hier spricht er über sein Trockentraining in der Kühltruhe und die lebensgefährliche »Kälteidiotie«.</p>
+<p class="teaser zh" lang="zh-Hant">約瑟夫·科貝爾是世界上最好的冰泳運動員之一。在這裡，他講述了他在冰箱裡的干訓練和危及生命的“冷愚蠢”。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>21.11. 14:20</time></div>
+<h3 lang="de"><a href="https://www.focus.de/wissen/waehrend-das-eis-schmilzt-4000-jahre-alter-bronze-halsring-auf-alpenpass-entdeckt_e757d895-a23a-49b7-bfc9-02736968bfc2.html" target="_blank" rel="noopener">Während das Eis schmilzt: 4000 Jahre alter Bronze-Halsring auf Alpenpass gefunden</a></h3>
+<p class="zh zh-title" lang="zh-Hant">当冰融化时：在阿尔卑斯山口发现有 4000 年历史的青铜项链</p>
+<p class="teaser" lang="de">Beim Abschmelzen des Eises kommt auf einem Schweizer Alpenpass ein 4000 Jahre alter Bronze-Halsring zum Vorschein. Dieser könnte einst als Opfergabe oder Glücksbringer zurückgelassen worden sein.</p>
+<p class="teaser zh" lang="zh-Hant">隨著冰層融化，一條 4000 年歷史的青銅項鍊出現在瑞士阿爾卑斯山山口上。這可能曾經作為祭品或幸運符而被留下。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 14:00</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/wissen/podcast-nachrichten-auf-den-punkt-cop31-klimawandel-harald-lesch-li.3581025" target="_blank" rel="noopener">Podcast: „Auf den Punkt“: Können wir die Klimakatastrophe noch verhindern, Harald Lesch?</a></h3>
+<p class="zh zh-title" lang="zh-Hant">播客：“开门见山”：哈拉尔德·莱什，我们还能预防气候灾难吗？</p>
+<p class="teaser" lang="de">“Wir müssen handeln, bevor die Natur uns zwingt.&quot; Der Physiker über die Klimakonferenz COP 31 und das Prinzip Hoffnung.</p>
+<p class="teaser zh" lang="zh-Hant">「我們必須在自然迫使我們之前採取行動。」物理學家談 COP 31 氣候會議和希望原則。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 12:14</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/zeit-wissen/2026/06/fragen-therapeuten-gespraech-psychologie-gefuehle" target="_blank" rel="noopener">Fragen von Therapeuten: Mit diesen Tricks können Sie Gedanken lesen. Also fast.</a></h3>
+<p class="zh zh-title" lang="zh-Hant">治疗师的问题：使用这些技巧来读心。嗯，差不多了。</p>
+<p class="teaser" lang="de">Niemand weiß die Macht von Fragen so geschickt einzusetzen wie Therapeuten. Was man sich abschauen kann, um das Vertrauen anderer zu gewinnen. Und für besseren Smalltalk.</p>
+<p class="teaser zh" lang="zh-Hant">沒有人知道如何像治療師一樣巧妙地利用問題的力量。你可以學到什麼來贏得別人的信任。為了更好的閒聊。</p>
+</article></div></section>
+<section id="gesellschaft"><h2>社會 <span>Gesellschaft &amp; Panorama</span></h2><div class="grid"><article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>03:00</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/leute/paolo-bulgari-ist-tot-a-ab7092f4-e320-4cd2-8262-9f86d8399442#ref=rss" target="_blank" rel="noopener">Paolo Bulgari ist tot: »Der größte Juwelier unserer Zeit« stirbt mit 89 Jahren</a></h3>
+<p class="zh zh-title" lang="zh-Hant">保罗·宝格丽 (Paolo Bulgari) 去世：“我们这个时代最伟大的珠宝商”去世，享年 89 岁</p>
+<p class="teaser" lang="de">Schon Audrey Hepburn und Elizabeth Taylor trugen Schmuck der Luxusmarke Bulgari. Nun ist Firmenchef Paolo Bulgari im Alter von 89 Jahren gestorben.</p>
+<p class="teaser zh" lang="zh-Hant">奧黛麗赫本和伊莉莎白泰勒都曾戴過奢華品牌寶格麗的珠寶。如今，公司老闆保羅·寶格麗 (Paolo Bulgari) 去世，享年 89 歲。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>03:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/ex-mitarbeiter-in-sternerestaurant-arbeitet-jetzt-als-elektriker-ich-weiss-ehrlich-gesagt-nicht-warum-ich-so-lange-gewartet-habe_1105c48f-780d-4b77-a400-6d96d70854f2.html" target="_blank" rel="noopener">Ex-Mitarbeiter in Sternerestaurant arbeitet jetzt als Elektriker: „Ich weiß ehrlich gesagt nicht, warum ich so lange gewartet habe“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">星级餐厅前员工现在担任电工：“老实说我不知道为什么等了这么久”</p>
+<p class="teaser" lang="de">Ein zweifacher Vater tauscht seinen Führungsposten in der Spitzen-Gastronomie gegen eine Handwerkslehre. Trotz deutlicher Finanzeinbußen gewinnt er etwas Entscheidendes zurück.</p>
+<p class="teaser zh" lang="zh-Hant">一位兩個孩子的父親放棄了頂級美食界的管理職位，轉而接受學徒訓練。儘管遭受了巨大的經濟損失，他還是重新獲得了一些至關重要的東西。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>02:57</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/groesster-juwelier-der-heutigen-zeit-schmuckunternehmer-paolo-bulgari-mit-89-jahren-gestorben-201705269.html" target="_blank" rel="noopener">Unternehmen aus Italien: Schmuckunternehmer Paolo Bulgari gestorben</a></h3>
+<p class="zh zh-title" lang="zh-Hant">意大利公司：珠宝企业家保罗·宝格丽 (Paolo Bulgari) 去世</p>
+<p class="teaser" lang="de">Jahrzehntelang stand Paolo Bulgari an der Spitze des italienischen Schmuckhauses. Nun ist er im Alter von 89 Jahren gestorben.</p>
+<p class="teaser zh" lang="zh-Hant">幾十年來，保羅·寶格麗 (Paolo Bulgari) 一直掌管著這家義大利珠寶公司。他現已去世，享年89歲。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/musste-arbeiten-gino-66-liefert-in-bozen-bis-zu-acht-stunden-am-tag-essen-auf-dem-roller-aus_d4aa9db9-e894-4c5d-b87a-490e5a4f95ec.html" target="_blank" rel="noopener">„Musste arbeiten“: Gino (66) liefert in Bozen bis zu acht Stunden am Tag Essen auf dem Roller aus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">“必须工作”：吉诺（66 岁）在博尔扎诺用摩托车送餐，每天长达八小时</p>
+<p class="teaser" lang="de">Mit 66 Jahren liefert Gino Rindone weiter Essen in Bozen aus. Vor dem Rentenbeginn zieht der frühere Gastronom eine Bilanz seines Arbeitsalltags.</p>
+<p class="teaser zh" lang="zh-Hant">66 歲的吉諾林多 (Gino Rindone) 繼續在博爾扎諾送餐。退休前，這位前餐廳老闆回顧了他的日常工作。</p>
+</article>
+<article class="item" data-p="focus">
+<div class="meta"><span class="badge" style="--c:#c06f00">FOCUS</span><time>02:00</time></div>
+<h3 lang="de"><a href="https://www.focus.de/panorama/welt/starke-windboeen-beim-staatsbesuch-video-von-nervenaufreibender-fluglandung-geht-um-die-welt_537c8318-4117-4cd7-a845-b0825d08ec0e.html" target="_blank" rel="noopener">Starke Windböen beim Staatsbesuch: Video von nervenaufreibender Fluglandung geht um die Welt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">国事访问期间刮大风：惊心动魄的飞机降落视频传遍全球</p>
+<p class="teaser" lang="de">Ein Passagierjet aus Katar kämpfte in Bern vor verschneiten Alpengipfeln mit starkem Seitenwind. Das Video der Landung erreicht ein Millionenpublikum – und sorgt gleichermaßen für Begeisterung und Kritik.</p>
+<p class="teaser zh" lang="zh-Hant">一架來自卡達的客機在伯恩白雪覆蓋的阿爾卑斯山峰前頂著強烈的側風。著陸影片吸引了數百萬觀眾，並引起了熱情和批評。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:37</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/bbc-doku-prinzessin-kate-gibt-einblick-in-umgang-mit-krebs-201705230.html" target="_blank" rel="noopener">„Heilung ist eine Reise“: Prinzessin Catherine gibt in Doku Einblick in Umgang mit Krebs</a></h3>
+<p class="zh zh-title" lang="zh-Hant">“治愈是一段旅程”：凯瑟琳公主在纪录片中讲述了如何应对癌症</p>
+<p class="teaser" lang="de">In einer BBC-Dokumentation spricht Prinzessin Catherine offen über die Folgen ihrer Krebsdiagnose und zeigt sich bei einer besonderen Herausforderung. Dabei wird es auch emotional.</p>
+<p class="teaser zh" lang="zh-Hant">在英國廣播公司的一部紀錄片中，凱瑟琳公主公開談論了她癌症診斷的後果，並透露自己面臨著特殊的挑戰。它也會變得情緒化。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>01:27</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/brite-schwimmt-aus-protest-gegen-iran-krieg-durch-strasse-von-hormus-201705223.html" target="_blank" rel="noopener">In drei tagen: Brite schwimmt aus Protest gegen Irankrieg durch Straße von Hormus</a></h3>
+<p class="zh zh-title" lang="zh-Hant">三天内：英国游过霍尔木兹海峡抗议伊朗战争</p>
+<p class="teaser" lang="de">Lewis Pugh schwimmt innerhalb von drei Tagen durch die wichtige Meerenge – während dort Krieg herrscht. Kurz nach dem Start wird in seiner Nähe ein Öltanker getroffen.</p>
+<p class="teaser zh" lang="zh-Hant">路易斯·皮尤 (Lewis Pugh) 在三天內遊過這個重要的海峽，而那裡的戰爭正酣。起飛後不久，一艘油輪在他附近被擊中。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:31</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/menschen/heide-rezepa-zabel-nehme-details-wahr-die-andere-uebersehen-201683118.html" target="_blank" rel="noopener">Heide Rezepa-Zabel: „Ich nehme Details wahr, die andere vielleicht übersehen“</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Heide Rezepa-Zabel：“我注意到其他人可能會錯過的細節”</p>
+<p class="teaser" lang="de">Seit 2013 glänzt sie in „Bares für Rares“ mit ihrer Expertise. Im Stil-Fragebogen erzählt „Frau Doktor“ Heide Rezepa-Zabel von Berufskrankheiten und selbstgemachter Konfitüre.</p>
+<p class="teaser zh" lang="zh-Hant">自2013年以來，她一直憑藉自己在「稀有現金」領域的專業知識而大放異彩。在風格問卷中，「女性醫生」Heide Rezepa-Zabel 講述了職業病和自製果醬。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>00:25</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/costa-concordia-kapitaen-francesco-schettino-darf-das-gefaengnis-verlassen-a-6fc5504e-dccd-48c0-a38b-c59679782475#ref=rss" target="_blank" rel="noopener">»Costa Concordia«: Kapitän Francesco Schettino darf das Gefängnis verlassen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">《協和號》：船長弗朗西斯科·謝蒂諾獲準出獄</p>
+<p class="teaser" lang="de">Beim Untergang der »Costa Concordia« kamen 32 Menschen ums Leben. Der damalige Kapitän, Francesco Schettino, ist seit gut neun Jahren in Haft. Nun durfte er unter Auflagen nach Hause.</p>
+<p class="teaser zh" lang="zh-Hant">「歌詩達康科迪亞號」沉沒時，共有 32 人死亡。當時的隊長弗朗西斯科·謝蒂諾（Francesco Schettino）已經在監獄裡待了整整九年了。現在他被允許在一定條件下回家。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>00:02</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/kriminalitaet/francesco-schettino-ex-kapitaen-der-costa-concordia-verlaesst-gefaengnis-accg-201704989.html" target="_blank" rel="noopener">Nach neun Jahren Haft: Ex-Kapitän der „Costa Concordia“ kommt vorzeitig frei</a></h3>
+<p class="zh zh-title" lang="zh-Hant">入獄九年後：「協和號」前船長提前釋放</p>
+<p class="teaser" lang="de">Beim Untergang der „Costa Concordia“ starben 32 Menschen. Der Kapitän wurde zu 16 Jahren Haft verurteilt. Nun ist er vorzeitig entlassen worden und darf seine Reststrafe außerhalb des Gefängnisses verbüßen.</p>
+<p class="teaser zh" lang="zh-Hant">「歌詩達康科迪亞號」沉沒，造成 32 人死亡。船長被判處16年監禁。他現已提前獲釋，並獲准在監獄外服完剩餘刑期。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:51</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/justiz/mexiko-heftige-feuergefechte-bei-festnahme-von-kartell-boss-fausto-isidro-meza-flores-a-0485868c-060d-4086-b981-5bb0611f6c9c#ref=rss" target="_blank" rel="noopener">Mexiko: Heftige Feuergefechte bei Festnahme von Drogenkartell-Boss</a></h3>
+<p class="zh zh-title" lang="zh-Hant">墨西哥：激烈槍戰，販毒集團頭目被捕</p>
+<p class="teaser" lang="de">Wenn nicht die Polizei, sondern ein Verteidigungsministerium die Verhaftung eines Drogenbosses bekannt gibt, ist klar: Hier geht es um eine ganz große Nummer. Beim Zugriff auf Fausto Isidro Meza Flores kam es zu kriegsähnlichen Szenen.</p>
+<p class="teaser zh" lang="zh-Hant">當不是警察而是國防部宣布逮捕毒梟時，顯然這是一件非常大的事情。當福斯托·伊西德羅·梅薩·弗洛雷斯遭到攻擊時，發生了類似戰爭的場面。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 23:33</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/hubert-aiwanger-trauerfeier-tanja-schweiger-dankt-fuer-solidaritaet-a-3f4f98fd-8596-4c5a-ab68-f614f25b4e5f#ref=rss" target="_blank" rel="noopener">Hubert-Aiwanger-Trauerfeier: Tanja Schweiger dankt für Solidarität</a></h3>
+<p class="zh zh-title" lang="zh-Hant">休伯特·艾萬格葬禮：塔妮亞·施威格感謝大家的團結</p>
+<p class="teaser" lang="de">Familie, Weggefährten und Bürger haben von Hubert Aiwanger Abschied genommen. Seine Lebensgefährtin Tanja Schweiger, selbst Politikerin der Freien Wähler, dankte für Solidarität.</p>
+<p class="teaser zh" lang="zh-Hant">家人、同伴和公民向休伯特·艾旺格告別。他的伴侶塔妮亞·施威格（Tanja Schweiger）本人也是一名自由選民政治家，她感謝他的聲援。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 23:13</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/costa-concordia-francesco-schettino-kreuzfahrt-italien-giglio-li.3584096" target="_blank" rel="noopener">Kreuzfahrt-Katastrophe: Kapitän der „Costa Concordia“ kommt aus dem Gefängnis frei</a></h3>
+<p class="zh zh-title" lang="zh-Hant">郵輪災難：「Costa Concordia」號船長出獄</p>
+<p class="teaser" lang="de">Beim Untergang der „Costa Concordia“ im Jahr 2012 kamen 32 Menschen ums Leben. Nun darf Francesco Schettino seine verbliebene Strafe außerhalb des Gefängnisses verbüßen – ein Verstoß könnte ihn aber zurückbringen.</p>
+<p class="teaser zh" lang="zh-Hant">2012年「歌詩達康科迪亞號」沉沒，造成32人死亡。弗朗西斯科·謝蒂諾現在可以在監獄外服完剩餘的刑期，但如果違反規定，他可能會被帶回來。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 22:39</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/julian-luginger-tod-von-11-jaehriger-tischtennis-hoffnung-sorgt-fuer-trauer-und-fassungslosigkeit-a-02c18b35-b73a-422c-be5f-2cdaac63d0a9#ref=rss" target="_blank" rel="noopener">Julian Luginger: Tod von 11-jähriger Tischtennis-Hoffnung sorgt für Trauer und Fassungslosigkeit</a></h3>
+<p class="zh zh-title" lang="zh-Hant">朱利安盧金格：11歲乒乓球希望之星的去世令人悲傷和困惑</p>
+<p class="teaser" lang="de">Er war der bestplatzierte Europäer in seiner Altersklasse: Der Österreicher Julian Luginger galt als eines der größten Talente im Tischtennis. Nun ist er im Alter von elf Jahren an Knochenkrebs gestorben.</p>
+<p class="teaser zh" lang="zh-Hant">他是同年齡層中排名最好的歐洲選手：奧地利人朱利安·魯金格被認為是乒乓球界最偉大的天才之一。現在他十一歲時死於骨癌。</p>
+</article>
+<article class="item" data-p="faz">
+<div class="meta"><span class="badge" style="--c:#33598f">FAZ</span><time>21.11. 22:13</time></div>
+<h3 lang="de"><a href="https://www.faz.net/aktuell/gesellschaft/kriminalitaet/toter-saeugling-in-potsdam-dna-test-von-1-500-frauen-soll-fall-klaeren-accg-201704751.html" target="_blank" rel="noopener">Verbrechen in Potsdam: DNA-Test von 1500 Frauen soll Fall um getötetes Baby klären</a></h3>
+<p class="zh zh-title" lang="zh-Hant">波茨坦犯罪：對 1,500 名婦女進行 DNA 測試，旨在澄清嬰兒被謀殺案</p>
+<p class="teaser" lang="de">Der leblose Körper eines neugeborenen Mädchens liegt im Jahr 2011 in einem Potsdamer Garagenkomplex. Ein Massen-Gentest von 1500 Frauen soll nun helfen, den Tod von „Victoria“ aufzuklären.</p>
+<p class="teaser zh" lang="zh-Hant">2011 年，波茨坦的一個車庫裡躺著一具毫無生氣的新生女嬰的屍體。目前，對 1,500 名女性進行的大規模基因測試旨在幫助找出「維多利亞」的死亡真相。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 21:17</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/mexiko-drogenboss-fbi-festnahme-organisierte-kriminalitaet-li.3584054" target="_blank" rel="noopener">Organisierte Kriminalität: Mutmaßlicher Drogenboss in Mexiko gefasst</a></h3>
+<p class="zh zh-title" lang="zh-Hant">組織犯罪：毒梟嫌疑犯在墨西哥被捕</p>
+<p class="teaser" lang="de">Er steht auf der FBI-Liste der zehn meistgesuchten Flüchtigen. Nun hat ihn Mexikos Militär in einem Großeinsatz festgenommen. Dabei soll es Medienberichten zufolge zu Schusswechseln gekommen sein.</p>
+<p class="teaser zh" lang="zh-Hant">他是聯邦調查局十大通緝犯之一。現在墨西哥軍方在一次重大行動中逮捕了他。據媒體報道，雙方發生交火。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 20:49</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/familie/2026-11/getrennte-eltern-konflikte-kosten-uebergabe" target="_blank" rel="noopener">Getrennte Eltern: Wo Getrennterziehen an seine Grenzen kommt</a></h3>
+<p class="zh zh-title" lang="zh-Hant">分居父母：分居撫養孩子已達極限</p>
+<p class="teaser" lang="de">Zu spät bei der Übergabe, unfaire Kosten: Nicht alle Konflikte unter getrennten Eltern landen vorm Familiengericht. Zermürbend sind sie trotzdem, wie diese Fälle zeigen.</p>
+<p class="teaser zh" lang="zh-Hant">移交太晚，成本不公平：並非所有分居父母之間的衝突都以家事法庭告終。正如這些案例所表明的那樣，他們仍然很辛苦。</p>
+</article>
+<article class="item" data-p="spiegel">
+<div class="meta"><span class="badge" style="--c:#b8432f">SPIEGEL</span><time>21.11. 18:24</time></div>
+<h3 lang="de"><a href="https://www.spiegel.de/panorama/leute/manuel-neuer-torwart-absolviert-reha-in-brasilien-mit-bayern-erlaubnis-a-e1799422-d410-43e1-86e3-47b08861c7ed#ref=rss" target="_blank" rel="noopener">FC Bayern: Manuel Neuer macht Reha in Brasilien – mit Vereinserlaubnis</a></h3>
+<p class="zh zh-title" lang="zh-Hant">拜仁慕尼黑：曼努埃爾·諾伊爾正在巴西進行復健治療——獲得俱樂部許可</p>
+<p class="teaser" lang="de">Nach einem Sehnenteilriss im Fuß fällt Manuel Neuer länger aus. Zu Reha-Maßnahmen weilt der Torwart in Brasilien, was in den sozialen Medien Irritationen auslöste. Mit FC-Bayern-Sportvorstand Max Eberl ist es abgesprochen.</p>
+<p class="teaser zh" lang="zh-Hant">曼努埃爾·諾伊爾在腳部肌腱部分撕裂後將缺席更長時間。這名門將正在巴西接受復健治療，這在社群媒體上引起了憤怒。拜仁足球俱樂部體育總監馬克斯·艾伯爾對此表示同意。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 15:53</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/pacific-palisades-brand-jonathan-r-los-angeles-gxe" target="_blank" rel="noopener">Brand in Pacific Palisades: Angeklagter wegen tödlichen Feuers in Los Angeles schuldig gesprochen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">太平洋帕利塞茲大火：被告在洛杉磯致命火災中被判有罪</p>
+<p class="teaser" lang="de">Im Prozess um eines der verheerendsten Feuer in Kalifornien spricht eine Jury einen ehemaligen Uber-Fahrer schuldig. Ihm drohen bis zu 40 Jahre Haft.</p>
+<p class="teaser zh" lang="zh-Hant">陪審團裁定一名前優步司機在加州最具破壞性的火災之一的審判中有罪。他面臨最高 40 年的監禁。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 11:55</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/zwangsraeumungen-deutschland-wohnraum-statistik-obdachlosigkeit-sahra-mirow" target="_blank" rel="noopener">Armut: Im vergangenen Jahr gab es mehr als 27.000 Zwangsräumungen</a></h3>
+<p class="zh zh-title" lang="zh-Hant">貧窮：去年有超過 27,000 人被驅逐</p>
+<p class="teaser" lang="de">In Deutschland hat es 2025 weniger Zwangsräumungen gegeben als im Vorjahr. Weil sich die Erfassung geändert hat, ist die Zahl aber nur bedingt vergleichbar.</p>
+<p class="teaser zh" lang="zh-Hant">在德國，2025 年的驅逐人數比前一年減少。由於記錄發生了變化，這個數字只能在有限的範圍內進行比較。</p>
+</article>
+<article class="item" data-p="sz">
+<div class="meta"><span class="badge" style="--c:#2c7a57">SZ</span><time>21.11. 10:40</time></div>
+<h3 lang="de"><a href="https://www.sueddeutsche.de/panorama/feuer-feuerwehr-katastrophe-brandstiftung-los-angeles-flaechenbraende-li.3583915" target="_blank" rel="noopener">Kalifornien: Schuldspruch im Prozess um Palisades-Feuer</a></h3>
+<p class="zh zh-title" lang="zh-Hant">加州：帕利塞茲火災審判有罪判決</p>
+<p class="teaser" lang="de">Anderthalb Jahre nach den Flächenbränden in Los Angeles war im Juni ein Prozess wegen Brandstiftung geplatzt. Die Jury konnte sich damals nicht einigen. Jetzt wurde der Fall neu aufgerollt.</p>
+<p class="teaser zh" lang="zh-Hant">洛杉磯山火一年半後，一場縱火案審判於六月失利。陪審團當時未能達成一致。現在該案已重新審理。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 09:49</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/gen-z-regelt-demos-friedlich-jugendproteste" target="_blank" rel="noopener">Gen Z regelt: Zehntausende nehmen bundesweit an friedlichen Jugendprotesten teil</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Z世代規則：數萬人參加全國青年和平抗議活動</p>
+<p class="teaser" lang="de">Am Ende war die Menge überschaubarer als noch vor drei Wochen. Dennoch kamen bei den erneuten Jugendprotesten für mehr Bildung und Klimaschutz 87.000 Menschen zusammen.</p>
+<p class="teaser zh" lang="zh-Hant">最終，人群比三週前更容易控制。儘管如此，仍有 87,000 人聚集在一起，再次舉行青年抗議活動，要求更多教育和氣候保護。</p>
+</article>
+<article class="item" data-p="zeit">
+<div class="meta"><span class="badge" style="--c:#6a4c9c">ZEIT</span><time>21.11. 08:09</time></div>
+<h3 lang="de"><a href="https://www.zeit.de/gesellschaft/zeitgeschehen/2026-11/gen-z-proteste-schueler-berlin-leipzig-frankfurt" target="_blank" rel="noopener">Gen-Z-Proteste: Wird das noch eine Bewegung?</a></h3>
+<p class="zh zh-title" lang="zh-Hant">Z世代抗議：這還會是一場運動嗎？</p>
+<p class="teaser" lang="de">Erneut sind Zehntausende junge Menschen auf die Straße gegangen, zum zweiten Mal in drei Wochen. Ihre Ziele bleiben diffus. Wird sich der Protest dennoch verstetigen?</p>
+<p class="teaser zh" lang="zh-Hant">數萬名年輕人再次走上街頭，這是三週內的第二次。你的目標仍然模糊。抗議活動會繼續嗎？</p>
+</article></div></section>
+</main>
+<footer>
+  <p>中文為機器翻譯（Google Translate），僅供參考。標題與導言著作權屬各報社，點標題閱讀原文（部分為付費內容）。時間為台灣時間。</p>
+  <details><summary>來源狀態 Quellenstatus：35/35 正常</summary><table><tr><th>FAZ</th><td><span class="ok" title="https://www.faz.net/rss/aktuell/ — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://www.faz.net/rss/aktuell/politik/inland/ — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://www.faz.net/rss/aktuell/politik/ausland/ — 6 Artikel">✓ 國際</span> <span class="ok" title="https://www.faz.net/rss/aktuell/wirtschaft/ — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://www.faz.net/rss/aktuell/feuilleton/ — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://www.faz.net/rss/aktuell/wissen/ — 2 Artikel">✓ 科學・教育</span> <span class="ok" title="https://www.faz.net/rss/aktuell/gesellschaft/ — 6 Artikel">✓ 社會</span></td></tr><tr><th>SZ</th><td><span class="ok" title="https://rss.sueddeutsche.de/rss/Topthemen — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Politik — 5 Artikel">✓ 德國政治</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Wirtschaft — 1 Artikel">✓ 經濟</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Kultur — 1 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Wissen — 2 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Bildung — 0 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.sueddeutsche.de/rss/Panorama — 3 Artikel">✓ 社會</span></td></tr><tr><th>ZEIT</th><td><span class="ok" title="https://newsfeed.zeit.de/index — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://newsfeed.zeit.de/politik/deutschland/index — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://newsfeed.zeit.de/politik/ausland/index — 6 Artikel">✓ 國際</span> <span class="ok" title="https://newsfeed.zeit.de/wirtschaft/index — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://newsfeed.zeit.de/entdecken/index — 5 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://newsfeed.zeit.de/gesundheit/index — 1 Artikel">✓ 科學・教育</span> <span class="ok" title="https://newsfeed.zeit.de/arbeit/index — 2 Artikel">✓ 科學・教育</span> <span class="ok" title="https://newsfeed.zeit.de/gesellschaft/index — 6 Artikel">✓ 社會</span></td></tr><tr><th>SPIEGEL</th><td><span class="ok" title="https://www.spiegel.de/schlagzeilen/tops/index.rss — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://www.spiegel.de/politik/deutschland/index.rss — 4 Artikel">✓ 德國政治</span> <span class="ok" title="https://www.spiegel.de/ausland/index.rss — 6 Artikel">✓ 國際</span> <span class="ok" title="https://www.spiegel.de/wirtschaft/index.rss — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://www.spiegel.de/kultur/index.rss — 5 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://www.spiegel.de/wissenschaft/index.rss — 2 Artikel">✓ 科學・教育</span> <span class="ok" title="https://www.spiegel.de/panorama/index.rss — 6 Artikel">✓ 社會</span></td></tr><tr><th>FOCUS</th><td><span class="ok" title="https://rss.focus.de/ — 5 Artikel">✓ 頭條</span> <span class="ok" title="https://rss.focus.de/politik/ — 6 Artikel">✓ 德國政治</span> <span class="ok" title="https://rss.focus.de/finanzen/ — 6 Artikel">✓ 經濟</span> <span class="ok" title="https://rss.focus.de/kultur/ — 6 Artikel">✓ 文化・藝文</span> <span class="ok" title="https://rss.focus.de/wissen/ — 6 Artikel">✓ 科學・教育</span> <span class="ok" title="https://rss.focus.de/panorama/ — 6 Artikel">✓ 社會</span></td></tr></table></details>
+</footer>
+<script>
+(function () {
+  var KEY = "presseschau-prefs", prefs = { zh: true, teaser: true, hidden: [] };
+  try { var s = JSON.parse(localStorage.getItem(KEY) || "{}"); for (var k in s) prefs[k] = s[k]; } catch (e) {}
+  function apply() {
+    document.body.classList.toggle("no-zh", !prefs.zh);
+    document.body.classList.toggle("no-teaser", !prefs.teaser);
+    document.getElementById("t-zh").setAttribute("aria-pressed", prefs.zh);
+    document.getElementById("t-teaser").setAttribute("aria-pressed", prefs.teaser);
+    document.querySelectorAll("[data-chip]").forEach(function (b) {
+      b.setAttribute("aria-pressed", prefs.hidden.indexOf(b.dataset.chip) < 0);
+    });
+    document.querySelectorAll("[data-p]").forEach(function (el) {
+      el.hidden = prefs.hidden.indexOf(el.dataset.p) >= 0;
+    });
+    try { localStorage.setItem(KEY, JSON.stringify(prefs)); } catch (e) {}
+  }
+  document.getElementById("t-zh").onclick = function () { prefs.zh = !prefs.zh; apply(); };
+  document.getElementById("t-teaser").onclick = function () { prefs.teaser = !prefs.teaser; apply(); };
+  document.querySelectorAll("[data-chip]").forEach(function (b) {
+    b.onclick = function () {
+      var id = b.dataset.chip, i = prefs.hidden.indexOf(id);
+      if (i >= 0) prefs.hidden.splice(i, 1); else prefs.hidden.push(id);
+      apply();
+    };
+  });
+  apply();
+})();
+</script>
+</body>
+</html>
